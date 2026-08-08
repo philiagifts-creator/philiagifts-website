@@ -408,7 +408,7 @@ const weddingProducts = [
 
         category: "wedding",
 
-       section: ["gift-set", "guest"],
+       section: ["gift-set"],
 
           page:"product.html?id=7",
 
@@ -2161,7 +2161,7 @@ const weddingProducts = [
 
     category: "wedding",
 
-    section: ["gift-set", "guest"],
+    section: ["guest"],
 
     page: "product.html?id=34",
 
