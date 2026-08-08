@@ -778,13 +778,13 @@ const corporateProducts = [
     bestseller: false,
 
     images: [
-        "images/products/corporate/coaster/1.webp",
-        "images/products/corporate/coaster/2.webp",
-        "images/products/corporate/coaster/3.webp",
-        "images/products/corporate/coaster/4.webp",
-        "images/products/corporate/coaster/5.webp",
-        "images/products/corporate/coaster/6.webp",
-        "images/products/corporate/coaster/7.webp"
+        "images/products/corporate/Coaster/1.webp",
+        "images/products/corporate/Coaster/2.webp",
+        "images/products/corporate/Coaster/3.webp",
+        "images/products/corporate/Coaster/4.webp",
+        "images/products/corporate/Coaster/5.webp",
+        "images/products/corporate/Coaster/6.webp",
+        "images/products/corporate/Coaster/7.webp"
     ],
 
     description: "Crafted from natural wood and laser engraved with your logo, this premium coaster combines everyday functionality with lasting brand visibility. A thoughtful and eco-friendly corporate giveaway for clients, employees, and events.",
@@ -835,9 +835,9 @@ const corporateProducts = [
     bestseller: false,
 
     images: [
-        "images/products/corporate/totebag/1.webp",
-        "images/products/corporate/totebag/2.webp",
-        "images/products/corporate/totebag/3.webp"
+        "images/products/corporate/Totebag/1.webp",
+        "images/products/corporate/Totebag/2.webp",
+        "images/products/corporate/Totebag/3.webp"
     ],
 
     description: "A durable two-tone canvas tote bag customized with your logo, designed for everyday use while keeping your brand visible. An eco-friendly corporate giveaway that combines style, functionality, and lasting value. (Size: 33 x 29 cm)",
