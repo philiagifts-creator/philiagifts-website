@@ -515,13 +515,13 @@ const weddingProducts = [
     bestseller: false,
 
     images: [
-        "images/products/wedding/sipset/1.webp",
-        "images/products/wedding/sipset/2.webp",
-        "images/products/wedding/sipset/3.webp",
-        "images/products/wedding/sipset/4.webp",
-        "images/products/wedding/sipset/5.webp",
-        "images/products/wedding/sipset/6.webp",
-        "images/products/wedding/sipset/7.webp"
+        "images/products/wedding/Sipset/1.webp",
+        "images/products/wedding/Sipset/2.webp",
+        "images/products/wedding/Sipset/3.webp",
+        "images/products/wedding/Sipset/4.webp",
+        "images/products/wedding/Sipset/5.webp",
+        "images/products/wedding/Sipset/6.webp",
+        "images/products/wedding/Sipset/7.webp"
     ],
 
     description: "A stylish gift set featuring a personalized glass tumbler with a bamboo lid and reusable straw set in a velvet pouch, elegantly presented in a premium gift box for weddings and special celebrations.",
