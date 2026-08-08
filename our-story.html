@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Philia Gifts | Premium Souvenirs & Giveaways</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Italianno&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap" rel="stylesheet">    
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Parisienne&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ===================== -->
+    <!-- Navigation -->
+    <!-- ===================== -->
+
+    <header>
+    <nav class="navbar">
+
+        <a href="index.html" class="logo">
+            <img src="images/logo/logo1.png" alt="Philia Gifts Logo" decoding="async">
+        </a>
+ 
+        
+        <ul class="nav-links" id="mobileMenu">
+
+    <li>
+        <a href="index.html">Home</a>
+    </li>
+
+    <li class="dropdown">
+        <a href="#">Shop by Collection <i class="fa-solid fa-angle-down"></i> </a>
+
+        <ul class="dropdown-menu">
+            <li><a href="wedding.html">Wedding</a></li>
+            <li><a href="corporate.html">Corporate</a></li>
+            <li><a href="celebration.html">Birthday & Christening</a></li>
+        </ul>
+    </li>
+
+    <li>
+        <a href="our-story.html"class="active">About Us</a>
+    </li>
+
+    <li>
+        <a href="reviews.html">Client Reviews</a>
+    </li>
+
+    <li>
+        <a href="contact.html">Contact Us</a>
+    </li>
+
+</ul>
+
+            
+
+<div class="header-search">
+
+    <input
+        type="text"
+        id="siteSearch"
+        placeholder="Search products, collections..."
+        autocomplete="off"
+    >
+
+    <button id="searchBtn">
+        🔍
+    </button>
+
+    <div id="searchResults" class="search-results"></div>
+
+</div>
+
+<a href="quote.html" class="cart-icon">
+
+    <i class="fa-solid fa-cart-shopping"></i>
+
+    <span id="cartCount" class="cart-count"></span>
+
+</a>
+
+<button class="menu-toggle" aria-label="Open Menu">
+        <i class="fa-solid fa-bars"></i>
+    </button>
+
+    </nav>
+
+    <div class="mobile-menu" id="mobileMenu">
+
+    <div class="mobile-menu-header">
+
+        <a href="index.html" class="mobile-logo">
+            <img src="images/logo/logo1.png" alt="Philia Gifts Logo" decoding="async">
+        </a>
+
+        <button class="close-menu" id="closeMenu">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+    </div>
+
+    <ul class="mobile-nav-links">
+
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+
+        <li class="mobile-dropdown">
+
+            <button class="mobile-dropdown-btn">
+
+                Shop by Collection
+
+                <i class="fa-solid fa-angle-down"></i>
+
+            </button>
+
+            <ul class="mobile-dropdown-menu">
+
+                <li><a href="wedding.html">Wedding</a></li>
+
+                <li><a href="corporate.html">Corporate</a></li>
+
+                <li><a href="celebration.html">Birthday & Christening</a></li>
+
+            </ul>
+
+
+        </li>
+
+        <li>
+            <a href="our-story.html">Our Story</a>
+        </li>
+
+        <li>
+            <a href="reviews.html">Client Reviews</a>
+        </li>
+
+        <li>
+            <a href="contact.html">Contact Us</a>
+        </li>
+
+    </ul>
+
+    <div class="mobile-search">
+
+    <input
+        type="text"
+        id="mobileSearch"
+        placeholder="Search products, collections..."
+    >
+
+    <button id="mobileSearchBtn">
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </button>
+
+</div>
+
+
+    <div class="mobile-social">
+
+    <a href="https://www.facebook.com/philiagiftsph"><i class="fab fa-facebook-f"></i></a>
+
+    <a href="https://www.instagram.com/philiagifts.ph/"><i class="fab fa-instagram"></i></a>
+
+    <a href="https://www.tiktok.com/@philia.gifts"><i class="fab fa-tiktok"></i></a>
+
+    <a href="https://www.messenger.com/t/102160075444175/"><i class="fab fa-facebook-messenger"></i></a>
+
+</div>
+
+</div>
+
+</header>
+
+
+<!-- ==========================
+     WELCOME
+========================== -->
+
+<section class="welcome-section">
+    <img src="images/about/ourstory.png" class="section-bg" decoding="async">
+
+    <div class="welcome-container">
+
+        <div class="welcome-image">
+
+            <img src="images/about/about.webp" alt="Welcome to Philia Gifts" decoding="async">
+
+        </div>
+
+        <div class="welcome-content">
+
+            <span class="section-tag">
+                WELCOME TO PHILIA GIFTS
+            </span>
+
+            <h2>
+                Where Beautiful Gifts Become Lasting Memories
+            </h2>
+
+            <p> 
+                Philia Gifts was founded with one simple belief: meaningful gifts should be as memorable as the moments they celebrate. From weddings and milestones to corporate events, we create keepsakes that people are proud to give and grateful to receive.
+            </p>
+
+            <p>
+                Behind every box we wrap and every keepsake we personalize is a story waiting to be remembered. Guided by passion and purpose, we believe true craftsmanship lies in the smallest details—creating timeless pieces that reflect the significance of every occasion and the people behind it.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+     OUR JOURNEY
+========================== -->
+
+<section class="journey-section">
+    <img src="images/about/ourjourney.png" class="section-bg" decoding="async">
+
+    <div class="section-title">
+
+        <span class="section-tag">
+            OUR JOURNEY
+        </span>
+
+        <h2>From a Simple Dream to Meaningful Celebrations</h2>
+
+        <p>
+            Every milestone has shaped who we are today. Here's how the Philia Gifts story continues to grow.
+        </p>
+
+    </div>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2021
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>The Beginning</h3>
+
+                <p>
+                    Philia Gifts was founded by a young couple with a dream of making gifting more meaningful through elegant necklaces paired with customized gift boxes that expressed love and appreciation.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                2023
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Growing Beyond Gifts</h3>
+
+                <p>
+                    As our passion grew, so did our vision. We expanded into elegant keepsakes, souvenirs, and giveaways, helping individuals and businesses celebrate life's most meaningful moments.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-year">
+                Today
+            </div>
+
+            <div class="timeline-content">
+
+                <h3>Continuing the Journey</h3>
+
+                <p>
+                    Today, Philia Gifts proudly serves clients across the Philippines and around the world, creating elegant keepsakes that celebrate every story and leave lasting memories.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ==========================
+     WORLDWIDE REACH
+========================== -->
+
+<section class="global-section">
+    <img src="images/about/global-bg.png" class="section-bg" decoding="async">
+
+    <div class="section-title">
+
+        <span class="section-tag">
+            GLOBAL REACH
+        </span>
+
+        <h2>
+            Proudly Serving Clients Across the Globe
+        </h2>
+
+        <p>
+            From local celebrations to international milestones, we're honored to create meaningful gifts for clients around the world.
+        </p>
+
+    </div>
+
+    <div class="country-list">
+
+    <span>🇵🇭 Philippines</span>
+    <span>🇯🇵 Japan</span>
+    <span>🇦🇺 Australia</span>
+    <span>🇨🇦 Canada</span>
+    <span>🇺🇸 United States</span>
+    <span>🇸🇦 Saudi Arabia</span>
+    <span>🇮🇱 Israel</span>
+    <span>🇸🇬 Singapore</span>
+    <span>🇬🇧 United Kingdom</span>
+
+</div>
+
+</section>
+
+    <!-- ==========================
+     MISSION VISION VALUES
+========================== -->
+
+<section class="mvv-section">
+     <img src="images/about/mvv-bg2.png" class="section-bg" decoding="async">
+
+    <div class="section-title">
+
+        <span class="section-tag">
+            WHAT DRIVES US
+        </span>
+
+        <h2>Our Mission, Vision & Values</h2>
+
+        <p>
+            These principles guide everything we create and every relationship we build.
+        </p>
+
+    </div>
+
+    <div class="mvv-grid">
+
+    <!-- Left Column -->
+     <div class="mvv-left">
+
+
+    <div class="mvv-card">
+
+        <h3>Mission</h3>
+
+        <p>
+            To create meaningful connections through thoughtful gifts, empowering individuals and businesses to express their love and appreciation.
+        </p>
+</div>
+
+         <div class="mvv-card">
+
+        <h3>Vision</h3>
+
+        <p>
+            To be the leading provider of innovative personalized gifts and corporate giveaways in the Philippines, recognized for quality, creativity, and exceptional service.
+        </p>
+
+    </div>
+
+     </div>
+    <!-- Right Column -->
+
+    <div class="mvv-card values-card">
+
+        <h3>Values</h3>
+
+        <div class="value-list">
+
+            <div class="value-item">
+                <strong>Love</strong>
+                <p>We believe gifts should come from the heart.</p>
+            </div>
+
+            <div class="value-item">
+                <strong>Creativity</strong>
+                <p>We strive to innovate and make gifting special.</p>
+            </div>
+
+            <div class="value-item">
+                <strong>Connection</strong>
+                <p>We're dedicated to helping people connect through gifts.</p>
+            </div>
+
+            <div class="value-item">
+                <strong>Customer Delight</strong>
+                <p>We're passionate about exceeding expectations.</p>
+            </div>
+
+            <div class="value-item">
+                <strong>Quality</strong>
+                <p>We ensure every product meets our high standards.</p>
+            </div>
+
+        </div>
+        
+
+    </div>
+   
+
+</div>
+
+</section>
+
+<!-- ==========================
+     MEET THE FOUNDERS
+========================== -->
+
+<section class="founders">
+
+    <img src="images/about/founders-bg.png" class="section-bg" alt="" decoding="async">
+
+    <div class="founders-container">
+
+        <div class="founders-image">
+
+            <img src="images/about/owners.webp" alt="Founders of Philia Gifts" decoding="async">
+
+        </div>
+
+        <div class="founders-content">
+
+            <div class="section-title">
+
+                <span class="section-tag">
+                    THE HEART BEHIND PHILIA GIFTS
+                </span>
+
+                <h2>Meet the Founders</h2>
+
+            </div>
+
+            <p>
+                Every meaningful gift begins with a story—and ours began with a shared dream.
+            </p>
+
+            <p>
+                Philia Gifts was founded by a young couple who left behind their careers as a teacher and an accountant to pursue something deeply meaningful: creating gifts that become part of life's most treasured moments. What started as a simple passion for thoughtful gifting soon grew into a purpose-driven business dedicated to celebrating every milestone with beauty and intention.
+            </p>
+
+             <p>
+                They believe that the most memorable gifts are not defined by their size or value, but by the memories they hold and the emotions they carry. Every piece is thoughtfully designed, carefully crafted, and personalized with the hope that it becomes something people will cherish for years to come.
+            </p>
+
+            <p>
+                Today, that same passion continues to shape Philia Gifts. With every order, they are honored to be part of weddings, birthdays, corporate celebrations, and countless milestones—creating keepsakes that preserve memories, strengthen connections, and celebrate every story.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="promise">
+
+    <img src="images/about/promise-bg.png" class="section-bg" alt="" decoding="async">
+
+    <span class="section-tag">
+        OUR PROMISE
+    </span>
+
+    <h2>Every Gift Carries a Story Worth Remembering.</h2>
+
+    <p>
+        At Philia Gifts, every order is crafted with the same care and attention we would give to our own celebrations. Whether it's a wedding, birthday, corporate event, or a simple token of appreciation, we're committed to delivering keepsakes that create lasting memories.
+    </p>
+
+    <a href="index.html#collections" class="primary-btn">
+        Browse Our Collections
+    </a>
+
+</section>
+
+    <!-- ==========================
+     FREQUENTLY ASKED QUESTIONS
+========================== -->
+
+<section class="faq" id="faq">
+     <img src="images/about/faq-bg.png" class="section-bg" decoding="async">
+
+    <div class="faq-container">
+
+    <div class="section-title">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <p>
+            Have questions? We've answered the ones our clients ask most often.
+        </p>
+
+    </div>
+
+   <div class="faq-list">
+
+    <div class="faq-item">
+        <button class="faq-question">
+            What is your minimum order quantity?
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Our minimum order quantity varies depending on the product. Most customized items require a minimum of 10–20 pieces, while some products may have higher or lower minimums. Feel free to contact us for the specific MOQ of your chosen item.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            Can I customize the products?
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Yes! We offer personalized printing, engraving, packaging, ribbons, gift tags, and more. We can customize products to match your event theme, colors, logo, names, or message.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            How long is the production time?
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Our standard production time is 1-3 weeks, depending on the product, order quantity, and current production schedule. We recommend placing your order as early as possible, especially during peak seasons.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            Do you ship nationwide?
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Yes! We ship anywhere in the Philippines through trusted courier partners. We also accommodate international shipments upon request.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            How do I place an order?
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                Send us a message or request a quotation through our website with your preferred product, quantity, customization details, and event date. We'll prepare a quotation, and once confirmed with payment, production begins.
+            </p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <button class="faq-question">
+            What payment methods do you accept?
+            <span>+</span>
+        </button>
+
+        <div class="faq-answer">
+            <p>
+                We accept GCash, bank transfer, and other convenient payment methods. Payment instructions will be provided once your order is confirmed.
+            </p>
+        </div>
+    </div>
+
+</div>
+
+</section>
+
+<!-- ==========================
+     FOOTER
+========================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+
+                <img src="images/logo/logo-white.png"
+                     alt="Philia Gifts"
+                     class="footer-logo" decoding="async" loading="lazy">
+
+<h3 class="footer-brand-title">
+    Philia Gifts
+</h3>
+                <p class="footer-description">
+    Where Every Gift Tells a Story
+</p>
+
+               <div class="footer-contact">
+
+    <p>
+        <i class="fa-solid fa-location-dot"></i>
+Guimba, Nueva Ecija, Philippines
+    </p>
+
+    <p>
+        
+            <i class="fa-solid fa-phone"></i>
+                           0970 771 5101
+        
+    </p>
+
+    <p>
+        
+            <i class="fa-solid fa-envelope"></i>
+            philiagifts@gmail.com
+      
+    </p>
+
+</div>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h4>Quick Links</h4>
+
+                <a href="index.html">Home</a>
+                <a href="our-story.html">About Us</a>
+                <a href="reviews.html">Client Reviews</a>
+                <a href="quote.html">Request a Quote</a>
+                <a href="contact.html">Contact Us</a>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h4>Shop by Collection</h4>
+
+                <a href="wedding.html">Wedding</a>
+                <a href="corporate.html">Corporate</a>
+                <a href="celebration.html">Birthday & Christening</a>
+
+            </div>
+
+            <div class="footer-links">
+
+                <h4>Follow Us</h4>
+
+                <a href="https://www.facebook.com/philiagiftsph">
+                    <i class="fab fa-facebook-f"></i>
+                    Facebook
+                </a>
+
+                <a href="https://www.messenger.com/t/102160075444175/">
+                    <i class="fab fa-facebook-messenger"></i>
+                    Messenger
+                </a>
+
+                <a href="https://www.instagram.com/philiagifts.ph/">
+                    <i class="fab fa-instagram"></i>
+                    Instagram
+                </a>
+
+                <a href="https://www.tiktok.com/@philia.gifts">
+                    <i class="fab fa-tiktok"></i>
+                    TikTok
+                </a>
+
+            </div>  
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Philia Gifts. All Rights Reserved.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+<script src="js/wedding-products.js"></script>
+<script src="js/corporate-products.js"></script>
+<script src="js/celebration-products.js"></script>
+
+<script src="js/all-products.js"></script>
+
+<script src="js/script.js"></script>
+</body>
+</html>

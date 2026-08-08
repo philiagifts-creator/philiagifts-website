@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Leather Pouch",
+    "category": "Wedding",
+    "price": "₱295",
+    "image": "images/products/leather-pouch.webp",
+    "description": "Premium personalized leather pouch."
+  },
+  {
+    "id": 2,
+    "name": "Gift Box Set",
+    "category": "Corporate",
+    "price": "₱850",
+    "image": "images/products/gift-box.webp",
+    "description": "Elegant corporate gift set."
+  },
+  {
+    "id": 3,
+    "name": "Wooden Clock",
+    "category": "Birthday",
+    "price": "₱450",
+    "image": "images/products/clock.webp",
+    "description": "Personalized wooden clock souvenir."
+  }
+]

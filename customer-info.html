@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/customer-info.css">
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Customer Information</title>
+
+    
+
+</head>
+
+<body>
+
+<main class="customer-page">
+<img src="images/about/csinfo-bg.png" class="section-bg" decoding="async">
+
+    <div class="customer-container">
+
+        <div class="progress-wrapper">
+
+    <div class="progress-step completed">
+        <div class="step-circle">✓</div>
+        <span>Quote Cart</span>
+    </div>
+
+    <div class="progress-line"></div>
+
+    <div class="progress-step active">
+        <div class="step-circle">2</div>
+        <span>Customer Information</span>
+    </div>
+
+</div>
+
+        <div class="page-header">
+
+            <h1>Customer Information</h1>
+
+            <p>
+                Tell us about your event so we can prepare an accurate quotation.
+            </p>
+
+        </div>
+
+        <form id="customerForm">
+
+    <div class="form-row">
+
+    <div class="form-group">
+
+        <label>Full Name <span>*</span></label>
+
+        <input
+            type="text"
+            id="fullName"
+            required
+        >
+
+    </div>
+
+    <div class="form-group">
+
+        <label>Facebook Name <span>*</span></label>
+
+        <input
+            type="text"
+            id="facebookName"
+            placeholder="e.g. Juan Dela Cruz"
+            required
+        >
+
+    </div>
+
+</div>
+
+    <div class="form-row">
+
+    <div class="form-group">
+
+        <label>
+
+            Mobile Number <span>*</span>
+
+        </label>
+
+        <input
+            type="tel"
+            id="phone"
+            required
+        >
+
+    </div>
+
+    <div class="form-group">
+
+        <label>
+
+            Company / Organization
+
+        </label>
+
+        <input
+            type="text"
+            id="company"
+        >
+
+    </div>
+
+</div>
+
+    <div class="form-row">
+
+    <div class="form-group">
+
+        <label>
+
+            Email Address
+
+        </label>
+
+        <input
+            type="email"
+            id="email"
+        >
+
+    </div>
+
+    <div class="form-group">
+
+        <label>
+
+            Event Type <span>*</span>
+
+        </label>
+
+        <select
+            id="eventType"
+            required
+        >
+
+            <option value="">
+
+                Select Event
+
+            </option>
+
+            <option>Wedding</option>
+
+            <option>Birthday</option>
+
+            <option>Corporate</option>
+
+            <option>Christening</option>
+
+            <option>Debut</option>
+
+            <option>Anniversary</option>
+
+            <option>Graduation</option>
+
+            <option>Others</option>
+
+        </select>
+
+    </div>
+
+</div>
+
+    <div class="form-row">
+
+    <div class="form-group">
+
+        <label>
+
+            Event Date
+
+        </label>
+
+        <input
+            type="date"
+            id="eventDate"
+        >
+
+    </div>
+
+    <div class="form-group">
+
+        <label>
+
+            Preferred Delivery Date
+
+        </label>
+
+        <input
+            type="date"
+            id="deliveryDate"
+        >
+
+    </div>
+
+</div>
+
+    <div class="form-group">
+
+    <label>
+
+        Delivery Address
+
+    </label>
+
+    <textarea
+        id="address"
+        rows="4"
+    ></textarea>
+
+</div>
+
+    <div class="form-group">
+
+    <label>
+
+        Additional Notes
+
+    </label>
+
+    <textarea
+        id="notes"
+        rows="5"
+        placeholder="Color preference, personalization details, special requests..."
+    ></textarea>
+
+</div>
+
+<p class="send-text">
+    Ready to submit your quotation request?
+</p>
+
+
+    <div class="button-row">
+
+    <button
+        type="button"
+        id="backBtn"
+        class="secondary-btn">
+
+        ← Back
+
+    </button>
+
+    <div class="send-buttons">
+
+        <button
+            type="button"
+            id="messengerBtn"
+            class="primary-btn">
+
+            <i class="fa-brands fa-facebook-messenger"></i>
+            Send via Messenger
+
+        </button>
+
+        <button
+            type="button"
+            id="viberBtn"
+            class="secondary-btn">
+
+            <i class="fa-brands fa-viber"></i>
+            Send via Viber
+
+        </button>
+
+    </div>
+
+</div>
+
+</div>
+
+</form>
+
+    </div>
+
+</main>
+
+</div>
+
+<div id="sendModal" class="send-modal">
+
+    <div class="send-modal-content">
+
+        <div class="modal-header-line"></div>
+
+        <h2 id="modalTitle">
+            Ready to Send
+        </h2>
+
+        <p id="modalMessage">
+            Your quotation request has been prepared.
+        </p>
+
+        <div class="modal-buttons">
+
+            <button
+                id="modalOpen"
+                class="primary-btn">
+
+                Open Messenger
+
+            </button>
+
+            <button
+                id="modalClose"
+                class="secondary-btn">
+
+                Not Now
+
+            </button>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+<script src="js/customer.js"></script>
+
+</body>
+
+</html>
