@@ -306,7 +306,7 @@ DESKTOP DROPDOWN
 }
 
 .hero-image img{
-    width:100%;
+    width:80%;
     max-width:1000px;
     border-radius:28px;
     box-shadow:0 20px 50px rgba(0,0,0,.12);
@@ -332,7 +332,7 @@ DESKTOP DROPDOWN
 .hero-description{
     font-size:22px;
     line-height:1.7;
-    max-width:1200px;
+    max-width:1000px;
     margin-bottom: 50px;
     font-family: "Cormorant Garamond", serif;
 }
@@ -674,7 +674,7 @@ REVIEWS
 
 .collection-card img{
     width:100%;
-    height:250px;
+    height:350px;
     object-fit:cover;
     display:block
 }
@@ -682,9 +682,9 @@ REVIEWS
 .collection-card h3{
     text-align:center;
     padding:22px;
-    font-size:20px;
-    font-family:'comorant garamond',serif;
-    color:#a44e10;
+    font-size:25px;
+    font-family:'great vibes',serif;
+    color:#75533b;
 }
 
 /* ==========================
@@ -825,7 +825,7 @@ BUILD YOUR OWN GIFT SET
 
 .build-image img{
 
-    width:100%;
+    width:auto;
 
     height:550px;
 
@@ -837,6 +837,7 @@ BUILD YOUR OWN GIFT SET
     
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-left:50px;
 
 }
 
@@ -1342,15 +1343,16 @@ PRODUCTS
     margin:auto;
     display:grid;
     grid-template-columns:1fr 1fr;
-    gap:70px;
+    gap:50px;
     align-items:center;
 }
 
 .about-image img{
-    width:90%;
+    width:auto;
+    height: 550px;
     border-radius:25px;
     box-shadow:0 20px 45px rgba(0,0,0,.08);
-    max-width:1200px;
+    margin-left:70px;
     align-items:center;
 }
 
@@ -1358,7 +1360,7 @@ PRODUCTS
     color:#c79a4b;
     font-size:14px;
     font-weight:700;
-    letter-spacing:3px;
+    letter-spacing:1px;
 }
 
 .about-content h2{
@@ -1371,7 +1373,7 @@ PRODUCTS
 .about-content p{
     font-size:18px;
     color:#666;
-    line-height:1.9;
+    line-height:1.5;
     margin-bottom:20px;
 }
 
