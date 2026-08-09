@@ -40,6 +40,7 @@ const celebrationProducts = [
         "images/products/celebration/clock/3.5.webp",
         "images/products/celebration/clock/4.webp",
         "images/products/celebration/clock/4.5.webp",
+        "images/products/celebration/clock/5.webp",
         "images/products/celebration/clock/6.webp",
         "images/products/celebration/clock/7.webp",
         "images/products/celebration/clock/8.webp",
@@ -47,6 +48,7 @@ const celebrationProducts = [
         "images/products/celebration/clock/11.webp",
         "images/products/celebration/clock/14.webp",
         "images/products/celebration/clock/15.webp",
+        "images/products/celebration/clock/16.webp",
 
         ],
         description: "Featuring a personalized wooden desk clock with your chosen photo, name, and engraved message, this meaningful keepsake beautifully captures life's most treasured moments—creating a timeless gift your loved ones will proudly display and cherish for years to come.",
@@ -1396,6 +1398,407 @@ inclusions: [
 ],
 
 addons: []
+
+},
+
+{
+id: 2024,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2024",
+
+name: "Wooden Digital Alarm Clock",
+
+price: 670,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/alarmclock/1.webp",
+    "images/products/celebration/alarmclock/2.webp",
+    "images/products/celebration/alarmclock/3.webp",
+    "images/products/celebration/alarmclock/4.webp"
+],
+
+description: "A personalized wooden digital alarm clock with a sleek and practical design, making it a thoughtful choice for birthdays, christenings, and other special celebrations. Its useful everyday function and personalized design make it a memorable keepsake that recipients can enjoy for years to come.",
+
+keywords: [
+    "wooden digital alarm clock",
+    "digital alarm clock",
+    "wooden clock",
+    "personalized clock",
+    "alarm clock gift",
+    "gift set",
+    "personalized gift",
+    "birthday gift",
+    "christening giveaway",
+    "celebration gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Box Packaging",
+    "Customized Tag",
+    "Ribbon",
+    "4pcs AAA Battery"
+],
+
+addons: []
+
+},
+
+{
+id: 2025,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2025",
+
+name: "Frosted Mug",
+
+price: 280,
+
+minimumOrder: 10,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/frostedmug/1.webp",
+    "images/products/celebration/frostedmug/2.webp",
+    "images/products/celebration/frostedmug/3.webp",
+    "images/products/celebration/frostedmug/4.webp",
+    "images/products/celebration/frostedmug/5.webp",
+    "images/products/celebration/frostedmug/6.webp",
+    "images/products/celebration/frostedmug/7.webp"
+],
+
+description: "A personalized frosted mug with a clean, elegant finish, making it a practical and thoughtful choice for birthdays, christenings, and other special celebrations. Its everyday usability and personalized design make it a simple yet memorable keepsake for guests.",
+
+keywords: [
+    "frosted mug",
+    "personalized mug",
+    "mug gift",
+    "customized mug",
+    "gift set",
+    "personalized gift",
+    "birthday giveaway",
+    "christening giveaway",
+    "celebration gift",
+    "party giveaway",
+    "philia gifts"
+],
+
+inclusions: [
+    "Gift Box",
+    "Customized Tag",
+    "Ribbon",
+],
+
+addons: [
+    {
+        name: "Stirring Spoon",
+        price: 35
+    },
+    {
+        name: "Coffee Pack",
+        price: 55
+    },
+    {
+        name: "Picture or Logo",
+        price: 60
+    },
+    {
+        name: "Upgrade to Hard Box",
+        price: 80
+    }
+]
+
+},
+
+{
+id: 2026,
+
+category: "celebration",
+
+section: ["guest"],
+
+page: "product.html?id=2026",
+
+name: "Wooden Phonestand",
+
+price: 190,
+
+minimumOrder: 15,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/phonestand/1.webp",
+    "images/products/celebration/phonestand/2.webp",
+    "images/products/celebration/phonestand/3.webp"
+],
+
+description: "A laser-engraved wooden phonestand with a personalized design. A practical and meaningful keepsake that makes a thoughtful choice for celebrations, recognition, and special occasions.",
+
+keywords: [
+    "wooden phonestand",
+    "phone stand",
+    "personalized phone stand",
+    "laser engraved",
+    "wooden gift",
+    "personalized gift",
+    "celebration gift",
+    "giveaway",
+    "keepsake",
+    "philia gifts"
+],
+
+inclusions: [
+    "Custom Card Sleeve",
+    "Individual Plastic",
+    "Free Layout"
+],
+
+addons: [
+]
+
+},
+
+{
+id: 2027,
+
+category: "celebration",
+
+section: ["guest"],
+
+page: "product.html?id=2027",
+
+name: "Scented Soy Candle",
+
+price: 200,
+
+minimumOrder: 20,
+
+bestseller: true,
+
+images: [
+    "images/products/celebration/candle/1.webp",
+    "images/products/celebration/candle/2.webp",
+    "images/products/celebration/candle/3.webp",
+    "images/products/celebration/candle/4.webp",
+    "images/products/celebration/candle/5.webp",
+    "images/products/celebration/candle/6.webp",
+    "images/products/celebration/candle/7.webp",
+    "images/products/celebration/candle/8.webp"
+],
+
+description: "A personalized scented soy candle in a gift box, perfect for celebrations, giveaways, and meaningful occasions. Its warm and relaxing appeal makes it a thoughtful choice for guests who can enjoy it as a simple keepsake and comforting gift.",
+
+keywords: [
+    "scented soy candle",
+    "soy candle",
+    "personalized candle",
+    "candle gift",
+    "gift set",
+    "personalized gift",
+    "celebration gift",
+    "giveaway",
+    "keepsake",
+    "philia gifts"
+],
+
+inclusions: [
+    "Hard Box with Custom Print",
+    "Ribbon"
+],
+
+addons: []
+
+},
+
+{
+id: 2028,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2028",
+
+name: "Coffee Set",
+
+price: 520,
+
+minimumOrder: 0,
+
+bestseller: true,
+
+images: [
+    "images/products/celebration/coffeeset/1.webp",
+    "images/products/celebration/coffeeset/2.webp",
+    "images/products/celebration/coffeeset/3.webp",
+    "images/products/celebration/coffeeset/4.webp",
+    "images/products/celebration/coffeeset/5.webp"
+],
+
+description: "A personalized coffee set featuring a coffee press and coffee pack, thoughtfully packaged in a gift box. A practical and enjoyable choice for coffee lovers, making it a thoughtful gift for celebrations, special occasions, and meaningful gatherings.",
+
+keywords: [
+    "coffee set",
+    "coffee press",
+    "coffee gift set",
+    "personalized coffee set",
+    "coffee gift",
+    "gift set",
+    "personalized gift",
+    "celebration gift",
+    "giveaway",
+    "philia gifts"
+],
+
+inclusions: [
+    "Gift Box",
+    "Customized Gift Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Name on the Box",
+        price: 30
+    },
+    {
+        name: "Hard Box with Name",
+        price: 150
+    }
+]
+
+},
+
+{
+id: 2029,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2029",
+
+name: "Marble Mug",
+
+price: 350,
+
+minimumOrder: 0,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/marblemug/1.webp",
+    "images/products/celebration/marblemug/2.webp",
+    "images/products/celebration/marblemug/3.webp"
+],
+
+description: "A personalized marble mug with a gift box, available in color pink and gray. A charming and practical choice for celebrations and special occasions, making a thoughtful gift that guests can enjoy and use every day.",
+
+keywords: [
+    "marble mug",
+    "personalized mug",
+    "marble mug gift",
+    "personalized mug gift",
+    "gift set",
+    "personalized gift",
+    "celebration gift",
+    "giveaway",
+    "keepsake",
+    "philia gifts"
+],
+
+inclusions: [
+    "Gift Box",
+    "Customized Gift Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Stirring Spoon",
+        price: 35
+    },
+    {
+        name: "Coffee Pack",
+        price: 55
+    },
+    {
+        name: "Upgrade to Hard Box",
+        price: 80
+    }
+]
+
+},
+
+{
+id: 2030,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2030",
+
+name: "Wine O'Clock",
+
+price: 620,
+
+minimumOrder: 0,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/wineoclock/1.webp",
+    "images/products/celebration/wineoclock/2.webp",
+    "images/products/celebration/wineoclock/3.webp",
+    "images/products/celebration/wineoclock/4.webp",
+    "images/products/celebration/wineoclock/5.webp"
+],
+
+description: "A personalized wine gift set featuring a 187ml bottle of wine and wine glass, thoughtfully presented in a gift box. A refined and enjoyable choice for celebrations and special occasions, making it a thoughtful gift for guests and loved ones.",
+
+keywords: [
+    "wine o'clock",
+    "wine gift set",
+    "wine glass",
+    "187ml wine",
+    "personalized wine gift",
+    "gift set",
+    "personalized gift",
+    "celebration gift",
+    "giveaway",
+    "philia gifts"
+],
+
+inclusions: [
+    "Gift Box",
+    "Customized Gift Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Name on the Box",
+        price: 30
+    },
+    {
+        name: "Upgrade to Hard Box with Name",
+        price: 150
+    }
+]
 
 },
 

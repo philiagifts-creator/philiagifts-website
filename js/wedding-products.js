@@ -2441,7 +2441,10 @@ const weddingProducts = [
         "images/products/wedding/coast&toast/5.webp",
         "images/products/wedding/coast&toast/6.webp",
         "images/products/wedding/coast&toast/7.webp",
-        "images/products/wedding/coast&toast/8.webp"
+        "images/products/wedding/coast&toast/8.webp",
+        "images/products/wedding/coast&toast/9.webp",
+        "images/products/wedding/coast&toast/10.webp",
+        "images/products/wedding/coast&toast/11.webp",
     ],
 
     description: "Featuring a personalized mountain whiskey glass, acacia coaster, and wooden bottle opener, this refined gift set combines functionality with timeless craftsmanship. Beautifully packaged to create a memorable keepsake for every celebration.",
@@ -2924,6 +2927,64 @@ addons: [
         price: 150
     },
 ]
+},
+
+{
+id: 48,
+
+category: "wedding",
+
+section: ["gift-set"],
+
+page: "product.html?id=48",
+
+name: "Aroma Haven Collection",
+
+price: 1450,
+
+minimumOrder: 0,
+
+bestseller: false,
+
+images: [
+    "images/products/wedding/aroma/1.webp",
+    "images/products/wedding/aroma/2.webp",
+    "images/products/wedding/aroma/3.webp",
+    "images/products/wedding/aroma/4.webp",
+    "images/products/wedding/aroma/5.webp"
+],
+
+description: "A luxurious aromatherapy gift set featuring a timber humidifier, three essential oils, a car diffuser, two room and linen sprays, and a reed diffuser. A thoughtful choice for wedding gifting, it brings together relaxing fragrances and practical home and car essentials in one elegant set, making it a memorable gift that recipients can enjoy in their everyday spaces.",
+
+keywords: [
+    "aroma haven collection",
+    "aromatherapy gift set",
+    "timber humidifier",
+    "essential oil gift set",
+    "car diffuser",
+    "reed diffuser",
+    "room spray",
+    "linen spray",
+    "personalized gift set",
+    "wedding gift",
+    "wedding giveaway",
+    "gift set",
+    "philia gifts"
+],
+
+inclusions: [
+    "Hard Box",
+    "Customized Gift Tag",
+    "Ribbon",
+],
+
+addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+]
+
 },
 
 ];
