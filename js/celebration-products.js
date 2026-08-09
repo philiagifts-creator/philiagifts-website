@@ -168,6 +168,9 @@ const celebrationProducts = [
         "images/products/celebration/coaster/1.webp",
         "images/products/celebration/coaster/2.webp",
         "images/products/celebration/coaster/3.webp",
+        "images/products/celebration/coaster/4.webp",
+        "images/products/celebration/coaster/5.webp",
+        "images/products/celebration/coaster/6.webp",
         
        
 
@@ -1345,6 +1348,55 @@ addons: [
             price: 150
         }
     ]
+},
+
+{
+id: 2023,
+
+category: "celebration",
+
+section: ["guest"],
+
+page: "product.html?id=2023",
+
+name: "Teddy Bear Keychain",
+
+price: 180,
+
+minimumOrder: 10,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/bear/1.webp",
+    "images/products/celebration/bear/2.webp",
+    "images/products/celebration/bear/3.webp",
+    "images/products/celebration/bear/4.webp",
+    "images/products/celebration/bear/5.webp"
+],
+
+description: "A charming teddy bear keychain presented in a light-up gift box with personalized cards, making it a sweet and memorable choice for birthdays, christenings, and other special celebrations. Its cute design and thoughtful presentation make it a keepsake that guests can enjoy and remember the occasion by.",
+
+keywords: [
+    "teddy bear keychain",
+    "bear keychain",
+    "teddy bear gift",
+    "personalized teddy bear",
+    "gift set",
+    "celebration gift",
+    "birthday giveaway",
+    "christening giveaway",
+    "party giveaway",
+    "philia gifts"
+],
+
+inclusions: [
+    "Gift Box",
+    "Customized Card",
+],
+
+addons: []
+
 },
 
 ];
