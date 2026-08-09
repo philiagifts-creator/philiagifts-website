@@ -372,7 +372,7 @@ REVIEWS
     overflow:hidden;
 
     background:
-        url("images/about/reviews-bg.png");
+        url("images/about/reviews-bg.webp");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -580,7 +580,7 @@ REVIEWS
 
 .collections-section{
 
-    background-image:url("images/about/shop.png");
+    background-image:url("images/about/shop.webp");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
@@ -710,14 +710,14 @@ REVIEWS
 }
 
 .why-us{
-    background-image:url("images/about/whyus-bg.png");
+    background-image:url("images/about/whyus-bg.webp");
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
 
     position:relative;
 
-    background-image:url("images/about/whyus-bg.png");
+    background-image:url("images/about/whyus-bg.webp");
 
     background-size:cover;
 
@@ -948,7 +948,7 @@ BUILD YOUR OWN GIFT SET
     overflow:hidden;
 
     background:
-        url("images/about/reviews-bg.png");
+        url("images/about/reviews-bg.webp");
 
     background-size:cover;
     background-position:center;
@@ -1331,7 +1331,7 @@ PRODUCTS
     padding:10px 8%;
     height: 100%;
     width: 100%;
-    background-image: url("images/about/heroimg.png");
+    background-image: url("images/about/heroimg.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -1531,7 +1531,7 @@ PRODUCTS
     overflow: hidden;
     border-radius: 30px;
 
-    background-image: url("images/about/hero-bg.png") center/cover no-repeat;
+    background-image: url("images/about/hero-bg.webp") center/cover no-repeat;
      box-shadow: 0 15px 50px rgba(0,0,0,.08);
 
 }
@@ -1825,7 +1825,7 @@ grid-template-columns:1fr;
 
      padding:100px 8%;
 
-    background-image:url("images/about/ourstory.png");
+    background-image:url("images/about/ourstory.webp");
 
     background-size:cover;
 
@@ -1908,7 +1908,7 @@ grid-template-columns:1fr;
 
     
 
-    background-image:url("images/about/ourjourney.png");
+    background-image:url("images/about/ourjourney.webp");
 
     background-size:cover;
 
@@ -2008,7 +2008,7 @@ grid-template-columns:1fr;
 
     overflow:hidden;
 
-    background-image:url("images/about/global-bg.png");
+    background-image:url("images/about/global-bg.webp");
 
     background-size:cover;
 
@@ -3164,7 +3164,7 @@ font-family: comorant garamond;
 
 .wedding-bg::before{
 
-    background:url("../images/about/catalog-bg.png")
+    background:url("../images/about/catalog-bg.webp")
                center center / cover no-repeat;
 
 }
@@ -3173,7 +3173,7 @@ font-family: comorant garamond;
 
 .corporate-bg::before{
 
-    background:url("../images/about/corporate-bg.png")
+    background:url("../images/about/corporate-bg.webp")
                center center / cover no-repeat;
 
 }
@@ -3182,7 +3182,7 @@ font-family: comorant garamond;
 
 .celebration-bg::before{
 
-    background:url("../images/about/celebration-bg.png")
+    background:url("../images/about/celebration-bg.webp")
                center center / cover no-repeat;
 
 }
@@ -4243,7 +4243,7 @@ REQUEST A QUOTE
 
     padding:80px 20px;
 
-    background-image:url("../images/about/quote-bg.png");
+    background-image:url("../images/about/quote-bg.webp");
 
     background-size:cover;
 
@@ -5749,7 +5749,7 @@ to{
     overflow:hidden;
 
     background:
-        url("images/about/reviews-hero-bg.png");
+        url("images/about/reviews-hero-bg.webp");
 
     background-size:cover;
 

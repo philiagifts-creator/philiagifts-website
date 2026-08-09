@@ -414,6 +414,7 @@ addons: [
         price: 550,
 
         bestseller:false,
+        minimumOrder: 10,
 
         images: [
 
@@ -615,7 +616,8 @@ addons: [
         "images/products/celebration/glassmug/3.webp",
         "images/products/celebration/glassmug/4.webp",
         "images/products/celebration/glassmug/5.webp",
-        "images/products/celebration/glassmug/6.webp"
+        "images/products/celebration/glassmug/6.webp",
+        "images/products/celebration/glassmug/7.webp"
     ],
 
     description: "A personalized glass mug presented in a gift box with a customized gift tag and ribbon. A practical and elegant keepsake for birthdays, baptisms, anniversaries, and other meaningful celebrations.",
@@ -1239,7 +1241,7 @@ addons: [
 
     bestseller: false,
 
-    minimum: 25,
+    minimumOrder: 25,
 
     name: "Luxury Perfume Favors",
 
@@ -1250,7 +1252,7 @@ addons: [
         "images/products/celebration/perfume/2.webp",
         "images/products/celebration/perfume/3.webp",
         "images/products/celebration/perfume/4.webp",
-        "images/products/celebration/perfume/5.png"
+        "images/products/celebration/perfume/5.webp",
     ],
 
     description: "Elegant perfume favors featuring a customized scent vial with printed card, satin ribbon, and pearl accent. A sophisticated guest keepsake that adds a luxurious finishing touch to your special celebration.",
@@ -1277,6 +1279,9 @@ addons: [
         "Satin Ribbon",
         "Pearl Accent"
     ],
+
+    addons: []
+
 },
 
 {

@@ -933,7 +933,13 @@ const corporateProducts = [
     images: [
         "images/products/corporate/tumbler/1.webp",
         "images/products/corporate/tumbler/2.webp",
-        "images/products/corporate/tumbler/3.webp"
+        "images/products/corporate/tumbler/4.webp",
+        "images/products/corporate/tumbler/5.webp",
+        "images/products/corporate/tumbler/6.webp",
+        "images/products/corporate/tumbler/7.webp",
+        "images/products/corporate/tumbler/8.webp",
+        "images/products/corporate/tumbler/9.webp",
+        "images/products/corporate/tumbler/10.webp",
     ],
 
     description: "A premium 500ml insulated tumbler customized with your company logo or design. Crafted to keep beverages hot or cold for hours, it's a practical corporate giveaway that combines everyday functionality with lasting brand visibility.",
@@ -1138,5 +1144,55 @@ const corporateProducts = [
 
     addons: []
 },
+
+{
+    id: 1019,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1019",
+
+    name: "Chess Gift Set",
+
+    price: 880,
+
+    minimumOrder: 10,
+
+    bestseller: true,
+
+    images: [
+        "images/products/corporate/chessgiftset/1.webp",
+        "images/products/corporate/chessgiftset/2.webp",
+        "images/products/corporate/chessgiftset/3.webp"
+    ],
+
+    description: "A premium personalized chess gift set featuring a chess board, chess pieces, wine stopper, wine ring, wine pourer, and wine corkscrew, beautifully packaged in a gift box. - Size: 15 x 17 cm ",
+
+    keywords: [
+        "chess gift set",
+        "corporate gift set",
+        "premium gift set",
+        "executive gift",
+        "corporate giveaway",
+        "personalized gift",
+        "chess set",
+        "wine accessories",
+        "client gift",
+        "employee appreciation",
+        "business gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box",
+        "Ribbon and Tag"
+    ],
+
+    addons: [
+    ]
+},
+
 
 ];

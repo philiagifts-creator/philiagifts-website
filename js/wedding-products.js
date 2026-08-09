@@ -34,10 +34,15 @@ const weddingProducts = [
 
         images: [
         "images/products/wedding/EOS/EssentialOasisSet.webp",
-        "images/products/wedding/EOS/EssentialOasisSet1.webp",
         "images/products/wedding/EOS/EssentialOasisSet2.webp",
         "images/products/wedding/EOS/EssentialOasisSet3.webp",
         "images/products/wedding/EOS/EssentialOasisSet4.webp",
+        "images/products/wedding/EOS/EssentialOasisSet5.webp",
+        "images/products/wedding/EOS/EssentialOasisSet6.webp",
+        "images/products/wedding/EOS/EssentialOasisSet7.webp",
+        "images/products/wedding/EOS/EssentialOasisSet8.webp",
+        "images/products/wedding/EOS/EssentialOasisSet9.webp",
+        "images/products/wedding/EOS/EssentialOasisSet10.webp",
 
         ],
         description: "Includes a personalized timber humidifier, reed diffuser, essential oil with burlap drawstring pouch, and alcohol sprayer carefully packaged in a premium gift box.",
@@ -372,12 +377,7 @@ const weddingProducts = [
         "images/products/wedding/NLAMP/5.webp",
          "images/products/wedding/NLAMP/6.webp",
           "images/products/wedding/NLAMP/7.webp",
-           "images/products/wedding/NLAMP/8.webp",
-            "images/products/wedding/NLAMP/9.webp",
-             "images/products/wedding/NLAMP/10.webp",
-              "images/products/wedding/NLAMP/11.webp",
-              "images/products/wedding/NLAMP/12.webp",
-
+    
         ],
 
         description: "A timeless keepsake that combines soft illumination, personalized engraving, and elegant presentation for any special occasion.",
@@ -432,6 +432,7 @@ const weddingProducts = [
         price: 550,
 
         bestseller:false,
+        minimumOrder: 10,
 
         images: [
 
@@ -804,9 +805,14 @@ const weddingProducts = [
         "images/products/wedding/Warmerlamp/3.webp",
         "images/products/wedding/Warmerlamp/4.webp",
         "images/products/wedding/Warmerlamp/5.webp",
-        "images/products/wedding/Warmerlamp/1.webp",
         "images/products/wedding/Warmerlamp/6.webp",
-        
+        "images/products/wedding/Warmerlamp/7.webp",
+        "images/products/wedding/Warmerlamp/8.webp",
+        "images/products/wedding/Warmerlamp/9.webp",
+        "images/products/wedding/Warmerlamp/10.webp",
+        "images/products/wedding/Warmerlamp/11.webp",
+        "images/products/wedding/Warmerlamp/12.webp",
+        "images/products/wedding/Warmerlamp/13.webp",
     ],
 
     description: "An elegant personalized candle warmer lamp paired with a scented candle, beautifully presented in a premium hard box for unforgettable wedding gifts and keepsakes.",
@@ -1210,7 +1216,11 @@ const weddingProducts = [
     images: [
         "images/products/wedding/penA/1.webp",
         "images/products/wedding/penA/2.webp",
-        "images/products/wedding/penA/3.webp"
+        "images/products/wedding/penA/3.webp",
+        "images/products/wedding/penA/4.webp",
+        "images/products/wedding/penA/5.webp",
+        "images/products/wedding/penA/6.webp",
+        
     ],
 
     description: "A laser-engraved bamboo pen paired with a fully customized printed card, creating a practical and memorable keepsake for weddings, celebrations, and special occasions.",
@@ -1398,7 +1408,8 @@ const weddingProducts = [
         "images/products/wedding/deskclock/1.webp",
         "images/products/wedding/deskclock/2.webp",
         "images/products/wedding/deskclock/3.webp",
-        "images/products/wedding/deskclock/4.webp"
+        "images/products/wedding/deskclock/4.webp",
+        "images/products/wedding/deskclock/5.webp",
     ],
 
     description: "A laser-engraved wooden desk clock personalized with your names, design, or logo. A timeless keepsake perfect as a wedding souvenir, guest favor, or premium gift.",
@@ -2550,7 +2561,7 @@ const weddingProducts = [
 
     bestseller: false,
 
-    minimum: 25,
+    minimumOrder: 25,
 
     name: "Luxury Perfume Favors",
 
@@ -2561,7 +2572,7 @@ const weddingProducts = [
         "images/products/wedding/perfume/2.webp",
         "images/products/wedding/perfume/3.webp",
         "images/products/wedding/perfume/4.webp",
-        "images/products/wedding/perfume/5.png"
+        "images/products/wedding/perfume/5.webp",
     ],
 
     description: "Elegant perfume favors featuring a customized scent vial with printed card, satin ribbon, and pearl accent. A sophisticated guest keepsake that adds a luxurious finishing touch to your wedding celebration.",
@@ -2588,8 +2599,331 @@ const weddingProducts = [
         "Satin Ribbon",
         "Pearl Accent"
     ],
+
+    addons: [
+    ]
 },
 
+{
+    id: 42,
 
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=42",
+
+    name: "Chess Gift Set",
+
+    price: 880,
+
+    minimumOrder: 0,
+
+    bestseller: true,
+
+    images: [
+        "images/products/wedding/chessgiftset/1.webp",
+        "images/products/wedding/chessgiftset/2.webp",
+        "images/products/wedding/chessgiftset/3.webp",
+        "images/products/wedding/chessgiftset/4.webp",
+        "images/products/wedding/chessgiftset/5.webp",
+        "images/products/wedding/chessgiftset/6.webp",
+        "images/products/wedding/chessgiftset/7.webp"
+    ],
+
+    description: "A personalized chess gift set featuring a chess board, chess pieces, wine stopper, wine ring, wine pourer, and wine corkscrew, beautifully presented in a hard box with a name, ribbon, and tag.  - Size: 15 x 17 cm ",
+
+    keywords: [
+        "chess gift set",
+        "wedding gift",
+        "wedding giveaway",
+        "personalized gift",
+        "chess set",
+        "wine accessories",
+        "groomsmen gift",
+        "wedding souvenir",
+        "premium gift set",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Ribbon and Tag"
+    ],
+
+    addons: []
+},
+
+{
+    id: 43,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=43",
+
+    name: "Hot & Cold Tumbler 500ML",
+
+    price: 320,
+
+    minimumOrder: 10,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/tumbler/1.webp",
+        "images/products/wedding/tumbler/2.webp",
+        "images/products/wedding/tumbler/3.webp",
+        "images/products/wedding/tumbler/4.webp",
+        "images/products/wedding/tumbler/5.webp",
+        "images/products/wedding/tumbler/6.webp"
+    ],
+
+    description: "A personalized 500ML hot and cold tumbler, perfect for thoughtful gifts, giveaways, and special occasions. Comes with a gift box, ribbon, and tag, with other colors available.",
+
+    keywords: [
+        "hot and cold tumbler",
+        "500ml tumbler",
+        "tumbler gift",
+        "personalized tumbler",
+        "gift set",
+        "personalized gift",
+        "wedding gift",
+        "corporate gift",
+        "giveaway",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Window Box",
+        "Customized Tag",
+        "Ribbon",
+    ],
+
+    addons: [
+        {
+            name: "Hard Box",
+            price: 100
+        }
+    ]
+},
+
+{
+    id: 44,
+
+    category: "wedding",
+
+    section: ["for-guests"],
+
+    page: "product.html?id=44",
+
+    name: "Wallet for Her",
+
+    price: 150,
+
+    minimumOrder: 10,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/walletforher/1.webp",
+        "images/products/wedding/walletforher/2.webp",
+        "images/products/wedding/walletforher/3.webp",
+        "images/products/wedding/walletforher/4.webp",
+        "images/products/wedding/walletforher/5.webp",
+        "images/products/wedding/walletforher/6.webp",
+        "images/products/wedding/walletforher/7.webp"
+    ],
+
+    description: "A stylish personalized wallet made from leather material, perfect as a thoughtful wedding giveaway for guests. Available in assorted colors and can be packaged in a box as an add-on.",
+
+    keywords: [
+        "wallet for her",
+        "personalized wallet",
+        "leather wallet",
+        "wedding giveaway",
+        "wedding souvenir",
+        "wedding guest gift",
+        "gift for guests",
+        "personalized gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Wallet", 
+    ],
+
+    addons: [
+        {
+            name: "Box Packaging",
+            price: 50
+        }
+    ]
+},
+
+{
+    id: 45,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=45",
+
+    name: "Drape & Dazzle Set",
+
+    price: 450,
+
+    minimumOrder: 0,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/drape&dazzleB/1.webp",
+        "images/products/wedding/drape&dazzleB/2.webp",
+        "images/products/wedding/drape&dazzleB/3.webp",
+        "images/products/wedding/drape&dazzleB/4.webp",
+        "images/products/wedding/drape&dazzleB/5.webp",
+        "images/products/wedding/drape&dazzleB/6.webp",
+        "images/products/wedding/drape&dazzleB/7.webp"
+    ],
+
+    description: "A personalized jewelry organizer and cashmere shawl set, thoughtfully packaged in a gift box with ribbon and tag. Available in other colors.",
+
+    keywords: [
+        "drape and dazzle set",
+        "jewelry organizer",
+        "cashmere shawl",
+        "wedding gift set",
+        "wedding giveaway",
+        "wedding souvenir",
+        "personalized gift",
+        "gift set",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon",
+    ],
+
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Upgrade to Hard Box",
+            price: 150
+        },
+    ]
+},
+
+{
+    id: 46,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=46",
+
+    name: "Wine Case with Charcuterie",
+
+    price: 1700,
+
+    minimumOrder: 10,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/winecase/1.webp",
+        "images/products/wedding/winecase/2.webp",
+        "images/products/wedding/winecase/3.webp",
+        "images/products/wedding/winecase/4.webp"
+    ],
+
+    description: "A personalized laser-engraved wooden wine case with 750ml wine, perfect for elegant wedding gifts and special occasions.",
+
+    keywords: [
+        "wine case",
+        "wine gift set",
+        "charcuterie set",
+        "personalized wine gift",
+        "wooden wine case",
+        "wedding gift",
+        "wedding gift set",
+        "wedding giveaway",
+        "personalized gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "750ml Wine",
+        "Customized Gift Tag",
+        "Ribbon",
+    ],
+
+    addons: []
+},
+
+{
+id: 47,
+
+category: "wedding",
+
+section: ["gift-set"],
+
+page: "product.html?id=47",
+
+name: "The Everyday Kit A",
+
+price: 320,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/wedding/everydaykit/1.webp",
+    "images/products/wedding/everydaykit/2.webp",
+    "images/products/wedding/everydaykit/3.webp",
+    "images/products/wedding/everydaykit/4.webp"
+],
+
+description: "A practical gift set featuring a personalized leather wallet and wooden comb, making it a useful and thoughtful choice for weddings. Its everyday essentials and personalized touch make it a meaningful keepsake they can enjoy long after the celebration.",
+
+keywords: [
+    "everyday kit",
+    "leather wallet",
+    "wooden comb",
+    "wallet gift",
+    "personalized wallet",
+    "gift set",
+    "personalized gift",
+    "wedding gift",
+    "wedding giveaway",
+    "philia gifts"
+],
+
+inclusions: [
+    "Gift Box",
+    "Customized Tag",
+    "Ribbon",
+],
+
+addons: [
+    {
+        name: "Name on the Box",
+        price: 30
+    },
+    {
+        name: "Upgrade to Hard Box with Name",
+        price: 150
+    },
+]
+},
 
 ];
