@@ -2987,4 +2987,222 @@ addons: [
 
 },
 
+{
+id: 49,
+
+category: "wedding",
+
+section: ["gift-set"],
+
+page: "product.html?id=49",
+
+name: "Bridesmaid Gift Set A",
+
+price: 1100,
+
+minimumOrder: 0,
+
+bestseller: false,
+
+images: [
+    "images/products/wedding/bridesmaidgiftset/1.webp",
+    "images/products/wedding/bridesmaidgiftset/2.webp",
+    "images/products/wedding/bridesmaidgiftset/3.webp",
+    "images/products/wedding/bridesmaidgiftset/4.webp"
+],
+
+description: "A personalized bridesmaid gift set featuring a silk robe, notebook, compact mirror, and scrunchy, thoughtfully put together as a practical and memorable gift. A beautiful choice for bridesmaids, offering useful keepsakes they can enjoy while celebrating the special occasion together.",
+
+keywords: [
+    "bridesmaid gift set",
+    "bridesmaid gift",
+    "silk robe",
+    "personalized robe",
+    "notebook",
+    "compact mirror",
+    "scrunchy",
+    "wedding gift",
+    "personalized gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Paper Bag Packaging",
+    "Customized Gift Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Upgrade to Hard Box Packaging",
+        price: 200
+    },
+]
+},
+
+{
+id: 51,
+
+category: "wedding",
+
+section: ["gift-set"],
+
+page: "product.html?id=51",
+
+name: "Wooden Ref Magnet",
+
+price: 95,
+
+minimumOrder: 25,
+
+bestseller: false,
+
+images: [
+    "images/products/wedding/woodenrefmag/1.webp",
+    "images/products/wedding/woodenrefmag/2.webp",
+    "images/products/wedding/woodenrefmag/3.webp",
+    "images/products/wedding/woodenrefmag/4.webp",
+    "images/products/wedding/woodenrefmag/5.webp"
+],
+
+description: "A personalized laser-engraved wooden ref magnet with a 7x7cm size, individually packed in plastic for a neat and practical wedding giveaway. A thoughtful choice for guests because it can serve as a lasting keepsake of your special day while keeping your chosen photo, design, or message close at hand.",
+
+keywords: [
+    "wooden ref magnet",
+    "wooden magnet",
+    "personalized magnet",
+    "laser engraved magnet",
+    "wedding magnet",
+    "wedding giveaway",
+    "wedding souvenir",
+    "personalized wedding gift",
+    "wedding keepsake",
+    "philia gifts"
+],
+
+inclusions: [
+    "Individual Plastic Packaging",
+    "Custom Backing Card"
+],
+
+addons: [
+    {
+        name: "Upgrade to 10x10 cm",
+        price: 100
+    }
+]
+},
+
+{
+id: 52,
+
+category: "wedding",
+
+section: ["gift-set"],
+
+page: "product.html?id=52",
+
+name: "Wedding Invitation",
+
+price: 200,
+
+minimumOrder: 25,
+
+bestseller: false,
+
+images: [
+    "images/products/wedding/invitation/1.webp",
+    "images/products/wedding/invitation/2.webp",
+    "images/products/wedding/invitation/3.webp",
+    "images/products/wedding/invitation/4.webp",
+    "images/products/wedding/invitation/5.webp",
+    "images/products/wedding/invitation/6.webp",
+    "images/products/wedding/invitation/7.webp"
+],
+
+description: "A beautifully designed wedding invitation with a personalized layout, created to introduce your special day with an elegant and memorable presentation. A lovely choice for couples who want their invitations to reflect their wedding theme and give guests a meaningful first glimpse of the celebration.",
+
+keywords: [
+    "wedding invitation",
+    "personalized wedding invitation",
+    "wedding invite",
+    "wedding stationery",
+    "wedding invitation with envelope",
+    "wax seal invitation",
+    "dried flower invitation",
+    "custom wedding invitation",
+    "wedding",
+    "philia gifts"
+],
+
+inclusions: [
+    "Envelope",
+    "Wax Seal",
+    "Dried Flower"
+],
+
+addons: [
+    {
+        name: "Digital Wedding Invitation",
+        price: 650
+    },
+    {
+        name: "Monogram",
+        price: 500
+    }
+]
+},
+
+{
+id: 53,
+
+category: "wedding",
+
+section: ["guest"],
+
+page: "product.html?id=53",
+
+name: "Leather Cardholder A",
+
+price: 110,
+
+minimumOrder: 20,
+
+bestseller: false,
+
+images: [
+    "images/products/wedding/cardholderB/1.webp",
+    "images/products/wedding/cardholderB/2.webp",
+    "images/products/wedding/cardholderB/3.webp"
+],
+
+description: "A personalized leather cardholder designed as a simple and practical keepsake for your wedding guests. Its compact design makes it useful for everyday essentials, making it a thoughtful choice for guests who appreciate functional gifts they can continue using after the celebration.",
+
+keywords: [
+    "leather cardholder",
+    "cardholder",
+    "personalized cardholder",
+    "leather wallet",
+    "wedding giveaway",
+    "wedding souvenir",
+    "personalized wedding gift",
+    "wedding keepsake",
+    "guest giveaway",
+    "philia gifts"
+],
+
+inclusions: [
+    "Plastic Packaging",
+    "Custom Sleeve"
+],
+
+addons: [
+    {
+        name: "Box",
+        price: 50
+    }
+]
+
+},
+
 ];
