@@ -643,7 +643,7 @@ const weddingProducts = [
 
     name: "Rattan Shoulder Bag",
 
-    price: 890,
+    price: 920,
 
     bestseller: false,
 
