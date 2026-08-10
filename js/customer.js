@@ -19,7 +19,20 @@ backBtn.addEventListener("click", () => {
 
 });
 
+// ========================================
+// OPEN MESSENGER
+// ========================================
 
+document
+.getElementById("modalOpen")
+.addEventListener("click", () => {
+
+    window.open(
+        MESSENGER_URL,
+        "_blank"
+    );
+
+});
 // ========================================
 // SAVE CUSTOMER INFO
 // ========================================

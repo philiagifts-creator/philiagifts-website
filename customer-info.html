@@ -66,13 +66,12 @@
 
     <div class="form-group">
 
-        <label>Facebook Name <span>*</span></label>
+        <label>Facebook Name <span></span></label>
 
         <input
             type="text"
             id="facebookName"
-            placeholder="e.g. Juan Dela Cruz"
-            required
+            
         >
 
     </div>
@@ -93,21 +92,6 @@
             type="tel"
             id="phone"
             required
-        >
-
-    </div>
-
-    <div class="form-group">
-
-        <label>
-
-            Company / Organization
-
-        </label>
-
-        <input
-            type="text"
-            id="company"
         >
 
     </div>
@@ -178,7 +162,7 @@
 
         <label>
 
-            Event Date
+            Event Date <span>*</span>
 
         </label>
 
@@ -189,53 +173,9 @@
 
     </div>
 
-    <div class="form-group">
-
-        <label>
-
-            Preferred Delivery Date
-
-        </label>
-
-        <input
-            type="date"
-            id="deliveryDate"
-        >
-
-    </div>
-
 </div>
 
-    <div class="form-group">
-
-    <label>
-
-        Delivery Address
-
-    </label>
-
-    <textarea
-        id="address"
-        rows="4"
-    ></textarea>
-
-</div>
-
-    <div class="form-group">
-
-    <label>
-
-        Additional Notes
-
-    </label>
-
-    <textarea
-        id="notes"
-        rows="5"
-        placeholder="Color preference, personalization details, special requests..."
-    ></textarea>
-
-</div>
+    
 
 <p class="send-text">
     Ready to submit your quotation request?
@@ -255,27 +195,27 @@
 
     <div class="send-buttons">
 
-        <button
-            type="button"
-            id="messengerBtn"
-            class="primary-btn">
+    <button
+        type="button"
+        id="messengerBtn"
+        class="primary-btn">
 
-            <i class="fa-brands fa-facebook-messenger"></i>
-            Send via Messenger
+        <i class="fa-brands fa-facebook-messenger"></i>
+        Send via Messenger
 
-        </button>
+    </button>
 
-        <button
-            type="button"
-            id="viberBtn"
-            class="secondary-btn">
+    <button
+        type="button"
+        id="submitQuoteBtn"
+        class="secondary-btn">
 
-            <i class="fa-brands fa-viber"></i>
-            Send via Viber
+        <i class="fa-solid fa-paper-plane"></i>
+        Submit Quotation Request
 
-        </button>
+    </button>
 
-    </div>
+</div>
 
 </div>
 
@@ -293,33 +233,105 @@
 
     <div class="send-modal-content">
 
-        <div class="modal-header-line"></div>
+        <div class="success-icon">
+            ✓
+        </div>
 
-        <h2 id="modalTitle">
-            Ready to Send
+        <h2>
+            Quotation Request Sent!
         </h2>
 
-        <p id="modalMessage">
-            Your quotation request has been prepared.
+        <p>
+            We've received your quotation request
+            and will review your details shortly.
+        </p>
+
+        <p class="messenger-instruction">
+            <strong>Screenshot</strong> this and send it to us on Messenger.
         </p>
 
         <div class="modal-buttons">
 
-            <button
-                id="modalOpen"
-                class="primary-btn">
+            <a
+    href="https://m.me/102160075444175"
+    id="modalOpen"
+    class="primary-btn"
+    target="_blank"
+    rel="noopener noreferrer">
 
+    <i class="fa-brands fa-facebook-messenger"></i>
+    Open Messenger
+
+</a>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+<!-- ========================================
+     MESSENGER QUOTATION SUMMARY MODAL
+======================================== -->
+
+<div id="messengerModal" class="send-modal">
+
+    <div class="send-modal-content">
+
+        <div class="success-icon">
+            ✓
+        </div>
+
+        <h2>
+            Quotation Request Ready!
+        </h2>
+
+        <p>
+            We've received your quotation request
+            and will review your details shortly.
+        </p>
+
+        <div class="messenger-summary">
+
+            <h3>
+                Quotation Summary
+            </h3>
+
+            <div id="messengerSummaryItems"></div>
+
+            <div class="messenger-total">
+
+                <span>
+                    Estimated Total
+                </span>
+
+                <strong id="messengerSummaryTotal">
+                    ₱0
+                </strong>
+
+            </div>
+
+        </div>
+
+        <p class="messenger-instruction">
+            <strong>Screenshot</strong> this and send it to us on Messenger.
+        </p>
+
+        <div class="modal-buttons">
+
+            <a
+                href="https://m.me/102160075444175"
+                id="messengerOpenBtn"
+                class="primary-btn"
+                target="_blank"
+                rel="noopener noreferrer">
+
+                <i class="fa-brands fa-facebook-messenger"></i>
                 Open Messenger
 
-            </button>
-
-            <button
-                id="modalClose"
-                class="secondary-btn">
-
-                Not Now
-
-            </button>
+            </a>
 
         </div>
 
@@ -328,6 +340,417 @@
 </div>
 
 
+<script>
+
+const GOOGLE_SCRIPT_URL =
+    "https://script.google.com/macros/s/AKfycbz-cB0hGmDqYnHzfJJ8HnmS63ift2nS4XfmYDmCen98hma-2w5t5Jl-mr6PfRfHZBj0/exec";
+
+const MESSENGER_URL =
+    "https://m.me/102160075444175";
+
+
+// ========================================
+// GET QUOTE REQUEST
+// ========================================
+
+const quoteRequest =
+    JSON.parse(
+        localStorage.getItem("quoteRequest")
+    ) || [];
+
+
+// ========================================
+// FORMAT PRODUCTS
+// ========================================
+
+function buildProductText() {
+
+    if (!quoteRequest.length) {
+        return "No products selected.";
+    }
+
+    return quoteRequest.map((item, index) => {
+
+        let text =
+            `${index + 1}. ${item.name}\n` +
+            `   Quantity: ${item.quantity}`;
+
+        if (
+            item.selectedAddons &&
+            item.selectedAddons.length
+        ) {
+
+            text += "\n   Add-ons:";
+
+            item.selectedAddons.forEach(addon => {
+
+                text +=
+                    `\n   • ${addon.name} ` +
+                    `(+₱${addon.price.toLocaleString()})`;
+
+            });
+
+        }
+
+        text +=
+            `\n   Estimated: ₱${item.total.toLocaleString()}`;
+
+        return text;
+
+    }).join("\n\n");
+
+}
+
+
+// ========================================
+// TOTAL
+// ========================================
+
+function getGrandTotal() {
+
+    return quoteRequest.reduce(
+        (total, item) => total + Number(item.total || 0),
+        0
+    );
+
+}
+
+
+// ========================================
+// CUSTOMER DATA
+// ========================================
+
+function getCustomerData() {
+
+    return {
+
+        fullName:
+            document
+                .getElementById("fullName")
+                .value
+                .trim(),
+
+        facebookName:
+            document
+                .getElementById("facebookName")
+                .value
+                .trim(),
+
+        phone:
+            document
+                .getElementById("phone")
+                .value
+                .trim(),
+
+        email:
+            document
+                .getElementById("email")
+                .value
+                .trim(),
+
+        eventType:
+            document
+                .getElementById("eventType")
+                .value,
+
+        eventDate:
+            document
+                .getElementById("eventDate")
+                .value
+
+    };
+
+}
+
+
+// ========================================
+// VALIDATE FORM
+// ========================================
+
+function validateCustomerForm() {
+
+    const form =
+        document.getElementById("customerForm");
+
+    if (!form.checkValidity()) {
+
+        form.reportValidity();
+
+        return false;
+
+    }
+
+    if (!quoteRequest.length) {
+
+        alert(
+            "Your quotation request is empty. Please add at least one product."
+        );
+
+        return false;
+
+    }
+
+    return true;
+
+}
+
+
+// ========================================
+// BUILD MESSENGER MESSAGE
+// ========================================
+
+function buildMessengerMessage(customer) {
+
+    const products =
+        buildProductText();
+
+    const total =
+        getGrandTotal();
+
+    return `PHILIA GIFTS – QUOTATION REQUEST
+
+CUSTOMER INFORMATION
+Name: ${customer.fullName}
+Facebook Name: ${customer.facebookName}
+Mobile: ${customer.phone}
+Email: ${customer.email || "Not provided"}
+
+EVENT DETAILS
+Event Type: ${customer.eventType}
+Event Date: ${customer.eventDate || "Not specified"}
+
+SELECTED PRODUCTS
+${products}
+
+ESTIMATED TOTAL
+₱${total.toLocaleString()}
+
+Please send me an official quotation. Thank you!`;
+
+}
+
+
+// ========================================
+// SEND VIA MESSENGER
+// ========================================
+
+document
+.getElementById("messengerBtn")
+.addEventListener("click", () => {
+
+    if (!validateCustomerForm()) {
+        return;
+    }
+
+    const summaryContainer =
+        document.getElementById(
+            "messengerSummaryItems"
+        );
+
+    const summaryTotal =
+        document.getElementById(
+            "messengerSummaryTotal"
+        );
+
+    let summaryHTML = "";
+
+    quoteRequest.forEach(item => {
+
+        summaryHTML += `
+
+            <div class="messenger-product">
+
+                <div class="messenger-product-name">
+                    ${item.name}
+                </div>
+
+                <div class="messenger-product-qty">
+                    Qty: ${item.quantity}
+                </div>
+
+        `;
+
+        if (
+            item.selectedAddons &&
+            item.selectedAddons.length
+        ) {
+
+            item.selectedAddons.forEach(addon => {
+
+                summaryHTML += `
+
+                    <div class="messenger-addon">
+                        Add-on: ${addon.name}
+                    </div>
+
+                `;
+
+            });
+
+        }
+
+        summaryHTML += `
+
+                <div class="messenger-product-total">
+                    ₱${item.total.toLocaleString()}
+                </div>
+
+            </div>
+
+        `;
+
+    });
+
+    summaryContainer.innerHTML =
+        summaryHTML;
+
+    const total =
+        getGrandTotal();
+
+    summaryTotal.textContent =
+        "₱" + total.toLocaleString();
+
+    const messengerModal =
+        document.getElementById(
+            "messengerModal"
+        );
+
+    messengerModal.classList.add("active");
+
+});
+
+
+// ========================================
+// SUBMIT TO GOOGLE SHEET + EMAIL
+// ========================================
+
+document
+.getElementById("submitQuoteBtn")
+.addEventListener("click", async () => {
+
+    if (!validateCustomerForm()) {
+        return;
+    }
+
+    const customer =
+        getCustomerData();
+
+    const products =
+        buildProductText();
+
+    const total =
+        getGrandTotal();
+
+    const button =
+        document.getElementById("submitQuoteBtn");
+
+    button.disabled = true;
+
+    button.innerHTML =
+        '<i class="fa-solid fa-spinner fa-spin"></i> Sending...';
+
+
+    const formData =
+        new URLSearchParams();
+
+    formData.append(
+        "fullName",
+        customer.fullName
+    );
+
+    formData.append(
+        "facebookName",
+        customer.facebookName
+    );
+
+    formData.append(
+        "phone",
+        customer.phone
+    );
+
+    formData.append(
+        "email",
+        customer.email
+    );
+
+    formData.append(
+        "eventType",
+        customer.eventType
+    );
+
+    formData.append(
+        "eventDate",
+        customer.eventDate
+    );
+
+    formData.append(
+        "products",
+        products
+    );
+
+    formData.append(
+        "estimatedTotal",
+        "₱" + total.toLocaleString()
+    );
+
+
+    try {
+
+        await fetch(
+            GOOGLE_SCRIPT_URL,
+            {
+                method: "POST",
+                mode: "no-cors",
+                body: formData
+            }
+        );
+
+
+        localStorage.removeItem(
+            "quoteRequest"
+        );
+
+
+       const sendModal =
+    document.getElementById("sendModal");
+
+sendModal.classList.add("active");
+
+
+    } catch (error) {
+
+        console.error(error);
+
+        alert(
+            "We couldn't submit your request right now. " +
+            "Please try sending it through Messenger."
+        );
+
+        button.disabled = false;
+
+        button.innerHTML =
+            '<i class="fa-solid fa-paper-plane"></i> ' +
+            'Submit Quotation Request';
+
+    }
+
+});
+
+
+// ========================================
+// BACK BUTTON
+// ========================================
+
+document
+.getElementById("backBtn")
+.addEventListener("click", () => {
+
+    window.location.href =
+        "quote.html";
+
+});
+
+</script>
 
 <script src="js/customer.js"></script>
 

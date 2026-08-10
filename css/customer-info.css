@@ -85,6 +85,7 @@ body{
     margin-bottom:12px;
 
     color:#2d2d2d;
+    text-align: center;
 
 }
 
@@ -95,6 +96,7 @@ body{
     color:#777;
 
     line-height:1.5;
+    text-align: center;
 
 }
 form{
@@ -107,9 +109,8 @@ form{
 
     display:grid;
 
-    grid-template-columns:1fr 1fr;
-
-    gap:12px;
+   
+    gap:10px;
 
     margin-bottom:24px;
 
@@ -189,6 +190,14 @@ form{
 
 }
 
+
+
+.form-row {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .button-row{
 
     display:flex;
@@ -230,7 +239,11 @@ form{
     cursor:pointer;
 
     transition:.3s;
+    text-decoration: none;
 
+}
+#messengerOpenBtn {
+    text-decoration: none;
 }
 
 .primary-btn:hover{
@@ -533,7 +546,7 @@ form{
     color:#666;
 
     line-height:1.8;
-
+    font-size: 18px;
     margin-bottom:35px;
 
 }
@@ -893,4 +906,127 @@ label[for="notes"]{
     font-size: 14px;
 
 }
+}
+
+/* ========================================
+   MESSENGER QUOTATION SUMMARY
+======================================== */
+
+.messenger-summary {
+
+    margin: 24px auto;
+
+    padding: 20px;
+
+    max-width: 600px;
+
+    background: #faf8f3;
+
+    border-radius: 16px;
+
+    text-align: left;
+
+}
+
+.messenger-summary h3 {
+
+    margin: 0 0 18px;
+
+    text-align: center;
+
+    font-size: 22px;
+
+}
+
+.messenger-product {
+
+    position: relative;
+
+    padding: 14px 0;
+
+    border-bottom: 1px solid #ddd;
+
+}
+
+.messenger-product-name {
+
+    font-size: 17px;
+
+    font-weight: 600;
+
+    padding-right: 120px;
+
+}
+
+.messenger-product-qty {
+
+    margin-top: 4px;
+
+    font-size: 14px;
+
+}
+
+.messenger-addon {
+
+    margin-top: 5px;
+
+    font-size: 14px;
+
+    color: #777;
+
+}
+
+.messenger-product-total {
+
+    position: absolute;
+
+    right: 0;
+
+    top: 16px;
+
+    font-weight: 600;
+
+}
+
+.messenger-total {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    margin-top: 18px;
+
+    padding-top: 16px;
+
+    border-top: 2px solid #c99b3b;
+
+}
+
+.messenger-total span {
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+}
+
+.messenger-total strong {
+
+    font-size: 21px;
+
+}
+
+.messenger-instruction {
+
+    margin-top: 22px;
+
+    font-size: 15px;
+
+    font-weight: 500;
+
+}
+#messengerOpenBtn {
+    text-decoration: none;
 }
