@@ -1285,7 +1285,11 @@ const weddingProducts = [
     images: [
         "images/products/wedding/refmagnet/1.webp",
         "images/products/wedding/refmagnet/2.webp",
-        "images/products/wedding/refmagnet/3.webp"
+        "images/products/wedding/refmagnet/3.webp",
+        "images/products/wedding/refmagnet/4.webp",
+        "images/products/wedding/refmagnet/4.5.webp",
+        "images/products/wedding/refmagnet/6.webp",
+        "images/products/wedding/refmagnet/7.webp",
     ],
 
     description: "A laser-engraved wooden refrigerator magnet personalized with your names, design, or artwork. Finished with a customized backing card, it serves as a meaningful keepsake your guests can enjoy long after your celebration. ( Size: 7 x 7 cm)",
@@ -3038,59 +3042,7 @@ addons: [
         price: 200
     },
 ]
-},
 
-{
-id: 51,
-
-category: "wedding",
-
-section: ["gift-set"],
-
-page: "product.html?id=51",
-
-name: "Wooden Ref Magnet",
-
-price: 95,
-
-minimumOrder: 25,
-
-bestseller: false,
-
-images: [
-    "images/products/wedding/woodenrefmag/1.webp",
-    "images/products/wedding/woodenrefmag/2.webp",
-    "images/products/wedding/woodenrefmag/3.webp",
-    "images/products/wedding/woodenrefmag/4.webp",
-    "images/products/wedding/woodenrefmag/5.webp"
-],
-
-description: "A personalized laser-engraved wooden ref magnet with a 7x7cm size, individually packed in plastic for a neat and practical wedding giveaway. A thoughtful choice for guests because it can serve as a lasting keepsake of your special day while keeping your chosen photo, design, or message close at hand.",
-
-keywords: [
-    "wooden ref magnet",
-    "wooden magnet",
-    "personalized magnet",
-    "laser engraved magnet",
-    "wedding magnet",
-    "wedding giveaway",
-    "wedding souvenir",
-    "personalized wedding gift",
-    "wedding keepsake",
-    "philia gifts"
-],
-
-inclusions: [
-    "Individual Plastic Packaging",
-    "Custom Backing Card"
-],
-
-addons: [
-    {
-        name: "Upgrade to 10x10 cm",
-        price: 100
-    }
-]
 },
 
 {
