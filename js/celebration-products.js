@@ -1804,4 +1804,87 @@ addons: [
 
 },
 
+{
+    id: 2031,
+    category: "celebration",
+    section: ["gift-set"],
+    page: "product.html?id=2031",
+    name: "Cozy Luxe Set",
+    price: 620,
+    minimumOrder: 5,
+    bestseller: false,
+    images: [
+        "images/products/celebration/cozyluxe/1.webp",
+        "images/products/celebration/cozyluxe/2.webp",
+        "images/products/celebration/cozyluxe/3.webp",
+        "images/products/celebration/cozyluxe/4.webp"
+    ],
+    description: "A cozy and elegant gift set featuring a personalized marble mug and a soft cashmere shawl, beautifully presented in a gift box with ribbon and tag. A thoughtful choice for birthdays, appreciation gifts, and other special celebrations.",
+    keywords: [
+        "cozy luxe set",
+        "marble mug",
+        "cashmere shawl",
+        "gift set",
+        "personalized gift",
+        "birthday gift",
+        "celebration gift",
+        "cozy gift",
+        "elegant gift set",
+        "philia gifts"
+    ],
+    inclusions: [
+        "Gift Box",
+        "Gift Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        },
+        {
+            name: "Name on the Shawl",
+            price: 50
+        }
+    ]
+},
+
+{
+    id: 2032,
+    category: "celebration",
+    section: ["gift-set"],
+    page: "product.html?id=2032",
+    name: "Christening Invitation",
+    price: 160,
+    minimumOrder: 25,
+    bestseller: false,
+    images: [
+        "images/products/celebration/invitation/1.webp",
+        "images/products/celebration/invitation/2.webp",
+        "images/products/celebration/invitation/3.webp",
+        "images/products/celebration/invitation/4.webp"
+    ],
+    description: "A beautifully customized christening invitation featuring a personalized layout of any theme, thoughtfully designed to celebrate your special day.",
+    keywords: [
+        "christening invitation",
+        "baptism invitation",
+        "christening",
+        "baptism",
+        "invitation",
+        "personalized invitation",
+        "christening stationery",
+        "philia gifts"
+    ],
+    inclusions: [
+        "Free Layout",
+        "Up to 4 Pages"
+    ],
+    addons: [
+        {
+            name: "Animated Video Invitation with Voice Over",
+            price: 600
+        }
+    ]
+},
+
 ];
