@@ -542,6 +542,42 @@ document
         return;
     }
 
+    const customer = getCustomerData();
+
+const products = buildProductText();
+
+const total = getGrandTotal();
+
+const formData = new URLSearchParams();
+
+formData.append("fullName", customer.fullName);
+formData.append("facebookName", customer.facebookName);
+formData.append("phone", customer.phone);
+formData.append("email", customer.email);
+formData.append("eventType", customer.eventType);
+formData.append("eventDate", customer.eventDate);
+formData.append("products", products);
+formData.append(
+    "estimatedTotal",
+    "₱" + total.toLocaleString()
+);
+
+fetch(
+    GOOGLE_SCRIPT_URL,
+    {
+        method: "POST",
+        mode: "no-cors",
+        body: formData
+    }
+).catch(error => {
+
+    console.error(
+        "Quotation submission error:",
+        error
+    );
+
+});
+
     const summaryContainer =
         document.getElementById(
             "messengerSummaryItems"
@@ -604,11 +640,11 @@ document
     summaryContainer.innerHTML =
         summaryHTML;
 
-    const total =
-        getGrandTotal();
+const messengerTotal =
+    getGrandTotal();
 
-    summaryTotal.textContent =
-        "₱" + total.toLocaleString();
+summaryTotal.textContent =
+    "₱" + messengerTotal.toLocaleString();
 
     const messengerModal =
         document.getElementById(

@@ -29,6 +29,7 @@ const weddingProducts = [
         name: "Essential Oasis Set",
 
         price: 980,
+        minimumOrder: 5,
 
         bestseller:true,
 
@@ -93,6 +94,7 @@ const weddingProducts = [
         name: "Beauty Boutique Kit",
 
         price: 1650, 
+        minimumOrder: 5,
 
         bestseller:true,
 
@@ -154,6 +156,7 @@ const weddingProducts = [
         name: "Couple Marble",
 
         price: 990,
+        minimumOrder: 5,
 
         bestseller:false,
 
@@ -216,6 +219,7 @@ const weddingProducts = [
         name: "Classic Companion",
 
         price: 1350,
+        minimumOrder: 5,
 
         bestseller:true,
 
@@ -289,6 +293,7 @@ const weddingProducts = [
         name: "Game Night Set",
 
         price: 2100,
+        minimumOrder: 5,
 
         bestseller:true,
 
@@ -359,6 +364,7 @@ const weddingProducts = [
     ],
 
         name: "Nordic Lamp",
+        minimumOrder: 5,
 
         price: 470,
 
@@ -512,6 +518,7 @@ const weddingProducts = [
     name: "Sip in Style Set",
 
     price: 550,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -572,6 +579,7 @@ const weddingProducts = [
         name: "Classic Leather Duo",
 
         price: 850,
+        minimumOrder: 5,
 
         bestseller:false,
 
@@ -644,6 +652,7 @@ const weddingProducts = [
     name: "Rattan Shoulder Bag",
 
     price: 920,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -715,6 +724,7 @@ const weddingProducts = [
     name: "Spin, Sip, Savor Set",
 
     price: 680,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -794,6 +804,7 @@ const weddingProducts = [
     name: "Candle Warmer Lamp",
 
     price: 2150,
+    minimumOrder: 5,
 
 
 
@@ -870,6 +881,7 @@ const weddingProducts = [
     name: "Pour & Enjoy Set",
 
     price: 470,
+    minimumOrder: 5,
 
     bestseller: true,
 
@@ -935,6 +947,7 @@ const weddingProducts = [
     name: "Heritage Bloom Tea Set",
 
     price: 1350,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -1003,6 +1016,7 @@ const weddingProducts = [
     name: "Grand Fleur Tea Set",
 
     price: 1350,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -1071,6 +1085,7 @@ const weddingProducts = [
     name: "The Luxury Duo",
 
     price: 550,
+    minimumOrder: 5,
 
 
     bestseller: false,
@@ -1144,6 +1159,7 @@ const weddingProducts = [
     name: "Gentleman's Heritage Set",
 
     price: 920,
+    minimumOrder: 5,
 
 
     bestseller: false,
@@ -1319,6 +1335,7 @@ const weddingProducts = [
     name: "Rosewood Wine Set",
 
     price: 1700,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -1328,7 +1345,12 @@ const weddingProducts = [
         "images/products/wedding/rosewoodwine/3.webp",
         "images/products/wedding/rosewoodwine/4.webp",
         "images/products/wedding/rosewoodwine/5.webp",
-        "images/products/wedding/rosewoodwine/6.webp"
+        "images/products/wedding/rosewoodwine/6.webp",
+        "images/products/wedding/rosewoodwine/7.webp",
+        "images/products/wedding/rosewoodwine/8.webp",
+        "images/products/wedding/rosewoodwine/9.webp",
+        "images/products/wedding/rosewoodwine/10.webp",
+        
     ],
 
     description: "An elegant personalized rosewood wine gift set featuring a premium wooden wine case with wine accessories, perfect for weddings, sponsors, anniversaries, and special celebrations.",
@@ -1471,6 +1493,7 @@ const weddingProducts = [
     name: "Drape & Dazzle A",
 
     price: 600,
+    minimumOrder: 5,
 
 
     images: [
@@ -1536,6 +1559,7 @@ const weddingProducts = [
     name: "Coffee Set",
 
     price: 520,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -1600,6 +1624,7 @@ const weddingProducts = [
     name: "The Classic Combo",
 
     price: 290,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -1662,6 +1687,7 @@ const weddingProducts = [
     name: "Wine O'Clock",
 
     price: 620,
+    minimumOrder: 5,
 
     bestseller: true,
 
@@ -1791,6 +1817,7 @@ const weddingProducts = [
     name: "Beer Buddy Set",
 
     price: 420,
+    minimumOrder: 5,
 
     images: [
         "images/products/wedding/beerbuddy/1.webp",
@@ -1851,6 +1878,7 @@ const weddingProducts = [
     name: "Calm & Cozy Set",
 
     price: 820,
+    minimumOrder: 5,
 
     images: [
         "images/products/wedding/calm&cozy/1.webp",
@@ -1905,6 +1933,7 @@ const weddingProducts = [
     name: "Warmth & Keep Set",
 
     price: 970,
+    minimumOrder: 5,
 
     images: [
         "images/products/wedding/warmth&keep/1.webp",
@@ -1961,6 +1990,7 @@ const weddingProducts = [
     name: "Classic Reserve Set",
 
     price: 550,
+    minimumOrder: 5,
 
     images: [
         "images/products/wedding/classicreserve/1.webp",
@@ -2015,9 +2045,9 @@ const weddingProducts = [
     ],
 
     name: "Burlap Bag A",
-    
 
     price: 470,
+    minimumOrder: 5,
 
     images: [
         "images/products/wedding/burlapbagA/1.webp",
@@ -2079,6 +2109,7 @@ const weddingProducts = [
     name: "Burlap Bag B",
 
     price: 490,
+    minimumOrder: 5,
 
     images: [
         "images/products/wedding/burlapbagB/1.webp",
@@ -2137,6 +2168,7 @@ const weddingProducts = [
     name: "Lotus Lamp",
 
     price: 750,
+    minimumOrder: 5,
 
     images: [
         "images/products/wedding/lotuslamp/1.webp",
@@ -2246,7 +2278,7 @@ const weddingProducts = [
 
     bestseller: false,
 
-    minimum: 0,
+    minimum: 5,
 
     name: "Passport Holder",
 
@@ -2306,7 +2338,7 @@ const weddingProducts = [
 
     bestseller: false,
 
-    minimum: 0,
+    minimum: 5,
 
     name: "Timber Humidifier",
 
@@ -2374,7 +2406,7 @@ const weddingProducts = [
 
     bestseller: false,
 
-    minimum: 10,
+    minimum: 5,
 
     name: "Coffee Lover's Delight",
 
@@ -2431,9 +2463,9 @@ const weddingProducts = [
 
     bestseller: false,
 
-    minimum: 0,
+    minimum: 5,
 
-    name: "Coast & Toast Set A",
+    name: "Coast & Toast Set",
 
     price: 490,
 
@@ -2500,7 +2532,7 @@ const weddingProducts = [
 
     bestseller: false,
 
-    minimum: 0,
+    minimum: 5,
 
     name: "Cozy Luxe Set",
 
@@ -2624,7 +2656,7 @@ const weddingProducts = [
 
     price: 880,
 
-    minimumOrder: 0,
+    minimumOrder: 5,
 
     bestseller: true,
 
@@ -2782,7 +2814,7 @@ const weddingProducts = [
 
     price: 450,
 
-    minimumOrder: 0,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -2946,7 +2978,7 @@ name: "Aroma Haven Collection",
 
 price: 1450,
 
-minimumOrder: 0,
+minimumOrder: 5,
 
 bestseller: false,
 
@@ -3004,7 +3036,7 @@ name: "Bridesmaid Gift Set A",
 
 price: 1100,
 
-minimumOrder: 0,
+minimumOrder: 5,
 
 bestseller: false,
 
@@ -3156,5 +3188,61 @@ addons: [
 ]
 
 },
+
+{
+id: 54,
+
+category: "wedding",
+
+section: ["gift-set"],
+
+page: "product.html?id=54",
+
+name: "Coffee Cup with Thermal Display",
+
+price: 480,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/wedding/thermalcup/1.webp",
+    "images/products/wedding/thermalcup/2.webp",
+    "images/products/wedding/thermalcup/3.webp",
+    "images/products/wedding/thermalcup/4.webp",
+    "images/products/wedding/thermalcup/5.webp",
+    "images/products/wedding/thermalcup/6.webp"
+],
+
+description: "A personalized coffee cup with a thermal display, designed to keep drinks warm while adding a practical and modern touch to everyday coffee moments. A great choice for wedding guests because it is both useful and memorable, giving them a personalized keepsake they can enjoy long after the celebration.",
+
+keywords: [
+    "coffee cup with thermal display",
+    "thermal coffee cup",
+    "personalized coffee cup",
+    "thermal display cup",
+    "coffee cup gift",
+    "personalized wedding gift",
+    "wedding giveaway",
+    "wedding souvenir",
+    "wedding guest gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Gift Box",
+    "Customized Gift Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Upgrade to Hard Box",
+        price: 150
+    }
+]
+},  
+
 
 ];

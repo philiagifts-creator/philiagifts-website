@@ -102,6 +102,7 @@ const celebrationProducts = [
         name: "Nordic Mug A",
 
         price: 390, 
+        minimumOrder: 5,
 
         bestseller:false,
 
@@ -363,6 +364,7 @@ addons: [
     name: "Nordic Mug B",
 
     price: 380,
+    minimumOrder: 5,
 
     bestseller: true,
 
@@ -669,7 +671,7 @@ addons: [
 
     bestseller: false,
 
-    minimumOrder: 0,
+    minimumOrder: 5,
 
     name: "Cozy Care Kit",
 
@@ -898,7 +900,7 @@ addons: [
 
     bestseller: false,
 
-    minimumOrder: 0,
+    minimumOrder: 5,
 
     name: "Beer Buddy Set",
 
@@ -1636,7 +1638,7 @@ name: "Coffee Set",
 
 price: 520,
 
-minimumOrder: 0,
+minimumOrder: 5,
 
 bestseller: true,
 
@@ -1695,7 +1697,7 @@ name: "Marble Mug",
 
 price: 350,
 
-minimumOrder: 0,
+minimumOrder: 5,
 
 bestseller: false,
 
@@ -1756,7 +1758,7 @@ name: "Wine O'Clock",
 
 price: 620,
 
-minimumOrder: 0,
+minimumOrder: 5,
 
 bestseller: false,
 
