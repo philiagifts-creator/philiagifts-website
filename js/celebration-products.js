@@ -1899,5 +1899,174 @@ addons: [
     ]
 },
 
+{
+    id: 2033,
+    category: "celebration",
+    section: "gift-set",
+    name: "Rotating Mirror",
+    price: 290,
+    bestseller: false,
+    minimumOrder: 5,
+
+    images: [
+        "images/products/celebration/rotatingmirror/1.webp",
+        "images/products/celebration/rotatingmirror/2.webp",
+        "images/products/celebration/rotatingmirror/3.webp",
+        "images/products/celebration/rotatingmirror/4.webp"
+    ],
+
+    description: "A stylish rotating mirror with a wooden stand, perfect as a thoughtful and practical gift for any celebration.",
+
+    inclusions: [
+        "Gift Box",
+        "Customized Gift Tag",
+        "Ribbon",
+        "Free Scrunchy"
+    ],
+
+    addons: [
+        {
+            name: "Name on the Box/Paper Bag",
+            price: 30
+        },
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        },
+    ]
+},
+
+{
+    id: 2034,
+    category: "celebration",
+    section: "gift-set",
+    name: "Desktop Mirror",
+    price: 180,
+    bestseller: false,
+    minimumOrder: 5,
+
+    images: [
+        "images/products/celebration/desktopmirror/1.webp",
+        "images/products/celebration/desktopmirror/2.webp",
+        "images/products/celebration/desktopmirror/3.webp",
+        "images/products/celebration/desktopmirror/4.webp"
+    ],
+
+    description: "A personalized desktop mirror with a sturdy wooden stand, designed for everyday use as a practical vanity or desk accessory and a thoughtful keepsake for any celebration.",
+
+    inclusions: [
+        "Gift Box",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade to Paper Bag Packaging with Name",
+            price: 80
+        },
+    ]
+},
+
+{
+    id: 2035,
+    category: "celebration",
+    section: "gift-set",
+    name: "Burlap Bag w/ Zipper & Pocket",
+    price: 490,
+    bestseller: false,
+    minimumOrder: 5,
+
+    images: [
+        "images/products/celebration/burlapbagA/1.webp",
+        "images/products/celebration/burlapbagA/2.webp",
+        "images/products/celebration/burlapbagA/3.webp",
+        "images/products/celebration/burlapbagA/4.webp"
+    ],
+
+    description: "A versatile burlap tote bag with a zipper and front pocket, finished with a twilly ribbon and personalized paper bag packaging. A practical and stylish everyday bag that makes a useful gift for any celebration.",
+
+    inclusions: [
+        "Twilly Ribbon",
+        "Personalized Paper Bag Packaging"
+    ],
+
+    addons: [ 
+        {
+            name: "Upgrade to Hard Box Packaging with Name",
+            price: 200
+        },
+    ]
+},
+
+{
+    id: 2036,
+    category: "celebration",
+    section: "gift-set",
+    name: "Coffee Cup with Thermal Display",
+    price: 480,
+    bestseller: false,
+    minimumOrder: 5,
+
+    images: [
+        "images/products/celebration/thermaltumbler/1.webp",
+        "images/products/celebration/thermaltumbler/2.webp",
+        "images/products/celebration/thermaltumbler/3.webp",
+        "images/products/celebration/thermaltumbler/4.webp",
+        "images/products/celebration/thermaltumbler/5.webp",
+        "images/products/celebration/thermaltumbler/6.webp",
+        "images/products/celebration/thermaltumbler/7.webp",
+        "images/products/celebration/thermaltumbler/8.webp",
+        "images/products/celebration/thermaltumbler/9.webp",
+        "images/products/celebration/thermaltumbler/10.webp",
+        "images/products/celebration/thermaltumbler/11.webp"
+    ],
+
+    description: "An insulated coffee cup with a thermal display, designed to keep beverages at the desired temperature. A practical everyday drinkware piece that makes a useful and thoughtful gift for any celebration.",
+
+    inclusions: [
+        "Gift Box",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        }
+    ]
+},
+
+{
+    id: 2037,
+    category: "celebration",
+    section: "gift-set",
+    name: "Glass Cup",
+    price: 185,
+    bestseller: true,
+    minimumOrder: 15,
+
+    images: [
+        "images/products/celebration/glasscup/1.webp",
+        "images/products/celebration/glasscup/2.webp",
+        "images/products/celebration/glasscup/3.webp",
+        "images/products/celebration/glasscup/4.webp",
+        "images/products/celebration/glasscup/5.webp",
+        "images/products/celebration/glasscup/6.webp",
+        "images/products/celebration/glasscup/7.webp",
+        "images/products/celebration/glasscup/8.webp",
+        "images/products/celebration/glasscup/9.webp",
+        "images/products/celebration/glasscup/10.webp"
+    ],
+
+    description: "A reusable glass cup with a protective sleeve and lid, designed for enjoying coffee, tea, and other beverages. A practical and stylish everyday drinkware gift for any celebration.",
+
+    inclusions: [
+        "Gift Box",
+        "Customized Gift Tag",
+        "Ribbon"
+    ]
+},
 
 ];
