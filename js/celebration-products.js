@@ -872,7 +872,12 @@ addons: [
         "images/products/celebration/bottleopenermagnet/1.webp",
         "images/products/celebration/bottleopenermagnet/2.webp",
         "images/products/celebration/bottleopenermagnet/3.webp",
-        "images/products/celebration/bottleopenermagnet/4.webp"
+        "images/products/celebration/bottleopenermagnet/4.webp",
+        "images/products/celebration/bottleopenermagnet/5.webp",
+        "images/products/celebration/bottleopenermagnet/6.webp",
+        "images/products/celebration/bottleopenermagnet/7.webp",
+        "images/products/celebration/bottleopenermagnet/8.webp",
+        "images/products/celebration/bottleopenermagnet/9.webp",
     ],
 
     description: "A laser-engraved wooden bottle opener magnet featuring your custom photo or artwork. Finished with an individual presentation card and plastic sleeve, making it a practical keepsake for birthdays, baptisms, and special celebrations.",
@@ -986,7 +991,8 @@ addons: [
         "images/products/celebration/boholamp/3.webp",
         "images/products/celebration/boholamp/4.webp",
         "images/products/celebration/boholamp/5.webp",
-        "images/products/celebration/boholamp/6.webp"
+        "images/products/celebration/boholamp/6.webp",
+        "images/products/celebration/boholamp/7.webp"
     ],
 
     description: "A handcrafted boho-inspired table lamp personalized with your chosen name and beautifully presented in a premium hard box with ribbon and customized gift tag. A distinctive keepsake that adds warmth and natural charm to any space.",
@@ -2068,5 +2074,35 @@ addons: [
         "Ribbon"
     ]
 },
+
+{
+    id: 2038,
+    category: "celebration",
+    section: ["gift-set"],
+    name: "Brew & Breeze",
+    price: 1150,
+    minimumOrder: 5,
+    images: [
+        "images/products/celebration/brewbreeze/1.webp",
+        "images/products/celebration/brewbreeze/2.webp",
+        "images/products/celebration/brewbreeze/3.webp",
+        "images/products/celebration/brewbreeze/4.webp",
+        "images/products/celebration/brewbreeze/5.webp"
+    ],
+    description: "A coffee insulated cup paired with an LED handfan, presented in a hard box for a practical and thoughtful gift that can be used daily at home, work, or on the go.",
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        },
+
+    ]
+},
+
 
 ];
