@@ -3256,17 +3256,17 @@ addons: [
     minimumOrder: 5,
     bestseller: false,
     images: [
-        "images/products/wedding/glasscupwopener/1.webp",
-        "images/products/wedding/glasscupwopener/2.webp",
-        "images/products/wedding/glasscupwopener/3.webp",
-        "images/products/wedding/glasscupwopener/4.webp",
-        "images/products/wedding/glasscupwopener/5.webp",
-        "images/products/wedding/glasscupwopener/6.webp",
-        "images/products/wedding/glasscupwopener/7.webp",
-        "images/products/wedding/glasscupwopener/8.webp",
-        "images/products/wedding/glasscupwopener/9.webp",
-        "images/products/wedding/glasscupwopener/10.webp",
-        "images/products/wedding/glasscupwopener/11.webp"
+        "images/products/wedding/glasscupwopener/1.jpg",
+        "images/products/wedding/glasscupwopener/2.jpg",
+        "images/products/wedding/glasscupwopener/3.jpg",
+        "images/products/wedding/glasscupwopener/4.jpg",
+        "images/products/wedding/glasscupwopener/5.jpg",
+        "images/products/wedding/glasscupwopener/6.jpg",
+        "images/products/wedding/glasscupwopener/7.jpg",
+        "images/products/wedding/glasscupwopener/8.jpg",
+        "images/products/wedding/glasscupwopener/9.jpg",
+        "images/products/wedding/glasscupwopener/10.jpg",
+        "images/products/wedding/glasscupwopener/11.jpg"
     ],
     description: "A personalized glass cup with bottle opener magnet, beautifully packaged in a gift box with ribbon and tag. A practical and stylish keepsake perfect for weddings and special celebrations.",
     keywords: [
@@ -3408,10 +3408,10 @@ addons: [
     minimumOrder: 5,
 
     images: [
-        "images/products/wedding/groomsmengiftset/1.webp",
-        "images/products/wedding/groomsmengiftset/2.webp",
-        "images/products/wedding/groomsmengiftset/3.webp",
-        "images/products/wedding/groomsmengiftset/4.webp"
+        "images/products/wedding/groomsmengiftset/1.jpg",
+        "images/products/wedding/groomsmengiftset/2.jpg",
+        "images/products/wedding/groomsmengiftset/3.jpg",
+        "images/products/wedding/groomsmengiftset/4.jpg"
     ],
 
     description: "A thoughtful groomsman gift set featuring a personalized shirt, notebook, handkerchief, and shades with pouch, beautifully arranged for your special celebration.",
@@ -3433,5 +3433,7 @@ addons: [
         },
     ]
 },
+
+
 
 ];

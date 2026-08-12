@@ -1194,5 +1194,282 @@ const corporateProducts = [
     ]
 },
 
+{
+    id: 1020,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1020",
+
+    name: "Luxury Metal Pen Set",
+
+    price: 320,
+
+    minimumOrder: 50,
+
+    images: [
+        "images/products/corporate/luxurymetalpen/1.webp",
+        "images/products/corporate/luxurymetalpen/2.webp",
+        "images/products/corporate/luxurymetalpen/3.webp"
+    ],
+
+    description: "A premium metal pen set featuring smooth-flowing ink and 2 refill cartridges, beautifully presented in an elegant gift box. A practical and sophisticated gift for corporate events, clients, employees, and business partners.",
+
+    keywords: [
+        "luxury metal pen set",
+        "corporate gift set",
+        "premium pen set",
+        "corporate giveaway",
+        "executive gift",
+        "business gift",
+        "client gift",
+        "employee appreciation",
+        "office gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Box with logo",
+        "2pcs Refills"
+    ],
+
+    addons: [
+    ]
+},
+
+{
+    id: 1021,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1021",
+
+    name: "Customized Coffee Mug",
+
+    price: 175,
+
+    minimumOrder: 50,
+
+    images: [
+        "images/products/corporate/mug/1.webp",
+        "images/products/corporate/mug/2.webp",
+        "images/products/corporate/mug/3.webp",
+        "images/products/corporate/mug/4.webp",
+        "images/products/corporate/mug/5.webp",
+        "images/products/corporate/mug/6.webp",
+        "images/products/corporate/mug/7.webp"
+    ],
+
+    description: "A classic ceramic coffee mug customized with your logo, beautifully presented in a window box. A practical and versatile corporate gift for employees, clients, business partners, and special events.",
+
+    keywords: [
+        "customized coffee mug",
+        "corporate gift",
+        "corporate giveaway",
+        "custom mug",
+        "logo mug",
+        "branded mug",
+        "employee gift",
+        "client gift",
+        "business gift",
+        "corporate event giveaway",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Customized with Logo",
+        "Window Box"
+    ],
+
+    addons: [
+    ]
+},
+
+{
+    id: 1022,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1022",
+
+    name: "Nordic Mug",
+
+    price: 380,
+
+    minimumOrder: 25,
+
+    bestseller: true,
+
+    images: [
+        "images/products/corporate/nordicmugA/1.webp",
+        "images/products/corporate/nordicmugA/2.webp",
+        "images/products/corporate/nordicmugA/3.webp",
+        "images/products/corporate/nordicmugA/4.webp",
+        "images/products/corporate/nordicmugA/5.webp",
+        "images/products/corporate/nordicmugA/6.webp",
+        "images/products/corporate/nordicmugA/7.webp",
+        "images/products/corporate/nordicmugA/8.webp",
+        "images/products/corporate/nordicmugA/9.webp",
+        "images/products/corporate/nordicmugA/10.webp"
+    ],
+
+    description: "A stylish Nordic mug with a wooden lid and spoon, beautifully presented in a gift box. A practical and elegant drinkware gift for employees, clients, business partners, and corporate events.",
+
+    keywords: [
+        "nordic mug",
+        "corporate gift",
+        "corporate giveaway",
+        "wooden lid mug",
+        "coffee mug",
+        "premium corporate gift",
+        "employee gift",
+        "client gift",
+        "business gift",
+        "corporate event giveaway",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Lid Engraving",
+            price: 30
+        },
+        {
+            name: "Coffee Pack",
+            price: 55
+        },
+        {
+            name: "Upgrade to Hard Box",
+            price: 120
+        }
+    ]
+},
+
+{
+    id: 1023,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1023",
+
+    name: "Marble Mug",
+
+    price: 360,
+
+    minimumOrder: 25,
+
+    bestseller: false,
+
+    images: [
+        "images/products/corporate/marblemug/1.webp",
+        "images/products/corporate/marblemug/2.webp",
+        "images/products/corporate/marblemug/3.webp",
+        "images/products/corporate/marblemug/4.webp",
+        "images/products/corporate/marblemug/5.webp",
+        "images/products/corporate/marblemug/6.webp",
+        "images/products/corporate/marblemug/7.webp"
+    ],
+
+    description: "A stylish marble-finish mug customized with your logo, paired with a gift box for an elegant presentation. A practical and thoughtful gift for clients, employees, business partners, and special occasions.",
+
+    keywords: [
+        "marble mug",
+        "customized mug",
+        "personalized mug",
+        "corporate gift",
+        "corporate giveaway",
+        "gift mug",
+        "premium mug",
+        "employee gift",
+        "client gift",
+        "business gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Stirring Spoon",
+            price: 35
+        },
+        {
+            name: "Coffee Pack",
+            price: 55
+        },
+        {
+            name: "Upgrade to Hard Box",
+            price: 120
+        }
+    ]
+},
+
+{
+    id: 1024,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1024",
+
+    name: "Office Elite Set",
+
+    price: 1150,
+
+    minimumOrder: 10,
+
+    images: [
+        "images/products/corporate/officeelite/1.webp",
+        "images/products/corporate/officeelite/2.webp",
+        "images/products/corporate/officeelite/3.webp",
+        "images/products/corporate/officeelite/4.webp",
+        "images/products/corporate/officeelite/5.webp",
+        "images/products/corporate/officeelite/6.webp"
+    ],
+
+    description: "A refined corporate gift set featuring a leather pouch, leather pencil case, and metal pen set, thoughtfully arranged in a premium hard box. A practical and sophisticated gift for executives, clients, employees, and business partners.",
+
+    keywords: [
+        "office elite set",
+        "corporate gift set",
+        "executive gift",
+        "leather gift set",
+        "leather pouch",
+        "leather pencil case",
+        "sign pen set",
+        "corporate giveaway",
+        "client gift",
+        "employee appreciation",
+        "business gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Customized with Logo",
+        "Hard Box Packaging"
+    ],
+
+    addons: [
+    ]
+},
 
 ];
