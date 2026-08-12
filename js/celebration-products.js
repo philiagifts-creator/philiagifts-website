@@ -49,6 +49,11 @@ const celebrationProducts = [
         "images/products/celebration/clock/14.webp",
         "images/products/celebration/clock/15.webp",
         "images/products/celebration/clock/16.webp",
+        "images/products/celebration/clock/17.webp",
+        "images/products/celebration/clock/18.webp",
+        "images/products/celebration/clock/19.webp",
+        "images/products/celebration/clock/20.webp",
+        "images/products/celebration/clock/21.webp",
 
         ],
         description: "Featuring a personalized wooden desk clock with your chosen photo, name, and engraved message, this meaningful keepsake beautifully captures life's most treasured moments—creating a timeless gift your loved ones will proudly display and cherish for years to come.",
@@ -371,7 +376,14 @@ addons: [
     images: [
         "images/products/celebration/mug2/1.webp",
         "images/products/celebration/mug2/2.webp",
-        "images/products/celebration/mug2/3.webp"
+        "images/products/celebration/mug2/3.webp",
+        "images/products/celebration/mug2/4.webp",
+        "images/products/celebration/mug2/5.webp",
+        "images/products/celebration/mug2/6.webp",
+        "images/products/celebration/mug2/7.webp",
+        "images/products/celebration/mug2/8.webp",
+        "images/products/celebration/mug2/9.webp",
+        "images/products/celebration/mug2/10.webp",
     ],
 
     description: "Featuring a personalized Nordic ceramic mug with a wooden lid and matching stirrer, this elegant gift set is beautifully presented in a gift box, making it a practical keepsake your guests will enjoy long after the celebration.",
@@ -1886,5 +1898,6 @@ addons: [
         }
     ]
 },
+
 
 ];

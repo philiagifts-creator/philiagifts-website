@@ -3101,7 +3101,9 @@ images: [
     "images/products/wedding/invitation/4.webp",
     "images/products/wedding/invitation/5.webp",
     "images/products/wedding/invitation/6.webp",
-    "images/products/wedding/invitation/7.webp"
+    "images/products/wedding/invitation/7.webp",
+    "images/products/wedding/invitation/8.webp",
+    "images/products/wedding/invitation/9.webp",
 ],
 
 description: "A beautifully designed wedding invitation with a personalized layout, created to introduce your special day with an elegant and memorable presentation. A lovely choice for couples who want their invitations to reflect their wedding theme and give guests a meaningful first glimpse of the celebration.",
@@ -3244,5 +3246,192 @@ addons: [
 ]
 },  
 
+{
+    id: 55,
+    category: "wedding",
+    section: ["gift-set"],
+    page: "product.html?id=55",
+    name: "Glass Cup w/ Bottle Opener Magnet",
+    price: 350,
+    minimumOrder: 5,
+    bestseller: false,
+    images: [
+        "images/products/wedding/glasscupwopener/1.webp",
+        "images/products/wedding/glasscupwopener/2.webp",
+        "images/products/wedding/glasscupwopener/3.webp",
+        "images/products/wedding/glasscupwopener/4.webp",
+        "images/products/wedding/glasscupwopener/5.webp",
+        "images/products/wedding/glasscupwopener/6.webp",
+        "images/products/wedding/glasscupwopener/7.webp",
+        "images/products/wedding/glasscupwopener/8.webp",
+        "images/products/wedding/glasscupwopener/9.webp",
+        "images/products/wedding/glasscupwopener/10.webp",
+        "images/products/wedding/glasscupwopener/11.webp"
+    ],
+    description: "A personalized glass cup with bottle opener magnet, beautifully packaged in a gift box with ribbon and tag. A practical and stylish keepsake perfect for weddings and special celebrations.",
+    keywords: [
+        "glass cup",
+        "bottle opener magnet",
+        "glass cup giveaway",
+        "wedding giveaway",
+        "personalized glass cup",
+        "wedding souvenir",
+        "personalized souvenir",
+        "gift box",
+        "wedding gift",
+        "philia gifts"
+    ],
+    inclusions: [
+        "Gift Box", 
+        "Customized Gift Tag", 
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Hard Box with Name",
+            price: 150
+        },
+    ]
+},
+
+{
+id: 56,
+
+category: "wedding",
+
+section: ["gift-set"],
+
+page: "product.html?id=55",
+
+name: "Whiskey Gift Set",
+
+price: 1950,
+
+bestseller: false,
+
+images: [
+    "images/products/wedding/whiskeyset/1.webp",
+    "images/products/wedding/whiskeyset/2.webp",
+    "images/products/wedding/whiskeyset/3.webp",
+    "images/products/wedding/whiskeyset/4.webp",
+    "images/products/wedding/whiskeyset/5.webp",
+    "images/products/wedding/whiskeyset/6.webp",
+    "images/products/wedding/whiskeyset/7.webp",
+    "images/products/wedding/whiskeyset/8.webp",
+    "images/products/wedding/whiskeyset/9.webp",
+    "images/products/wedding/whiskeyset/10.webp"
+],
+
+description: "A personalized whiskey gift set featuring a wooden box, two whiskey glasses, ice stones, tongs, and a bottle of blended Scotch. A sophisticated choice for wedding gifting, especially for guests or loved ones who appreciate a refined drinkware set that can be enjoyed and kept as a lasting memento of the celebration.",
+
+keywords: [
+    "whiskey gift set",
+    "whiskey set",
+    "whiskey glass set",
+    "personalized whiskey gift",
+    "wooden whiskey box",
+    "whiskey glasses",
+    "blended scotch",
+    "wedding gift",
+    "wedding giveaway",
+    "personalized wedding gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Hard Box with Name",
+    "Customized Gift Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Dried Flower Bouquet",
+        price: 100
+    }
+]
+
+},
+
+{
+    id: 57,
+    category: "wedding",
+    section: ["gift-set"],
+    page: "product.html?id=57",
+    name: "Gentleman's Daily Kit",
+    price: 1150,
+    minimumOrder: 5,
+    bestseller: false,
+    images: [
+        "images/products/wedding/gentlemansdailykit/1.webp",
+        "images/products/wedding/gentlemansdailykit/2.webp",
+        "images/products/wedding/gentlemansdailykit/3.webp"
+    ],
+    description: "A practical and stylish gift set featuring an insulated coffee cup with thermal display, wooden swiss knife, and leather belt, thoughtfully arranged in premium hard box packaging.",
+    keywords: [
+        "gentleman's daily kit",
+        "gentleman gift set",
+        "men's gift set",
+        "wedding gift",
+        "wedding giveaway",
+        "insulated coffee cup",
+        "thermal display",
+        "swiss knife",
+        "belt",
+        "personalized gift",
+        "philia gifts"
+    ],
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
+    id: 58,
+    category: "wedding",
+    section: "gift-set",
+    name: "Groomsman Gift Set A",
+    price: 1100,
+    bestseller: false,
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/groomsmengiftset/1.webp",
+        "images/products/wedding/groomsmengiftset/2.webp",
+        "images/products/wedding/groomsmengiftset/3.webp",
+        "images/products/wedding/groomsmengiftset/4.webp"
+    ],
+
+    description: "A thoughtful groomsman gift set featuring a personalized shirt, notebook, handkerchief, and shades with pouch, beautifully arranged for your special celebration.",
+
+    inclusions: [
+        "Paper Bag Packaging",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        },
+        {
+            name: "Upgrade to Hard Box",
+            price: 200
+        },
+    ]
+},
 
 ];
