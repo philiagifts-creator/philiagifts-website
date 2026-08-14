@@ -320,13 +320,29 @@ DESKTOP DROPDOWN
 
 .hero-content{
     width:100%;
-    font-size:25px;
+    
     max-width:1000px;
     margin:0 auto;
     text-align:center;
-    font-family: "Parisienne", cursive;
+   
     color: #6f4a36;
 
+}
+
+.hero-content h2 {
+    margin: 0 0 20px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #8b6248;
+}
+
+.hero-content h1 {
+    margin: 0 0 10px;
+     font-family: "Parisienne", cursive;
+     font-size:35px;
 }
 
 .hero-description{
@@ -335,6 +351,7 @@ DESKTOP DROPDOWN
     max-width:1000px;
     margin-bottom: 50px;
     font-family: "Cormorant Garamond", serif;
+    display:block;
 }
 
 .btn{
@@ -367,7 +384,7 @@ REVIEWS
 
     width:100%;
 
-    padding:100px 0;
+    padding:60px 0;
 
     overflow:hidden;
 
@@ -629,7 +646,7 @@ REVIEWS
     font-family:'Comorant Garamond',serif;
     font-size:42px;
     color:#3A2C22;
-    margin-bottom:45px;
+    margin-bottom:20px;
     margin-top:15px;
 }
 
@@ -725,7 +742,7 @@ REVIEWS
 
     background-repeat:no-repeat;
 
-   padding:80px 60px;
+   padding:30px 60px;
 
     border-radius:0;
     opacity: 10px;
@@ -943,7 +960,7 @@ BUILD YOUR OWN GIFT SET
 
     width:100%;
 
-    padding:100px 0;
+    padding:40px 0;
 
     overflow:hidden;
 
@@ -1055,7 +1072,7 @@ border:1px solid #F3E8D8;
 
     text-align:center;
 
-    margin-top:60px;
+    margin-top:20px;
 
 }
 .secondary-btn{
@@ -6864,6 +6881,22 @@ body{
 
 }
 
+.hero-content h2 {
+    margin: 0 0 20px;
+    font-family: inherit;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #8b6248;
+}
+
+.hero-content h1 {
+    margin: 0 0 10px;
+     font-family: "Parisienne", cursive;
+     font-size:25px;
+}
+
 .hero-description{
 
     font-size:18px;
@@ -7171,7 +7204,7 @@ COLLECTIONS
 
     position: relative;
 
-    padding: 70px 0;
+    padding: 20px 0;
 
 }
 
@@ -7194,7 +7227,7 @@ COLLECTIONS
 
 .section-title{
 
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 
     text-align: center;
 
@@ -7493,6 +7526,7 @@ border-radius: 0;
     display: flex;
 
     justify-content: center;
+    margin:20px 0 20px;
 
 }
 
@@ -7584,7 +7618,7 @@ CUSTOMER REVIEWS
     margin:0
 
     border-radius:20px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-bottom: 40px;
 
 }
