@@ -698,15 +698,24 @@ const corporateProducts = [
 
     name: "Wooden Desk Clock",
 
-    price: 320,
+    price: 350,
 
-    minimumOrder: 10,
+    minimumOrder: 15,
 
     bestseller: false,
 
     images: [
         "images/products/corporate/deskclock/1.webp",
-        "images/products/corporate/deskclock/2.webp"
+        "images/products/corporate/deskclock/2.webp",
+        "images/products/corporate/deskclock/3.webp",
+        "images/products/corporate/deskclock/4.webp",
+        "images/products/corporate/deskclock/5.webp",
+        "images/products/corporate/deskclock/6.webp",
+        "images/products/corporate/deskclock/7.webp",
+        "images/products/corporate/deskclock/8.webp",
+        "images/products/corporate/deskclock/9.webp",
+        "images/products/corporate/deskclock/10.webp",
+        "images/products/corporate/deskclock/11.webp",
     ],
 
     description: "A custom wooden desk clock crafted to add warmth and functionality to any workspace. Beautifully engraved with your logo or message and presented in a gift box with customized tag and ribbon, it's a practical keepsake that reminds recipients of your brand every day.",
@@ -721,19 +730,14 @@ const corporateProducts = [
 
     addons: [
         {
-            name: "Abaca Bag with Customized Tag and Ribbon",
-            price: 100
+            name: "Change packaging to Abaca Bag",
+            price: 80
         },
 
         {
             name: "Upgrade to Hard Box",
-            price: 100
+            price: 120
         },
-
-        {
-            name: "Dried Flower Bouquet",
-            price: 100
-        }
     ]
 },
 
@@ -784,7 +788,9 @@ const corporateProducts = [
         "images/products/corporate/Coaster/4.webp",
         "images/products/corporate/Coaster/5.webp",
         "images/products/corporate/Coaster/6.webp",
-        "images/products/corporate/Coaster/7.webp"
+        "images/products/corporate/Coaster/7.webp",
+        "images/products/corporate/Coaster/8.webp",
+        "images/products/corporate/Coaster/9.webp",
     ],
 
     description: "Crafted from natural wood and laser engraved with your logo, this premium coaster combines everyday functionality with lasting brand visibility. A thoughtful and eco-friendly corporate giveaway for clients, employees, and events.",
@@ -1170,7 +1176,15 @@ const corporateProducts = [
     images: [
         "images/products/corporate/chessgiftset/1.webp",
         "images/products/corporate/chessgiftset/2.webp",
-        "images/products/corporate/chessgiftset/3.webp"
+        "images/products/corporate/chessgiftset/3.webp",
+        "images/products/corporate/chessgiftset/4.webp",
+        "images/products/corporate/chessgiftset/5.webp",
+        "images/products/corporate/chessgiftset/6.webp",
+        "images/products/corporate/chessgiftset/7.webp",
+        "images/products/corporate/chessgiftset/8.webp",
+        "images/products/corporate/chessgiftset/9.webp",
+        "images/products/corporate/chessgiftset/10.webp",
+       
     ],
 
     description: "A premium personalized chess gift set featuring a chess board, chess pieces, wine stopper, wine ring, wine pourer, and wine corkscrew, beautifully packaged in a gift box. - Size: 15 x 17 cm ",
@@ -1471,6 +1485,269 @@ const corporateProducts = [
     inclusions: [
         "Customized with Logo",
         "Hard Box Packaging"
+    ],
+
+    addons: [
+    ]
+},
+
+{
+    id: 1025,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1025",
+
+    name: "Professional Prep Kit",
+
+    price: 980,
+
+    minimumOrder: 10,
+
+    images: [
+        "images/products/corporate/profprepkit/1.webp",
+        "images/products/corporate/profprepkit/2.webp",
+        "images/products/corporate/profprepkit/3.webp",
+        "images/products/corporate/profprepkit/4.webp",
+        "images/products/corporate/profprepkit/5.webp",
+        "images/products/corporate/profprepkit/6.webp",
+        "images/products/corporate/profprepkit/7.webp"
+    ],
+
+    description: "A practical professional gift set featuring a tumbler and a mini umbrella with UV protection, thoughtfully arranged in a premium hard box. A useful and stylish gift for employees, clients, business partners, and corporate events.",
+
+    keywords: [
+        "professional prep kit",
+        "corporate gift set",
+        "tumbler gift set",
+        "mini umbrella",
+        "UV protection umbrella",
+        "corporate giveaway",
+        "executive gift",
+        "employee gift",
+        "client gift",
+        "business gift",
+        "premium gift set",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box Packaging",
+        "Ribbon"
+    ],
+
+    addons: [
+    ]
+},
+
+{
+    id: 1026,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1026",
+
+    name: "Lotus Lamp",
+
+    price: 750,
+
+    minimumOrder: 10,
+
+    images: [
+        "images/products/corporate/lotuslamp/1.webp",
+        "images/products/corporate/lotuslamp/2.webp",
+        "images/products/corporate/lotuslamp/3.webp",
+        "images/products/corporate/lotuslamp/4.webp"
+    ],
+
+    description: "A decorative lotus-shaped lamp with a warm, soothing glow and a wooden base customized with a name. Beautifully presented in a hard box, it makes a thoughtful keepsake for clients, employees, business partners, and special occasions.",
+
+    keywords: [
+        "lotus lamp",
+        "decorative lamp",
+        "customized lamp",
+        "corporate gift",
+        "corporate giveaway",
+        "premium gift",
+        "keepsake gift",
+        "desk lamp",
+        "client gift",
+        "employee gift",
+        "business gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box Packaging",
+        "Ribbon"
+    ],
+
+    addons: [
+    ]
+},
+
+{
+    id: 1027,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1027",
+
+    name: "Corporate Coffee Set",
+
+    price: 1350,
+
+    minimumOrder: 10,
+
+    bestseller: true,
+
+    images: [
+        "images/products/corporate/coffeelovers/1.webp",
+        "images/products/corporate/coffeelovers/2.webp",
+        "images/products/corporate/coffeelovers/3.webp",
+        "images/products/corporate/coffeelovers/4.webp"
+    ],
+
+    description: "A premium coffee gift set featuring a Nordic mug, coffee press, coffee pack, and acacia coaster, beautifully arranged in a gift box. A thoughtful and practical gift for clients, employees, business partners, and corporate occasions.",
+
+    keywords: [
+        "corporate coffee set",
+        "coffee gift set",
+        "nordic mug",
+        "coffee press",
+        "coffee pack",
+        "acacia coaster",
+        "corporate gift",
+        "corporate giveaway",
+        "client gift",
+        "employee appreciation",
+        "business gift",
+        "premium gift set",
+        "philia gifts"
+    ],
+
+    inclusions: [
+
+        "Hard Box Packaging",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+    ]
+},
+
+{
+    id: 1028,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1028",
+
+    name: "Essential Oasis Set",
+
+    price: 980,
+
+    minimumOrder: 10,
+
+    bestseller: true,
+
+    images: [
+        "images/products/corporate/essentialoasis/1.webp",
+        "images/products/corporate/essentialoasis/2.webp",
+        "images/products/corporate/essentialoasis/3.webp",
+        "images/products/corporate/essentialoasis/4.webp",
+        "images/products/corporate/essentialoasis/5.webp",
+        "images/products/corporate/essentialoasis/6.webp",
+        "images/products/corporate/essentialoasis/7.webp"
+    ],
+
+    description: "A relaxing wellness gift set featuring a humidifier, essential oil, reed aroma diffuser, and alcohol sprayer, thoughtfully arranged in a gift box. A refreshing and practical gift for clients, employees, business partners, and corporate occasions.",
+
+    keywords: [
+        "essential oasis set",
+        "corporate gift set",
+        "wellness gift set",
+        "humidifier gift set",
+        "essential oil",
+        "reed aroma diffuser",
+        "alcohol sprayer",
+        "corporate giveaway",
+        "client gift",
+        "employee appreciation",
+        "business gift",
+        "premium gift set",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box Packaging",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+    ]
+},
+
+{
+    id: 1029,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1029",
+
+    name: "Cozy Corner Set",
+
+    price: 1350,
+
+    minimumOrder:10,
+
+    bestseller: true,
+
+    images: [
+        "images/products/corporate/cozycorner/1.webp",
+        "images/products/corporate/cozycorner/2.webp",
+        "images/products/corporate/cozycorner/3.webp",
+        "images/products/corporate/cozycorner/4.webp",
+        "images/products/corporate/cozycorner/5.webp",
+        "images/products/corporate/cozycorner/6.webp",
+        "images/products/corporate/cozycorner/7.webp",
+        "images/products/corporate/cozycorner/8.webp"
+    ],
+
+    description: "A cozy and thoughtful gift set featuring a Nordic mug, soft cashmere shawl, scented soy candle, beautifully arranged in a gift box. A comforting gift perfect for clients, employees, business partners, and special corporate occasions.",
+
+    keywords: [
+        "cozy corner set",
+        "corporate gift set",
+        "cozy gift set",
+        "Nordic mug",
+        "cashmere shawl",
+        "scented soy candle",
+        "coffee in a jar",
+        "corporate giveaway",
+        "client gift",
+        "employee appreciation",
+        "business gift",
+        "premium gift set",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box Packaging",
+        "Customized Gift Tag",
+        "Ribbon"
     ],
 
     addons: [
