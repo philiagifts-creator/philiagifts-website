@@ -717,6 +717,126 @@ addons: [
 },
 
 {
+    id: 61,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=61",
+
+    name: "Team Bride Prep Kit",
+
+    price: 1300,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/bridesmaidgift/1.webp",
+        "images/products/wedding/bridesmaidgift/2.webp",
+        "images/products/wedding/bridesmaidgift/3.webp",
+        "images/products/wedding/bridesmaidgift/4.webp",
+        "images/products/wedding/bridesmaidgift/5.webp",
+        "images/products/wedding/bridesmaidgift/6.webp",
+        "images/products/wedding/bridesmaidgift/7.webp"
+    ],
+
+    description: "A thoughtful bridesmaid gift set featuring a personalized silk robe, fluffy slippers, compact mirror, and scrunchy, beautifully arranged for a stylish and relaxing experience. A perfect gift for bridesmaids and members of the wedding entourage.",
+
+    keywords: [
+        "bridesmaid gift set",
+        "bridesmaid",
+        "wedding gift set",
+        "bridesmaid gift",
+        "wedding entourage gift",
+        "personalized silk robe",
+        "fluffy slippers",
+        "compact mirror",
+        "scrunchy",
+        "bridal party gift",
+        "personalized wedding gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Paper Bag Packaging",
+        "Customized Tag",
+        "Ribbon and Tag"
+    ],
+
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        },
+        {
+            name: "Upgrade to Hard Box Packaging",
+            price: 250
+        },
+    
+    ]
+},
+
+{
+    id: 62,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=62",
+
+    name: "Groomsmen Gift Set B",
+
+    price: 1300,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/groomsmengift/1.webp",
+        "images/products/wedding/groomsmengift/2.webp",
+        "images/products/wedding/groomsmengift/3.webp",
+        "images/products/wedding/groomsmengift/5.webp",
+        "images/products/wedding/groomsmengift/6.webp",
+        "images/products/wedding/groomsmengift/7.webp",
+        "images/products/wedding/groomsmengift/8.webp",
+        "images/products/wedding/groomsmengift/9.webp"
+    ],
+
+    description: "A practical and stylish groomsmen gift set featuring a personalized shirt, shorts, handkerchief, and shades with pouch. A thoughtful gift perfect for groomsmen and members of the wedding entourage.",
+
+    keywords: [
+        "groomsmen gift set",
+        "groomsmen gift set B",
+        "groomsmen gift",
+        "wedding gift set",
+        "wedding entourage gift",
+        "personalized shirt",
+        "personalized groomsmen gift",
+        "groomsmen shirt",
+        "shades with pouch",
+        "wedding giveaway",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Paper Bag Packaging",
+        "Ribbon and Tag"
+    ],
+
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        },
+        {
+            name: "Upgrade to Hard Box Packaging",
+            price: 250
+        },
+    ]
+},
+
+{
     id: 57,
     category: "wedding",
     section: ["gift-set"],
@@ -758,6 +878,57 @@ addons: [
 },
 
 {
+    id: 59,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=59",
+
+    name: "Blush & Bloom Set",
+
+    price: 1150,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/blush&bloomset/1.webp",
+        "images/products/wedding/blush&bloomset/2.webp",
+        "images/products/wedding/blush&bloomset/3.webp"
+    ],
+
+    description: "A charming personalized gift set featuring an insulated coffee cup with thermal display, cashmere shawl, and jewelry box, beautifully arranged for a thoughtful presentation. A practical and elegant gift perfect for bridesmaids, wedding entourage, and special celebrations.",
+
+    keywords: [
+        "blush and bloom set",
+        "wedding gift set",
+        "bridesmaid gift",
+        "wedding entourage gift",
+        "insulated coffee cup",
+        "thermal display cup",
+        "cashmere shawl",
+        "jewelry box",
+        "personalized gift",
+        "bridal gift",
+        "wedding giveaway",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
 id: 49,
 
 category: "wedding",
@@ -766,7 +937,7 @@ section: ["gift-set"],
 
 page: "product.html?id=49",
 
-name: "Bridesmaid Gift Set A",
+name: "Bridesmaid Gift Set",
 
 price: 1100,
 
@@ -815,7 +986,7 @@ addons: [
     id: 58,
     category: "wedding",
     section: "gift-set",
-    name: "Groomsman Gift Set A",
+    name: "Groomsman Gift Set",
     price: 1100,
     bestseller: false,
     minimumOrder: 5,
@@ -1400,6 +1571,61 @@ addons: [
         }
     ]
 },
+
+{
+    id: 60,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=60",
+
+    name: "Boho Lamp",
+
+    price: 780,
+
+    minimumOrder: 10,
+
+    images: [
+        "images/products/wedding/boholamp/1.webp",
+        "images/products/wedding/boholamp/2.webp",
+        "images/products/wedding/boholamp/3.webp",
+        "images/products/wedding/boholamp/4.webp",
+        "images/products/wedding/boholamp/5.webp",
+        "images/products/wedding/boholamp/6.webp",
+        "images/products/wedding/boholamp/7.webp",
+        "images/products/wedding/boholamp/8.webp",
+        "images/products/wedding/boholamp/9.webp",
+        "images/products/wedding/boholamp/10.webp"
+    ],
+
+    description: "A beautifully handcrafted boho lamp featuring a woven lamp shade and wooden base, personalized with a name and thoughtfully packaged in a hard box. A warm and decorative gift perfect for wedding entourage, newlyweds, and special celebrations.",
+
+    keywords: [
+        "boho lamp",
+        "wedding gift",
+        "wedding gift set",
+        "wedding entourage gift",
+        "personalized lamp",
+        "decorative lamp",
+        "boho decor",
+        "personalized gift",
+        "bridesmaid gift",
+        "wedding giveaway",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+    ]
+},
+
 
 {
     id: 11,
@@ -2576,7 +2802,11 @@ addons: [
         "images/products/wedding/beerbuddy/3.webp",
         "images/products/wedding/beerbuddy/4.webp",
         "images/products/wedding/beerbuddy/5.webp",
-        "images/products/wedding/beerbuddy/6.webp"
+        "images/products/wedding/beerbuddy/6.webp",
+        "images/products/wedding/beerbuddy/7.webp",
+        "images/products/wedding/beerbuddy/8.webp",
+        "images/products/wedding/beerbuddy/9.webp",
+        "images/products/wedding/beerbuddy/10.webp",
     ],
 
     description: "Designed for the gentlemen who have been part of your journey, this personalized Beer Buddy Set pairs a classic beer mug with a customized bottle opener in a stylish gift box—perfect for groomsmen, best men, ninongs, fathers, and friends.",
