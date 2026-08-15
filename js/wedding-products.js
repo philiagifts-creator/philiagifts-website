@@ -1366,7 +1366,8 @@ addons: [
         "images/products/wedding/chessgiftset/4.webp",
         "images/products/wedding/chessgiftset/5.webp",
         "images/products/wedding/chessgiftset/6.webp",
-        "images/products/wedding/chessgiftset/7.webp"
+        "images/products/wedding/chessgiftset/7.webp",
+        "images/products/wedding/chessgiftset/8.webp",
     ],
 
     description: "A personalized chess gift set featuring a chess board, chess pieces, wine stopper, wine ring, wine pourer, and wine corkscrew, beautifully presented in a hard box with a name, ribbon, and tag.  - Size: 15 x 17 cm ",
@@ -1626,6 +1627,53 @@ addons: [
     ]
 },
 
+{
+    id: 63,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=63",
+
+    name: "Chic & Dazzle Set",
+
+    price: 730,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/chicndazzle/1.webp",
+        "images/products/wedding/chicndazzle/2.webp",
+        "images/products/wedding/chicndazzle/3.webp",
+        "images/products/wedding/chicndazzle/4.webp"
+    ],
+
+    description: "An elegant personalized gift set featuring a jewelry organizer, paddle mirror, and necklace, beautifully arranged in a gift box. A stylish and practical keepsake perfect for bridesmaids, wedding entourage, and special celebrations.",
+
+    keywords: [
+        "chic and dazzle set",
+        "wedding gift set",
+        "bridesmaid gift",
+        "wedding entourage gift",
+        "jewelry organizer",
+        "paddle mirror",
+        "necklace",
+        "personalized gift",
+        "bridal party gift",
+        "wedding giveaway",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Hard Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+    ]
+},
 
 {
     id: 11,
@@ -2291,7 +2339,11 @@ addons: [
         "images/products/wedding/burlapbagB/1.webp",
         "images/products/wedding/burlapbagB/2.webp",
         "images/products/wedding/burlapbagB/3.webp",
-        "images/products/wedding/burlapbagB/4.webp"
+        "images/products/wedding/burlapbagB/4.webp",
+        "images/products/wedding/burlapbagB/5.webp",
+        "images/products/wedding/burlapbagB/6.webp",
+        "images/products/wedding/burlapbagB/7.webp",
+        "images/products/wedding/burlapbagB/8.webp",
     ],
 
     description: "A beautiful blend of style and functionality, this personalized burlap tote features a secure zipper closure and convenient front pocket for everyday essentials. Finished with a twilly ribbon and elegant paper bag packaging, it's a memorable gift for ninangs, mothers, bridesmaids, and cherished friends.",
@@ -2344,6 +2396,7 @@ addons: [
         "images/products/wedding/coast&toast/9.webp",
         "images/products/wedding/coast&toast/10.webp",
         "images/products/wedding/coast&toast/11.webp",
+        "images/products/wedding/coast&toast/12.webp",
     ],
 
     description: "Featuring a personalized mountain whiskey glass, acacia coaster, and wooden bottle opener, this refined gift set combines functionality with timeless craftsmanship. Beautifully packaged to create a memorable keepsake for every celebration.",
@@ -2613,7 +2666,10 @@ addons: [
         "images/products/wedding/burlapbagA/3.webp",
         "images/products/wedding/burlapbagA/4.webp",
         "images/products/wedding/burlapbagA/5.webp",
-        "images/products/wedding/burlapbagA/6.webp"
+        "images/products/wedding/burlapbagA/6.webp",
+        "images/products/wedding/burlapbagA/7.webp",
+        "images/products/wedding/burlapbagA/8.webp",
+        "images/products/wedding/burlapbagA/9.webp",
     ],
 
     description: "Simple, stylish, and made to be reused, this personalized burlap bag is a practical keepsake your guests will enjoy long after the celebration. Finished with an elegant twilly ribbon and gift-ready packaging, it's perfect for ninangs, mothers, bridesmaids, and special friends.",
@@ -3160,7 +3216,12 @@ addons: [
     images: [
         "images/products/wedding/classiccombo/1.webp",
         "images/products/wedding/classiccombo/2.webp",
-        "images/products/wedding/classiccombo/3.webp"
+        "images/products/wedding/classiccombo/3.webp",
+        "images/products/wedding/classiccombo/4.webp",
+        "images/products/wedding/classiccombo/5.webp",
+        "images/products/wedding/classiccombo/6.webp",
+        "images/products/wedding/classiccombo/7.webp",
+        "images/products/wedding/classiccombo/8.webp",
     ],
 
     description: "A timeless wallet and handkerchief gift set, thoughtfully personalized for ninongs, groomsmen, fathers, family, and friends on your special day.",
