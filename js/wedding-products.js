@@ -1,6 +1,63 @@
 const weddingProducts = [
 
     {
+    id: 64,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=64",
+
+    name: "Couple Coffee Set",
+
+    price: 2300,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/couplecoffee/1.webp",
+        "images/products/wedding/couplecoffee/2.webp",
+        "images/products/wedding/couplecoffee/3.webp",
+        "images/products/wedding/couplecoffee/4.webp",
+        "images/products/wedding/couplecoffee/5.webp",
+        "images/products/wedding/couplecoffee/6.webp",
+        "images/products/wedding/couplecoffee/7.webp",
+        "images/products/wedding/couplecoffee/8.webp",
+        "images/products/wedding/couplecoffee/9.webp",
+        "images/products/wedding/couplecoffee/10.webp"
+    ],
+
+    description: "A premium couple coffee gift set featuring 2 Nordic mugs with bamboo lid, 2 stirrers, 2 ground coffee packs, a big coffee press 600ml, and a dried flower bouquet, beautifully arranged in a personalized hard box. A thoughtful and elegant gift for couples, weddings, anniversaries, and special celebrations.",
+
+    keywords: [
+        "couple coffee set",
+        "wedding gift set",
+        "couple gift",
+        "coffee gift set",
+        "wedding gift",
+        "personalized gift",
+        "Nordic mugs",
+        "ground coffee",
+        "coffee press",
+        "dried flower bouquet",
+        "couple souvenir",
+        "anniversary gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Dried Flower Bouquet",
+        "Hard Box with Name",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+    ]
+},
+
+    {
     id: 12,
 
     category: "wedding",
@@ -679,7 +736,10 @@ addons: [
     images: [
         "images/products/wedding/coffeelovers/1.webp",
         "images/products/wedding/coffeelovers/2.webp",
-        "images/products/wedding/coffeelovers/3.webp"
+        "images/products/wedding/coffeelovers/3.webp",
+        "images/products/wedding/coffeelovers/4.webp",
+        "images/products/wedding/coffeelovers/5.webp",
+        "images/products/wedding/coffeelovers/6.webp",
     ],
 
     description: "A premium coffee gift set featuring a personalized Nordic mug, coffee press, premium coffee pack, and acacia coaster, elegantly presented in a personalized hard box. Designed for coffee enthusiasts who appreciate quality, functionality, and timeless style.",
@@ -1752,6 +1812,71 @@ addons: [
             price: 150
         }
         
+    ]
+},
+
+{
+    id: 65,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=65",
+
+    name: "Cozy Care Kit",
+
+    price: 590,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/cozycare/1.webp",
+        "images/products/wedding/cozycare/2.webp",
+        "images/products/wedding/cozycare/3.webp",
+        "images/products/wedding/cozycare/4.webp",
+        "images/products/wedding/cozycare/5.webp",
+        "images/products/wedding/cozycare/6.webp",
+        "images/products/wedding/cozycare/7.webp"
+    ],
+
+    description: "A thoughtful personalized gift set featuring a Nordic mug and a wooden coaster with phone stand, beautifully packaged in a gift box. A practical and elegant keepsake perfect for weddings, sponsors, and special celebrations.",
+
+    keywords: [
+        "cozy care kit",
+        "wedding gift set",
+        "wedding souvenir",
+        "personalized mug",
+        "Nordic mug",
+        "wooden coaster",
+        "phone stand",
+        "sponsor gift",
+        "ninong gift",
+        "ninang gift",
+        "personalized gift",
+        "gift box",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Lid Engraving",
+            price: 50
+        },
+        {
+            name: "Coffee Pack",
+            price: 50
+        },
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        }
     ]
 },
 
