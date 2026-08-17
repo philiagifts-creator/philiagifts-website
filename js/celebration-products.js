@@ -141,6 +141,340 @@ const celebrationProducts = [
 },
 
 {
+id: 2041,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2041",
+
+name: "Anastasia Clutch",
+
+price: 690,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/anastasia/1.webp",
+    "images/products/celebration/anastasia/2.webp",
+],
+
+description: "A luxurious evening clutch featuring a graceful shell-inspired design, sparkling fabric, and a versatile chain strap for hand or shoulder carry. A stylish and elegant gift perfect for birthdays, celebrations, special occasions, and thoughtful giveaways. Available in Champagne Gold, Silver, Blush Pink, and Black. Size: 21 x 12 x 7 cm.",
+
+keywords: [
+    "Anastasia clutch",
+    "evening clutch",
+    "wedding souvenir",
+    "wedding giveaway",
+    "wedding gift",
+    "gift set",
+    "clutch bag",
+    "personalized gift",
+    "wedding guest gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Personalized Paper Bag",
+    "Customized Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+        price: 480
+    },
+    {
+        name: "Dried Flower Bouquet",
+        price: 100
+    },
+]
+},
+
+{
+id: 2042,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2042",
+
+name: "Amelie Clutch",
+
+price: 690,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/amelie/1.webp",
+    "images/products/celebration/amelie/2.webp",
+],
+
+description: "An elegant statement clutch featuring a chic oval silhouette, luxurious sparkle, and a detachable chain for hand or shoulder carry. A stylish and practical gift perfect for birthdays, celebrations, special occasions, and thoughtful giveaways. Available in Champagne Gold, Silver, Blush Pink, and Black. Size: 20 x 12 x 4 cm.",
+
+keywords: [
+    "Amelie clutch",
+    "clutch bag",
+    "wedding souvenir",
+    "wedding giveaway",
+    "wedding guest gift",
+    "gift set",
+    "personalized clutch",
+    "elegant clutch",
+    "wedding gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Personalized Paper Bag",
+    "Customized Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+        price: 480
+    },
+    {
+        name: "Dried Flower Bouquet",
+        price: 100
+    }
+]
+},
+
+{
+id: 2045,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2045",
+
+name: "Zola Clutch",
+
+price: 690,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/zola/1.webp",
+    "images/products/celebration/zola/2.webp",
+    "images/products/celebration/zola/3.webp",
+],
+
+description: "A graceful pleated evening clutch featuring a signature gold ring handle and detachable chain. Perfect for parties, celebrations, special occasions, and formal events, making it an elegant and practical gift for someone special. Available in Green, Apricot, White, Pink, and Black. Size: 24 x 19 x 7 cm.",
+
+keywords: [
+    "Zola clutch",
+    "pleated clutch",
+    "evening clutch",
+    "wedding souvenir",
+    "wedding giveaway",
+    "wedding guest gift",
+    "gift set",
+    "personalized clutch",
+    "elegant clutch",
+    "wedding gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Personalized Paper Bag",
+    "Customized Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+        price: 480
+    },
+    {
+        name: "Dried Flower Bouquet",
+        price: 100
+    }
+]
+},
+
+{
+id: 2043,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2043",
+
+name: "Seraphina Clutch",
+
+price: 690,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/seraphina/1.webp",
+    "images/products/celebration/seraphina/2.webp",
+],
+
+description: "A timeless evening clutch featuring a shimmering finish, crystal clasp, elegant top handle, and detachable chain for hand or shoulder carry. A sophisticated and practical gift perfect for birthdays, celebrations, special occasions, and thoughtful giveaways. Available in Gold, Silver, Blush Pink, and Black. Size: 20 x 12 x 4 cm.",
+
+keywords: [
+    "Seraphina clutch",
+    "clutch bag",
+    "wedding souvenir",
+    "wedding giveaway",
+    "wedding guest gift",
+    "gift set",
+    "personalized clutch",
+    "elegant clutch",
+    "wedding gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Personalized Paper Bag",
+    "Customized Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+        price: 480
+    },
+    {
+        name: "Dried Flower Bouquet",
+        price: 100
+    }
+]
+},
+
+{
+id: 2044,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2044",
+
+name: "Odette Handbag",
+
+price: 690,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/odette/1.webp",
+    "images/products/celebration/odette/2.webp",
+    "images/products/celebration/odette/3.webp",
+],
+
+description: "A modern top-handle handbag featuring elegant pleated detailing, a sleek circular handle, and an adjustable shoulder strap for effortless everyday style. A practical and elegant gift perfect for birthdays, celebrations, special occasions, and thoughtful giveaways. Available in White, Purple, and Black. Size: 20 x 12.5 x 6 cm.",
+
+keywords: [
+    "Odette handbag",
+    "handbag",
+    "wedding souvenir",
+    "wedding giveaway",
+    "wedding guest gift",
+    "gift set",
+    "personalized handbag",
+    "elegant handbag",
+    "wedding gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Personalized Paper Bag",
+    "Customized Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+        price: 480
+    },
+    {
+        name: "Dried Flower Bouquet",
+        price: 100
+    }
+]
+},
+
+{
+id: 2046,
+
+category: "celebration",
+
+section: ["gift-set"],
+
+page: "product.html?id=2046",
+
+name: "Celeste Handbag",
+
+price: 690,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/celebration/celeste/1.webp",
+    "images/products/celebration/celeste/2.webp",
+    "images/products/celebration/celeste/3.webp",
+],
+
+description: "A chic statement piece crafted with a textured shimmer finish, structured silhouette, and detachable chain for day-to-night elegance. A stylish and practical gift perfect for birthdays, celebrations, special occasions, and thoughtful giveaways. Available in Champagne, Silver, Gold, and Black. Size: 20 x 13 x 6 cm.",
+
+keywords: [
+    "Celeste handbag",
+    "handbag",
+    "wedding souvenir",
+    "wedding giveaway",
+    "wedding guest gift",
+    "gift set",
+    "personalized handbag",
+    "elegant handbag",
+    "wedding gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Personalized Paper Bag",
+    "Customized Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+        price: 480
+    },
+    {
+        name: "Dried Flower Bouquet",
+        price: 100
+    }
+]
+},
+
+{
 id: 2024,
 
 category: "celebration",

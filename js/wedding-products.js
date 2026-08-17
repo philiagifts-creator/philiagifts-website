@@ -1571,6 +1571,67 @@ addons: [
         ]
     },
 
+    {
+    id: 74,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=74",
+
+    name: "Timeless Pour Set",
+
+    price: 840,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/timelesspourset/1.webp",
+        "images/products/wedding/timelesspourset/2.webp",
+        "images/products/wedding/timelesspourset/3.webp",
+        "images/products/wedding/timelesspourset/4.webp",
+        "images/products/wedding/timelesspourset/5.webp",
+    ],
+
+    description: "A timeless and elegant wine flask set that includes a 200ml bottle of Johnnie Walker Red Label, thoughtfully packaged as a beautiful wedding souvenir and keepsake for guests and loved ones.",
+
+    keywords: [
+        "timeless pour set",
+        "pour set",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding gift",
+        "gift set",
+        "wedding keepsake",
+        "personalized gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        },
+        {
+            name: "Upgrade to Hard Box",
+            price: 180
+        }
+    ]
+},
+
 {
     id: 28,
 
@@ -1849,6 +1910,340 @@ addons: [
             name: "Hard Box with Name",
             price: 150
         },
+    ]
+},
+
+{
+    id: 75,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=75",
+
+    name: "Anastasia Clutch",
+
+    price: 690,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/anastasia/1.webp",
+        "images/products/wedding/anastasia/2.webp",
+    ],
+
+    description: "A luxurious evening clutch featuring a graceful shell-inspired design, sparkling fabric, and a detachable chain strap for versatile hand or shoulder carry. A stylish and elegant wedding souvenir that guests can use and cherish for special occasions. Size: 21 x 12 x 7 cm.",
+
+    keywords: [
+        "Anastasia clutch",
+        "evening clutch",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding gift",
+        "gift set",
+        "clutch bag",
+        "personalized gift",
+        "wedding guest gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Paper Bag",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+            price: 480
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        },
+    ]
+},
+
+{
+    id: 76,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=76",
+
+    name: "Amelie Clutch",
+
+    price: 690,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/amelie/1.webp",
+        "images/products/wedding/amelie/2.webp",
+    ],
+
+    description: "An elegant statement clutch featuring a chic oval silhouette, luxurious sparkle, and a detachable chain for hand or shoulder carry. A stylish and practical wedding souvenir that guests can enjoy for special occasions. Available in Champagne Gold, Silver, Blush Pink, and Black. Size: 20 x 12 x 4 cm.",
+
+    keywords: [
+        "Amelie clutch",
+        "clutch bag",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "gift set",
+        "personalized clutch",
+        "elegant clutch",
+        "wedding gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Paper Bag",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+            price: 480
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
+    id: 79,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=79",
+
+    name: "Zola Clutch",
+
+    price: 690,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/zola/1.webp",
+        "images/products/wedding/zola/2.webp",
+        "images/products/wedding/zola/3.webp",
+    ],
+
+    description: "A graceful pleated evening clutch featuring a signature gold ring handle and detachable chain. Perfect for weddings, parties, and formal celebrations, making it an elegant and practical wedding souvenir for guests. Available in Green, Apricot, White, Pink, and Black. Size: 24 x 19 x 7 cm.",
+
+    keywords: [
+        "Zola clutch",
+        "pleated clutch",
+        "evening clutch",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "gift set",
+        "personalized clutch",
+        "elegant clutch",
+        "wedding gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Paper Bag",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+            price: 480
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
+    id: 77,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=77",
+
+    name: "Seraphina Clutch",
+
+    price: 690,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/seraphina/1.webp",
+        "images/products/wedding/seraphina/2.webp",
+    ],
+
+    description: "A timeless evening clutch featuring a shimmering finish, crystal clasp, elegant top handle, and detachable chain for hand or shoulder carry. A sophisticated and practical wedding souvenir that guests can enjoy for special occasions. Available in Gold, Silver, Blush Pink, and Black. Size: 20 x 12 x 4 cm.",
+
+    keywords: [
+        "Seraphina clutch",
+        "clutch bag",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "gift set",
+        "personalized clutch",
+        "elegant clutch",
+        "wedding gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Paper Bag",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+            price: 480
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
+    id: 78,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=78",
+
+    name: "Odette Handbag",
+
+    price: 690,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/odette/1.webp",
+        "images/products/wedding/odette/2.webp",
+        "images/products/wedding/odette/3.webp",
+    ],
+
+    description: "A modern top-handle handbag featuring elegant pleated detailing, a sleek circular handle, and an adjustable shoulder strap for effortless everyday style. A practical and elegant wedding souvenir that guests can enjoy and use for special occasions. Available in White, Purple, and Black. Size: 20 x 12.5 x 6 cm.",
+
+    keywords: [
+        "Odette handbag",
+        "handbag",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "gift set",
+        "personalized handbag",
+        "elegant handbag",
+        "wedding gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Paper Bag",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+            price: 480
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
+    id: 80,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=80",
+
+    name: "Celeste Handbag",
+
+    price: 690,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/celeste/1.webp",
+        "images/products/wedding/celeste/2.webp",
+        "images/products/wedding/celeste/3.webp",
+    ],
+
+    description: "A chic statement piece crafted with a textured shimmer finish, structured silhouette, and detachable chain for day-to-night elegance. A stylish and practical wedding souvenir that guests can enjoy and use for special occasions. Available in Champagne, Silver, Gold, and Black. Size: 20 x 13 x 6 cm.",
+
+    keywords: [
+        "Celeste handbag",
+        "handbag",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "gift set",
+        "personalized handbag",
+        "elegant handbag",
+        "wedding gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Paper Bag",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade Packaging to Magnetic Box with Silk Cloth",
+            price: 480
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
     ]
 },
 
@@ -3864,7 +4259,7 @@ addons: [
 
     name: "Wallet for Her",
 
-    price: 150,
+    price: 160,
 
     minimumOrder: 10,
 
@@ -3919,7 +4314,7 @@ addons: [
 
     name: "Wallet for Him",
 
-    price: 140,
+    price: 150,
 
     minimumOrder: 10,
 
@@ -3928,6 +4323,10 @@ addons: [
     images: [
         "images/products/wedding/walletforhim/1.webp",
         "images/products/wedding/walletforhim/2.webp",
+        "images/products/wedding/walletforhim/3.webp",
+        "images/products/wedding/walletforhim/4.webp",
+        "images/products/wedding/walletforhim/5.webp",
+        "images/products/wedding/walletforhim/6.webp",
     ],
 
     description: "A practical and stylish personalized wallet made from leather material, perfect as a thoughtful and useful wedding giveaway for male guests. Available in classic colors and can be packaged in a box as an add-on.",
