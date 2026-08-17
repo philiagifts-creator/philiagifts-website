@@ -295,6 +295,8 @@ addons: [
         "images/products/wedding/rosewoodwine/8.webp",
         "images/products/wedding/rosewoodwine/9.webp",
         "images/products/wedding/rosewoodwine/10.webp",
+        "images/products/wedding/rosewoodwine/11.webp",
+        "images/products/wedding/rosewoodwine/12.webp",
         
     ],
 
@@ -765,6 +767,61 @@ addons: [
     inclusions: [
         "Personalized Hard Box",
         "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
+    id: 66,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=66",
+
+    name: "Cozy Corner Set",
+
+    price: 1350,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/cozycorner/1.webp",
+        "images/products/wedding/cozycorner/2.webp",
+        "images/products/wedding/cozycorner/3.webp",
+        "images/products/wedding/cozycorner/4.webp",
+        "images/products/wedding/cozycorner/5.webp"
+    ],
+
+    description: "A cozy and elegant gift set featuring a personalized Nordic mug, cashmere shawl, and scented soy candle, beautifully arranged in a premium hard box. A thoughtful gift for weddings, bridesmaids, sponsors, and special celebrations.",
+
+    keywords: [
+        "cozy corner set",
+        "wedding gift set",
+        "wedding souvenir",
+        "personalized gift",
+        "Nordic mug",
+        "cashmere shawl",
+        "scented soy candle",
+        "bridesmaid gift",
+        "sponsor gift",
+        "ninong gift",
+        "ninang gift",
+        "premium gift set",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Tag",
         "Ribbon"
     ],
 
@@ -1816,67 +1873,63 @@ addons: [
 },
 
 {
-    id: 65,
+    id: 67,
 
     category: "wedding",
 
     section: ["gift-set"],
 
-    page: "product.html?id=65",
+    page: "product.html?id=67",
 
-    name: "Cozy Care Kit",
+    name: "Glow & Grace Set",
 
-    price: 590,
+    price: 680,
 
     minimumOrder: 5,
 
     images: [
-        "images/products/wedding/cozycare/1.webp",
-        "images/products/wedding/cozycare/2.webp",
-        "images/products/wedding/cozycare/3.webp",
-        "images/products/wedding/cozycare/4.webp",
-        "images/products/wedding/cozycare/5.webp",
-        "images/products/wedding/cozycare/6.webp",
-        "images/products/wedding/cozycare/7.webp"
+        "images/products/wedding/glow&grace/1.webp",
+        "images/products/wedding/glow&grace/2.webp",
+        "images/products/wedding/glow&grace/3.webp",
+        "images/products/wedding/glow&grace/4.webp",
+        "images/products/wedding/glow&grace/5.webp",
+        "images/products/wedding/glow&grace/6.webp",
+        "images/products/wedding/glow&grace/7.webp",
+        "images/products/wedding/glow&grace/8.webp"
     ],
 
-    description: "A thoughtful personalized gift set featuring a Nordic mug and a wooden coaster with phone stand, beautifully packaged in a gift box. A practical and elegant keepsake perfect for weddings, sponsors, and special celebrations.",
+    description: "A practical and elegant personalized gift set featuring a portable vanity mirror and paddle brush, beautifully packaged in a gift box. A lovely choice for bridesmaids, wedding sponsors, and special celebrations.",
 
     keywords: [
-        "cozy care kit",
+        "glow and grace set",
         "wedding gift set",
         "wedding souvenir",
-        "personalized mug",
-        "Nordic mug",
-        "wooden coaster",
-        "phone stand",
+        "personalized gift",
+        "vanity mirror",
+        "paddle brush",
+        "bridesmaid gift",
         "sponsor gift",
         "ninong gift",
         "ninang gift",
-        "personalized gift",
-        "gift box",
+        "beauty gift set",
         "philia gifts"
     ],
 
     inclusions: [
         "Gift Box",
-        "Customized Gift Tag",
+        "Customized Tag",
         "Ribbon"
     ],
 
     addons: [
         {
-            name: "Lid Engraving",
-            price: 50
+            name: "Name on the Box",
+            price: 30
         },
         {
-            name: "Coffee Pack",
-            price: 50
+            name: "Hard Box with Name",
+            price: 200
         },
-        {
-            name: "Upgrade to Hard Box with Name",
-            price: 150
-        }
     ]
 },
 
@@ -2089,6 +2142,71 @@ addons: [
 },
 
 {
+    id: 65,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=65",
+
+    name: "Cozy Care Kit",
+
+    price: 590,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/cozycare/1.webp",
+        "images/products/wedding/cozycare/2.webp",
+        "images/products/wedding/cozycare/3.webp",
+        "images/products/wedding/cozycare/4.webp",
+        "images/products/wedding/cozycare/5.webp",
+        "images/products/wedding/cozycare/6.webp",
+        "images/products/wedding/cozycare/7.webp"
+    ],
+
+    description: "A thoughtful personalized gift set featuring a Nordic mug and a wooden coaster with phone stand, beautifully packaged in a gift box. A practical and elegant keepsake perfect for weddings, sponsors, and special celebrations.",
+
+    keywords: [
+        "cozy care kit",
+        "wedding gift set",
+        "wedding souvenir",
+        "personalized mug",
+        "Nordic mug",
+        "wooden coaster",
+        "phone stand",
+        "sponsor gift",
+        "ninong gift",
+        "ninang gift",
+        "personalized gift",
+        "gift box",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Lid Engraving",
+            price: 50
+        },
+        {
+            name: "Coffee Pack",
+            price: 50
+        },
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        }
+    ]
+},
+
+{
         id: 7,
 
         category: "wedding",
@@ -2208,7 +2326,13 @@ addons: [
         "images/products/wedding/Sipset/4.webp",
         "images/products/wedding/Sipset/5.webp",
         "images/products/wedding/Sipset/6.webp",
-        "images/products/wedding/Sipset/7.webp"
+        "images/products/wedding/Sipset/7.webp",
+        "images/products/wedding/Sipset/8.webp",
+        "images/products/wedding/Sipset/9.webp",
+        "images/products/wedding/Sipset/10.webp",
+        "images/products/wedding/Sipset/11.webp",
+        "images/products/wedding/Sipset/12.webp",
+        
     ],
 
     description: "A stylish gift set featuring a personalized glass tumbler with a bamboo lid and reusable straw set in a velvet pouch, elegantly presented in a premium gift box for weddings and special celebrations.",
@@ -2910,7 +3034,10 @@ addons: [
         "images/products/wedding/drape&dazzleB/4.webp",
         "images/products/wedding/drape&dazzleB/5.webp",
         "images/products/wedding/drape&dazzleB/6.webp",
-        "images/products/wedding/drape&dazzleB/7.webp"
+        "images/products/wedding/drape&dazzleB/7.webp",
+        "images/products/wedding/drape&dazzleB/8.webp",
+        "images/products/wedding/drape&dazzleB/9.webp",
+        "images/products/wedding/drape&dazzleB/10.webp",
     ],
 
     description: "A personalized jewelry organizer and cashmere shawl set, thoughtfully packaged in a gift box with ribbon and tag. Available in other colors.",
@@ -3071,6 +3198,45 @@ addons: [
 },
 
 {
+    id: 70,
+    category: "wedding",
+    section: "gift-set",
+    name: "Nordic Mug A",
+    price: 380,
+    minimumOrder: 5,
+    images: [
+        "images/products/wedding/nordicmugA/1.webp",
+        "images/products/wedding/nordicmugA/2.webp",
+        "images/products/wedding/nordicmugA/3.webp"
+    ],
+    description: "A personalized Nordic mug with a natural wooden lid and matching wooden spoon, thoughtfully packaged as an elegant wedding gift or keepsake.",
+    inclusions: [
+        "Personalized Nordic Mug",
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Lid Engraving",
+            price: 50
+        },
+        {
+            name: "Coffee Pack",
+            price: 55
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 80
+        },
+        {
+            name: "Upgrade to Hard Box",
+            price: 80
+        }
+    ]
+},
+
+{
     id: 55,
     category: "wedding",
     section: ["gift-set"],
@@ -3123,6 +3289,62 @@ addons: [
 },
 
 {
+    id: 69,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=69",
+
+    name: "Luxury Metal Pen Set",
+
+    price: 350,
+
+    minimumOrder: 20,
+
+    images: [
+        "images/products/wedding/luxurymetalpen/1.webp",
+        "images/products/wedding/luxurymetalpen/2.webp",
+        "images/products/wedding/luxurymetalpen/3.webp"
+    ],
+
+    description: "A sophisticated personalized metal pen set featuring two smooth-writing refills, elegantly presented in a gift box. Available in gold, black, red, and blue, making it a refined and practical wedding gift or keepsake.",
+
+    keywords: [
+        "luxury metal pen set",
+        "personalized pen",
+        "wedding gift",
+        "wedding souvenir",
+        "personalized wedding giveaway",
+        "pen set",
+        "gift box",
+        "ninong gift",
+        "ninang gift",
+        "sponsor gift",
+        "wedding keepsake",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Luxury Metal Pen Set",
+        "2pcs Refills",
+    ],
+
+    addons: [
+        {
+            name: "Gift Box with Ribbon and Tag",
+            price: 90
+        },
+        {
+            name: "Abaca Bag with Ribbon and Tag",
+            price: 90
+        }
+    ],
+},
+
+
+{
     id: 21,
 
     category: "wedding",
@@ -3156,7 +3378,7 @@ addons: [
 
     name: "Wooden Desk Clock",
 
-    price: 320,
+    price: 300,
 
     minimumOrder: 10,
 
@@ -3168,24 +3390,30 @@ addons: [
         "images/products/wedding/deskclock/3.webp",
         "images/products/wedding/deskclock/4.webp",
         "images/products/wedding/deskclock/5.webp",
+        "images/products/wedding/deskclock/6.webp",
+        "images/products/wedding/deskclock/7.webp",
+        "images/products/wedding/deskclock/8.webp",
     ],
 
     description: "A laser-engraved wooden desk clock personalized with your names, design, or logo. A timeless keepsake perfect as a wedding souvenir, guest favor, or premium gift.",
 
     inclusions: [
         "Free Layout",
-        "Plastic Packaging with ribbon and tag",
         "Battery"
     ],
 
     addons: [
         {
-            name: "Upgrade to Box Packaging",
-            price: 80
+            name: "Plastic Packaging with Ribbon and Tag",
+            price: 50
         },
         {
-            name: "Upgrade to Abaca Bag Packaging",
-            price: 70
+            name: "Box Packaging with Ribbon and Tag",
+            price: 90
+        },
+        {
+            name: "Abaca Bag Packaging with Ribbon and Tag",
+            price: 80
         }
     ]
 },
@@ -3266,7 +3494,10 @@ images: [
     "images/products/wedding/everydaykit/1.webp",
     "images/products/wedding/everydaykit/2.webp",
     "images/products/wedding/everydaykit/3.webp",
-    "images/products/wedding/everydaykit/4.webp"
+    "images/products/wedding/everydaykit/4.webp",
+    "images/products/wedding/everydaykit/5.webp",
+    "images/products/wedding/everydaykit/6.webp",
+    "images/products/wedding/everydaykit/7.webp",
 ],
 
 description: "A practical gift set featuring a personalized leather wallet and wooden comb, making it a useful and thoughtful choice for weddings. Its everyday essentials and personalized touch make it a meaningful keepsake they can enjoy long after the celebration.",
@@ -3366,6 +3597,68 @@ addons: [
             name: "Dried Flower Bouquet",
             price: 100
         }
+    ]
+},
+
+{
+    id: 68,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=68",
+
+    name: "Jewelry Organizer",
+
+    price: 250,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/jewelrybox/1.webp",
+        "images/products/wedding/jewelrybox/2.webp",
+        "images/products/wedding/jewelrybox/3.webp",
+        "images/products/wedding/jewelrybox/4.webp",
+        "images/products/wedding/jewelrybox/5.webp",
+        "images/products/wedding/jewelrybox/6.webp",
+        "images/products/wedding/jewelrybox/7.webp"
+    ],
+
+    description: "A stylish and practical personalized jewelry organizer featuring multiple compartments for neatly storing jewelry and accessories. Beautifully packaged in a gift box, making it a thoughtful keepsake for weddings, bridesmaids, sponsors, and special celebrations.",
+
+    keywords: [
+        "jewelry organizer",
+        "wedding gift",
+        "wedding souvenir",
+        "personalized jewelry organizer",
+        "jewelry box",
+        "personalized gift",
+        "bridesmaid gift",
+        "sponsor gift",
+        "ninong gift",
+        "ninang gift",
+        "gift box",
+        "wedding giveaway",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Jewelry Organizer",
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Hard Box with Name",
+            price: 120
+        },
     ]
 },
 
@@ -3544,6 +3837,37 @@ addons: [
         {
             name: "Box Packaging",
             price: 50
+        }
+    ]
+},
+
+{
+    id: 71,
+    category: "wedding",
+    section: "guest",
+    name: "Wooden Hand Fan",
+    price: 140,
+    minimumOrder: 20,
+    images: [
+        "images/products/wedding/vintagefan/1.webp",
+        "images/products/wedding/vintagefan/2.webp",
+        "images/products/wedding/vintagefan/3.webp",
+        "images/products/wedding/vintagefan/4.webp",
+        "images/products/wedding/vintagefan/5.webp"
+    ],
+    description: "A beautifully laser-engraved wooden hand fan, perfect as a practical and elegant wedding souvenir for guests. Each fan can be personalized with your names, wedding date, or special message. Size: 22cm (folded)",
+    inclusions: [
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Organza Pouch",
+            price: 50
+        },
+        {
+            name: "Side-by-side Engraving",
+            price: 30
         }
     ]
 },

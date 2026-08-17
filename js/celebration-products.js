@@ -508,6 +508,68 @@ addons: [
 },
 
 {
+    id: 2039,
+
+    category: "celebration",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=2039",
+
+    name: "Drape & Dazzle Set",
+
+    price: 450,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/celebration/drape&dazzleB/1.webp",
+        "images/products/celebration/drape&dazzleB/2.webp",
+        "images/products/celebration/drape&dazzleB/3.webp",
+        "images/products/celebration/drape&dazzleB/4.webp",
+        "images/products/celebration/drape&dazzleB/5.webp",
+        "images/products/celebration/drape&dazzleB/6.webp",
+        "images/products/celebration/drape&dazzleB/7.webp",
+        "images/products/celebration/drape&dazzleB/8.webp",
+        "images/products/celebration/drape&dazzleB/9.webp",
+        "images/products/celebration/drape&dazzleB/10.webp",
+    ],
+
+    description: "A personalized jewelry organizer and cashmere shawl set, thoughtfully packaged in a gift box with ribbon and tag. Available in other colors.",
+
+    keywords: [
+        "drape and dazzle set",
+        "jewelry organizer",
+        "cashmere shawl",
+        "wedding gift set",
+        "wedding giveaway",
+        "wedding souvenir",
+        "personalized gift",
+        "gift set",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon",
+    ],
+
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Upgrade to Hard Box",
+            price: 150
+        },
+    ]
+},
+
+{
     id: 2015,
 
     category: "celebration",
@@ -802,7 +864,7 @@ addons: [
 
         name: "Wooden Desk Clock",
 
-        price: 320,
+        price: 300,
 
         bestseller:true,
         minimumOrder: 10,
@@ -834,21 +896,24 @@ addons: [
 
 
         inclusions: [
-            "Free layout",
-            "Battery",
-        ],
+        "Free Layout",
+        "Battery"
+    ],
 
-        addons: [
-
-            {
-            name: "Upgrade to Box Packaging",
-            price: 60
+    addons: [
+        {
+            name: "Plastic Packaging with Ribbon and Tag",
+            price: 50
         },
         {
-            name: "Upgrade to Abaca Bag Packaging",
-            price: 50
+            name: "Box Packaging with Ribbon and Tag",
+            price: 90
+        },
+        {
+            name: "Abaca Bag Packaging with Ribbon and Tag",
+            price: 80
         }
-        ]
+    ]
     },
 
 {
