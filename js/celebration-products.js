@@ -30,6 +30,60 @@ const celebrationProducts = [
 },
 
 {
+    id: 2040,
+
+    category: "celebration",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=2040",
+
+    keywords: [
+        "calm and cozy set",
+        "towel gift set",
+        "linen spray gift",
+        "room spray set",
+        "car diffuser gift",
+        "spa gift box",
+        "relaxation gift",
+        "self care gift",
+        "christening",
+        "ninang gift",
+        "godparents",
+        "birthday gift",
+        "personalized gift",
+        "Philia Gifts"
+    ],
+
+    name: "Calm & Cozy Set",
+
+    price: 820,
+    minimumOrder: 5,
+
+    images: [
+        "images/products/celebration/calm&cozy/1.webp",
+        "images/products/celebration/calm&cozy/2.webp",
+        "images/products/celebration/calm&cozy/3.webp",
+        "images/products/celebration/calm&cozy/4.webp"
+    ],
+
+    description: "Create a thoughtful moment of comfort with this elegant wellness gift set featuring a soft towel, room & linen spray, and car diffuser, beautifully presented in a premium hard box.",
+
+    inclusions: [
+        "Hard Box",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
     id: 2016,
 
     category: "celebration",
@@ -107,7 +161,11 @@ images: [
     "images/products/celebration/alarmclock/1.webp",
     "images/products/celebration/alarmclock/2.webp",
     "images/products/celebration/alarmclock/3.webp",
-    "images/products/celebration/alarmclock/4.webp"
+    "images/products/celebration/alarmclock/4.webp",
+    "images/products/celebration/alarmclock/5.webp",
+    "images/products/celebration/alarmclock/6.webp",
+    "images/products/celebration/alarmclock/7.webp",
+    "images/products/celebration/alarmclock/8.webp",
 ],
 
 description: "A personalized wooden digital alarm clock with a sleek and practical design, making it a thoughtful choice for birthdays, christenings, and other special celebrations. Its useful everyday function and personalized design make it a memorable keepsake that recipients can enjoy for years to come.",
@@ -1239,7 +1297,8 @@ images: [
     "images/products/celebration/candle/5.webp",
     "images/products/celebration/candle/6.webp",
     "images/products/celebration/candle/7.webp",
-    "images/products/celebration/candle/8.webp"
+    "images/products/celebration/candle/8.webp",
+    "images/products/celebration/candle/9.webp"
 ],
 
 description: "A personalized scented soy candle in a gift box, perfect for celebrations, giveaways, and meaningful occasions. Its warm and relaxing appeal makes it a thoughtful choice for guests who can enjoy it as a simple keepsake and comforting gift.",
