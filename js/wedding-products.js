@@ -1627,6 +1627,60 @@ addons: [
 },
 
 {
+    id: 60,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=60",
+
+    name: "Boho Lamp",
+
+    price: 780,
+
+    minimumOrder: 10,
+
+    images: [
+        "images/products/wedding/boholamp/1.webp",
+        "images/products/wedding/boholamp/2.webp",
+        "images/products/wedding/boholamp/3.webp",
+        "images/products/wedding/boholamp/4.webp",
+        "images/products/wedding/boholamp/5.webp",
+        "images/products/wedding/boholamp/6.webp",
+        "images/products/wedding/boholamp/7.webp",
+        "images/products/wedding/boholamp/8.webp",
+        "images/products/wedding/boholamp/9.webp",
+        "images/products/wedding/boholamp/10.webp"
+    ],
+
+    description: "A beautifully handcrafted boho lamp featuring a woven lamp shade and wooden base, personalized with a name and thoughtfully packaged in a hard box. A warm and decorative gift perfect for wedding entourage, newlyweds, and special celebrations.",
+
+    keywords: [
+        "boho lamp",
+        "wedding gift",
+        "wedding gift set",
+        "wedding entourage gift",
+        "personalized lamp",
+        "decorative lamp",
+        "boho decor",
+        "personalized gift",
+        "bridesmaid gift",
+        "wedding giveaway",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+    ]
+},
+
+{
     id: 33,
 
     category: "wedding",
@@ -1690,59 +1744,7 @@ addons: [
     ]
 },
 
-{
-    id: 60,
 
-    category: "wedding",
-
-    section: ["gift-set"],
-
-    page: "product.html?id=60",
-
-    name: "Boho Lamp",
-
-    price: 780,
-
-    minimumOrder: 10,
-
-    images: [
-        "images/products/wedding/boholamp/1.webp",
-        "images/products/wedding/boholamp/2.webp",
-        "images/products/wedding/boholamp/3.webp",
-        "images/products/wedding/boholamp/4.webp",
-        "images/products/wedding/boholamp/5.webp",
-        "images/products/wedding/boholamp/6.webp",
-        "images/products/wedding/boholamp/7.webp",
-        "images/products/wedding/boholamp/8.webp",
-        "images/products/wedding/boholamp/9.webp",
-        "images/products/wedding/boholamp/10.webp"
-    ],
-
-    description: "A beautifully handcrafted boho lamp featuring a woven lamp shade and wooden base, personalized with a name and thoughtfully packaged in a hard box. A warm and decorative gift perfect for wedding entourage, newlyweds, and special celebrations.",
-
-    keywords: [
-        "boho lamp",
-        "wedding gift",
-        "wedding gift set",
-        "wedding entourage gift",
-        "personalized lamp",
-        "decorative lamp",
-        "boho decor",
-        "personalized gift",
-        "bridesmaid gift",
-        "wedding giveaway",
-        "philia gifts"
-    ],
-
-    inclusions: [
-        "Hard Box with Name",
-        "Customized Tag",
-        "Ribbon"
-    ],
-
-    addons: [
-    ]
-},
 
 {
     id: 63,
@@ -1789,6 +1791,64 @@ addons: [
     ],
 
     addons: [
+    ]
+},
+
+{
+    id: 73,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=73",
+
+    name: "Watch Organizer",
+
+    price: 720,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/watchorg/1.webp",
+        "images/products/wedding/watchorg/2.webp",
+        "images/products/wedding/watchorg/3.webp",
+        "images/products/wedding/watchorg/4.webp",
+        "images/products/wedding/watchorg/5.webp",
+        "images/products/wedding/watchorg/6.webp",
+    ],
+
+    description: "A personalized wooden watch organizer with elegant box packaging, perfect as a practical and timeless wedding souvenir for guests and a thoughtful keepsake for any special celebration.",
+
+    keywords: [
+        "watch organizer",
+        "personalized watch organizer",
+        "wooden watch box",
+        "wedding giveaway",
+        "wedding souvenir",
+        "wedding guest gift",
+        "gift for guests",
+        "personalized gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Hard Box with Name",
+            price: 150
+        },
     ]
 },
 
@@ -1980,7 +2040,10 @@ addons: [
         "images/products/wedding/wineoclock/7.webp",
         "images/products/wedding/wineoclock/8.webp",
         "images/products/wedding/wineoclock/9.webp",
-        "images/products/wedding/wineoclock/10.webp"
+        "images/products/wedding/wineoclock/10.webp",
+        "images/products/wedding/wineoclock/11.webp",
+        "images/products/wedding/wineoclock/12.webp",
+        "images/products/wedding/wineoclock/13.webp",
     ],
 
     description: "Raise a toast to unforgettable memories with a beautifully curated wine gift set. Perfect for celebrating the people who made your wedding journey extra special, this elegant collection is a sophisticated keepsake they'll truly enjoy.",
@@ -2858,7 +2921,13 @@ addons: [
         "images/products/wedding/wineflask/1.webp",
         "images/products/wedding/wineflask/2.webp",
         "images/products/wedding/wineflask/3.webp",
-        "images/products/wedding/wineflask/4.webp"
+        "images/products/wedding/wineflask/4.webp",
+        "images/products/wedding/wineflask/5.webp",
+        "images/products/wedding/wineflask/6.webp",
+        "images/products/wedding/wineflask/7.webp",
+        "images/products/wedding/wineflask/8.webp",
+        "images/products/wedding/wineflask/9.webp",
+        "images/products/wedding/wineflask/10.webp",
     ],
 
     description: "A premium wine flask gift set featuring a stainless steel flask, shot glasses, and funnel, elegantly presented in a personalized hard box for memorable wedding celebrations.",
@@ -2870,10 +2939,6 @@ addons: [
     ],
 
     addons: [
-        {
-            name: "Dried Flower Bouquet",
-            price: 100
-        }
     ]
 },
 
@@ -3793,7 +3858,7 @@ addons: [
 
     category: "wedding",
 
-    section: ["for-guests"],
+    section: ["guest"],
 
     page: "product.html?id=44",
 
@@ -3812,7 +3877,9 @@ addons: [
         "images/products/wedding/walletforher/4.webp",
         "images/products/wedding/walletforher/5.webp",
         "images/products/wedding/walletforher/6.webp",
-        "images/products/wedding/walletforher/7.webp"
+        "images/products/wedding/walletforher/7.webp",
+        "images/products/wedding/walletforher/8.webp",
+        "images/products/wedding/walletforher/9.webp",
     ],
 
     description: "A stylish personalized wallet made from leather material, perfect as a thoughtful wedding giveaway for guests. Available in assorted colors and can be packaged in a box as an add-on.",
@@ -3831,6 +3898,56 @@ addons: [
 
     inclusions: [
         "Personalized Wallet", 
+    ],
+
+    addons: [
+        {
+            name: "Box Packaging",
+            price: 50
+        }
+    ]
+},
+
+{
+    id: 72,
+
+    category: "wedding",
+
+    section: ["guest"],
+
+    page: "product.html?id=72",
+
+    name: "Wallet for Him",
+
+    price: 140,
+
+    minimumOrder: 10,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/walletforhim/1.webp",
+        "images/products/wedding/walletforhim/2.webp",
+    ],
+
+    description: "A practical and stylish personalized wallet made from leather material, perfect as a thoughtful and useful wedding giveaway for male guests. Available in classic colors and can be packaged in a box as an add-on.",
+
+    keywords: [
+        "wallet for him",
+        "personalized wallet",
+        "leather wallet",
+        "wedding giveaway",
+        "wedding souvenir",
+        "wedding guest gift",
+        "gift for guests",
+        "personalized gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Wallet",
+        "Customized Tag",
+        "Ribbon"
     ],
 
     addons: [
