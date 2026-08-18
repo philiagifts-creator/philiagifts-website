@@ -18,6 +18,36 @@ if (!product) {
 
 }
 
+const productSlug = product.name
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-|-$/g, "");
+
+    product.images = product.images.map(image => {
+
+    if (!image.startsWith("/")) {
+        return "/" + image;
+    }
+
+    return image;
+
+});
+
+const cleanUrl =
+    `/product/${productSlug}?id=${product.id}`;
+
+if (
+    window.location.pathname === "/product.html"
+) {
+
+    window.history.replaceState(
+        {},
+        "",
+        cleanUrl
+    );
+
+}
+
 // ===============================
 // PRODUCT PAGE METADATA
 // ===============================
