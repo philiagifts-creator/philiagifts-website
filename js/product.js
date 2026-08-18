@@ -18,6 +18,38 @@ if (!product) {
 
 }
 
+// ===============================
+// PRODUCT PAGE METADATA
+// ===============================
+
+document.title = `${product.name} | Philia Gifts`;
+
+document
+    .querySelector('meta[property="og:title"]')
+    ?.setAttribute(
+        "content",
+        `${product.name} | Philia Gifts`
+    );
+
+document
+    .querySelector('meta[property="og:description"]')
+    ?.setAttribute(
+        "content",
+        product.description
+    );
+
+document
+    .querySelector('meta[property="og:image"]')
+    ?.setAttribute(
+        "content",
+        new URL(
+            product.images[0],
+            window.location.origin
+        ).href
+    );
+
+
+
 const mainImage =
 document.getElementById("mainImage");
 
