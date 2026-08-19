@@ -178,13 +178,17 @@ const weddingProducts = [
         "images/products/wedding/GNS/4.webp",
 
         "images/products/wedding/GNS/5.webp",
-         "images/products/wedding/GNS/6.webp",
-          "images/products/wedding/GNS/7.webp",
-           "images/products/wedding/GNS/8.webp",
-            "images/products/wedding/GNS/9.webp",
-             "images/products/wedding/GNS/10.webp",
-              "images/products/wedding/GNS/11.webp",
-              "images/products/wedding/GNS/12.webp",
+        "images/products/wedding/GNS/6.webp",
+        "images/products/wedding/GNS/7.webp",
+        "images/products/wedding/GNS/8.webp",
+        "images/products/wedding/GNS/9.webp",
+        "images/products/wedding/GNS/10.webp",
+        "images/products/wedding/GNS/11.webp",
+        "images/products/wedding/GNS/12.webp",
+        "images/products/wedding/GNS/13.webp",
+        "images/products/wedding/GNS/14.webp",
+        "images/products/wedding/GNS/15.webp",
+        "images/products/wedding/GNS/16.webp",
 
 
 
@@ -699,7 +703,11 @@ addons: [
         "images/products/wedding/teaset2/4.webp",
         "images/products/wedding/teaset2/5.webp",
         "images/products/wedding/teaset2/6.webp",
-        "images/products/wedding/teaset2/7.webp"
+        "images/products/wedding/teaset2/7.webp",
+        "images/products/wedding/teaset2/8.webp",
+        "images/products/wedding/teaset2/9.webp",
+        "images/products/wedding/teaset2/10.webp",
+        "images/products/wedding/teaset2/11.webp",
     ],
 
     description: "An elegant 6-piece porcelain cup and 6-piece saucer tea set, beautifully presented in a personalized magnetic gift box for timeless wedding gifts and cherished celebrations.",
@@ -1314,6 +1322,72 @@ addons: [
         {
             name: "Dried Flower Bouquet",
             price: 100
+        }
+    ]
+},
+
+{
+    id: 83,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=83",
+
+    name: "Pretty Prep Set",
+
+    price: 950,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/prettyprep/1.webp",
+        "images/products/wedding/prettyprep/2.webp",
+        "images/products/wedding/prettyprep/3.webp",
+        "images/products/wedding/prettyprep/4.webp",
+        "images/products/wedding/prettyprep/5.webp",
+        "images/products/wedding/prettyprep/6.webp",
+        "images/products/wedding/prettyprep/7.webp",
+        "images/products/wedding/prettyprep/8.webp",
+        "images/products/wedding/prettyprep/9.webp"
+    ],
+
+    description: "A thoughtfully curated wedding souvenir set featuring a personalized jewelry organizer, vanity mirror, and alcohol spray. Beautifully arranged in a gift box, this practical and elegant set makes a meaningful keepsake that guests can use and cherish long after your special celebration.",
+
+    keywords: [
+        "Pretty Prep Set",
+        "jewelry organizer",
+        "vanity mirror",
+        "alcohol spray",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "personalized gift set",
+        "bridal souvenir",
+        "wedding keepsake",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Jewelry Organizer",
+        "Vanity Mirror",
+        "Alcohol Spray",
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
         }
     ]
 },
@@ -4061,6 +4135,67 @@ addons: [
 },
 
 {
+id: 81,
+
+category: "wedding",
+
+section: ["gift-set"],
+
+page: "product.html?id=81",
+
+name: "Rotating Mirror",
+
+price: 290,
+
+minimumOrder: 5,
+
+bestseller: false,
+
+images: [
+    "images/products/wedding/rotatingmirror/1.webp",
+    "images/products/wedding/rotatingmirror/2.webp",
+    "images/products/wedding/rotatingmirror/3.webp",
+    "images/products/wedding/rotatingmirror/4.webp",
+    "images/products/wedding/rotatingmirror/5.webp",
+    "images/products/wedding/rotatingmirror/6.webp",
+    "images/products/wedding/rotatingmirror/7.webp",
+],
+
+description: "A personalized rotating mirror with a wooden stand, designed as a practical and elegant wedding souvenir for your guests. Its adjustable rotating design makes it perfect for everyday use, while the personalized detail adds a meaningful touch to your celebration.",
+
+keywords: [
+    "rotating mirror",
+    "personalized mirror",
+    "wedding souvenir",
+    "wedding giveaway",
+    "wedding guest gift",
+    "personalized gift",
+    "guest souvenir",
+    "mirror giveaway",
+    "practical wedding gift",
+    "philia gifts"
+],
+
+inclusions: [
+    "Free Scrunchy",
+    "Paper Bag or Gift Box",
+    "Customized Tag",
+    "Ribbon"
+],
+
+addons: [
+    {
+        name: "Name on the Box or Paper Bag",
+        price: 30
+    },
+    {
+        name: "Hard Box with Name",
+        price: 150
+    }
+]
+},
+
+{
     id: 68,
 
     category: "wedding",
@@ -4071,7 +4206,7 @@ addons: [
 
     name: "Jewelry Organizer",
 
-    price: 250,
+    price: 260,
 
     minimumOrder: 5,
 
@@ -4502,6 +4637,67 @@ addons: [
 },
 
 {
+    id: 81,
+
+    category: "wedding",
+
+    section: ["guest"],
+
+    page: "product.html?id=81",
+
+    name: "Paddle Mirror",
+
+    price: 120,
+
+    minimumOrder: 10,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/paddlemirror/1.webp",
+        "images/products/wedding/paddlemirror/2.webp",
+        "images/products/wedding/paddlemirror/3.webp",
+        "images/products/wedding/paddlemirror/4.webp",
+        "images/products/wedding/paddlemirror/5.webp",
+        "images/products/wedding/paddlemirror/6.webp",
+        "images/products/wedding/paddlemirror/7.webp",
+        "images/products/wedding/paddlemirror/8.webp"
+    ],
+
+    description: "A personalized paddle mirror featuring laser-engraved names, initials, or special event details. A practical and meaningful wedding souvenir that guests can use and cherish long after the celebration. Each piece comes with a ribbon, making it a charming and elegant keepsake for your special occasion.",
+
+    keywords: [
+        "Paddle Mirror",
+        "personalized mirror",
+        "wooden mirror",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "personalized gift",
+        "laser engraved gift",
+        "bridal souvenir",
+        "wedding keepsake",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Laser-Engraved Personalization",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Gift Box",
+            price: 80
+        },
+        {
+            name: "Side-by-Side Engraving",
+            price: 30
+        }
+    ]
+},
+
+{
     id: 19,
 
     category: "wedding",
@@ -4563,6 +4759,65 @@ addons: [
          {   name: "Upgrade to 10 x 10 cm",
             price: 100
         },
+    ]
+},
+
+{
+    id: 82,
+
+    category: "wedding",
+
+    section: ["guest"],
+
+    page: "product.html?id=82",
+
+    name: "Bamboo Pen B",
+
+    price: 75,
+
+    minimumOrder: 25,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/penB/1.webp",
+        "images/products/wedding/penB/2.webp",
+        "images/products/wedding/penB/3.webp",
+        "images/products/wedding/penB/4.webp"
+    ],
+
+    description: "A personalized bamboo pen featuring laser-engraved names, initials, or special event details. Presented in a clear acrylic case, it makes a practical and meaningful wedding souvenir that guests can use and keep as a lasting reminder of your special celebration.",
+
+    keywords: [
+        "Bamboo Pen B",
+        "personalized pen",
+        "bamboo pen",
+        "laser engraved pen",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "personalized gift",
+        "engraved pen",
+        "wedding keepsake",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Laser-Engraved Personalization",
+        "Acrylic Case",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Original Ink Refill",
+            price: 15
+        },
+        {
+            name: "Gel Ink Refill",
+            price: 20
+        }
     ]
 },
 
