@@ -511,6 +511,63 @@ addons: [
 },
 
 {
+    id: 84,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=84",
+
+    name: "Rattan Luxe Trio",
+
+    price: 1450,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/rattanluxe/1.webp",
+        "images/products/wedding/rattanluxe/2.webp",
+        "images/products/wedding/rattanluxe/3.webp",
+        "images/products/wedding/rattanluxe/4.webp"
+    ],
+
+    description: "A luxurious wedding souvenir set featuring a stylish rattan bag, personalized jewelry organizer, and alcohol sprayer. Beautifully presented in a personalized hard box with a customized name, ribbon, and tag, this elegant trio makes a practical and memorable keepsake that guests can use and cherish long after your special celebration.",
+
+    keywords: [
+        "Rattan Luxe Trio",
+        "rattan bag",
+        "jewelry organizer",
+        "alcohol sprayer",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "personalized gift set",
+        "luxury wedding gift",
+        "wedding keepsake",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Rattan Bag",
+        "Personalized Jewelry Organizer",
+        "Alcohol Sprayer",
+        "Personalized Hard Box with Name",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+    {
+        name: "Dried Flower Bouquet",
+        price: 100
+    }
+]
+},
+
+{
         id: 4,
 
         category: "wedding",
