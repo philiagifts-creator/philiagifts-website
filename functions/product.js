@@ -28,7 +28,6 @@ async function findProduct(context, id) {
 
         const text = await response.text();
 
-        // Find this exact product ID
         const idRegex = new RegExp(
             `\\bid\\s*:\\s*${id}\\b`
         );
@@ -37,7 +36,6 @@ async function findProduct(context, id) {
 
         if (!match) continue;
 
-        // Read only the product section after the ID
         const productText =
             text.slice(match.index, match.index + 12000);
 
@@ -73,7 +71,6 @@ export async function onRequestGet(context) {
         url.searchParams.get("id")
     );
 
-    // Get the normal product page
     const pageUrl = new URL(
         "/product",
         context.request.url
@@ -95,10 +92,18 @@ export async function onRequestGet(context) {
 
     let html = await response.text();
 
-    const imageUrl = new URL(
-        product.image,
-        context.request.url
-    ).href;
+    // Force the image path to start from website root
+    const imagePath =
+        product.image.startsWith("/")
+            ? product.image
+            : "/" + product.image;
+
+    // Use the actual production domain
+    const imageUrl =
+        `https://www.philiagifts.com${imagePath}`;
+
+    const productUrl =
+        `https://www.philiagifts.com/product?id=${id}`;
 
     const title =
         `${product.name} | Philia Gifts`;
@@ -119,6 +124,22 @@ export async function onRequestGet(context) {
         .replace(
             /<meta property="og:image"[^>]*>/i,
             `<meta property="og:image" content="${imageUrl}">`
+        )
+        .replace(
+            /<meta property="og:url"[^>]*>/i,
+            `<meta property="og:url" content="${productUrl}">`
+        )
+        .replace(
+            /<meta name="twitter:title"[^>]*>/i,
+            `<meta name="twitter:title" content="${escapeHtml(title)}">`
+        )
+        .replace(
+            /<meta name="twitter:description"[^>]*>/i,
+            `<meta name="twitter:description" content="${escapeHtml(product.description)}">`
+        )
+        .replace(
+            /<meta name="twitter:image"[^>]*>/i,
+            `<meta name="twitter:image" content="${imageUrl}">`
         );
 
     return new Response(html, {
