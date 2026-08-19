@@ -37,7 +37,7 @@ const cleanUrl =
     `/product/${productSlug}?id=${product.id}`;
 
 if (
-    window.location.pathname === "/product.html"
+    window.location.pathname === "/product"
 ) {
 
     window.history.replaceState(
