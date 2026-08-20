@@ -2570,6 +2570,8 @@ addons: [
         "images/products/wedding/wineoclock/11.webp",
         "images/products/wedding/wineoclock/12.webp",
         "images/products/wedding/wineoclock/13.webp",
+        "images/products/wedding/wineoclock/14.webp",
+        "images/products/wedding/wineoclock/15.webp",
     ],
 
     description: "Raise a toast to unforgettable memories with a beautifully curated wine gift set. Perfect for celebrating the people who made your wedding journey extra special, this elegant collection is a sophisticated keepsake they'll truly enjoy.",
@@ -3276,6 +3278,67 @@ addons: [
 },
 
 {
+    id: 86,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=86",
+
+    name: "The Everyday Kit B",
+
+    price: 490,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/everydaykitB/1.webp",
+        "images/products/wedding/everydaykitB/2.webp",
+        "images/products/wedding/everydaykitB/3.webp",
+        "images/products/wedding/everydaykitB/4.webp",
+    ],
+
+    description: "A practical and stylish gift set featuring a personalized leather wallet, comb, and watch, thoughtfully arranged in a gift box with ribbon and tag. A useful and meaningful wedding souvenir that guests can enjoy and use every day.",
+
+    keywords: [
+        "Everyday Kit B",
+        "leather wallet",
+        "watch gift set",
+        "personalized gift set",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "groomsmen gift",
+        "personalized gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
 id: 54,
 
 category: "wedding",
@@ -3401,6 +3464,130 @@ addons: [
     },
 
 {
+    id: 31,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=31",
+
+    keywords: [
+        "burlap bag",
+        "burlap bag gift",
+        "personalized burlap bag",
+        "jute tote bag",
+        "ninang gift",
+        "mother of the bride gift",
+        "bridesmaid gift",
+        "wedding gift bag",
+        "premium tote bag",
+        "custom gift bag",
+        "twilly ribbon bag",
+        "personalized giveaway",
+        "gift for women",
+        "wedding souvenir",
+        "Philia Gifts"
+    ],
+
+    name: "Burlap Bag A",
+
+    price: 470,
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/burlapbagA/1.webp",
+        "images/products/wedding/burlapbagA/2.webp",
+        "images/products/wedding/burlapbagA/3.webp",
+        "images/products/wedding/burlapbagA/4.webp",
+        "images/products/wedding/burlapbagA/5.webp",
+        "images/products/wedding/burlapbagA/6.webp",
+        "images/products/wedding/burlapbagA/7.webp",
+        "images/products/wedding/burlapbagA/8.webp",
+        "images/products/wedding/burlapbagA/9.webp",
+    ],
+
+    description: "Simple, stylish, and made to be reused, this personalized burlap bag is a practical keepsake your guests will enjoy long after the celebration. Finished with an elegant twilly ribbon and gift-ready packaging, it's perfect for ninangs, mothers, bridesmaids, and special friends. Size: 33x22x14cm",
+
+    inclusions: [
+        "Twilly Ribbon",
+        "Personalized Paper Bag",
+        "Custom Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade to Hard Box",
+            price: 150
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
+    id: 87,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=87",
+
+    name: "Burlap Bag B",
+
+    price: 470,
+
+    minimumOrder: 5,
+
+    bestseller: true,
+
+    images: [
+        "images/products/wedding/burlapbagC/1.webp",
+        "images/products/wedding/burlapbagC/2.webp",
+        "images/products/wedding/burlapbagC/3.webp",
+        "images/products/wedding/burlapbagC/4.webp",
+        "images/products/wedding/burlapbagC/5.webp",
+    ],
+
+    description: "A charming personalized burlap bag featuring sturdy black handles and a stylish twilly ribbon accent. Perfect for packaging thoughtful gifts and giveaways, this reusable bag makes a practical and elegant wedding souvenir that guests can use and cherish. Size: 25x29x15cm",
+
+    keywords: [
+        "Burlap Bag C",
+        "burlap bag",
+        "personalized bag",
+        "gift bag",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "personalized gift",
+        "reusable bag",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Twilly Ribbon",
+        "Personalized Paper Bag Packaging",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
     id: 13,
 
     category: "wedding",
@@ -3468,70 +3655,6 @@ addons: [
     ]
 },
 
-{
-    id: 31,
-
-    category: "wedding",
-
-    section: ["gift-set"],
-
-    page: "product.html?id=31",
-
-    keywords: [
-        "burlap bag",
-        "burlap bag gift",
-        "personalized burlap bag",
-        "jute tote bag",
-        "ninang gift",
-        "mother of the bride gift",
-        "bridesmaid gift",
-        "wedding gift bag",
-        "premium tote bag",
-        "custom gift bag",
-        "twilly ribbon bag",
-        "personalized giveaway",
-        "gift for women",
-        "wedding souvenir",
-        "Philia Gifts"
-    ],
-
-    name: "Burlap Bag A",
-
-    price: 470,
-    minimumOrder: 5,
-
-    images: [
-        "images/products/wedding/burlapbagA/1.webp",
-        "images/products/wedding/burlapbagA/2.webp",
-        "images/products/wedding/burlapbagA/3.webp",
-        "images/products/wedding/burlapbagA/4.webp",
-        "images/products/wedding/burlapbagA/5.webp",
-        "images/products/wedding/burlapbagA/6.webp",
-        "images/products/wedding/burlapbagA/7.webp",
-        "images/products/wedding/burlapbagA/8.webp",
-        "images/products/wedding/burlapbagA/9.webp",
-    ],
-
-    description: "Simple, stylish, and made to be reused, this personalized burlap bag is a practical keepsake your guests will enjoy long after the celebration. Finished with an elegant twilly ribbon and gift-ready packaging, it's perfect for ninangs, mothers, bridesmaids, and special friends.",
-
-    inclusions: [
-        "Twilly Ribbon",
-        "Personalized Paper Bag",
-        "Custom Gift Tag",
-        "Ribbon"
-    ],
-
-    addons: [
-        {
-            name: "Upgrade to Hard Box",
-            price: 150
-        },
-        {
-            name: "Dried Flower Bouquet",
-            price: 100
-        }
-    ]
-},
 
 {
     id: 36,
@@ -4315,6 +4438,73 @@ addons: [
 },
 
 {
+    id: 88,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=88",
+
+    name: "Frosted Mug",
+
+    price: 260,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/frostedmug/1.webp",
+        "images/products/wedding/frostedmug/2.webp",
+        "images/products/wedding/frostedmug/3.webp",
+        "images/products/wedding/frostedmug/4.webp",
+        "images/products/wedding/frostedmug/5.webp",
+    ],
+
+    description: "A stylish personalized frosted mug with a soft matte finish, beautifully customized with names or event details. Thoughtfully presented in a gift box with ribbon and tag, it makes a practical and memorable wedding souvenir that guests can enjoy for their favorite drinks.",
+
+    keywords: [
+        "Frosted Mug",
+        "personalized mug",
+        "custom mug",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "personalized gift",
+        "drinkware gift",
+        "gift box",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Personalized Frosted Mug",
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Stirring Spoon",
+            price: 35
+        },
+        {
+            name: "Coffee Pack",
+            price: 55
+        },
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        },
+        {
+            name: "Upgrade to Hard Box",
+            price: 100
+        }
+    ]
+},
+
+{
 id: 52,
 
 category: "wedding",
@@ -4619,7 +4809,11 @@ addons: [
         "images/products/wedding/coaster/3.webp",
         "images/products/wedding/coaster/4.webp",
         "images/products/wedding/coaster/5.webp",
-        "images/products/wedding/coaster/6.webp"
+        "images/products/wedding/coaster/6.webp",
+        "images/products/wedding/coaster/7.webp",
+        "images/products/wedding/coaster/8.webp",
+        "images/products/wedding/coaster/9.webp",
+        "images/products/wedding/coaster/10.webp",
     ],
 
     description: "Crafted from natural acacia wood, each coaster is uniquely engraved to create a practical keepsake your guests can enjoy long after your celebration. A timeless wedding favor that blends rustic charm with everyday function.",

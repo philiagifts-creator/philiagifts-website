@@ -1403,7 +1403,10 @@ addons: [
         "images/products/celebration/digitalclock/4.webp",
         "images/products/celebration/digitalclock/5.webp",
         "images/products/celebration/digitalclock/6.webp",
-        "images/products/celebration/digitalclock/7.webp"
+        "images/products/celebration/digitalclock/7.webp",
+        "images/products/celebration/digitalclock/8.webp",
+        "images/products/celebration/digitalclock/9.webp",
+        "images/products/celebration/digitalclock/10.webp",
     ],
 
     description: "A personalized digital alarm clock gift set packaged in an elegant abaca bag with ribbon and gift tag. Complete with free 3 AAA batteries, making it a thoughtful and practical keepsake for birthdays, baptisms, and special celebrations.",
@@ -1679,7 +1682,12 @@ bestseller: false,
 images: [
     "images/products/celebration/phonestand/1.webp",
     "images/products/celebration/phonestand/2.webp",
-    "images/products/celebration/phonestand/3.webp"
+    "images/products/celebration/phonestand/3.webp",
+    "images/products/celebration/phonestand/4.jpg",
+    "images/products/celebration/phonestand/5.jpg",
+    "images/products/celebration/phonestand/6.jpg",
+    "images/products/celebration/phonestand/7.webp",
+    "images/products/celebration/phonestand/8.jpg",
 ],
 
 description: "A laser-engraved wooden phonestand with a personalized design. A practical and meaningful keepsake that makes a thoughtful choice for celebrations, recognition, and special occasions.",
@@ -2302,7 +2310,14 @@ images: [
     "images/products/celebration/refmag/2.webp",
     "images/products/celebration/refmag/3.webp",
     "images/products/celebration/refmag/4.webp",
-    "images/products/celebration/refmag/5.webp"
+    "images/products/celebration/refmag/5.webp",
+    "images/products/celebration/refmag/6.webp",
+    "images/products/celebration/refmag/7.webp",
+    "images/products/celebration/refmag/8.webp",
+    "images/products/celebration/refmag/9.webp",
+    "images/products/celebration/refmag/10.webp",
+    "images/products/celebration/refmag/11.webp",
+    "images/products/celebration/refmag/12.webp",
 ],
 
 description: "Beautifully laser-engraved wooden ref magnet personalized with your photo and event details, creating timeless keepsake for any special celebration.",
