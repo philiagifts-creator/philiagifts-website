@@ -899,6 +899,62 @@ addons: [
 },
 
 {
+    id: 89,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=89",
+
+    name: "Traveler's Trio",
+
+    price: 1300,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/travelertrio/1.webp",
+        "images/products/wedding/travelertrio/2.webp",
+        "images/products/wedding/travelertrio/3.webp",
+        "images/products/wedding/travelertrio/4.webp",
+        "images/products/wedding/travelertrio/5.webp",
+        "images/products/wedding/travelertrio/6.webp",
+    ],
+
+    description: "A sophisticated travel-inspired gift set featuring a personalized tumbler, leather pouch, and mini umbrella with UV protection. Thoughtfully arranged in a premium hard box with ribbon and tag, it makes a practical and elegant wedding souvenir that guests can use and appreciate wherever they go.",
+
+    keywords: [
+        "Traveler's Trio",
+        "travel gift set",
+        "personalized tumbler",
+        "leather pouch",
+        "mini umbrella",
+        "UV protection umbrella",
+        "wedding souvenir",
+        "wedding giveaway",
+        "wedding guest gift",
+        "personalized gift set",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
     id: 61,
 
     category: "wedding",

@@ -1754,4 +1754,60 @@ const corporateProducts = [
     ]
 },
 
+{
+    id: 1030,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1030",
+
+    name: "Traveler's Trio",
+
+    price: 1300,
+
+    minimumOrder: 10,
+
+    bestseller: false,
+
+    images: [
+        "images/products/corporate/travelertrio/1.webp",
+        "images/products/corporate/travelertrio/2.webp",
+        "images/products/corporate/travelertrio/3.webp",
+        "images/products/corporate/travelertrio/4.webp",
+        "images/products/corporate/travelertrio/5.webp",
+        "images/products/corporate/travelertrio/6.webp",
+    ],
+
+    description: "A sophisticated travel-inspired corporate gift set featuring a personalized tumbler, leather pouch, and mini umbrella with UV protection. Thoughtfully arranged in a premium hard box, it makes a practical and elegant gift that clients, employees, and business partners can use and appreciate wherever they go.",
+
+    keywords: [
+        "Traveler's Trio",
+        "corporate gift set",
+        "travel gift set",
+        "personalized tumbler",
+        "leather pouch",
+        "mini umbrella",
+        "UV protection umbrella",
+        "corporate giveaway",
+        "employee gift",
+        "client gift",
+        "philia gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
 ];
