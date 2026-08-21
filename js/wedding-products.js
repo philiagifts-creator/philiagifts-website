@@ -4059,6 +4059,66 @@ addons: [
 },
 
 {
+    id: 85,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=85",
+
+    name: "Marble Mug",
+
+    price: 350,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/marblemug/1.webp",
+        "images/products/wedding/marblemug/2.webp",
+        "images/products/wedding/marblemug/3.webp",
+        "images/products/wedding/marblemug/4.webp"
+    ],
+
+    description: "A personalized marble mug with a gift box, available in pink and gray. A charming and practical choice for celebrations and special occasions, making a thoughtful gift that guests can enjoy and use every day.",
+
+    keywords: [
+        "Marble Mug",
+        "personalized mug",
+        "wedding souvenir",
+        "wedding giveaway",
+        "customized mug",
+        "Ninong gift",
+        "Ninang gift",
+        "gift box",
+        "Philia Gifts"
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Gift Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Stirring Spoon",
+            price: 35
+        },
+        {
+            name: "Coffee Pack",
+            price: 55
+        },
+        {
+            name: "Upgrade to Hard Box",
+            price: 100
+        }
+    ]
+},
+
+{
     id: 69,
 
     category: "wedding",

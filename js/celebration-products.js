@@ -707,7 +707,7 @@ addons: [
 
         category: "celebration",
 
-       section: ["gift-set", "guest"],
+       section: ["gift-set"],
 
           page:"product.html?id=2007",
 
@@ -1028,7 +1028,7 @@ addons: [
 
         category: "celebration",
 
-        section: ["gift-set", "guest"],
+        section: ["gift-set"],
 
              page:"product.html?id=2002",
 
@@ -1086,7 +1086,7 @@ addons: [
             },
             {
                 name: "Upgarde to hard box",
-                price: 150
+                price: 100
             }
         ]
     },
@@ -1096,7 +1096,7 @@ addons: [
 
     category: "celebration",
 
-    section: ["gift-set", "guest"],
+    section: ["gift-set"],
 
     page: "product.html?id=2006",
 
@@ -1222,7 +1222,7 @@ addons: [
     },
     {
         name: "Upgrade to Hard Box",
-        price: 80
+        price: 100
     }
 ]
 
@@ -1233,7 +1233,7 @@ addons: [
 
         category: "celebration",
 
-        section: ["gift-set", "guest"],
+        section: ["gift-set"],
 
           page:"product.html?id=2001",
 
@@ -1313,7 +1313,7 @@ addons: [
 
     category: "celebration",
 
-    section: ["gift-set", "guest"],
+    section: ["gift-set"],
 
     page: "product.html?id=2008",
 
@@ -1603,7 +1603,7 @@ addons: [
     },
     {
         name: "Upgrade to Hard Box",
-        price: 80
+        price: 100
     }
 ]
 
