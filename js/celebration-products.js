@@ -475,6 +475,55 @@ addons: [
 },
 
 {
+    id: 2047,
+
+    category: "celebration",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=2047",
+
+    name: "Portable Insulated Cup",
+
+    price: 680,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/celebration/portableinsulatedcup/1.webp",
+        "images/products/celebration/portableinsulatedcup/2.webp",
+        "images/products/celebration/portableinsulatedcup/3.webp",
+        "images/products/celebration/portableinsulatedcup/4.webp",
+        "images/products/celebration/portableinsulatedcup/5.webp",
+        "images/products/celebration/portableinsulatedcup/6.webp",
+        "images/products/celebration/portableinsulatedcup/7.webp"
+    ],
+
+    description: "A sleek and practical portable insulated cup, perfect as a personalized giveaway or gift for birthdays, celebrations, and special occasions. Beautifully presented in a hard box with a customized name, making it a useful and memorable keepsake for your guests.",
+
+    keywords: [
+        "Portable Insulated Cup",
+        "insulated cup",
+        "personalized cup",
+        "celebration giveaway",
+        "celebration gift",
+        "customized gift",
+        "guest gift",
+        "Philia Gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: []
+},
+
+{
 id: 2024,
 
 category: "celebration",

@@ -2435,6 +2435,55 @@ addons: [
 },
 
 {
+    id: 86,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=86",
+
+    name: "Portable Insulated Cup",
+
+    price: 680,
+
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/portableinsulatedcup/1.webp",
+        "images/products/wedding/portableinsulatedcup/2.webp",
+        "images/products/wedding/portableinsulatedcup/3.webp",
+        "images/products/wedding/portableinsulatedcup/4.webp",
+        "images/products/wedding/portableinsulatedcup/5.webp",
+        "images/products/wedding/portableinsulatedcup/6.webp",
+        "images/products/wedding/portableinsulatedcup/7.webp"
+    ],
+
+    description: "A sleek and practical portable insulated cup, perfect as a personalized wedding giveaway or gift. Beautifully presented in a hard box with a customized name, making it a useful keepsake your guests can enjoy every day.",
+
+    keywords: [
+        "Portable Insulated Cup",
+        "insulated cup",
+        "personalized cup",
+        "wedding souvenir",
+        "wedding giveaway",
+        "customized gift",
+        "guest gift",
+        "Philia Gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: []
+},
+
+{
     id: 11,
 
     category: "wedding",

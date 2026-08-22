@@ -1810,4 +1810,278 @@ const corporateProducts = [
     ]
 },
 
+{
+    id: 1031,
+
+    category: "corporate",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=1031",
+
+    name: "Portable Insulated Cup",
+
+    price: 680,
+
+    minimumOrder: 10,
+
+    bestseller: false,
+
+    images: [
+        "images/products/corporate/portableinsulatedcup/1.webp",
+        "images/products/corporate/portableinsulatedcup/2.webp",
+        "images/products/corporate/portableinsulatedcup/3.webp",
+        "images/products/corporate/portableinsulatedcup/4.webp",
+        "images/products/corporate/portableinsulatedcup/5.webp",
+        "images/products/corporate/portableinsulatedcup/6.webp",
+        "images/products/corporate/portableinsulatedcup/7.webp"
+    ],
+
+    description: "A sleek and practical portable insulated cup, perfect as a personalized corporate giveaway or gift. Beautifully presented in a hard box with a customized name, making it a useful and thoughtful keepsake for clients, employees, and business partners.",
+
+    keywords: [
+        "Portable Insulated Cup",
+        "insulated cup",
+        "personalized cup",
+        "corporate giveaway",
+        "corporate gift",
+        "customized gift",
+        "employee gift",
+        "client gift",
+        "Philia Gifts"
+    ],
+
+    inclusions: [
+        "Hard Box with Name",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: []
+},
+
+{
+    id: 1032,
+    category: "corporate",
+    section: ["guest"],
+    page: "product.html?id=1032",
+    name: "Leather Pouch",
+    price: 180,
+    minimumOrder: 15,
+    images: [
+        "images/products/corporate/leatherpouch/1.webp",
+        "images/products/corporate/leatherpouch/2.webp",
+        "images/products/corporate/leatherpouch/3.webp"
+    ],
+    description: "A compact vegan leather pouch with a customized sleeve, perfect as a practical and personalized corporate giveaway. It is ideal for events, employee gifts, client giveaways, and other special occasions. Size: Small — 2.5 × 2 × 1.5 inches",
+    keywords: [
+        "Leather Pouch",
+        "Vegan Leather",
+        "Corporate Giveaway",
+        "Customized Pouch",
+        "Personalized Gift",
+        "Corporate Gift"
+    ],
+    inclusions: [
+        "Customized Sleeve",
+        "Leather Stamping up to 7 letters",
+    ],
+    addons: [
+        {
+            name: "Upgrade to Large Pouch",
+            price: 120
+        }
+    ]
+},
+
+{
+    id: 1033,
+    category: "corporate",
+    section: ["guest"],
+    page: "product.html?id=1033",
+    name: "Luggage/Bag Tag",
+    price: 170,
+    minimumOrder: 15,
+    images: [
+        "images/products/corporate/luggagetag/1.webp",
+        "images/products/corporate/luggagetag/2.webp",
+        "images/products/corporate/luggagetag/3.webp",
+        "images/products/corporate/luggagetag/4.webp",
+        "images/products/corporate/luggagetag/5.webp",
+        "images/products/corporate/luggagetag/6.webp",
+        "images/products/corporate/luggagetag/7.webp"
+    ],
+    description: "A stylish and practical luggage or bag tag with leather stamped customization, perfect for corporate giveaways, employee gifts, client tokens, and special events. A personalized accessory that adds a distinctive touch to any bag or luggage.",
+    keywords: [
+        "Luggage Tag",
+        "Bag Tag",
+        "Stamped Customization",
+        "Corporate Giveaway",
+        "Personalized Gift",
+        "Customized Tag",
+        "Corporate Gift"
+    ],
+    inclusions: [
+       "Leather Stamping up to 7 letters",
+    ],
+    addons: []
+},
+
+{
+    id: 1034,
+    category: "corporate",
+    section: ["guest"],
+    page: "product.html?id=1034",
+    name: "Leather Mousepad",
+    price: 120,
+    minimumOrder: 15,
+    images: [
+        "images/products/corporate/mousepad/1.webp",
+        "images/products/corporate/mousepad/2.webp",
+        "images/products/corporate/mousepad/3.webp",
+        "images/products/corporate/mousepad/4.webp",
+        "images/products/corporate/mousepad/5.webp",
+        "images/products/corporate/mousepad/6.webp"
+    ],
+    description: "A sleek leather mousepad with stamped customization, perfect for corporate giveaways, employee gifts, client tokens, and office essentials. A practical and personalized desk accessory that adds a professional touch to any workspace.",
+    keywords: [
+        "Leather Mousepad",
+        "Leather Stamped",
+        "Stamped Mousepad",
+        "Corporate Giveaway",
+        "Personalized Gift",
+        "Corporate Gift",
+        "Office Gift"
+    ],
+    inclusions: [
+        "Leather Stamping up to 7 letters",
+    ],
+    addons: []
+},
+
+{
+    id: 1035,
+    category: "corporate",
+    section: ["gift-set"],
+    page: "product.html?id=1035",
+    name: "Coffee Drip Set",
+    price: 580,
+    minimumOrder: 15,
+    images: [
+        "images/products/corporate/coffeedripset/1.webp",
+        "images/products/corporate/coffeedripset/2.webp",
+        "images/products/corporate/coffeedripset/3.webp",
+        "images/products/corporate/coffeedripset/4.webp"
+    ],
+    description: "A thoughtfully curated coffee gift set featuring a nordic mug with lid and cork bottom, paired with three coffee drip packs. Perfect as a premium corporate gift for clients, employees, and special occasions.",
+
+    keywords: [
+        "Coffee Drip Set",
+        "Custom Mug",
+        "Coffee Gift",
+        "Corporate Gift",
+        "Corporate Giveaway",
+        "Employee Gift",
+        "Client Gift"
+    ],
+
+    inclusions: [
+        "Custom Mug with Lid and Cork Bottom",
+        "3pcs Coffee Drip",
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Hard Box with Logo",
+            price: 150
+        }
+    ]
+},
+
+{
+    id: 1036,
+    category: "corporate",
+    section: ["guest"],
+    page: "product.html?id=1036",
+    name: "Notebook Planner",
+    price: 290,
+    minimumOrder: 15,
+    images: [
+        "images/products/corporate/planner/1.webp"
+    ],
+    description: "A sleek and practical notebook planner customized with your company logo. Perfect for corporate giveaways, employee gifts, client tokens, and events, offering a useful everyday essential with a professional touch.",
+    keywords: [
+        "Notebook Planner",
+        "Customized Planner",
+        "Logo Planner",
+        "Corporate Giveaway",
+        "Corporate Gift",
+        "Employee Gift",
+        "Client Gift"
+    ],
+    inclusions: [
+        "Notebook Planner with Logo"
+    ],
+    addons: [
+        {
+            name: "Hard Box with Logo",
+            price: 150
+        }
+    ]
+},
+
+{
+    id: 1037,
+    category: "corporate",
+    section: ["gift-set"],
+    page: "product.html?id=1037",
+    name: "Cozy Care Kit",
+    price: 590,
+    minimumOrder: 15,
+    images: [
+        "images/products/corporate/cozycare/1.webp",
+        "images/products/corporate/cozycare/2.webp",
+        "images/products/corporate/cozycare/3.webp",
+        "images/products/corporate/cozycare/4.webp",
+        "images/products/corporate/cozycare/5.webp",
+        "images/products/corporate/cozycare/6.webp",
+        "images/products/corporate/cozycare/7.webp"
+    ],
+    description: "A thoughtfully curated gift set featuring a personalized Nordic mug and a wooden coaster with phone stand. A practical and stylish choice for corporate giveaways, employee gifts, client tokens, and special occasions.",
+    keywords: [
+        "Cozy Care Kit",
+        "Nordic Mug",
+        "Wooden Coaster",
+        "Phone Stand",
+        "Corporate Gift",
+        "Corporate Giveaway",
+        "Employee Gift",
+        "Client Gift"
+    ],
+    inclusions: [
+        "Personalized Nordic Mug",
+        "Wooden Coaster with Phone Stand",
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Lid Engraving",
+            price: 50
+        },
+        {
+            name: "Coffee Pack",
+            price: 50
+        },
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        }
+    ]
+},
+
 ];
