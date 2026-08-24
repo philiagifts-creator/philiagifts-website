@@ -2101,6 +2101,67 @@ addons: [
 },
 
 {
+    id: 91,
+
+    category: "wedding",
+
+    section: ["gift-set"],
+
+    page: "product.html?id=91",
+
+    name: "Beauty On-the-Go",
+
+    price: 720,
+
+    minimumOrder: 5,
+
+    images: [
+        "images/products/wedding/beautyonthego/1.webp",
+        "images/products/wedding/beautyonthego/2.webp",
+        "images/products/wedding/beautyonthego/3.webp",
+        "images/products/wedding/beautyonthego/4.webp",
+        "images/products/wedding/beautyonthego/5.webp",
+        "images/products/wedding/beautyonthego/6.webp",
+        "images/products/wedding/beautyonthego/7.webp"
+
+    ],
+
+    description: "A personalized beauty gift set featuring an LED fan, pocket hair brush, compact mirror, and scrunchy. A thoughtful and stylish giveaway for weddings and special occasions.",
+
+    keywords: [
+
+        "Beauty On-the-Go",
+        "LED Fan",
+        "Pocket Hair Brush",
+        "Compact Mirror",
+        "Scrunchy",
+        "Wedding Gift",
+        "Wedding Giveaway",
+        "Bridal Party Gift"
+
+    ],
+
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        },
+
+    ]
+
+},
+
+{
     id: 75,
 
     category: "wedding",
@@ -2895,6 +2956,45 @@ addons: [
             name: "Coffee Pack",
             price: 50
         },
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        }
+    ]
+},
+
+{
+    id: 90,
+    category: "wedding",
+    section: ["gift-set"],
+    page: "product.html?id=90",
+    name: "Drip Coffee Set",
+    price: 580,
+    minimumOrder: 5,
+    images: [
+        "images/products/wedding/coffeedripset/1.webp",
+        "images/products/wedding/coffeedripset/2.webp",
+        "images/products/wedding/coffeedripset/3.webp",
+        "images/products/wedding/coffeedripset/4.webp"
+    ],
+    description: "A thoughtfully curated coffee gift set featuring a custom mug with lid and cork bottom, paired with three drip coffee packs. A practical and meaningful choice for wedding souvenirs and special celebrations.",
+    keywords: [
+        "Coffee Drip Set",
+        "Custom Mug",
+        "Coffee Gift Set",
+        "Wedding Souvenir",
+        "Wedding Giveaway",
+        "Coffee Drip",
+        "Personalized Gift"
+    ],
+    inclusions: [
+        "Custom Mug with Lid and Cork Bottom",
+        "3 pcs Drip Coffee",
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
         {
             name: "Upgrade to Hard Box with Name",
             price: 150
@@ -5176,6 +5276,34 @@ addons: [
             price: 100
         },
     ]
+},
+
+{
+    id: 92,
+    category: "wedding",
+    section: ["guest"],
+    page: "product.html?id=92",
+    name: "Room/Linen Spray",
+    price: 95,
+    minimumOrder: 25,
+    images: [
+        "images/products/wedding/roomspray/1.webp",
+        "images/products/wedding/roomspray/2.webp"
+    ],
+    description: "A refreshing Room/Linen Spray personalized with your custom design. A practical and thoughtful guest giveaway for weddings and special occasions.",
+    keywords: [
+        "Room Spray",
+        "Linen Spray",
+        "Wedding Giveaway",
+        "Wedding Guest Favor",
+        "Personalized Giveaway",
+        "Custom Design"
+    ],
+    inclusions: [
+        "Room/Linen Spray 100ml",
+        "Custom Design"
+    ],
+    addons: []
 },
 
 {

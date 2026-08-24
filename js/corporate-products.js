@@ -647,7 +647,7 @@ const corporateProducts = [
         "images/products/corporate/classiccoffee/3.webp"
     ],
 
-    description: "A comforting coffee gift set featuring a customized ceramic mug, two premium coffee drip sachets, and pure tablea, thoughtfully packed in a customized hard box. Perfect for coffee breaks, client appreciation, and corporate gifting, this set delivers warmth, flavor, and a memorable gifting experience in every cup.",
+    description: "A comforting coffee gift set featuring a customized ceramic mug, 2pcs premium drip coffee sachets, and pure tablea, thoughtfully packed in a customized hard box. Perfect for coffee breaks, client appreciation, and corporate gifting, this set delivers warmth, flavor, and a memorable gifting experience in every cup.",
 
     inclusions: [        
         "Customized Hard Box",
@@ -1964,7 +1964,7 @@ const corporateProducts = [
     category: "corporate",
     section: ["gift-set"],
     page: "product.html?id=1035",
-    name: "Coffee Drip Set",
+    name: "Drip Coffee Set",
     price: 580,
     minimumOrder: 15,
     images: [
@@ -1973,7 +1973,7 @@ const corporateProducts = [
         "images/products/corporate/coffeedripset/3.webp",
         "images/products/corporate/coffeedripset/4.webp"
     ],
-    description: "A thoughtfully curated coffee gift set featuring a nordic mug with lid and cork bottom, paired with three coffee drip packs. Perfect as a premium corporate gift for clients, employees, and special occasions.",
+    description: "A thoughtfully curated coffee gift set featuring a nordic mug with lid and cork bottom, paired with three drip coffee packs. Perfect as a premium corporate gift for clients, employees, and special occasions.",
 
     keywords: [
         "Coffee Drip Set",
@@ -1987,7 +1987,7 @@ const corporateProducts = [
 
     inclusions: [
         "Custom Mug with Lid and Cork Bottom",
-        "3pcs Coffee Drip",
+        "3pcs Drip Coffee",
         "Gift Box",
         "Customized Tag",
         "Ribbon"
@@ -1995,7 +1995,7 @@ const corporateProducts = [
 
     addons: [
         {
-            name: "Hard Box with Logo",
+            name: "Upgrade to Hard Box with Logo",
             price: 150
         }
     ]
@@ -2080,6 +2080,208 @@ const corporateProducts = [
         {
             name: "Upgrade to Hard Box with Name",
             price: 150
+        }
+    ]
+},
+
+{
+    id: 1038,
+
+    category: "corporate",
+
+    section: ["guest"],
+
+    page: "product.html?id=1038",
+
+    name: "Acrylic Bottle Opener Keychain",
+
+    price: 50,
+
+    minimumOrder: 100,
+
+    images: [
+
+        "images/products/corporate/bottleopenerkeychain/1.webp",
+
+        "images/products/corporate/bottleopenerkeychain/2.webp"
+
+    ],
+
+    description: "A practical and customizable bottle opener keychain featuring your company logo. Each piece comes with a customized card and plastic packaging, making it a great choice for corporate giveaways, promotional events, and branded souvenirs.",
+
+    keywords: [
+
+        "Bottle Opener Keychain",
+
+        "Customized Keychain",
+
+        "Logo Giveaway",
+
+        "Corporate Giveaway",
+
+        "Promotional Item",
+
+        "Corporate Souvenir",
+
+        "Branded Gift"
+
+    ],
+
+    inclusions: [
+
+        "With Logo",
+
+        "With Card and Plastic"
+
+    ],
+
+    addons: []
+
+},
+
+{
+    id: 1039,
+
+    category: "corporate",
+
+    section: "gift-set",
+
+    page: "product.html?id=1039",
+
+    keywords: [
+        "heritage bloom tea set",
+        "tea set",
+        "porcelain tea set",
+        "luxury tea set",
+        "premium tea gift",
+        "personalized tea set",
+        "magnetic hard box",
+        "hard box gift",
+        "gift set",
+        "wedding",
+        "wedding souvenir",
+        "wedding giveaway",
+        "ninang gift",
+        "sponsor gift",
+        "gift for her",
+        "anniversary",
+        "birthday",
+        "christmas",
+        "housewarming",
+        "bridal shower",
+        "personalized gift",
+        "elegant gift",
+        "luxury gift",
+        "custom gift set"
+    ],
+
+    name: "Heritage Bloom Tea Set",
+
+    price: 1350,
+    minimumOrder: 5,
+
+    bestseller: false,
+
+    images: [
+        "images/products/corporate/teaset1/1.webp",
+        "images/products/corporate/teaset1/2.webp",
+        "images/products/corporate/teaset1/3.webp",
+        "images/products/corporate/teaset1/4.webp",
+        "images/products/corporate/teaset1/5.webp",
+        "images/products/corporate/teaset1/6.webp",
+        "images/products/corporate/teaset1/7.webp",
+    ],
+
+    description:"An elegant porcelain tea set featuring a teapot and 4 matching teacups, beautifully presented in a personalized magnetic gift box for corporate giveaways, employee gifts, client tokens, and special occasions.",
+    inclusions: [
+        "Personalized Magnetic Hard Box",
+        "Customized Gift Tag",
+        "Ribbon",
+    ],
+
+    addons: [
+        {
+            name: "Dried Flower Bouquet",
+            price: 100
+        }
+    ]
+},
+
+{
+    id: 1040,
+    category: "corporate",
+    section: ["guest"],
+    page: "product.html?id=1040",
+    name: "Insulated Tumbler with Straw",
+    price: 380,
+    minimumOrder: 15,
+    images: [
+        "images/products/corporate/tumblerstraw/1.webp",
+        "images/products/corporate/tumblerstraw/2.webp",
+        "images/products/corporate/tumblerstraw/3.webp",
+        "images/products/corporate/tumblerstraw/4.webp"
+    ],
+    description: "A 600 ml insulated tumbler with straw, customized with your company logo. A practical and stylish choice for corporate giveaways, employee gifts, client tokens, and promotional events.",
+    keywords: [
+        "Insulated Tumbler",
+        "Tumbler with Straw",
+        "Customized Tumbler",
+        "Logo Tumbler",
+        "Corporate Gift",
+        "Corporate Giveaway",
+        "Employee Gift",
+        "Client Gift"
+    ],
+    inclusions: [
+        "Customized Tumbler",
+    ],
+    addons: [
+        {
+            name: "Gift Box with Ribbon and Tag",
+            price: 200
+        },
+    ]
+},
+
+{
+    id: 1041,
+    category: "corporate",
+    section: ["gift-set"],
+    page: "product.html?id=1041",
+    name: "The Premier Collection",
+    price: 1450,
+    minimumOrder: 10,
+    images: [
+        "images/products/corporate/thepremiercoll/1.webp",
+        "images/products/corporate/thepremiercoll/2.webp",
+        "images/products/corporate/thepremiercoll/3.webp",
+        "images/products/corporate/thepremiercoll/4.webp",
+        "images/products/corporate/thepremiercoll/5.webp",
+        "images/products/corporate/thepremiercoll/6.webp",
+
+    ],
+    description: "A premium and thoughtfully curated gift collection featuring a metal pen set, leather pouch, leather pocket notebook, 2pcs drip coffee, and mini tumbler. Perfect for corporate giveaways, employee appreciation, client gifts, and special occasions.",
+    keywords: [
+        "The Premier Collection",
+        "Metal Pen Set",
+        "Leather Pouch",
+        "Leather Pocket Notebook",
+        "Mini Tumbler",
+        "Corporate Gift",
+        "Corporate Giveaway",
+        "Employee Gift",
+        "Client Gift",
+        "Premium Gift Set"
+    ],
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 200
         }
     ]
 },
