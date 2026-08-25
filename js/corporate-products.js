@@ -2248,7 +2248,7 @@ const corporateProducts = [
     category: "corporate",
     section: ["gift-set"],
     page: "product.html?id=1041",
-    name: "The Premier Collection",
+    name: "The Whitmore Set",
     price: 1450,
     minimumOrder: 10,
     images: [
@@ -2260,9 +2260,9 @@ const corporateProducts = [
         "images/products/corporate/thepremiercoll/6.webp",
 
     ],
-    description: "A premium and thoughtfully curated gift collection featuring a metal pen set, leather pouch, leather pocket notebook, 2pcs drip coffee, and mini tumbler. Perfect for corporate giveaways, employee appreciation, client gifts, and special occasions.",
+    description: "A premium and thoughtfully curated gift collection featuring a metal pen set, leather pouch, leather pocket magnetic lock notebook, 2pcs drip coffee, and mini vacuum tumbler. Perfect for corporate giveaways, employee appreciation, client gifts, and special occasions.",
     keywords: [
-        "The Premier Collection",
+        "The Whitmore Set",
         "Metal Pen Set",
         "Leather Pouch",
         "Leather Pocket Notebook",
@@ -2286,4 +2286,331 @@ const corporateProducts = [
     ]
 },
 
-];
+{
+    id: 1042,
+    category: "corporate",
+    section: ["guest"],
+    page: "product.html?id=1042",
+    name: "Bottle Opener Magnet",
+    price: 110,
+    minimumOrder: 20,
+    images: [
+        "images/products/corporate/bottleopenermagnet/1.webp",
+        "images/products/corporate/bottleopenermagnet/2.webp",
+        "images/products/corporate/bottleopenermagnet/3.webp",
+        "images/products/corporate/bottleopenermagnet/4.webp",
+        "images/products/corporate/bottleopenermagnet/5.webp",
+        "images/products/corporate/bottleopenermagnet/6.webp",
+        "images/products/corporate/bottleopenermagnet/7.webp",
+        "images/products/corporate/bottleopenermagnet/8.webp"
+    ],
+    description: "A practical and memorable bottle opener magnet, personalized with laser engraving. Each piece comes with a custom design and is individually packed with a card and plastic, making it a great choice for corporate giveaways, events, and promotional gifts.",
+    keywords: [
+        "Bottle Opener Magnet",
+        "Corporate Giveaway",
+        "Corporate Gift",
+        "Laser Engraved",
+        "Personalized Gift",
+        "Custom Magnet",
+        "Promotional Giveaway"
+    ],
+    inclusions: [
+        "Laser-Engraved Bottle Opener Magnet",
+        "Individual Card and Plastic Packaging"
+    ],
+    addons: []
+},
+
+{
+    id: 1043,
+    category: "corporate",
+    section: ["gift-set"],
+    page: "product.html?id=1043",
+    name: "The Ashton Set",
+    minimumOrder: 10,
+    price: 980,
+    images: [
+        "images/products/corporate/theashtonset/1.webp",
+        "images/products/corporate/theashtonset/2.webp",
+        "images/products/corporate/theashtonset/3.webp",
+        "images/products/corporate/theashtonset/4.webp",
+        "images/products/corporate/theashtonset/5.webp",
+        "images/products/corporate/theashtonset/6.webp"
+    ],
+    description: "A thoughtfully curated corporate gift set featuring an insulated tumbler with straw, leather pen case, leather pouch, and two pieces of drip coffee. A practical and elegant choice for employee gifts, client appreciation, and corporate giveaways.",
+    keywords: [
+        "The Ashton Set",
+        "Corporate Gift Set",
+        "Insulated Tumbler",
+        "Leather Pen Case",
+        "Leather Pouch",
+        "Drip Coffee",
+        "Employee Gift",
+        "Client Gift",
+        "Corporate Giveaway"
+    ],
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 200
+        }
+    ]
+},
+
+{
+    id: 1044,
+    category: "corporate",
+    section: ["gift-set"],
+    page: "product.html?id=1044",
+    name: "The Grant Set",
+    minimumOrder: 10,
+    price: 1200,
+    images: [
+        "images/products/corporate/thegrantset/1.webp",
+        "images/products/corporate/thegrantset/2.webp",
+        "images/products/corporate/thegrantset/3.webp",
+        "images/products/corporate/thegrantset/4.webp",
+        "images/products/corporate/thegrantset/5.webp"
+    ],
+    description: "A premium corporate gift set featuring a metal pen set, automatic umbrella, portable fan, and two pieces of drip coffee. Thoughtfully packaged in a gift box with a customized tag and ribbon, making it an excellent choice for client appreciation, employee gifts, and corporate giveaways.",
+    keywords: [
+        "The Grant Set",
+        "Corporate Gift Set",
+        "Metal Pen Set",
+        "Automatic Umbrella",
+        "Portable Fan",
+        "Drip Coffee",
+        "Employee Gift",
+        "Client Gift",
+        "Corporate Giveaway"
+    ],
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 200
+        }
+    ]
+},
+
+{
+    id: 1045,
+    category: "corporate",
+    section: ["gift-set"],
+    page: "product.html?id=1045",
+    name: "The Hudson Set",
+    minimumOrder: 10,
+    price: 990,
+    images: [
+        "images/products/corporate/thehudsonset/1.webp",
+        "images/products/corporate/thehudsonset/2.webp",
+        "images/products/corporate/thehudsonset/3.webp",
+        "images/products/corporate/thehudsonset/4.webp"
+    ],
+    description: "A stylish and practical corporate gift set featuring a leather pouch, leather pocket magnetic lock notebook, and mini vacuum tumbler. Thoughtfully packaged in a gift box with a customized tag and ribbon, making it a great choice for employee gifts, client appreciation, and corporate giveaways.",
+    keywords: [
+        "The Hudson Set",
+        "Corporate Gift Set",
+        "Leather Pouch",
+        "Pocket Notebook",
+        "Mini Vacuum Tumbler",
+        "Employee Gift",
+        "Client Gift",
+        "Corporate Giveaway"
+    ],
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 200
+        }
+    ]
+},
+
+{
+    id: 1046,
+    category: "corporate",
+    section: ["gift-set"],
+    page: "product.html?id=1046",
+    name: "The Bennett Set",
+    price: 1600,
+    images: [
+        "images/products/corporate/thebennettset/1.webp",
+        "images/products/corporate/thebennettset/2.webp",
+        "images/products/corporate/thebennettset/3.webp",
+        "images/products/corporate/thebennettset/4.webp",
+        "images/products/corporate/thebennettset/5.webp"
+    ],
+    description: "A premium corporate gift set featuring a leather pen case, leather pocket notebook with magnetic lock, metal pen set, and portable insulated cup. Thoughtfully packaged in a gift box with a customized tag and ribbon, making it an excellent choice for executive gifts, client appreciation, and corporate giveaways.",
+    keywords: [
+        "The Bennett Set",
+        "Corporate Gift Set",
+        "Leather Pen Case",
+        "Leather Pocket Notebook",
+        "Magnetic Lock Notebook",
+        "Metal Pen Set",
+        "Portable Insulated Cup",
+        "Executive Gift",
+        "Client Gift",
+        "Corporate Giveaway"
+    ],
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 200
+        }
+    ]
+},
+
+{
+    id: 1047,
+    category: "corporate",
+    section: ["gift-set"],
+    page: "product.html?id=1047",
+    name: "The Parker Set",
+    price: 690,
+    images: [
+        "images/products/corporate/theparkerset/1.webp",
+        "images/products/corporate/theparkerset/2.webp",
+        "images/products/corporate/theparkerset/3.webp",
+        "images/products/corporate/theparkerset/4.webp",
+        "images/products/corporate/theparkerset/5.webp"
+    ],
+    description: "A thoughtful corporate gift set featuring a coffee French press and coffee mug. Packaged in a gift box with a customized tag and ribbon, making it a practical choice for client gifts, employee appreciation, and corporate giveaways.",
+    keywords: [
+        "The Parker Set",
+        "Corporate Gift Set",
+        "Coffee French Press",
+        "Coffee Mug",
+        "Corporate Gift",
+        "Employee Gift",
+        "Client Gift",
+        "Corporate Giveaway"
+    ],
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 150
+        }
+    ]
+},
+
+{
+    id: 1048,
+    category: "corporate",
+    section: ["gift-set"],
+    page: "product.html?id=1048",
+    name: "The Griffin Set",
+    price: 1490,
+    images: [
+        "images/products/corporate/thegriffinset/1.webp",
+        "images/products/corporate/thegriffinset/2.webp",
+        "images/products/corporate/thegriffinset/3.webp",
+        "images/products/corporate/thegriffinset/4.webp",
+        "images/products/corporate/thegriffinset/5.webp",
+        "images/products/corporate/thegriffinset/6.webp"
+    ],
+    description: "A premium corporate gift set featuring a metal pen set, portable insulated cup, portable fan, and two pieces of drip coffee. Thoughtfully packaged in a gift box with a customized tag and ribbon, making it an excellent choice for employee gifts, client appreciation, and corporate giveaways.",
+    keywords: [
+        "The Griffin Set",
+        "Corporate Gift Set",
+        "Metal Pen Set",
+        "Portable Insulated Cup",
+        "Portable Fan",
+        "Drip Coffee",
+        "Employee Gift",
+        "Client Gift",
+        "Corporate Giveaway"
+    ],
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 200
+        }
+    ]
+},
+
+{
+    id: 1048,
+    category: "corporate",
+    section: "gift-set",
+    name: "The Caldwell Set",
+    price: 980,
+    images: [
+        "images/products/corporate/thecaldwellset/1.webp",
+        "images/products/corporate/thecaldwellset/2.webp",
+        "images/products/corporate/thecaldwellset/3.webp",
+        "images/products/corporate/thecaldwellset/4.webp"
+    ],
+    description: "A thoughtfully curated corporate gift set featuring a coffee french press, coffee mug, and metal pen set, carefully packaged for a refined and memorable presentation.",
+    inclusions: [
+        "Coffee French Press",
+        "Coffee Mug",
+        "Metal Pen Set",
+        "Gift Box",
+        "Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 150
+        }
+    ]
+},
+
+{
+    id: 1049,
+    category: "corporate",
+    section: "gift-set",
+    name: "The Sullivan Set",
+    price: 1490,
+    images: [
+        "images/products/corporate/thesullivanset/1.webp",
+        "images/products/corporate/thesullivanset/2.webp",
+        "images/products/corporate/thesullivanset/3.webp",
+        "images/products/corporate/thesullivanset/4.webp"
+    ],
+    description: "A thoughtfully curated corporate gift set featuring a pocket magnetic lock notebook, mini vacuum tumbler, portable fan, leather pouch, and two pieces of drip coffee.",
+    inclusions: [
+        "Gift Box",
+        "Ribbon",
+        "Tag"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 200
+        }
+    ]
+},
+
+].sort((a, b) => b.price - a.price);

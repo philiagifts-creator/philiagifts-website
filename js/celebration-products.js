@@ -2755,4 +2755,4 @@ addons: [
 },
 
 
-];
+].sort((a, b) => b.price - a.price);

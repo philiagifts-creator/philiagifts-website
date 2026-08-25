@@ -5214,6 +5214,46 @@ addons: [
 },
 
 {
+    id: 93,
+    category: "wedding",
+    section: ["guest"],
+    page: "product.html?id=93",
+    name: "Bottle Opener Magnet",
+    price: 110,
+    minimumOrder: 20,
+    images: [
+        "images/products/wedding/bottleopenermagnet/1.webp",
+        "images/products/wedding/bottleopenermagnet/2.webp",
+        "images/products/wedding/bottleopenermagnet/3.webp",
+        "images/products/wedding/bottleopenermagnet/4.webp",
+        "images/products/wedding/bottleopenermagnet/5.webp",
+        "images/products/wedding/bottleopenermagnet/6.webp",
+        "images/products/wedding/bottleopenermagnet/7.webp",
+        "images/products/wedding/bottleopenermagnet/8.webp",
+        "images/products/wedding/bottleopenermagnet/9.webp",
+        "images/products/wedding/bottleopenermagnet/10.webp",
+        "images/products/wedding/bottleopenermagnet/11.webp",
+        "images/products/wedding/bottleopenermagnet/12.webp"
+    ],
+    description: "A personalized wooden bottle opener magnet, laser-engraved with your chosen design. A practical and memorable wedding giveaway that your guests can keep and use.",
+    keywords: [
+        "Bottle Opener Magnet",
+        "Wooden Bottle Opener",
+        "Wedding Giveaway",
+        "Wedding Guest Favor",
+        "Personalized Giveaway",
+        "Laser Engraved",
+        "Custom Design"
+    ],
+    inclusions: [
+        "Laser-Engraved Bottle Opener Magnet",
+        "Card with Individual Plastic"
+    ],
+    addons: [
+    ]
+},
+
+{
     id: 19,
 
     category: "wedding",
@@ -5492,4 +5532,4 @@ addons: [
 
 
 
-];
+].sort((a, b) => b.price - a.price);
