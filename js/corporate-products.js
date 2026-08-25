@@ -2559,10 +2559,11 @@ const corporateProducts = [
 },
 
 {
-    id: 1048,
+    id: 1050,
     category: "corporate",
     section: "gift-set",
     name: "The Caldwell Set",
+    page: "product.html?id=1050",
     price: 980,
     images: [
         "images/products/corporate/thecaldwellset/1.webp",
@@ -2592,6 +2593,7 @@ const corporateProducts = [
     category: "corporate",
     section: "gift-set",
     name: "The Sullivan Set",
+    page: "product.html?id=1049",
     price: 1490,
     images: [
         "images/products/corporate/thesullivanset/1.webp",

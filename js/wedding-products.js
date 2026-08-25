@@ -5528,7 +5528,73 @@ addons: [
     ]
 },
 
+{
+    id: 94,
 
+    category: "wedding",
+
+    section: "guest",
+
+    page: "product.html?id=94",
+
+    keywords: [
+        "wooden bottle opener",
+        "personalized bottle opener",
+        "engraved bottle opener",
+        "laser engraved bottle opener",
+        "wedding souvenir",
+        "wedding giveaway",
+        "guest souvenir",
+        "christening souvenir",
+        "birthday souvenir",
+        "corporate giveaway",
+        "event giveaway",
+        "custom bottle opener",
+        "wooden souvenir",
+        "eco-friendly souvenir",
+        "personalized gift",
+        "bulk giveaway",
+        "Philia Gifts"
+    ],
+
+    name: "Wooden Bottle Opener",
+
+    price: 100,
+
+    minimumOrder: 20,
+
+    bestseller: false,
+
+    images: [
+        "images/products/wedding/bottleopener/1.webp",
+        "images/products/wedding/bottleopener/2.webp",
+        "images/products/wedding/bottleopener/3.webp",
+        "images/products/wedding/bottleopener/4.webp",
+        "images/products/wedding/bottleopener/5.webp"
+    ],
+
+    description: "A personalized wooden bottle opener laser-engraved with your chosen names or design, creating a practical and memorable keepsake for weddings and special occasions.",
+
+    inclusions: [
+        "Laser-engraved Bottle Opener",
+        "Ribbon"
+    ],
+
+    addons: [
+        {
+            name: "Tag",
+            price: 20
+        },
+        {
+            name: "Box",
+            price: 50
+        },
+        {
+            name: "Side-by-Side Engraving",
+            price: 30
+        }
+    ]
+},
 
 
 
