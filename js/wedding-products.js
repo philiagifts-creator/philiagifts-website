@@ -5601,7 +5601,7 @@ addons: [
 {
     id: 95,
     category: "wedding",
-    section: "guest",
+    section: "gift-set",
     page: "product.html?id=95",
     keywords: [
         "retro bluetooth speaker",
