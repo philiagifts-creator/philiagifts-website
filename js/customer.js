@@ -170,6 +170,26 @@ messengerBtn.addEventListener("click", () => {
 
     saveCustomerInformation();
 
+    // Google Analytics
+    if (typeof gtag === "function") {
+
+        const quoteItems = JSON.parse(
+            localStorage.getItem("quoteRequest")
+        ) || [];
+
+        const quoteValue = quoteItems.reduce(
+            (total, item) => total + item.total,
+            0
+        );
+
+        gtag("event", "submit_quote_details", {
+            platform: "messenger",
+            item_count: quoteItems.length,
+            quote_value: quoteValue
+        });
+
+    }
+
     const message = buildQuoteMessage();
 
     navigator.clipboard.writeText(
@@ -214,11 +234,20 @@ function showSendModal(platform, url){
 
     modalOpen.onclick = () => {
 
-        window.open(url, "_blank");
+    // Google Analytics
+    if (typeof gtag === "function") {
 
-        modal.classList.remove("active");
+        gtag("event", "quote_platform_open", {
+            platform: platform.toLowerCase()
+        });
 
-    };
+    }
+
+    window.open(url, "_blank");
+
+    modal.classList.remove("active");
+
+};
 
     modalClose.onclick = () => {
 
@@ -239,6 +268,26 @@ viberBtn.addEventListener("click", () => {
 
     saveCustomerInformation();
 
+    // Google Analytics
+    if (typeof gtag === "function") {
+
+        const quoteItems = JSON.parse(
+            localStorage.getItem("quoteRequest")
+        ) || [];
+
+        const quoteValue = quoteItems.reduce(
+            (total, item) => total + item.total,
+            0
+        );
+
+        gtag("event", "submit_quote_details", {
+            platform: "viber",
+            item_count: quoteItems.length,
+            quote_value: quoteValue
+        });
+
+    }
+
     const message = buildQuoteMessage();
 
     navigator.clipboard.writeText(
@@ -247,8 +296,7 @@ viberBtn.addEventListener("click", () => {
 
     showSendModal(
         "Viber",
-        `viber://chat?number=%2B${639707715101}`
+        `viber://chat?number=%2B639707715101`
     );
 
 });
-

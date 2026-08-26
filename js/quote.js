@@ -210,6 +210,16 @@ document
 .getElementById("sendQuoteBtn")
 .addEventListener("click", () => {
 
+    // Google Analytics
+    if (typeof gtag === "function") {
+
+        gtag("event", "begin_quote_request", {
+            item_count: quoteItems.length,
+            quote_value: grandTotal
+        });
+
+    }
+
     window.location.href =
     "customer-info.html";
 

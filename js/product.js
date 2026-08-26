@@ -18,6 +18,22 @@ if (!product) {
 
 }
 
+// ========================================
+// GOOGLE ANALYTICS - PRODUCT VIEW
+// ========================================
+
+if (typeof gtag === "function") {
+
+    gtag("event", "view_product", {
+    product_id: product.id,
+    product_name: product.name,
+    product_category: product.category,
+    price: product.price,
+    currency: "PHP"
+});
+
+}
+
 const productSlug = product.name
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
@@ -616,6 +632,24 @@ localStorage.setItem(
     JSON.stringify(quoteRequest)
 
 );
+
+// ========================================
+// GOOGLE ANALYTICS - ADD TO QUOTE
+// ========================================
+
+if (typeof gtag === "function") {
+
+    gtag("event", "add_to_quote", {
+        product_id: product.id,
+        product_name: product.name,
+        product_category: product.category,
+        quantity: quantity,
+        value: total,
+        currency: "PHP",
+        addon_count: selectedAddons.length
+    });
+
+}
 
 // Show success modal
 successModal.classList.add("active");
