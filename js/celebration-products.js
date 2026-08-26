@@ -610,6 +610,9 @@ images: [
     "images/products/celebration/alarmclock/6.webp",
     "images/products/celebration/alarmclock/7.webp",
     "images/products/celebration/alarmclock/8.webp",
+    "images/products/celebration/alarmclock/9.webp",
+    "images/products/celebration/alarmclock/10.webp",
+    "images/products/celebration/alarmclock/11.webp",
 ],
 
 description: "A personalized wooden digital alarm clock with a sleek and practical design, making it a thoughtful choice for birthdays, christenings, and other special celebrations. Its useful everyday function and personalized design make it a memorable keepsake that recipients can enjoy for years to come.",
@@ -1509,7 +1512,14 @@ addons: [
         "images/products/celebration/tumbler/5.webp",
         "images/products/celebration/tumbler/6.webp",
         "images/products/celebration/tumbler/7.webp",
-        "images/products/celebration/tumbler/8.webp"
+        "images/products/celebration/tumbler/8.webp",
+        "images/products/celebration/tumbler/9.webp",
+        "images/products/celebration/tumbler/10.webp",
+        "images/products/celebration/tumbler/11.webp",
+        "images/products/celebration/tumbler/12.webp",
+        "images/products/celebration/tumbler/13.webp",
+        "images/products/celebration/tumbler/14.webp",
+        "images/products/celebration/tumbler/15.webp",
     ],
 
     description: "Featuring a personalized 500ml insulated hot and cold tumbler, this practical gift set is beautifully presented in a premium window box to keep beverages at the perfect temperature while giving your guests a thoughtful keepsake they'll enjoy every day.",
@@ -1524,6 +1534,10 @@ addons: [
         {
             name: "Hard Box",
             price: 150
+        },
+        {
+            name: "Picture/Image",
+            price: 60
         }
     ]
 },

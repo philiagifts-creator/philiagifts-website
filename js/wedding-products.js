@@ -4079,7 +4079,9 @@ addons: [
         "images/products/wedding/passportholder/3.webp",
         "images/products/wedding/passportholder/4.webp",
         "images/products/wedding/passportholder/5.webp",
-        "images/products/wedding/passportholder/6.webp"
+        "images/products/wedding/passportholder/6.webp",
+        "images/products/wedding/passportholder/7.webp",
+        "images/products/wedding/passportholder/8.webp",
     ],
 
     description: "A sophisticated personalized passport holder designed for couples, wedding sponsors, and special guests. Crafted as a meaningful keepsake, it combines everyday function with timeless elegance for every journey ahead.",
@@ -5596,6 +5598,59 @@ addons: [
     ]
 },
 
-
+{
+    id: 95,
+    category: "wedding",
+    section: "guest",
+    page: "product.html?id=95",
+    keywords: [
+        "retro bluetooth speaker",
+        "personalized bluetooth speaker",
+        "custom bluetooth speaker",
+        "portable speaker",
+        "wedding souvenir",
+        "wedding giveaway",
+        "guest souvenir",
+        "christening souvenir",
+        "birthday souvenir",
+        "event giveaway",
+        "personalized gift",
+        "customized speaker",
+        "bulk giveaway",
+        "retro gift",
+        "Philia Gifts"
+    ],
+    name: "Retro Bluetooth Speaker",
+    price: 680,
+    bestseller: false,
+    images: [
+        "images/products/wedding/retrospeaker/1.webp",
+        "images/products/wedding/retrospeaker/2.webp",
+        "images/products/wedding/retrospeaker/3.webp",
+        "images/products/wedding/retrospeaker/4.webp",
+        "images/products/wedding/retrospeaker/5.webp",
+        "images/products/wedding/retrospeaker/6.webp"
+    ],
+    description: "A personalized retro-style Bluetooth speaker presented in a gift box, creating a stylish and functional keepsake for weddings and special occasions.",
+    inclusions: [
+    "Gift Box",
+    "Customized Tag",
+    "Ribbon"
+],
+    addons: [
+        {
+            name: "Name on the Box",
+            price: 30
+        },
+        {
+            name: "Dried Flower",
+            price: 100
+        },
+        {
+            name: "Upgrade to Hard Box with Name",
+            price: 150
+        }
+    ]
+},
 
 ].sort((a, b) => b.price - a.price);
