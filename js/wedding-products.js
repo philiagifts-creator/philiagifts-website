@@ -2066,6 +2066,9 @@ addons: [
         "images/products/wedding/watchorg/4.webp",
         "images/products/wedding/watchorg/5.webp",
         "images/products/wedding/watchorg/6.webp",
+        "images/products/wedding/watchorg/7.webp",
+        "images/products/wedding/watchorg/8.webp",
+        "images/products/wedding/watchorg/9.webp",
     ],
 
     description: "A personalized wooden watch organizer with elegant box packaging, perfect as a practical and timeless wedding souvenir for guests and a thoughtful keepsake for any special celebration.",
@@ -5649,6 +5652,49 @@ addons: [
         {
             name: "Upgrade to Hard Box with Name",
             price: 150
+        }
+    ]
+},
+
+{
+    id: 96,
+    category: "wedding",
+    section: "gift-set",
+    page: "product.html?id=96",
+    keywords: [
+        "2026 planner",
+        "customized planner",
+        "personalized planner",
+        "corporate planner",
+        "wedding souvenir",
+        "wedding giveaway",
+        "guest souvenir",
+        "event giveaway",
+        "custom gift",
+        "Philia Gifts"
+    ],
+    name: "Planner Notebook",
+    price: 390,
+    minimumOrder: 15,
+    bestseller: false,
+    images: [
+        "images/products/wedding/planner/1.webp",
+        "images/products/wedding/planner/2.webp",
+        "images/products/wedding/planner/3.webp",
+        "images/products/wedding/planner/4.webp",
+        "images/products/wedding/planner/5.webp",
+        "images/products/wedding/planner/6.webp"
+    ],
+    description: "A premium planner notebook customized with your name or logo, making it a practical and elegant giveaway for weddings, corporate events, and special occasions.",
+    inclusions: [
+        "Personalized Hard Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Pen",
+            price: 70
         }
     ]
 },
