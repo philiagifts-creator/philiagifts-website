@@ -2010,7 +2010,9 @@ const corporateProducts = [
     price: 290,
     minimumOrder: 15,
     images: [
-        "images/products/corporate/planner/1.webp"
+        "images/products/corporate/planner/1.webp",
+        "images/products/corporate/planner/2.webp",
+        "images/products/corporate/planner/3.webp",
     ],
     description: "A sleek and practical notebook planner customized with your company logo. Perfect for corporate giveaways, employee gifts, client tokens, and events, offering a useful everyday essential with a professional touch.",
     keywords: [
@@ -2613,6 +2615,46 @@ const corporateProducts = [
             price: 200
         }
     ]
+},
+
+{
+    id: 1051,
+    category: "corporate",
+    section: "sets",
+    page: "product.html?id=1051",
+    keywords: [
+        "planner tumbler set",
+        "corporate gift set",
+        "customized planner",
+        "customized tumbler",
+        "corporate giveaway",
+        "employee gift",
+        "client gift",
+        "business gift",
+        "premium gift set",
+        "customized corporate gift",
+        "Philia Gifts"
+    ],
+    name: "Planner & Tumbler Set",
+    price: 850,
+    minimumOrder: 10,
+    bestseller: false,
+    images: [
+        "images/products/corporate/plannertumbler/1.webp",
+        "images/products/corporate/plannertumbler/2.webp",
+        "images/products/corporate/plannertumbler/3.webp",
+        "images/products/corporate/plannertumbler/4.webp",
+        "images/products/corporate/plannertumbler/5.webp",
+        "images/products/corporate/plannertumbler/6.webp",
+        "images/products/corporate/plannertumbler/7.webp"
+    ],
+    description: "A practical corporate gift set featuring a customized planner and tumbler, ideal for employees, clients, and corporate events.",
+    inclusions: [
+        "Hard Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: []
 },
 
 ].sort((a, b) => b.price - a.price);
