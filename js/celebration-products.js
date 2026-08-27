@@ -2768,5 +2768,20 @@ addons: [
     ]
 },
 
+{
+    id: 2051,
+    category: "celebration",
+    section: "gift-set",
+    page: "product.html?id=2051",
+    keywords: ["portable vanity mirror","rechargeable mirror","touch screen mirror","personalized mirror","celebration gift","event giveaway","customized gift","debut souvenir","wedding souvenir","birthday giveaway","Philia Gifts"],
+    name: "Portable Vanity Mirror",
+    price: 450,
+    minimumOrder: 10,
+    bestseller: false,
+    images: ["images/products/celebration/vanitymirror/1.webp","images/products/celebration/vanitymirror/2.webp","images/products/celebration/vanitymirror/3.webp","images/products/celebration/vanitymirror/4.webp","images/products/celebration/vanitymirror/5.webp","images/products/celebration/vanitymirror/6.webp"],
+    description: "A personalized rechargeable portable vanity mirror with touch-screen lighting, perfect as a stylish and practical souvenir for weddings, birthdays, debuts, and other special celebrations.",
+    inclusions: ["Gift Box","Customized Tag","Ribbon"],
+    addons: []
+},
 
 ].sort((a, b) => b.price - a.price);

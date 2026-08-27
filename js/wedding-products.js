@@ -2878,7 +2878,14 @@ addons: [
         "images/products/wedding/drape&dazzleA/4.webp",
         "images/products/wedding/drape&dazzleA/5.webp",
         "images/products/wedding/drape&dazzleA/6.webp",
-        "images/products/wedding/drape&dazzleA/7.webp"
+        "images/products/wedding/drape&dazzleA/7.webp",
+        "images/products/wedding/drape&dazzleA/8.webp",
+        "images/products/wedding/drape&dazzleA/9.webp",
+        "images/products/wedding/drape&dazzleA/10.webp",
+        "images/products/wedding/drape&dazzleA/11.webp",
+        "images/products/wedding/drape&dazzleA/12.webp",
+        "images/products/wedding/drape&dazzleA/13.webp",
+        "images/products/wedding/drape&dazzleA/14.webp",
     ],
 
     description: "An elegant shawl and jewelry box gift set for bridesmaids, ninangs, mothers, sisters, and friends, thoughtfully personalized for weddings and life's most meaningful celebrations.",

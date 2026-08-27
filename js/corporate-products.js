@@ -2900,10 +2900,76 @@ addons:[]
     price: 470,
     minimumOrder: 10,
     bestseller: true,
-    images: ["images/products/corporate/burlapbag/1.webp","images/products/corporate/burlapbag/2.webp","images/products/corporate/burlapbag/3.webp","images/products/corporate/burlapbag/4.webp","images/products/corporate/burlapbag/5.webp","images/products/corporate/burlapbag/6.webp"],
+    images: ["images/products/corporate/burlapbag/1.webp","images/products/corporate/burlapbag/2.webp","images/products/corporate/burlapbag/3.webp","images/products/corporate/burlapbag/4.webp","images/products/corporate/burlapbag/5.webp","images/products/corporate/burlapbag/6.webp","images/products/corporate/burlapbag/7.webp"],
     description: "A personalized burlap bag with a natural and stylish look, ideal for corporate giveaways, events, employee gifts, and special occasions.",
     inclusions: ["Paper Bag","Customized Tag","Ribbon"],
     addons: []
+},
+{
+    id: 1061,
+    category: "corporate",
+    section: "gift-set",
+    page: "product.html?id=1061",
+    keywords: ["corporate eco set","coffee cup gift set","bamboo pen set","vegan leather case","vegan leather pouch","corporate giveaway","employee gift","client gift","premium corporate gift","customized corporate gift","Philia Gifts"],
+    name: "The Sterling Set",
+    price: 1650,
+    minimumOrder: 10,
+    bestseller: false,
+    images: ["images/products/corporate/thesterlingset/1.webp","images/products/corporate/thesterlingset/2.webp","images/products/corporate/thesterlingset/3.webp","images/products/corporate/thesterlingset/4.webp","images/products/corporate/thesterlingset/5.webp"],
+    description: "A premium corporate gift set featuring a coffee cup with thermal display, bamboo pen with 2pcs gel ink refill, and vegan leather case and pouch, ideal for employees, clients, and corporate events.",
+    inclusions: ["Hard Box","Customized Tag","Ribbon"],
+    addons: []
+},
+
+{
+    id: 1062,
+    category: "corporate",
+    section: "gift-set",
+    page: "product.html?id=1062",
+    keywords: [
+        "teddy bear keychain",
+        "lighted keychain",
+        "customized keychain",
+        "corporate giveaway",
+        "corporate gift",
+        "employee gift",
+        "client gift",
+        "event giveaway",
+        "customized corporate gift",
+        "Philia Gifts"
+    ],
+    name: "Teddy Bear Keychain",
+    price: 180,
+    minimumOrder: 20,
+    bestseller: false,
+    images: [
+        "images/products/corporate/bearkeychain/1.webp",
+        "images/products/corporate/bearkeychain/2.webp",
+        "images/products/corporate/bearkeychain/3.webp"
+    ],
+    description: "A cute teddy bear keychain with lights and a customized card, ideal for corporate giveaways, employee gifts, client gifts, and special events.",
+    inclusions: [
+        "Lighted Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: []
+},
+
+{
+id:1063,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1063",
+keywords:["corporate classic gift set","leather pouch gift set","insulated coffee cup with temperature display","sign pen set","corporate giveaway","employee gift","client gift","premium corporate gift","customized corporate gift","Philia Gifts"],
+name:"The Corporate Classic",
+price:1350,
+minimumOrder:10,
+bestseller:false,
+images:["images/products/corporate/corpoclassic/1.webp","images/products/corporate/corpoclassic/2.webp","images/products/corporate/corpoclassic/3.webp"],
+description:"A premium corporate gift set featuring a leather pouch, insulated coffee cup with temperature display, and sign pen set, ideal for employees, clients, and corporate events.",
+inclusions:["Hard Box","Customized Tag","Ribbon"],
+addons:[]
 },
 
 ].sort((a, b) => b.price - a.price);
