@@ -2657,4 +2657,165 @@ const corporateProducts = [
     addons: []
 },
 
+{
+    id: 1052,
+    category: "corporate",
+    section: "gift-set",
+    page: "product.html?id=1052",
+    keywords: [
+        "appreciation kit",
+        "corporate gift set",
+        "journal notebook",
+        "insulated tumbler",
+        "wooden desk clock",
+        "customized corporate gift",
+        "employee appreciation gift",
+        "client gift",
+        "executive gift",
+        "business gift",
+        "premium gift set",
+        "Philia Gifts"
+    ],
+    name: "Appreciation Kit",
+    price: 1500,
+    minimumOrder: 10,
+    bestseller: false,
+    images: [
+        "images/products/corporate/appreciationkit/1.jpg",
+        "images/products/corporate/appreciationkit/2.jpg",
+        "images/products/corporate/appreciationkit/3.jpg",
+        "images/products/corporate/appreciationkit/4.jpg",
+        "images/products/corporate/appreciationkit/5.jpg",
+        "images/products/corporate/appreciationkit/6.jpg"
+    ],
+    description: "A premium appreciation gift set featuring a journal notebook, insulated tumbler, and wooden desk clock, presented in elegant hard box packaging.",
+    inclusions: [
+        "Hard Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: []
+},
+
+{
+    id: 1053,
+    category: "corporate",
+    section: "gift-set",
+    page: "product.html?id=1053",
+    keywords: [
+        "corporate trio set",
+        "corporate gift set",
+        "customized gift set",
+        "premium corporate gift",
+        "sheepskin notebook",
+        "insulated coffee cup",
+        "temperature display tumbler",
+        "sign pen set",
+        "executive gift",
+        "employee appreciation gift",
+        "client gift",
+        "business gift",
+        "customized corporate gift",
+        "Philia Gifts"
+    ],
+    name: "Corporate Trio Set",
+    price: 1100,
+    minimumOrder: 10,
+    bestseller: false,
+    images: [
+        "images/products/corporate/corpotrio/1.webp",
+        "images/products/corporate/corpotrio/2.webp",
+        "images/products/corporate/corpotrio/3.webp",
+        "images/products/corporate/corpotrio/4.webp"
+    ],
+    description: "A premium corporate gift set featuring a sheepskin notebook, insulated coffee cup with temperature display, and sign pen set.",
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: [
+        {
+            name: "Upgrade to Hard Box with Logo",
+            price: 200
+        }
+    ]
+},
+
+{
+    id: 1054,
+    category: "corporate",
+    section: "guest",
+    page: "product.html?id=1054",
+    keywords: [
+        "wooden wall clock",
+        "customized wall clock",
+        "personalized wall clock",
+        "laser engraved clock",
+        "corporate giveaway",
+        "corporate gift",
+        "employee gift",
+        "client gift",
+        "office gift",
+        "customized corporate gift",
+        "wooden clock",
+        "Philia Gifts"
+    ],
+    name: "Wooden Wall Clock",
+    price: 550,
+    minimumOrder: 10,
+    bestseller: false,
+    images: [
+        "images/products/corporate/wallclock/1.jpg",
+        "images/products/corporate/wallclock/2.jpg",
+        "images/products/corporate/wallclock/3.jpg",
+        "images/products/corporate/wallclock/4.jpg",
+        "images/products/corporate/wallclock/5.jpg",
+        "images/products/corporate/wallclock/6.jpg",
+        "images/products/corporate/wallclock/7.jpg"
+    ],
+    description: "A laser-engraved wooden wall clock customized with your preferred layout and design, with free battery.",
+    inclusions: [
+        "Gift Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: []
+},
+
+{
+    id: 1054,
+    category: "corporate",
+    section: "gift-set",
+    page: "product.html?id=1054",
+    keywords: [
+        "executive gift set",
+        "corporate gift set",
+        "leather pouch",
+        "insulated coffee cup",
+        "temperature display tumbler",
+        "sign pen set",
+        "premium corporate gift",
+        "employee gift",
+        "client gift",
+        "business gift",
+        "Philia Gifts"
+    ],
+    name: "The Executive's Bundle",
+    price: 1500,
+    minimumOrder: 10,
+    bestseller: false,
+    images: [
+        "images/products/corporate/execbundle/1.jpg",
+        "images/products/corporate/execbundle/2.jpg"
+    ],
+    description: "A premium corporate gift set featuring a leather pouch, insulated coffee cup with temperature display, and sign pen set.",
+    inclusions: [
+        "Hard Box",
+        "Customized Tag",
+        "Ribbon"
+    ],
+    addons: []
+},
+
 ].sort((a, b) => b.price - a.price);
