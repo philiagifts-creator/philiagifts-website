@@ -2681,12 +2681,12 @@ const corporateProducts = [
     minimumOrder: 10,
     bestseller: false,
     images: [
-        "images/products/corporate/appreciationkit/1.jpg",
-        "images/products/corporate/appreciationkit/2.jpg",
-        "images/products/corporate/appreciationkit/3.jpg",
-        "images/products/corporate/appreciationkit/4.jpg",
-        "images/products/corporate/appreciationkit/5.jpg",
-        "images/products/corporate/appreciationkit/6.jpg"
+        "images/products/corporate/appreciationkit/1.webp",
+        "images/products/corporate/appreciationkit/2.webp",
+        "images/products/corporate/appreciationkit/3.webp",
+        "images/products/corporate/appreciationkit/4.webp",
+        "images/products/corporate/appreciationkit/5.webp",
+        "images/products/corporate/appreciationkit/6.webp"
     ],
     description: "A premium appreciation gift set featuring a journal notebook, insulated tumbler, and wooden desk clock, presented in elegant hard box packaging.",
     inclusions: [
@@ -2719,7 +2719,7 @@ const corporateProducts = [
         "Philia Gifts"
     ],
     name: "Corporate Trio Set",
-    price: 1100,
+    price: 1200,
     minimumOrder: 10,
     bestseller: false,
     images: [
@@ -2730,15 +2730,12 @@ const corporateProducts = [
     ],
     description: "A premium corporate gift set featuring a sheepskin notebook, insulated coffee cup with temperature display, and sign pen set.",
     inclusions: [
-        "Gift Box",
+        "Hard Box",
         "Customized Tag",
         "Ribbon"
     ],
     addons: [
-        {
-            name: "Upgrade to Hard Box with Logo",
-            price: 200
-        }
+        
     ]
 },
 
@@ -2766,17 +2763,17 @@ const corporateProducts = [
     minimumOrder: 10,
     bestseller: false,
     images: [
-        "images/products/corporate/wallclock/1.jpg",
-        "images/products/corporate/wallclock/2.jpg",
-        "images/products/corporate/wallclock/3.jpg",
-        "images/products/corporate/wallclock/4.jpg",
-        "images/products/corporate/wallclock/5.jpg",
-        "images/products/corporate/wallclock/6.jpg",
-        "images/products/corporate/wallclock/7.jpg"
+        "images/products/corporate/wallclock/1.webp",
+        "images/products/corporate/wallclock/2.webp",
+        "images/products/corporate/wallclock/3.webp",
+        "images/products/corporate/wallclock/4.webp",
+        "images/products/corporate/wallclock/5.webp",
+        "images/products/corporate/wallclock/6.webp",
+        "images/products/corporate/wallclock/7.webp"
     ],
     description: "A laser-engraved wooden wall clock customized with your preferred layout and design, with free battery.",
     inclusions: [
-        "Gift Box",
+        "Window Box",
         "Customized Tag",
         "Ribbon"
     ],
@@ -2784,10 +2781,10 @@ const corporateProducts = [
 },
 
 {
-    id: 1054,
+    id: 1055,
     category: "corporate",
     section: "gift-set",
-    page: "product.html?id=1054",
+    page: "product.html?id=1055",
     keywords: [
         "executive gift set",
         "corporate gift set",
@@ -2806,8 +2803,8 @@ const corporateProducts = [
     minimumOrder: 10,
     bestseller: false,
     images: [
-        "images/products/corporate/execbundle/1.jpg",
-        "images/products/corporate/execbundle/2.jpg"
+        "images/products/corporate/execbundle/1.webp",
+        "images/products/corporate/execbundle/2.webp"
     ],
     description: "A premium corporate gift set featuring a leather pouch, insulated coffee cup with temperature display, and sign pen set.",
     inclusions: [
@@ -2815,6 +2812,97 @@ const corporateProducts = [
         "Customized Tag",
         "Ribbon"
     ],
+    addons: []
+},
+
+{
+id:1056,
+category:"corporate",
+section:"guest",
+page:"product.html?id=1056",
+keywords:["bamboo pen","customized bamboo pen","engraved pen","corporate giveaway","corporate gift","event souvenir","laser engraved pen","eco friendly pen","Philia Gifts"],
+name:"Bamboo Pen",
+price:45,
+minimumOrder:50,
+bestseller:false,
+images:["images/products/corporate/bamboopen/1.webp","images/products/corporate/bamboopen/2.webp","images/products/corporate/bamboopen/3.webp"],
+description:"An eco-friendly bamboo pen with laser engraving, ideal for corporate giveaways, events, souvenirs, and customized gifts.",
+inclusions:["Customized card", "Plastic Packaging"],
+addons:[
+{name:"Original Ink Refill",price:15},
+{name:"Gel Ink Refill",price:20}
+]
+},
+
+{
+id:1057,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1057",
+keywords:["office on-the-go set","mini umbrella set","corporate gift set","customized umbrella","sign pen set","corporate giveaway","employee gift","client gift","business gift","Philia Gifts"],
+name:"Office On-The-Go Set",
+price:850,
+minimumOrder:10,
+bestseller:false,
+images:["images/products/corporate/officeonthego/1.webp","images/products/corporate/officeonthego/2.webp","images/products/corporate/officeonthego/3.webp","images/products/corporate/officeonthego/4.webp"],
+description:"A practical corporate gift set featuring a customized mini umbrella and sign pen set, ideal for employees, clients, events, and business giveaways.",
+inclusions:["Hard Box","Customized Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:1058,
+category:"corporate",
+section:"guest",
+page:"product.html?id=1058",
+keywords:["rotating mirror","customized rotating mirror","wooden mirror","corporate giveaway","corporate gift","event souvenir","laser engraved mirror","customized gift","Philia Gifts"],
+name:"Rotating Mirror",
+price:280,
+minimumOrder:20,
+bestseller:false,
+images:["images/products/corporate/rotatingmirror/1.webp","images/products/corporate/rotatingmirror/2.webp","images/products/corporate/rotatingmirror/3.webp","images/products/corporate/rotatingmirror/4.webp","images/products/corporate/rotatingmirror/5.webp","images/products/corporate/rotatingmirror/6.webp","images/products/corporate/rotatingmirror/7.webp","images/products/corporate/rotatingmirror/8.webp","images/products/corporate/rotatingmirror/9.webp"],
+description:"A practical rotating wooden mirror customized with your logo, ideal for corporate giveaways, events, and guest souvenirs.",
+inclusions:["Paper Bag/Gift Box","Customized Tag","Ribbon"],
+addons:[]
+},
+
+{
+    id: 1059,
+    category: "corporate",
+    section: "gift-set",
+    page: "product.html?id=1059",
+    keywords: ["corporate eco set","eco-friendly corporate gift","customized coffee cup","bamboo pen","vegan leather case","corporate giveaway","employee gift","client gift","business gift","Philia Gifts"],
+    name: "Corporate Eco Set",
+    price: 1350,
+    minimumOrder: 10,
+    bestseller: false,
+    images: [
+        "images/products/corporate/corporateeco/1.webp",
+        "images/products/corporate/corporateeco/2.webp",
+        "images/products/corporate/corporateeco/4.webp",
+        "images/products/corporate/corporateeco/5.webp",
+        "images/products/corporate/corporateeco/6.webp",
+        "images/products/corporate/corporateeco/7.webp"
+    ],
+    description: "A premium corporate gift set featuring a coffee cup with thermal display, bamboo pen, two ink refills, and a vegan leather case.",
+    inclusions: ["Hard Box","Customized Tag","Ribbon"],
+    addons: [
+    ]
+},
+
+{
+    id: 1060,
+    category: "corporate",
+    section: "gift-set",
+    page: "product.html?id=1060",
+    keywords: ["burlap bag","personalized burlap bag","customized tote bag","corporate giveaway","corporate gift","personalized gift bag","customized bag","employee gift","client gift","Philia Gifts"],
+    name: "Burlap Bag",
+    price: 470,
+    minimumOrder: 10,
+    bestseller: true,
+    images: ["images/products/corporate/burlapbag/1.webp","images/products/corporate/burlapbag/2.webp","images/products/corporate/burlapbag/3.webp","images/products/corporate/burlapbag/4.webp","images/products/corporate/burlapbag/5.webp","images/products/corporate/burlapbag/6.webp"],
+    description: "A personalized burlap bag with a natural and stylish look, ideal for corporate giveaways, events, employee gifts, and special occasions.",
+    inclusions: ["Paper Bag","Customized Tag","Ribbon"],
     addons: []
 },
 
