@@ -2878,7 +2878,6 @@ addons: [
         "images/products/wedding/drape&dazzleA/4.webp",
         "images/products/wedding/drape&dazzleA/5.webp",
         "images/products/wedding/drape&dazzleA/6.webp",
-        "images/products/wedding/drape&dazzleA/7.webp",
         "images/products/wedding/drape&dazzleA/8.webp",
         "images/products/wedding/drape&dazzleA/9.webp",
         "images/products/wedding/drape&dazzleA/10.webp",
@@ -5704,6 +5703,38 @@ addons: [
             price: 70
         }
     ]
+},
+
+{
+id:97,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=97",
+keywords:["cozy and chic wedding gift","personalized wedding gift","nordic mug gift set","spoon gift set","paddle hair brush gift","wedding souvenir","bridesmaid gift","ninang gift","personalized gift set","Philia Gifts"],
+name:"Cozy & Chic Trio",
+price:850,
+minimumOrder:10,
+bestseller:false,
+images:["images/products/wedding/cozyandchic/1.webp","images/products/wedding/cozyandchic/2.webp","images/products/wedding/cozyandchic/3.webp","images/products/wedding/cozyandchic/4.webp","images/products/wedding/cozyandchic/5.webp","images/products/wedding/cozyandchic/6.webp"],
+description:"A cozy and chic personalized gift set featuring a Nordic mug with spoon and lid, paddle hair brush, and scrunchy, beautifully presented in a hard box for weddings and special celebrations.",
+inclusions:["Hard Box","Customized Name","Ribbon and Tag"],
+addons:[]
+},
+
+{
+id:98,
+category:"wedding",
+section:"guest",
+page:"product.html?id=98",
+keywords:["wooden swiss knife","personalized swiss knife","engraved wooden knife","wedding souvenir","wedding giveaway","personalized wedding gift","ninong gift","groomsmen gift","customized souvenir","Philia Gifts"],
+name:"Wooden Swiss Knife",
+price:260,
+minimumOrder:10,
+bestseller:false,
+images:["images/products/wedding/swissknife/1.webp","images/products/wedding/swissknife/2.webp","images/products/wedding/swissknife/3.webp","images/products/wedding/swissknife/4.webp","images/products/wedding/swissknife/5.webp","images/products/wedding/swissknife/6.webp","images/products/wedding/swissknife/7.webp"],
+description:"A personalized wooden Swiss knife with laser engraving, beautifully presented in a gift box with ribbon and tag, perfect as a practical and memorable wedding souvenir.",
+inclusions:["Gift Box","Ribbon and Tag","Free Layout"],
+addons:[]
 },
 
 ].sort((a, b) => b.price - a.price);
