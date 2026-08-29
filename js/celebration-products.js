@@ -1297,6 +1297,10 @@ addons: [
         "images/products/celebration/mug2/8.webp",
         "images/products/celebration/mug2/9.webp",
         "images/products/celebration/mug2/10.webp",
+        "images/products/celebration/mug2/11.webp",
+        "images/products/celebration/mug2/12.webp",
+        "images/products/celebration/mug2/13.webp",
+        "images/products/celebration/mug2/14.webp",
     ],
 
     description: "Featuring a personalized Nordic ceramic mug with a wooden lid and matching stirrer, this elegant gift set is beautifully presented in a gift box, making it a practical keepsake your guests will enjoy long after the celebration.",
@@ -1934,7 +1938,16 @@ images: [
     "images/products/celebration/bear/2.webp",
     "images/products/celebration/bear/3.webp",
     "images/products/celebration/bear/4.webp",
-    "images/products/celebration/bear/5.webp"
+    "images/products/celebration/bear/5.webp",
+    "images/products/celebration/bear/6.webp",
+    "images/products/celebration/bear/7.webp",
+    "images/products/celebration/bear/8.webp",
+    "images/products/celebration/bear/9.webp",
+    "images/products/celebration/bear/10.webp",
+    "images/products/celebration/bear/11.webp",
+    "images/products/celebration/bear/12.webp",
+    "images/products/celebration/bear/13.webp",
+    
 ],
 
 description: "A charming teddy bear keychain presented in a light-up gift box with personalized cards, making it a sweet and memorable choice for birthdays, christenings, and other special celebrations. Its cute design and thoughtful presentation make it a keepsake that guests can enjoy and remember the occasion by.",
@@ -2228,6 +2241,13 @@ addons: []
         "images/products/celebration/bottleopenermagnet/7.webp",
         "images/products/celebration/bottleopenermagnet/8.webp",
         "images/products/celebration/bottleopenermagnet/9.webp",
+        "images/products/celebration/bottleopenermagnet/10.webp",
+        "images/products/celebration/bottleopenermagnet/11.webp",
+        "images/products/celebration/bottleopenermagnet/12.webp",
+        "images/products/celebration/bottleopenermagnet/13.webp",
+        "images/products/celebration/bottleopenermagnet/14.webp",
+        "images/products/celebration/bottleopenermagnet/15.webp",
+        
     ],
 
     description: "A laser-engraved wooden bottle opener magnet featuring your custom photo or artwork. Finished with an individual presentation card and plastic sleeve, making it a practical keepsake for birthdays, baptisms, and special celebrations.",
@@ -2483,6 +2503,8 @@ images: [
     "images/products/celebration/refmag/10.webp",
     "images/products/celebration/refmag/11.webp",
     "images/products/celebration/refmag/12.webp",
+    "images/products/celebration/refmag/13.webp",
+    "images/products/celebration/refmag/14.webp",
 ],
 
 description: "Beautifully laser-engraved wooden ref magnet personalized with your photo and event details, creating timeless keepsake for any special celebration.",
@@ -2784,6 +2806,22 @@ addons: [
     description: "A personalized rechargeable portable vanity mirror with touch-screen lighting, perfect as a stylish and practical souvenir for weddings, birthdays, debuts, and other special celebrations.",
     inclusions: ["Gift Box","Customized Tag","Ribbon"],
     addons: []
+},
+
+{
+id:2052,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2052",
+keywords:["wooden swiss knife","personalized swiss knife","engraved wooden swiss knife","celebration souvenir","celebration giveaway","guest souvenir","birthday souvenir","christening souvenir","customized souvenir","laser-engraved gift","Philia Gifts"],
+name:"Wooden Swiss Knife",
+price:260,
+minimumOrder:5,
+bestseller:false,
+images:["images/products/celebration/swissknife/1.webp","images/products/celebration/swissknife/2.webp","images/products/celebration/swissknife/3.webp","images/products/celebration/swissknife/4.webp"],
+description:"A laser-engraved wooden Swiss knife presented in a gift box with a customized tag and ribbon, making a practical and memorable souvenir for celebrations and special occasions.",
+inclusions:["Gift Box","Customized Tag","Ribbon"],
+addons:[]
 },
 
 ].sort((a, b) => b.price - a.price);

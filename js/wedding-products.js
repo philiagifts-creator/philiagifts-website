@@ -2499,13 +2499,13 @@ addons: [
 },
 
 {
-    id: 86,
+    id: 100,
 
     category: "wedding",
 
     section: ["gift-set"],
 
-    page: "product.html?id=86",
+    page: "product.html?id=100",
 
     name: "Portable Insulated Cup",
 
@@ -2866,7 +2866,7 @@ addons: [
     ],
 
     name: "Drape & Dazzle A",
-
+    bestseller: true,
     price: 600,
     minimumOrder: 5,
 
@@ -3513,6 +3513,9 @@ addons: [
         "images/products/wedding/everydaykitB/2.webp",
         "images/products/wedding/everydaykitB/3.webp",
         "images/products/wedding/everydaykitB/4.webp",
+        "images/products/wedding/everydaykitB/5.webp",
+        "images/products/wedding/everydaykitB/6.webp",
+        "images/products/wedding/everydaykitB/7.webp",
     ],
 
     description: "A practical and stylish gift set featuring a personalized leather wallet, comb, and watch, thoughtfully arranged in a gift box with ribbon and tag. A useful and meaningful wedding souvenir that guests can enjoy and use every day.",
@@ -4478,7 +4481,7 @@ price: 320,
 
 minimumOrder: 5,
 
-bestseller: false,
+bestseller: true,
 
 images: [
     "images/products/wedding/everydaykit/1.webp",
@@ -4488,6 +4491,12 @@ images: [
     "images/products/wedding/everydaykit/5.webp",
     "images/products/wedding/everydaykit/6.webp",
     "images/products/wedding/everydaykit/7.webp",
+    "images/products/wedding/everydaykit/8.webp",
+    "images/products/wedding/everydaykit/9.webp",
+    "images/products/wedding/everydaykit/10.webp",
+    "images/products/wedding/everydaykit/11.webp",
+    "images/products/wedding/everydaykit/12.webp",
+    
 ],
 
 description: "A practical gift set featuring a personalized leather wallet and wooden comb, making it a useful and thoughtful choice for weddings. Its everyday essentials and personalized touch make it a meaningful keepsake they can enjoy long after the celebration.",
@@ -5734,6 +5743,22 @@ bestseller:false,
 images:["images/products/wedding/swissknife/1.webp","images/products/wedding/swissknife/2.webp","images/products/wedding/swissknife/3.webp","images/products/wedding/swissknife/4.webp","images/products/wedding/swissknife/5.webp","images/products/wedding/swissknife/6.webp","images/products/wedding/swissknife/7.webp"],
 description:"A personalized wooden Swiss knife with laser engraving, beautifully presented in a gift box with ribbon and tag, perfect as a practical and memorable wedding souvenir.",
 inclusions:["Gift Box","Ribbon and Tag","Free Layout"],
+addons:[]
+},
+
+{
+id:99,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=99",
+keywords:["glamour and go bundle","clutch sling bag gift set","insulated coffee cup","passport holder","wedding gift set","wedding souvenir","bridesmaid gift","ninang gift","personalized gift set","corporate giveaway","Philia Gifts"],
+name:"Glamour & Go Bundle",
+price:1600,
+minimumOrder:5,
+bestseller:false,
+images:["images/products/wedding/glamourandgo/1.webp","images/products/wedding/glamourandgo/2.webp","images/products/wedding/glamourandgo/3.webp"],
+description:"A stylish gift set featuring a clutch bag, insulated coffee cup, and passport holder, beautifully presented in a hard box for weddings, celebrations, and special occasions.",
+inclusions:["Hard Box","Customized Tag","Ribbon"],
 addons:[]
 },
 

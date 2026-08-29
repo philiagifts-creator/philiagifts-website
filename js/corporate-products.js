@@ -1062,7 +1062,9 @@ const corporateProducts = [
         "images/products/corporate/watchorg/1.webp",
         "images/products/corporate/watchorg/2.webp",
         "images/products/corporate/watchorg/3.webp",
-        "images/products/corporate/watchorg/4.webp"
+        "images/products/corporate/watchorg/4.webp",
+        "images/products/corporate/watchorg/5.webp",
+        "images/products/corporate/watchorg/6.webp",
     ],
 
     description: "A premium personalized watch organizer with elegant box packaging, ribbon, and customized gift tag. An executive gift for clients, partners, and valued employees.",
@@ -1231,7 +1233,10 @@ const corporateProducts = [
     images: [
         "images/products/corporate/luxurymetalpen/1.webp",
         "images/products/corporate/luxurymetalpen/2.webp",
-        "images/products/corporate/luxurymetalpen/3.webp"
+        "images/products/corporate/luxurymetalpen/3.webp",
+        "images/products/corporate/luxurymetalpen/4.webp",
+        "images/products/corporate/luxurymetalpen/5.webp",
+        "images/products/corporate/luxurymetalpen/6.webp",
     ],
 
     description: "A premium metal pen set featuring smooth-flowing ink and 2 refill cartridges, beautifully presented in an elegant gift box. A practical and sophisticated gift for corporate events, clients, employees, and business partners.",
@@ -1400,7 +1405,10 @@ const corporateProducts = [
         "images/products/corporate/marblemug/4.webp",
         "images/products/corporate/marblemug/5.webp",
         "images/products/corporate/marblemug/6.webp",
-        "images/products/corporate/marblemug/7.webp"
+        "images/products/corporate/marblemug/7.webp",
+        "images/products/corporate/marblemug/8.webp",
+        "images/products/corporate/marblemug/9.webp",
+        "images/products/corporate/marblemug/10.webp",
     ],
 
     description: "A stylish marble-finish mug customized with your logo, paired with a gift box for an elegant presentation. A practical and thoughtful gift for clients, employees, business partners, and special occasions.",
@@ -1611,7 +1619,18 @@ const corporateProducts = [
         "images/products/corporate/coffeelovers/1.webp",
         "images/products/corporate/coffeelovers/2.webp",
         "images/products/corporate/coffeelovers/3.webp",
-        "images/products/corporate/coffeelovers/4.webp"
+        "images/products/corporate/coffeelovers/4.webp",
+        "images/products/corporate/coffeelovers/5.webp",
+        "images/products/corporate/coffeelovers/6.webp",
+        "images/products/corporate/coffeelovers/7.webp",
+        "images/products/corporate/coffeelovers/8.webp",
+        "images/products/corporate/coffeelovers/9.webp",
+        "images/products/corporate/coffeelovers/10.webp",
+        "images/products/corporate/coffeelovers/11.webp",
+        "images/products/corporate/coffeelovers/12.webp",
+        "images/products/corporate/coffeelovers/13.webp",
+        "images/products/corporate/coffeelovers/14.webp",
+        "images/products/corporate/coffeelovers/15.webp",
     ],
 
     description: "A premium coffee gift set featuring a Nordic mug, coffee press, coffee pack, and acacia coaster, beautifully arranged in a gift box. A thoughtful and practical gift for clients, employees, business partners, and corporate occasions.",
@@ -1723,7 +1742,10 @@ const corporateProducts = [
         "images/products/corporate/cozycorner/5.webp",
         "images/products/corporate/cozycorner/6.webp",
         "images/products/corporate/cozycorner/7.webp",
-        "images/products/corporate/cozycorner/8.webp"
+        "images/products/corporate/cozycorner/8.webp",
+        "images/products/corporate/cozycorner/9.webp",
+        "images/products/corporate/cozycorner/10.webp",
+        "images/products/corporate/cozycorner/11.webp",
     ],
 
     description: "A cozy and thoughtful gift set featuring a Nordic mug, soft cashmere shawl, scented soy candle, beautifully arranged in a gift box. A comforting gift perfect for clients, employees, business partners, and special corporate occasions.",
@@ -2968,6 +2990,38 @@ minimumOrder:10,
 bestseller:false,
 images:["images/products/corporate/corpoclassic/1.webp","images/products/corporate/corpoclassic/2.webp","images/products/corporate/corpoclassic/3.webp"],
 description:"A premium corporate gift set featuring a leather pouch, insulated coffee cup with temperature display, and sign pen set, ideal for employees, clients, and corporate events.",
+inclusions:["Hard Box","Customized Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:1064,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1064",
+keywords:["beer buddy set","beer mug gift set","bottle opener","corporate gift set","corporate giveaway","employee gift","client gift","business gift","personalized corporate gift","Philia Gifts"],
+name:"Beer Buddy Set",
+price:420,
+minimumOrder:10,
+bestseller:false,
+images:["images/products/corporate/beerbuddy/1.webp","images/products/corporate/beerbuddy/2.webp","images/products/corporate/beerbuddy/3.webp","images/products/corporate/beerbuddy/4.webp"],
+description:"A personalized corporate gift set featuring a beer mug and bottle opener, ideal for employees, clients, and corporate events.",
+inclusions:["Gift Box","Customized Tag","Ribbon"],
+addons:["Upgrade to Hard Box with Logo - ₱150"]
+},
+
+{
+id:1065,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1065",
+keywords:["timeless kit","watch organizer","leather pouch","corporate gift set","corporate giveaway","employee gift","client gift","business gift","premium corporate gift","customized corporate gift","Philia Gifts"],
+name:"Timeless Kit",
+price:1400,
+minimumOrder:10,
+bestseller:false,
+images:["images/products/corporate/timelesskit/1.webp","images/products/corporate/timelesskit/2.webp","images/products/corporate/timelesskit/3.webp","images/products/corporate/timelesskit/4.webp"],
+description:"A premium corporate gift set featuring a watch organizer and leather pouch, ideal for employees, clients, and corporate events.",
 inclusions:["Hard Box","Customized Tag","Ribbon"],
 addons:[]
 },
