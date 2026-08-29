@@ -4395,15 +4395,15 @@ addons: [
     addons: [
         {
             name: "Plastic Packaging with Ribbon and Tag",
-            price: 50
+            price: 20
         },
         {
             name: "Box Packaging with Ribbon and Tag",
-            price: 90
+            price: 50
         },
         {
             name: "Abaca Bag Packaging with Ribbon and Tag",
-            price: 80
+            price: 60
         }
     ]
 },
