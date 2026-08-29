@@ -1621,7 +1621,6 @@ const corporateProducts = [
         "images/products/corporate/coffeelovers/3.webp",
         "images/products/corporate/coffeelovers/4.webp",
         "images/products/corporate/coffeelovers/5.webp",
-        "images/products/corporate/coffeelovers/6.webp",
         "images/products/corporate/coffeelovers/7.webp",
         "images/products/corporate/coffeelovers/8.webp",
         "images/products/corporate/coffeelovers/9.webp",
