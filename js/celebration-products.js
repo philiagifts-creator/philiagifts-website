@@ -2513,6 +2513,9 @@ images: [
     "images/products/celebration/refmag/12.webp",
     "images/products/celebration/refmag/13.webp",
     "images/products/celebration/refmag/14.webp",
+    "images/products/celebration/refmag/15.webp",
+    "images/products/celebration/refmag/16.webp",
+    "images/products/celebration/refmag/17.webp",
 ],
 
 description: "Beautifully laser-engraved wooden ref magnet personalized with your photo and event details, creating timeless keepsake for any special celebration.",

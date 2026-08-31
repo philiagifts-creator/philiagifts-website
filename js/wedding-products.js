@@ -286,7 +286,7 @@ addons: [
     price: 1700,
     minimumOrder: 5,
 
-    bestseller: false,
+    bestseller: true,
 
     images: [
         "images/products/wedding/rosewoodwine/1.webp",
@@ -751,7 +751,7 @@ addons: [
     price: 1350,
     minimumOrder: 5,
 
-    bestseller: false,
+    bestseller: true,
 
     images: [
         "images/products/wedding/teaset2/1.webp",
@@ -792,7 +792,7 @@ addons: [
 
     page: "product.html?id=37",
 
-    bestseller: false,
+    bestseller: true,
 
     minimum: 5,
 
@@ -853,6 +853,7 @@ addons: [
     page: "product.html?id=66",
 
     name: "Cozy Corner Set",
+    bestseller: true,
 
     price: 1350,
 
@@ -3389,7 +3390,7 @@ addons: [
         "Philia Gifts"
     ],
 
-    name: "Burlap Bag B",
+    name: "Abaca Burlap Bag",
 
     price: 490,
     minimumOrder: 5,
@@ -3764,7 +3765,7 @@ addons: [
 
     minimumOrder: 5,
 
-    bestseller: true,
+    bestseller: false,
 
     images: [
         "images/products/wedding/burlapbagC/1.webp",
@@ -5323,8 +5324,17 @@ addons: [
         "images/products/wedding/refmagnet/3.webp",
         "images/products/wedding/refmagnet/4.webp",
         "images/products/wedding/refmagnet/4.5.webp",
+        "images/products/wedding/refmagnet/5.webp",
         "images/products/wedding/refmagnet/6.webp",
         "images/products/wedding/refmagnet/7.webp",
+        "images/products/wedding/refmagnet/8.webp",
+        "images/products/wedding/refmagnet/9.webp",
+        "images/products/wedding/refmagnet/10.webp",
+        "images/products/wedding/refmagnet/11.webp",
+        "images/products/wedding/refmagnet/12.webp",
+        "images/products/wedding/refmagnet/13.webp",
+        "images/products/wedding/refmagnet/14.webp",
+        "images/products/wedding/refmagnet/15.webp",
     ],
 
     description: "A laser-engraved wooden refrigerator magnet personalized with your names, design, or artwork. Finished with a customized backing card, it serves as a meaningful keepsake your guests can enjoy long after your celebration. ( Size: 7 x 7 cm)",
