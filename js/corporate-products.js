@@ -3025,4 +3025,20 @@ inclusions:["Hard Box","Customized Tag","Ribbon"],
 addons:[]
 },
 
+{
+id:1066,
+category:"corporate",
+section:"guest",
+page:"product.html?id=1066",
+keywords:["tote bag","corporate tote bag","customized tote bag","corporate giveaway","employee gift","client gift","business gift","Philia Gifts"],
+name:"Tote Bag",
+price:90,
+minimumOrder:50,
+bestseller:false,
+images:["images/products/corporate/tote/1.webp","images/products/corporate/tote/2.webp","images/products/corporate/tote/3.webp","images/products/corporate/tote/4.webp","images/products/corporate/tote/5.webp"],
+description:"A practical customized tote bag, measuring 14 x 16 inches, ideal for corporate giveaways, events, and everyday use.",
+inclusions:["Customized Tote Bag"],
+addons:[]
+},
+
 ].sort((a, b) => b.price - a.price);

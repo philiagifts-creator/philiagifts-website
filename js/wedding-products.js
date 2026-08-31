@@ -3649,16 +3649,15 @@ addons: [
         images: [
 
         "images/products/wedding/NLAMP/1.webp",
-
         "images/products/wedding/NLAMP/2.webp",
-
         "images/products/wedding/NLAMP/3.webp",
-
         "images/products/wedding/NLAMP/4.webp",
-
         "images/products/wedding/NLAMP/5.webp",
-         "images/products/wedding/NLAMP/6.webp",
-          "images/products/wedding/NLAMP/7.webp",
+        "images/products/wedding/NLAMP/6.webp",
+        "images/products/wedding/NLAMP/7.webp",
+        "images/products/wedding/NLAMP/8.webp",
+        "images/products/wedding/NLAMP/9.webp",
+        "images/products/wedding/NLAMP/10.webp",
     
         ],
 
@@ -5764,6 +5763,38 @@ bestseller:false,
 images:["images/products/wedding/glamourandgo/1.webp","images/products/wedding/glamourandgo/2.webp","images/products/wedding/glamourandgo/3.webp"],
 description:"A stylish gift set featuring a clutch bag, insulated coffee cup, and passport holder, beautifully presented in a hard box for weddings, celebrations, and special occasions.",
 inclusions:["Hard Box","Customized Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:100,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=100",
+keywords:["wooden delights gift set","wooden gift set","wooden bowl set","wedding gift","wedding giveaway","personalized wedding gift","wedding souvenir","premium wedding gift","customized wedding gift","Philia Gifts"],
+name:"Wooden Delights Gift Set",
+price:1300,
+minimumOrder:5,
+bestseller:false,
+images:["images/products/wedding/woodendelights/1.webp","images/products/wedding/woodendelights/2.webp","images/products/wedding/woodendelights/3.webp","images/products/wedding/woodendelights/4.webp","images/products/wedding/woodendelights/5.webp"],
+description:"A premium wooden gift set featuring a wooden tea cup, 2pcs small bowls or saucers, a heart-shaped bowl, and a square-shaped bowl, ideal for weddings and special occasions.",
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:101,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=101",
+keywords:["crystal toast set","crystal wine glass set","wine gift set","wedding gift set","wedding giveaway","personalized wedding gift","wedding souvenir","premium wedding gift","customized wedding gift","Philia Gifts"],
+name:"Crystal Toast Set",
+price:1100,
+minimumOrder:5,
+bestseller:false,
+images:["images/products/wedding/crystaltoast/1.webp","images/products/wedding/crystaltoast/2.webp","images/products/wedding/crystaltoast/3.webp","images/products/wedding/crystaltoast/4.webp"],
+description:"A premium wedding gift set featuring 2pcs crystal wine glasses and a 200ml Mini Yellow Tail Rose Wine, ideal for weddings and special occasions.",
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 

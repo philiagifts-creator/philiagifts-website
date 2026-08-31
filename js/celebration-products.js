@@ -1343,7 +1343,12 @@ bestseller: false,
 images: [
     "images/products/celebration/marblemug/1.webp",
     "images/products/celebration/marblemug/2.webp",
-    "images/products/celebration/marblemug/3.webp"
+    "images/products/celebration/marblemug/3.webp",
+    "images/products/celebration/marblemug/4.webp",
+    "images/products/celebration/marblemug/5.webp",
+    "images/products/celebration/marblemug/6.webp",
+    "images/products/celebration/marblemug/7.webp",
+    "images/products/celebration/marblemug/8.webp",
 ],
 
 description: "A personalized marble mug with a gift box, available in color pink and gray. A charming and practical choice for celebrations and special occasions, making a thoughtful gift that guests can enjoy and use every day.",
@@ -1440,6 +1445,9 @@ addons: [
         "images/products/celebration/clock/21.webp",
         "images/products/celebration/clock/22.webp",
         "images/products/celebration/clock/23.webp",
+        "images/products/celebration/clock/24.webp",
+        "images/products/celebration/clock/25.webp",
+        "images/products/celebration/clock/26.webp",
 
         ],
         description: "Featuring a personalized wooden desk clock with your chosen photo, name, and engraved message, this meaningful keepsake beautifully captures life's most treasured moments—creating a timeless gift your loved ones will proudly display and cherish for years to come.",
