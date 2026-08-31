@@ -863,7 +863,11 @@ addons: [
         "images/products/wedding/cozycorner/2.webp",
         "images/products/wedding/cozycorner/3.webp",
         "images/products/wedding/cozycorner/4.webp",
-        "images/products/wedding/cozycorner/5.webp"
+        "images/products/wedding/cozycorner/5.webp",
+        "images/products/wedding/cozycorner/6.webp",
+        "images/products/wedding/cozycorner/7.webp",
+        "images/products/wedding/cozycorner/8.webp",
+        "images/products/wedding/cozycorner/9.webp",
     ],
 
     description: "A cozy and elegant gift set featuring a personalized Nordic mug, cashmere shawl, and scented soy candle, beautifully arranged in a premium hard box. A thoughtful gift for weddings, bridesmaids, sponsors, and special celebrations.",
@@ -965,7 +969,7 @@ addons: [
 
     name: "Team Bride Prep Kit",
 
-    price: 1300,
+    price: 1500,
 
     minimumOrder: 5,
 
@@ -976,7 +980,11 @@ addons: [
         "images/products/wedding/bridesmaidgift/4.webp",
         "images/products/wedding/bridesmaidgift/5.webp",
         "images/products/wedding/bridesmaidgift/6.webp",
-        "images/products/wedding/bridesmaidgift/7.webp"
+        "images/products/wedding/bridesmaidgift/7.webp",
+        "images/products/wedding/bridesmaidgift/8.webp",
+        "images/products/wedding/bridesmaidgift/9.webp",
+        "images/products/wedding/bridesmaidgift/10.webp",
+        "images/products/wedding/bridesmaidgift/11.webp",
     ],
 
     description: "A thoughtful bridesmaid gift set featuring a personalized silk robe, fluffy slippers, compact mirror, and scrunchy, beautifully arranged for a stylish and relaxing experience. A perfect gift for bridesmaids and members of the wedding entourage.",
@@ -997,20 +1005,13 @@ addons: [
     ],
 
     inclusions: [
-        "Personalized Paper Bag Packaging",
-        "Customized Tag",
-        "Ribbon and Tag"
+        "Hard Box with Name",
+        "Customized Gift Tag",
+        "Ribbon"
     ],
 
     addons: [
-        {
-            name: "Dried Flower Bouquet",
-            price: 100
-        },
-        {
-            name: "Upgrade to Hard Box Packaging",
-            price: 250
-        },
+
     
     ]
 },
@@ -1026,7 +1027,7 @@ addons: [
 
     name: "Groomsmen Gift Set B",
 
-    price: 1300,
+    price: 1600,
 
     minimumOrder: 5,
 
@@ -1038,7 +1039,12 @@ addons: [
         "images/products/wedding/groomsmengift/6.webp",
         "images/products/wedding/groomsmengift/7.webp",
         "images/products/wedding/groomsmengift/8.webp",
-        "images/products/wedding/groomsmengift/9.webp"
+        "images/products/wedding/groomsmengift/9.webp",
+        "images/products/wedding/groomsmengift/10.webp",
+        "images/products/wedding/groomsmengift/11.webp",
+        "images/products/wedding/groomsmengift/12.webp",
+        "images/products/wedding/groomsmengift/13.webp",
+        
     ],
 
     description: "A practical and stylish groomsmen gift set featuring a personalized shirt, shorts, handkerchief, and shades with pouch. A thoughtful gift perfect for groomsmen and members of the wedding entourage.",
@@ -1058,19 +1064,13 @@ addons: [
     ],
 
     inclusions: [
-        "Paper Bag Packaging",
-        "Ribbon and Tag"
+        "Hard Box with Name",
+        "Customized Gift Tag",
+        "Ribbon",
     ],
 
     addons: [
-        {
-            name: "Dried Flower Bouquet",
-            price: 100
-        },
-        {
-            name: "Upgrade to Hard Box Packaging",
-            price: 250
-        },
+        
     ]
 },
 
@@ -1672,6 +1672,11 @@ addons: [
         "images/products/wedding/chessgiftset/6.webp",
         "images/products/wedding/chessgiftset/7.webp",
         "images/products/wedding/chessgiftset/8.webp",
+        "images/products/wedding/chessgiftset/9.webp",
+        "images/products/wedding/chessgiftset/10.webp",
+        "images/products/wedding/chessgiftset/11.webp",
+        "images/products/wedding/chessgiftset/12.webp",
+        "images/products/wedding/chessgiftset/13.webp",
     ],
 
     description: "A personalized chess gift set featuring a chess board, chess pieces, wine stopper, wine ring, wine pourer, and wine corkscrew, beautifully presented in a hard box with a name, ribbon, and tag.  - Size: 15 x 17 cm ",
