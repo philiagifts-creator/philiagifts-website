@@ -221,6 +221,9 @@ bestseller: false,
 images: [
     "images/products/celebration/anastasia/1.webp",
     "images/products/celebration/anastasia/2.webp",
+    "images/products/celebration/anastasia/3.webp",
+    "images/products/celebration/anastasia/4.webp",
+    "images/products/celebration/anastasia/5.webp",
 ],
 
 description: "A luxurious evening clutch featuring a graceful shell-inspired design, sparkling fabric, and a versatile chain strap for hand or shoulder carry. A stylish and elegant gift perfect for birthdays, celebrations, special occasions, and thoughtful giveaways. Available in Champagne Gold, Silver, Blush Pink, and Black. Size: 21 x 12 x 7 cm.",
@@ -276,6 +279,9 @@ bestseller: false,
 images: [
     "images/products/celebration/amelie/1.webp",
     "images/products/celebration/amelie/2.webp",
+    "images/products/celebration/amelie/3.webp",
+    "images/products/celebration/amelie/4.webp",
+    "images/products/celebration/amelie/5.webp",
 ],
 
 description: "An elegant statement clutch featuring a chic oval silhouette, luxurious sparkle, and a detachable chain for hand or shoulder carry. A stylish and practical gift perfect for birthdays, celebrations, special occasions, and thoughtful giveaways. Available in Champagne Gold, Silver, Blush Pink, and Black. Size: 20 x 12 x 4 cm.",
@@ -332,6 +338,10 @@ images: [
     "images/products/celebration/zola/1.webp",
     "images/products/celebration/zola/2.webp",
     "images/products/celebration/zola/3.webp",
+    "images/products/celebration/zola/4.webp",
+    "images/products/celebration/zola/5.webp",
+    "images/products/celebration/zola/6.webp",
+    "images/products/celebration/zola/7.webp",
 ],
 
 description: "A graceful pleated evening clutch featuring a signature gold ring handle and detachable chain. Perfect for parties, celebrations, special occasions, and formal events, making it an elegant and practical gift for someone special. Available in Green, Apricot, White, Pink, and Black. Size: 24 x 19 x 7 cm.",
@@ -388,6 +398,9 @@ bestseller: false,
 images: [
     "images/products/celebration/seraphina/1.webp",
     "images/products/celebration/seraphina/2.webp",
+    "images/products/celebration/seraphina/3.webp",
+    "images/products/celebration/seraphina/4.webp",
+    "images/products/celebration/seraphina/5.webp",
 ],
 
 description: "A timeless evening clutch featuring a shimmering finish, crystal clasp, elegant top handle, and detachable chain for hand or shoulder carry. A sophisticated and practical gift perfect for birthdays, celebrations, special occasions, and thoughtful giveaways. Available in Gold, Silver, Blush Pink, and Black. Size: 20 x 12 x 4 cm.",
@@ -500,6 +513,9 @@ images: [
     "images/products/celebration/celeste/1.webp",
     "images/products/celebration/celeste/2.webp",
     "images/products/celebration/celeste/3.webp",
+    "images/products/celebration/celeste/4.webp",
+    "images/products/celebration/celeste/5.webp",
+    "images/products/celebration/celeste/6.webp",
 ],
 
 description: "A chic statement piece crafted with a textured shimmer finish, structured silhouette, and detachable chain for day-to-night elegance. A stylish and practical gift perfect for birthdays, celebrations, special occasions, and thoughtful giveaways. Available in Champagne, Silver, Gold, and Black. Size: 20 x 13 x 6 cm.",

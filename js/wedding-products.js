@@ -2190,6 +2190,9 @@ addons: [
     images: [
         "images/products/wedding/anastasia/1.webp",
         "images/products/wedding/anastasia/2.webp",
+        "images/products/wedding/anastasia/3.webp",
+        "images/products/wedding/anastasia/4.webp",
+        "images/products/wedding/anastasia/5.webp",
     ],
 
     description: "A luxurious evening clutch featuring a graceful shell-inspired design, sparkling fabric, and a detachable chain strap for versatile hand or shoulder carry. A stylish and elegant wedding souvenir that guests can use and cherish for special occasions. Size: 21 x 12 x 7 cm.",
@@ -2245,6 +2248,9 @@ addons: [
     images: [
         "images/products/wedding/amelie/1.webp",
         "images/products/wedding/amelie/2.webp",
+        "images/products/wedding/amelie/3.webp",
+        "images/products/wedding/amelie/4.webp",
+        "images/products/wedding/amelie/5.webp",
     ],
 
     description: "An elegant statement clutch featuring a chic oval silhouette, luxurious sparkle, and a detachable chain for hand or shoulder carry. A stylish and practical wedding souvenir that guests can enjoy for special occasions. Available in Champagne Gold, Silver, Blush Pink, and Black. Size: 20 x 12 x 4 cm.",
@@ -2301,6 +2307,17 @@ addons: [
         "images/products/wedding/zola/1.webp",
         "images/products/wedding/zola/2.webp",
         "images/products/wedding/zola/3.webp",
+        "images/products/wedding/zola/5.webp",
+        "images/products/wedding/zola/6.webp",
+        "images/products/wedding/zola/7.webp",
+        "images/products/wedding/zola/8.webp",
+        "images/products/wedding/zola/9.webp",
+        "images/products/wedding/zola/10.webp",
+        "images/products/wedding/zola/11.webp",
+        "images/products/wedding/zola/12.webp",
+        "images/products/wedding/zola/13.webp",
+        "images/products/wedding/zola/14.webp",
+        "images/products/wedding/zola/15.webp",
     ],
 
     description: "A graceful pleated evening clutch featuring a signature gold ring handle and detachable chain. Perfect for weddings, parties, and formal celebrations, making it an elegant and practical wedding souvenir for guests. Available in Green, Apricot, White, Pink, and Black. Size: 24 x 19 x 7 cm.",
@@ -2357,6 +2374,9 @@ addons: [
     images: [
         "images/products/wedding/seraphina/1.webp",
         "images/products/wedding/seraphina/2.webp",
+        "images/products/wedding/seraphina/3.webp",
+        "images/products/wedding/seraphina/4.webp",
+        "images/products/wedding/seraphina/5.webp",
     ],
 
     description: "A timeless evening clutch featuring a shimmering finish, crystal clasp, elegant top handle, and detachable chain for hand or shoulder carry. A sophisticated and practical wedding souvenir that guests can enjoy for special occasions. Available in Gold, Silver, Blush Pink, and Black. Size: 20 x 12 x 4 cm.",
@@ -2413,6 +2433,9 @@ addons: [
         "images/products/wedding/odette/1.webp",
         "images/products/wedding/odette/2.webp",
         "images/products/wedding/odette/3.webp",
+        "images/products/wedding/odette/4.webp",
+        "images/products/wedding/odette/5.webp",
+        "images/products/wedding/odette/6.webp",
     ],
 
     description: "A modern top-handle handbag featuring elegant pleated detailing, a sleek circular handle, and an adjustable shoulder strap for effortless everyday style. A practical and elegant wedding souvenir that guests can enjoy and use for special occasions. Available in White, Purple, and Black. Size: 20 x 12.5 x 6 cm.",
@@ -2469,6 +2492,9 @@ addons: [
         "images/products/wedding/celeste/1.webp",
         "images/products/wedding/celeste/2.webp",
         "images/products/wedding/celeste/3.webp",
+        "images/products/wedding/celeste/4.webp",
+        "images/products/wedding/celeste/5.webp",
+        "images/products/wedding/celeste/6.webp",
     ],
 
     description: "A chic statement piece crafted with a textured shimmer finish, structured silhouette, and detachable chain for day-to-night elegance. A stylish and practical wedding souvenir that guests can enjoy and use for special occasions. Available in Champagne, Silver, Gold, and Black. Size: 20 x 13 x 6 cm.",
