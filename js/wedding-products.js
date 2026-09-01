@@ -5812,10 +5812,10 @@ addons:[]
 },
 
 {
-id:100,
+id:102,
 category:"wedding",
 section:"gift-set",
-page:"product.html?id=100",
+page:"product.html?id=102",
 keywords:["wooden delights gift set","wooden gift set","wooden bowl set","wedding gift","wedding giveaway","personalized wedding gift","wedding souvenir","premium wedding gift","customized wedding gift","Philia Gifts"],
 name:"Wooden Delights Gift Set",
 price:1300,
