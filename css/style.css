@@ -306,7 +306,7 @@ DESKTOP DROPDOWN
 }
 
 .hero-image img{
-    width:80%;
+    width:60%;
     max-width:1000px;
     border-radius:28px;
     box-shadow:0 20px 50px rgba(0,0,0,.12);
@@ -346,11 +346,11 @@ DESKTOP DROPDOWN
 }
 
 .hero-description{
-    font-size:22px;
-    line-height:1.7;
+    font-size:18px;
+    line-height:1.3;
     max-width:1000px;
-    margin-bottom: 50px;
-    font-family: "Cormorant Garamond", serif;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
     display:block;
 }
 
@@ -647,7 +647,7 @@ REVIEWS
     font-size:42px;
     color:#3A2C22;
     margin-bottom:20px;
-    margin-top:15px;
+    margin-top:5px;
 }
 
 .section-title p{
@@ -820,44 +820,14 @@ REVIEWS
 BUILD YOUR OWN GIFT SET
 ======================================*/
 
-.build-gift{
-
-    width:100%;
-    max-width:1200px;
-
-}
-
 .build-container{
 
-    display:grid;
-
-    grid-template-columns:1fr 1fr;
-
-    gap:100px;
-    margin-left: 100px;
-
-    align-items:center;
+   
+    max-width: 1100px;
+  margin: 0 auto;
+   text-align: center;
 
 }
-
-.build-image img{
-
-    width:auto;
-
-    height:550px;
-
-    object-fit:cover;
-
-    border-radius:20px;
-
-    box-shadow:0 15px 35px rgba(0,0,0,.12);
-    
-    margin-top: 50px;
-    margin-bottom: 50px;
-    margin-left:50px;
-
-}
-
 .section-tag{
 
     color:#c69a55;
@@ -871,20 +841,22 @@ BUILD YOUR OWN GIFT SET
     text-transform:uppercase;
     margin-top: 50px;
     margin-bottom: 10px;
+    align-items:center;
 
 }
 
 .build-text{
- margin-left: 80px;
+ margin-left: 180px;
+ margin-right: 180px;
 }
 
 .build-text h2{
 
     margin: 20px 0;
 
-    font-size:35px;
+    font-size:30px;
 
-    font-family:'Playfair Display', serif;
+    font-family:'Comorant Garamond', serif;
 
     color:#3A2C22;
 
@@ -892,14 +864,14 @@ BUILD YOUR OWN GIFT SET
 
 .build-text p{
 
-    font-size:18px;
+    font-size:16px;
 
     line-height:1.3;
 
     color:#666;
 
-    margin-bottom:50px;
-    margin-right:2px;
+    margin-bottom:30px;
+    margin-right:20px;
 
 }
 
@@ -1444,10 +1416,7 @@ PRODUCTS
         line-height:1.2;
     }
 
-    .hero p{
-        font-size:14px;
-        line-height:1.4;
-    }
+    
 
 
     /* Build Your Own Gift Set */
@@ -6861,7 +6830,7 @@ body{
 
 .hero{
 
-    padding:50px 20px 40px;
+    padding:30px 20px 20px;
 
 }
 
@@ -6899,24 +6868,23 @@ body{
 
 .hero-description{
 
-    font-size:18px;
-
-    line-height:1.3;
-
-    max-width: 320px;
-    margin: 20px auto 35px;
+    font-size:12px;
+    font-family: "Poppins", sans-serif;
+    line-height:1.2;
+    max-width: 380px;
+    margin: 5px auto 15px;
 
 }
 
 .hero-image{
 
-    margin-top:35px;
+    margin-top:10px;
 
 }
 
 .hero-image img{
 
-    width:100%;
+    width:70%;
 
     max-width:380px;
 
@@ -7246,11 +7214,11 @@ COLLECTIONS
 
 .section-title p{
 
-    font-size: 14px;
-    line-height: 1.4;
+    font-size: 12px;
+    line-height: 1.2;
     max-width: 340px;
     margin: 0 auto;
-font-family:"Cormorant Garamond", serif;
+    font-family:"Poppins", sans-serif;
 }
 
 .collection-grid{
@@ -7313,7 +7281,7 @@ BUILD YOUR OWN GIFT SET
 =====================*/
 
 .build-gift{
-   padding: 20px 20px;
+   padding: 10px 20px;
  align-items:center;
 }
 
@@ -7334,26 +7302,6 @@ BUILD YOUR OWN GIFT SET
 .build-container{
     height: auto;
     min-height: auto;
-}
-
-.build-image{
-
-    width:100%;
-    padding-top:10px;
-    margin-left:0px;
-
-}
-
-.build-image img{
-
-    width:100%;
-
-    border-radius:20px;
-
-    display:block;
-    margin-bottom: 0;
-    margin-top: 0;
-
 }
 
 .build-text{
@@ -7389,12 +7337,12 @@ BUILD YOUR OWN GIFT SET
 
 .build-text p{
 
-    font-size:14px;
+    font-size:12px;
 
-    line-height:1.4;
+    line-height:1.2;
 
     margin-bottom:25px;
-    font-family:"Cormorant Garamond", serif;
+    font-family:"Poppins", sans-serif;
     color: rgb(57, 54, 54);
 
 }
@@ -7511,13 +7459,13 @@ border-radius: 0;
 
 .about-content p{
 
-    font-size: 14px;
+    font-size: 12px;
 
-    line-height: 1.4;
+    line-height: 1.2;
 
     color: #666;
     margin-bottom:25px;
-    font-family:"Cormorant Garamond", serif;
+    font-family:"Poppins", sans-serif;
 
 }
 
@@ -7635,13 +7583,7 @@ CUSTOMER REVIEWS
     margin-top: 0;
 }
 
-.reviews .section-title p{
 
-    font-size:14px;
-
-    line-height:1.4;
-
-}
 
 .review-grid{
 
@@ -7739,7 +7681,7 @@ FREQUENTLY ASKED QUESTIONS
 
 .faq .section-title p{
 
-    font-size: 16px;
+    font-size: 13px;
 
     line-height: 1.3;
 
@@ -7762,7 +7704,7 @@ FREQUENTLY ASKED QUESTIONS
 
     flex-direction:column;
 
-    gap:5px;
+    
 
 }
 
@@ -8479,7 +8421,7 @@ WELCOME
 
 .product-category{
     display:block;
-    font-size:12px;
+    font-size:14px;
     letter-spacing:2px;
     margin-bottom:10px;
 }
@@ -8491,7 +8433,7 @@ WELCOME
 }
 
 .product-price{
-    font-size:16px;
+    font-size:18px;
     margin:12px 0 18px;
 }
 
@@ -9135,12 +9077,7 @@ WELCOME
 
 }
 
-@media (max-width: 768px) {
-    .build-image img {
-        height: 250px;
-        margin-left:0;
-    }
-}
+
 
 /*====================================================
                 MOBILE RESPONSIVENESS
@@ -9156,11 +9093,13 @@ WELCOME
     .global-section,
     .mvv-section,
     .founders,
-    .promise,
-    .faq{
+    .promise{
         padding:60px 20px;
     }
 
+    .faq{
+        padding:30px 20px;
+    }
 }
 @media screen and (max-width:768px){
 
@@ -9352,7 +9291,7 @@ WELCOME
     }
 
         .welcome-section, .journey-section, .global-section, .mvv-section, .founders, .promise, .faq {
-        padding: 35px 20px;
+        padding: 30px 20px;
     }
 }
 

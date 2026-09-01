@@ -13,7 +13,7 @@ const weddingProducts = [
 
     price: 2300,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/couplecoffee/1.webp",
@@ -96,7 +96,7 @@ const weddingProducts = [
     name: "Candle Warmer Lamp",
 
     price: 2150,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
 
 
@@ -163,7 +163,7 @@ const weddingProducts = [
         name: "Game Night Set",
 
         price: 2100,
-        minimumOrder: 5,
+        minimumOrder: 0,
 
         bestseller:true,
 
@@ -284,7 +284,7 @@ addons: [
     name: "Rosewood Wine Set",
 
     price: 1700,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: true,
 
@@ -418,7 +418,7 @@ addons: [
         name: "Beauty Boutique Kit",
 
         price: 1650, 
-        minimumOrder: 5,
+        minimumOrder: 0,
 
         bestseller:true,
 
@@ -465,7 +465,7 @@ name: "Aroma Haven Collection",
 
 price: 1450,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -523,7 +523,7 @@ addons: [
 
     price: 1450,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -596,7 +596,7 @@ addons: [
         name: "Classic Companion",
 
         price: 1350,
-        minimumOrder: 5,
+        minimumOrder: 0,
 
         bestseller:true,
 
@@ -680,7 +680,7 @@ addons: [
     name: "Heritage Bloom Tea Set",
 
     price: 1350,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -749,7 +749,7 @@ addons: [
     name: "Grand Fleur Tea Set",
 
     price: 1350,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: true,
 
@@ -860,7 +860,7 @@ addons: [
 
     price: 1350,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/cozycorner/1.webp",
@@ -919,7 +919,7 @@ addons: [
 
     price: 1300,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -975,7 +975,7 @@ addons: [
 
     price: 1500,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/bridesmaidgift/1.webp",
@@ -1033,7 +1033,7 @@ addons: [
 
     price: 1600,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/groomsmengift/1.webp",
@@ -1085,7 +1085,7 @@ addons: [
     page: "product.html?id=57",
     name: "Gentleman's Daily Kit",
     price: 1150,
-    minimumOrder: 5,
+    minimumOrder: 0,
     bestseller: false,
     images: [
         "images/products/wedding/gentlemansdailykit/1.webp",
@@ -1132,7 +1132,7 @@ addons: [
 
     price: 1150,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/blush&bloomset/1.webp",
@@ -1183,7 +1183,7 @@ name: "Bridesmaid Gift Set",
 
 price: 1100,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -1231,7 +1231,7 @@ addons: [
     name: "Groomsman Gift Set",
     price: 1100,
     bestseller: false,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/groomsmengiftset/1.webp",
@@ -1288,7 +1288,7 @@ addons: [
         name: "Couple Marble",
 
         price: 990,
-        minimumOrder: 5,
+        minimumOrder: 0,
 
         bestseller:false,
 
@@ -1351,7 +1351,7 @@ addons: [
         name: "Essential Oasis Set",
 
         price: 980,
-        minimumOrder: 5,
+        minimumOrder: 0,
 
         bestseller:true,
 
@@ -1416,7 +1416,7 @@ addons: [
     name: "Warmth & Keep Set",
 
     price: 970,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/warmth&keep/1.webp",
@@ -1456,7 +1456,7 @@ addons: [
 
     price: 950,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -1548,7 +1548,7 @@ addons: [
     name: "Rattan Shoulder Bag",
 
     price: 920,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -1620,7 +1620,7 @@ addons: [
     name: "Gentleman's Heritage Set",
 
     price: 920,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
 
     bestseller: false,
@@ -1663,7 +1663,7 @@ addons: [
 
     price: 880,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: true,
 
@@ -1733,7 +1733,7 @@ addons: [
         name: "Classic Leather Duo",
 
         price: 850,
-        minimumOrder: 5,
+        minimumOrder: 0,
 
         bestseller:false,
 
@@ -1780,7 +1780,7 @@ addons: [
 
     price: 840,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -1858,7 +1858,7 @@ addons: [
     name: "Calm & Cozy Set",
 
     price: 820,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/calm&cozy/1.webp",
@@ -1966,7 +1966,7 @@ addons: [
     name: "Lotus Lamp",
 
     price: 750,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/lotuslamp/1.webp",
@@ -2016,7 +2016,7 @@ addons: [
 
     price: 730,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/chicndazzle/1.webp",
@@ -2064,7 +2064,7 @@ addons: [
 
     price: 720,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -2125,7 +2125,7 @@ addons: [
 
     price: 720,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/beautyonthego/1.webp",
@@ -2186,7 +2186,7 @@ addons: [
 
     price: 690,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -2244,7 +2244,7 @@ addons: [
 
     price: 690,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -2302,7 +2302,7 @@ addons: [
 
     price: 690,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -2370,7 +2370,7 @@ addons: [
 
     price: 690,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -2428,7 +2428,7 @@ addons: [
 
     price: 690,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -2487,7 +2487,7 @@ addons: [
 
     price: 690,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -2546,7 +2546,7 @@ addons: [
 
     price: 680,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -2621,7 +2621,7 @@ addons: [
     name: "Spin, Sip, Savor Set",
 
     price: 680,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -2675,7 +2675,7 @@ addons: [
 
     price: 680,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/glow&grace/1.webp",
@@ -2756,7 +2756,7 @@ addons: [
     name: "Wine O'Clock",
 
     price: 620,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: true,
 
@@ -2903,7 +2903,7 @@ addons: [
     name: "Drape & Dazzle A",
     bestseller: true,
     price: 600,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
 
     images: [
@@ -2955,7 +2955,7 @@ addons: [
 
     price: 590,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/cozycare/1.webp",
@@ -3014,7 +3014,7 @@ addons: [
     page: "product.html?id=90",
     name: "Drip Coffee Set",
     price: 580,
-    minimumOrder: 5,
+    minimumOrder: 0,
     images: [
         "images/products/wedding/coffeedripset/1.webp",
         "images/products/wedding/coffeedripset/2.webp",
@@ -3155,7 +3155,7 @@ addons: [
     name: "Sip in Style Set",
 
     price: 550,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -3234,7 +3234,7 @@ addons: [
     name: "The Luxury Duo",
 
     price: 550,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
 
     bestseller: false,
@@ -3299,7 +3299,7 @@ addons: [
     name: "Classic Reserve Set",
 
     price: 550,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/classicreserve/1.webp",
@@ -3359,7 +3359,7 @@ addons: [
     name: "Coffee Set",
 
     price: 520,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -3422,7 +3422,7 @@ addons: [
     name: "Abaca Burlap Bag",
 
     price: 490,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/burlapbagB/1.webp",
@@ -3539,7 +3539,7 @@ addons: [
 
     price: 490,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -3603,7 +3603,7 @@ name: "Coffee Cup with Thermal Display",
 
 price: 480,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -3670,7 +3670,7 @@ addons: [
     ],
 
         name: "Nordic Lamp",
-        minimumOrder: 5,
+        minimumOrder: 0,
 
         price: 470,
 
@@ -3744,7 +3744,7 @@ addons: [
     name: "Burlap Bag A",
 
     price: 470,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/burlapbagA/1.webp",
@@ -3792,7 +3792,7 @@ addons: [
 
     price: 470,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -3877,7 +3877,7 @@ addons: [
     name: "Pour & Enjoy Set",
 
     price: 470,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: true,
 
@@ -3991,7 +3991,7 @@ addons: [
 
     price: 450,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -4070,7 +4070,7 @@ addons: [
     name: "Beer Buddy Set",
 
     price: 420,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/beerbuddy/1.webp",
@@ -4173,7 +4173,7 @@ addons: [
     section: "gift-set",
     name: "Nordic Mug A",
     price: 350,
-    minimumOrder: 5,
+    minimumOrder: 0,
     images: [
         "images/products/wedding/nordicmugA/1.webp",
         "images/products/wedding/nordicmugA/2.webp",
@@ -4213,7 +4213,7 @@ addons: [
     page: "product.html?id=55",
     name: "Glass Cup w/ Bottle Opener Magnet",
     price: 350,
-    minimumOrder: 5,
+    minimumOrder: 0,
     bestseller: false,
     images: [
         "images/products/wedding/glasscupwopener/1.webp",
@@ -4271,7 +4271,7 @@ addons: [
 
     price: 350,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -4516,7 +4516,7 @@ name: "The Everyday Kit A",
 
 price: 320,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: true,
 
@@ -4601,7 +4601,7 @@ addons: [
     name: "The Classic Combo",
 
     price: 290,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -4649,7 +4649,7 @@ name: "Rotating Mirror",
 
 price: 290,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -4710,7 +4710,7 @@ addons: [
 
     price: 260,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/wedding/jewelrybox/1.webp",
@@ -4772,7 +4772,7 @@ addons: [
 
     price: 260,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -5803,7 +5803,7 @@ page:"product.html?id=99",
 keywords:["glamour and go bundle","clutch sling bag gift set","insulated coffee cup","passport holder","wedding gift set","wedding souvenir","bridesmaid gift","ninang gift","personalized gift set","corporate giveaway","Philia Gifts"],
 name:"Glamour & Go Bundle",
 price:1600,
-minimumOrder:5,
+minimumOrder: 0,
 bestseller:false,
 images:["images/products/wedding/glamourandgo/1.webp","images/products/wedding/glamourandgo/2.webp","images/products/wedding/glamourandgo/3.webp"],
 description:"A stylish gift set featuring a clutch bag, insulated coffee cup, and passport holder, beautifully presented in a hard box for weddings, celebrations, and special occasions.",
@@ -5819,7 +5819,7 @@ page:"product.html?id=102",
 keywords:["wooden delights gift set","wooden gift set","wooden bowl set","wedding gift","wedding giveaway","personalized wedding gift","wedding souvenir","premium wedding gift","customized wedding gift","Philia Gifts"],
 name:"Wooden Delights Gift Set",
 price:1300,
-minimumOrder:5,
+minimumOrder: 0,
 bestseller:false,
 images:["images/products/wedding/woodendelights/1.webp","images/products/wedding/woodendelights/2.webp","images/products/wedding/woodendelights/3.webp","images/products/wedding/woodendelights/4.webp","images/products/wedding/woodendelights/5.webp"],
 description:"A premium wooden gift set featuring a wooden tea cup, 2pcs small bowls or saucers, a heart-shaped bowl, and a square-shaped bowl, ideal for weddings and special occasions.",
@@ -5835,7 +5835,7 @@ page:"product.html?id=101",
 keywords:["crystal toast set","crystal wine glass set","wine gift set","wedding gift set","wedding giveaway","personalized wedding gift","wedding souvenir","premium wedding gift","customized wedding gift","Philia Gifts"],
 name:"Crystal Toast Set",
 price:1100,
-minimumOrder:5,
+minimumOrder: 0,
 bestseller:false,
 images:["images/products/wedding/crystaltoast/1.webp","images/products/wedding/crystaltoast/2.webp","images/products/wedding/crystaltoast/3.webp","images/products/wedding/crystaltoast/4.webp"],
 description:"A premium wedding gift set featuring 2pcs crystal wine glasses and a 200ml Mini Yellow Tail Rose Wine, ideal for weddings and special occasions.",

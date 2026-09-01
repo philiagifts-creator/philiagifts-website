@@ -6,7 +6,7 @@ const celebrationProducts = [
     section: ["gift-set"],
     name: "Brew & Breeze",
     price: 1150,
-    minimumOrder: 5,
+    minimumOrder: 0,
     images: [
         "images/products/celebration/brewbreeze/1.webp",
         "images/products/celebration/brewbreeze/2.webp",
@@ -58,7 +58,7 @@ const celebrationProducts = [
     name: "Calm & Cozy Set",
 
     price: 820,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/celebration/calm&cozy/1.webp",
@@ -94,7 +94,7 @@ const celebrationProducts = [
 
     bestseller: false,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     name: "Boho Lamp",
 
@@ -153,7 +153,7 @@ const celebrationProducts = [
 
     price: 720,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/celebration/beautyonthego/1.webp",
@@ -214,7 +214,7 @@ name: "Anastasia Clutch",
 
 price: 690,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -272,7 +272,7 @@ name: "Amelie Clutch",
 
 price: 690,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -330,7 +330,7 @@ name: "Zola Clutch",
 
 price: 690,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -391,7 +391,7 @@ name: "Seraphina Clutch",
 
 price: 690,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -449,7 +449,7 @@ name: "Odette Handbag",
 
 price: 690,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -505,7 +505,7 @@ name: "Celeste Handbag",
 
 price: 690,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -1528,7 +1528,7 @@ addons: [
 
     name: "Hot & Cold Tumbler 500ml",
 
-    price: 320,
+    price: 350,
 
     minimumOrder: 10,
 
@@ -2861,7 +2861,7 @@ name:"Retro Bluetooth Speaker",
 price:680,
 minimumOrder:5,
 bestseller:false,
-images:["images/products/celebration/retrospeaker/1.webp","images/products/celebration/retrospeaker/2.webp","images/products/celebration/retrospeaker/3.webp","images/products/celebration/retrospeaker/4.webp"],
+images:["images/products/celebration/retrospeaker/1.jpg","images/products/celebration/retrospeaker/2.jpg","images/products/celebration/retrospeaker/3.jpg","images/products/celebration/retrospeaker/4.jpg"],
 description:"A stylish retro Bluetooth speaker gift set, perfect for personalized gifts, celebrations, and special occasions.",
 inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
 addons:["Name on the box - ₱30","Dried Flower - ₱100","Upgrade to Hard Box with name - ₱150"]
@@ -2877,7 +2877,7 @@ name:"Ref Magnet",
 price:55,
 minimumOrder:50,
 bestseller:false,
-images:["images/products/celebration/refmagnet/1.webp","images/products/celebration/refmagnet/2.webp","images/products/celebration/refmagnet/3.webp","images/products/celebration/refmagnet/4.webp","images/products/celebration/refmagnet/5.webp"],
+images:["images/products/celebration/refmagnet/1.jpg","images/products/celebration/refmagnet/2.jpg","images/products/celebration/refmagnet/3.jpg","images/products/celebration/refmagnet/4.jpg","images/products/celebration/refmagnet/5.jpg"],
 description:"A customized refrigerator magnet featuring a personalized design, glittered finish, and card, ideal for celebrations, events, and giveaways.",
 inclusions:["Free Layout","Customized Card"],
 addons:[]
@@ -2893,7 +2893,7 @@ name:"Egg Mug",
 price:350,
 minimumOrder:5,
 bestseller:false,
-images:["images/products/celebration/eggmug/1.webp","images/products/celebration/eggmug/2.webp","images/products/celebration/eggmug/3.webp"],
+images:["images/products/celebration/eggmug/1.jpg","images/products/celebration/eggmug/2.jpg","images/products/celebration/eggmug/3.jpg"],
 description:"A personalized insulated egg mug in a gift box perfect for celebrations and special occasions.",
 inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
 addons:[]
