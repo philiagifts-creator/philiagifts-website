@@ -1219,7 +1219,7 @@ addons: [
 
         name: "Nordic Mug A",
 
-        price: 390, 
+        price: 380, 
         minimumOrder: 5,
 
         bestseller:false,
@@ -1297,7 +1297,7 @@ addons: [
 
     name: "Nordic Mug B",
 
-    price: 380,
+    price: 350,
     minimumOrder: 5,
 
     bestseller: true,
@@ -2848,6 +2848,54 @@ bestseller:false,
 images:["images/products/celebration/swissknife/1.webp","images/products/celebration/swissknife/2.webp","images/products/celebration/swissknife/3.webp","images/products/celebration/swissknife/4.webp"],
 description:"A laser-engraved wooden Swiss knife presented in a gift box with a customized tag and ribbon, making a practical and memorable souvenir for celebrations and special occasions.",
 inclusions:["Gift Box","Customized Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:2053,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2053",
+keywords:["retro bluetooth speaker","bluetooth speaker gift set","retro speaker gift","celebration gift","celebration giveaway","personalized gift","premium gift set","customized gift","Philia Gifts"],
+name:"Retro Bluetooth Speaker",
+price:680,
+minimumOrder:5,
+bestseller:false,
+images:["images/products/celebration/retrospeaker/1.webp","images/products/celebration/retrospeaker/2.webp","images/products/celebration/retrospeaker/3.webp","images/products/celebration/retrospeaker/4.webp"],
+description:"A stylish retro Bluetooth speaker gift set, perfect for personalized gifts, celebrations, and special occasions.",
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+addons:["Name on the box - ₱30","Dried Flower - ₱100","Upgrade to Hard Box with name - ₱150"]
+},
+
+{
+id:2054,
+category:"celebration",
+section:"guest",
+page:"product.html?id=2054",
+keywords:["ref magnet","ref magnet souvenir","customized magnet","celebration giveaway","personalized magnet","event souvenir","party giveaway","customized celebration gift","Philia Gifts"],
+name:"Ref Magnet",
+price:55,
+minimumOrder:50,
+bestseller:false,
+images:["images/products/celebration/refmagnet/1.webp","images/products/celebration/refmagnet/2.webp","images/products/celebration/refmagnet/3.webp","images/products/celebration/refmagnet/4.webp","images/products/celebration/refmagnet/5.webp"],
+description:"A customized refrigerator magnet featuring a personalized design, glittered finish, and card, ideal for celebrations, events, and giveaways.",
+inclusions:["Free Layout","Customized Card"],
+addons:[]
+},
+
+{
+id:2055,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2055",
+keywords:["egg mug","insulated mug","personalized mug","celebration gift","customized mug","gift set","premium mug","Philia Gifts"],
+name:"Egg Mug",
+price:350,
+minimumOrder:5,
+bestseller:false,
+images:["images/products/celebration/eggmug/1.webp","images/products/celebration/eggmug/2.webp","images/products/celebration/eggmug/3.webp"],
+description:"A personalized insulated egg mug in a gift box perfect for celebrations and special occasions.",
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 

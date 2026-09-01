@@ -807,6 +807,9 @@ addons: [
         "images/products/wedding/coffeelovers/4.webp",
         "images/products/wedding/coffeelovers/5.webp",
         "images/products/wedding/coffeelovers/6.webp",
+        "images/products/wedding/coffeelovers/7.webp",
+        "images/products/wedding/coffeelovers/8.webp",
+        "images/products/wedding/coffeelovers/9.webp",
     ],
 
     description: "A premium coffee gift set featuring a personalized Nordic mug, coffee press, premium coffee pack, and acacia coaster, elegantly presented in a personalized hard box. Designed for coffee enthusiasts who appreciate quality, functionality, and timeless style.",
@@ -3927,7 +3930,10 @@ addons: [
         "images/products/wedding/humidifier/3.webp",
         "images/products/wedding/humidifier/4.webp",
         "images/products/wedding/humidifier/5.webp",
-        "images/products/wedding/humidifier/6.webp"
+        "images/products/wedding/humidifier/6.webp",
+        "images/products/wedding/humidifier/7.webp",
+        "images/products/wedding/humidifier/8.webp",
+        "images/products/wedding/humidifier/9.webp",
     ],
 
     description: "Create a warm and relaxing atmosphere with this personalized timber humidifier. Beautifully packaged and thoughtfully customized, it's a practical keepsake perfect for wedding sponsors, birthdays, corporate gifts, and heartfelt celebrations.",
@@ -3962,7 +3968,7 @@ addons: [
             price: 120
         },
         {
-            name: "Humidifier Scent (10ml)",
+            name: "Essential Oil",
             price: 50
         },
         {
@@ -4166,7 +4172,7 @@ addons: [
     category: "wedding",
     section: "gift-set",
     name: "Nordic Mug A",
-    price: 380,
+    price: 350,
     minimumOrder: 5,
     images: [
         "images/products/wedding/nordicmugA/1.webp",
@@ -4453,7 +4459,7 @@ addons: [
 
     name: "Hot & Cold Tumbler 500ML",
 
-    price: 320,
+    price: 350,
 
     minimumOrder: 10,
 
@@ -5687,7 +5693,10 @@ addons: [
         "images/products/wedding/retrospeaker/3.webp",
         "images/products/wedding/retrospeaker/4.webp",
         "images/products/wedding/retrospeaker/5.webp",
-        "images/products/wedding/retrospeaker/6.webp"
+        "images/products/wedding/retrospeaker/6.webp",
+        "images/products/wedding/retrospeaker/7.webp",
+        "images/products/wedding/retrospeaker/8.webp",
+        "images/products/wedding/retrospeaker/9.webp",
     ],
     description: "A personalized retro-style Bluetooth speaker presented in a gift box, creating a stylish and functional keepsake for weddings and special occasions.",
     inclusions: [
@@ -5833,5 +5842,7 @@ description:"A premium wedding gift set featuring 2pcs crystal wine glasses and 
 inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
 addons:[]
 },
+
+
 
 ].sort((a, b) => b.price - a.price);
