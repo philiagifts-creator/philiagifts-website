@@ -266,7 +266,7 @@ DESKTOP DROPDOWN
 
     width:100%;
 
-    padding:90px 0;
+    padding:60px 0;
 
     overflow:hidden;
 
@@ -343,10 +343,11 @@ DESKTOP DROPDOWN
     margin: 0 0 10px;
      font-family: "Parisienne", cursive;
      font-size:35px;
+     color: rgb(126, 110, 58);
 }
 
 .hero-description{
-    font-size:18px;
+    font-size:16px;
     padding-left: 150px;
     padding-right: 150px;
     line-height:1.3;
@@ -354,6 +355,7 @@ DESKTOP DROPDOWN
     margin-bottom: 30px;
     font-family: "Poppins", sans-serif;
     display:block;
+    color:rgb(104, 102, 100);
 }
 
 .btn{
@@ -412,13 +414,13 @@ REVIEWS
     margin-top:60px;
     display:grid;
     grid-template-columns:repeat(3,1fr);
-    gap:30px;
+    gap:20px;
 }
 
 .review-card{
     background:#fff;
     border-radius:24px;
-    padding:40px 35px;
+    padding:40px 15px;
     text-align:center;
     transition:.3s;
 }
@@ -429,16 +431,16 @@ REVIEWS
 
 .stars{
     color:#C79B52;
-    font-size:26px;
+    font-size:24px;
     letter-spacing:3px;
     margin-bottom:20px;
 }
 
 .review-card p{
-    font-size:18px;
-    line-height:1.8;
+    font-size:14px;
+    line-height:1.3;
     color:#666;
-    margin-bottom:30px;
+    margin-bottom:10px;
 }
 
 .review-card h4{
@@ -450,7 +452,7 @@ REVIEWS
 
 .review-card span{
     color:#999;
-    font-size:15px;
+    font-size:10px;
 }
 
 /* ==========================
@@ -974,29 +976,24 @@ opacity:10
 .review-grid{
 
     display:grid;
-
     grid-template-columns:repeat(3,1fr);
-
-    gap:30px;
+    gap:20px;
 
 }
 
 .review-card{
 
     background:#fff;
-
-    padding:40px;
-
     border-radius:20px;
 border:1px solid #F3E8D8;
 
     transition:.3s;
-    padding:35px;
+    padding:15px;
 
     display:flex;
 
     flex-direction:column;
-    min-height: 320px;
+    min-height: 220px;
 
 }
 
@@ -1010,14 +1007,14 @@ border:1px solid #F3E8D8;
 
     color:#d29739;
 
-    font-size:24px;
+    font-size:20px;
 
     margin-bottom:2px;
 
 }
 .quote-icon{
 
-    font-size:42px;
+    font-size:30px;
     color:#E7D6BA;
     line-height:1;
     margin-bottom:2px;
@@ -1028,9 +1025,9 @@ border:1px solid #F3E8D8;
 
     margin:20px 0;
 
-    font-size:18px;
+    font-size:12px;
 
-    line-height:1.8;
+    line-height:1.2;
 
     color:#555;
 
@@ -1593,7 +1590,7 @@ PRODUCTS
 }
 
 .about-button{
-    margin:25px 0 40px;
+    margin:25px 0 10px;
 }
 
 .secondary-btn{
@@ -4595,11 +4592,11 @@ REQUEST A QUOTE
 
     align-items:flex-start;
 
-    gap:25px;
+    gap:15px;
 
     background:#fff;
 
-    padding:35px;
+    padding:25px;
 
     border-radius:22px;
 
@@ -6865,15 +6862,19 @@ body{
     margin: 0 0 10px;
      font-family: "Parisienne", cursive;
      font-size:25px;
+     color: rgb(126, 110, 58);
 }
 
 .hero-description{
 
-    font-size:12px;
+    font-size:13px;
     font-family: "Poppins", sans-serif;
-    line-height:1.2;
+    padding-left: 0;
+    padding-right: 0;
+    line-height:1.3;
     max-width: 380px;
     margin: 5px auto 15px;
+    color:rgb(104, 102, 100);
 
 }
 
@@ -7461,7 +7462,8 @@ border-radius: 0;
 .about-content p{
 
     font-size: 12px;
-
+    padding-left: 0;
+    padding-right: 0;
     line-height: 1.2;
 
     color: #666;
