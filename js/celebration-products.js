@@ -564,7 +564,7 @@ addons: [
 
     price: 680,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -613,7 +613,7 @@ name: "Wooden Digital Alarm Clock",
 
 price: 670,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -671,7 +671,7 @@ name: "Wine O'Clock",
 
 price: 620,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -724,7 +724,7 @@ addons: [
     page: "product.html?id=2031",
     name: "Cozy Luxe Set",
     price: 620,
-    minimumOrder: 5,
+    minimumOrder: 0,
     bestseller: false,
     images: [
         "images/products/celebration/cozyluxe/1.webp",
@@ -773,7 +773,7 @@ addons: [
 
     bestseller: false,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     name: "Cozy Care Kit",
 
@@ -838,7 +838,7 @@ addons: [
     page: "product.html?id=2049",
     name: "Drip Coffee Set",
     price: 580,
-    minimumOrder: 5,
+    minimumOrder: 0,
     images: [
         "images/products/celebration/coffeedripset/1.webp",
         "images/products/celebration/coffeedripset/2.webp",
@@ -951,7 +951,7 @@ name: "Coffee Set",
 
 price: 520,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: true,
 
@@ -1004,7 +1004,7 @@ addons: [
     name: "Burlap Bag w/ Zipper & Pocket",
     price: 490,
     bestseller: false,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/celebration/burlapbagA/1.webp",
@@ -1035,7 +1035,7 @@ addons: [
     name: "Coffee Cup with Thermal Display",
     price: 480,
     bestseller: false,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/celebration/thermaltumbler/1.webp",
@@ -1080,7 +1080,7 @@ addons: [
 
     price: 450,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -1140,7 +1140,7 @@ addons: [
 
     bestseller: false,
 
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     name: "Beer Buddy Set",
 
@@ -1220,7 +1220,7 @@ addons: [
         name: "Nordic Mug A",
 
         price: 380, 
-        minimumOrder: 5,
+        minimumOrder: 0,
 
         bestseller:false,
 
@@ -1298,7 +1298,7 @@ addons: [
     name: "Nordic Mug B",
 
     price: 350,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     bestseller: true,
 
@@ -1352,7 +1352,7 @@ name: "Marble Mug",
 
 price: 350,
 
-minimumOrder: 5,
+minimumOrder: 0,
 
 bestseller: false,
 
@@ -1702,7 +1702,7 @@ addons: [
     name: "Rotating Mirror",
     price: 290,
     bestseller: false,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/celebration/rotatingmirror/1.webp",
@@ -2005,7 +2005,7 @@ addons: []
     name: "Desktop Mirror",
     price: 180,
     bestseller: false,
-    minimumOrder: 5,
+    minimumOrder: 0,
 
     images: [
         "images/products/celebration/desktopmirror/1.webp",
@@ -2843,7 +2843,7 @@ page:"product.html?id=2052",
 keywords:["wooden swiss knife","personalized swiss knife","engraved wooden swiss knife","celebration souvenir","celebration giveaway","guest souvenir","birthday souvenir","christening souvenir","customized souvenir","laser-engraved gift","Philia Gifts"],
 name:"Wooden Swiss Knife",
 price:260,
-minimumOrder:5,
+minimumOrder: 0,
 bestseller:false,
 images:["images/products/celebration/swissknife/1.webp","images/products/celebration/swissknife/2.webp","images/products/celebration/swissknife/3.webp","images/products/celebration/swissknife/4.webp"],
 description:"A laser-engraved wooden Swiss knife presented in a gift box with a customized tag and ribbon, making a practical and memorable souvenir for celebrations and special occasions.",
@@ -2859,7 +2859,7 @@ page:"product.html?id=2053",
 keywords:["retro bluetooth speaker","bluetooth speaker gift set","retro speaker gift","celebration gift","celebration giveaway","personalized gift","premium gift set","customized gift","Philia Gifts"],
 name:"Retro Bluetooth Speaker",
 price:680,
-minimumOrder:5,
+minimumOrder: 0,
 bestseller:false,
 images:["images/products/celebration/retrospeaker/1.jpg","images/products/celebration/retrospeaker/2.jpg","images/products/celebration/retrospeaker/3.jpg","images/products/celebration/retrospeaker/4.jpg"],
 description:"A stylish retro Bluetooth speaker gift set, perfect for personalized gifts, celebrations, and special occasions.",
@@ -2891,7 +2891,7 @@ page:"product.html?id=2055",
 keywords:["egg mug","insulated mug","personalized mug","celebration gift","customized mug","gift set","premium mug","Philia Gifts"],
 name:"Egg Mug",
 price:350,
-minimumOrder:5,
+minimumOrder: 0,
 bestseller:false,
 images:["images/products/celebration/eggmug/1.jpg","images/products/celebration/eggmug/2.jpg","images/products/celebration/eggmug/3.jpg"],
 description:"A personalized insulated egg mug in a gift box perfect for celebrations and special occasions.",
