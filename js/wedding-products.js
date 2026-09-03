@@ -1630,7 +1630,7 @@ addons: [
         "images/products/wedding/gents/2.webp"
     ],
 
-    description: "Featuring a personalized leather wallet, matching keychain, and wooden bottle opener, this sophisticated gift set is thoughtfully curated to thank groomsmen, ninongs, and sponsors with a practical keepsake they'll appreciate and use for years to come.",
+    description: "Featuring a personalized wine flask, shot glass, mini Black Label (50ml), and wooden bottle opener keychain, this sophisticated gift set is thoughtfully curated to thank groomsmen, ninongs, and sponsors with a practical keepsake they'll appreciate and use for years to come.",
 
     inclusions: [
         "Gift Box",
