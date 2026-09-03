@@ -9250,11 +9250,12 @@ WELCOME
 @media screen and (max-width:768px){
 
     .founders-container{
-        gap:15px;
+        gap:0;
     }
 
     .founders-image img{
         max-width:330px;
+    
     }
 
 
@@ -9300,6 +9301,7 @@ WELCOME
     .founders-image img {
         max-width: 250px;
         margin-left: 60px;
+        margin-top: 10px;
         
     }
 
