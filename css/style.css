@@ -1946,7 +1946,7 @@ grid-template-columns:1fr;
 .timeline-item{
     display:flex;
     gap:50px;
-    margin-bottom:60px;
+    margin-bottom:20px;
     position:relative;
 }
 
