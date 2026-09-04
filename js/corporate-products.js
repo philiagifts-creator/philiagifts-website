@@ -1274,7 +1274,7 @@ const corporateProducts = [
 
     name: "Customized Coffee Mug",
 
-    price: 175,
+    price: 140,
 
     minimumOrder: 50,
 
