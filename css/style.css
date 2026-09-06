@@ -3561,8 +3561,8 @@ REQUEST A QUOTE
     color:#666;
 
     line-height:1.3;
-    font-size:13px;
-    margin-bottom: 0;
+    font-size:14px;
+    margin-bottom: 20px;
 
 }
 
@@ -3589,7 +3589,7 @@ REQUEST A QUOTE
     display:block;
 
     margin-bottom:10px;
-    margin-top:10px;
+    margin-top:5px;
     font-size: 15px;
     font-family:Georgia, 'Times New Roman', Times, serif
 
@@ -8513,7 +8513,7 @@ WELCOME
     color: #6a675f;
     line-height: 1.3;
     font-size: 12px;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 }
 
 /* ==========================
@@ -8527,7 +8527,7 @@ WELCOME
     gap: 10px;
     width: 150px;
     margin-bottom: 10px;
-    margin-left: 90px;
+    margin-left: 70px;
 }
 }
 
@@ -12874,7 +12874,7 @@ header {
 ===================================================== */
 
 .quote-request .option-group {
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 0;
 }
 

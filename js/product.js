@@ -208,7 +208,7 @@ const minimumOrder = document.getElementById("minimumOrder");
 
 if (product.minimumOrder > 1) {
     minimumOrder.textContent =
-        `Minimum order: ${product.minimumOrder} pcs`;
+        `Minimum Order: ${product.minimumOrder} pcs`;
 }
 
 document.getElementById("productName").textContent = product.name;
