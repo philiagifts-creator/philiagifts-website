@@ -3443,7 +3443,7 @@ html{
 
     gap:12px;
 
-    margin:35px auto 60px;
+    margin:35px auto 15px;
 
     width:100%;
 
@@ -9106,7 +9106,7 @@ WELCOME
 @media screen and (max-width:768px){
 
     section{
-        padding:20px 20px;
+        padding:10px 10px;
     }
 
     .welcome-section,
@@ -12111,8 +12111,8 @@ header {
 .catalog-controls {
     max-width: 1200px;
 
-    margin: 0 auto 35px;
-    padding: 42px 24px;
+    margin: 0 auto 15px;
+    padding: 10px 24px;
 
     background: rgba(255, 253, 252, 0.92);
 
@@ -12238,7 +12238,7 @@ header {
     font-family: "Poppins", sans-serif;
     font-size: 12px;
     font-weight: 600;
-
+    margin-top: 50px;
     letter-spacing: 3.2px;
     text-transform: uppercase;
 
@@ -12261,7 +12261,7 @@ header {
 ===================================================== */
 
 .product-categories {
-    width: 88%;
+    width: 95%;
     max-width: 1320px;
 
     margin: 0 auto;
@@ -12308,27 +12308,6 @@ header {
     border-color: #D0C0B1;
 
     box-shadow: 0 12px 28px rgba(57, 46, 40, 0.08);
-}
-
-
-/* PRODUCT IMAGES */
-
-.product-card img,
-.product-image img {
-    width: 100%;
-
-    display: block;
-
-    object-fit: cover;
-}
-
-
-/* PRODUCT BODY */
-
-.product-card .product-info,
-.product-card .product-details,
-.product-info {
-    padding: 17px 16px 18px;
 }
 
 /* =====================================================
@@ -14017,5 +13996,59 @@ header {
 .quote-page {
     padding-top: 52px;
     padding-bottom: 75px;
+}
+
+/* =========================================
+   MOBILE PRODUCT GRID — 2 PRODUCTS PER ROW
+========================================= */
+
+@media screen and (max-width: 768px) {
+
+    .product-grid {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 12px !important;
+
+        width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .product-card {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: none !important;
+
+        margin: 0 !important;
+        box-sizing: border-box;
+    }
+
+    .product-card img {
+        width: 100% !important;
+        height: 180px !important;
+
+        display: block;
+
+        object-fit: cover !important;
+        object-position: center;
+
+        border-radius: 7px;
+    }
+
+}
+
+
+/* SMALL PHONES */
+
+@media screen and (max-width: 480px) {
+
+    .product-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 10px !important;
+    }
+
+    .product-card img {
+        height: 160px !important;
+    }
+
 }
 

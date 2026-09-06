@@ -232,20 +232,54 @@ function showSendModal(platform, url){
 
     modal.classList.add("active");
 
-    modalOpen.onclick = () => {
+ modalOpen.onclick = () => {
 
     // Google Analytics
     if (typeof gtag === "function") {
-
         gtag("event", "quote_platform_open", {
             platform: platform.toLowerCase()
         });
-
     }
 
+    // Open Messenger / Viber
     window.open(url, "_blank");
 
-    modal.classList.remove("active");
+    // If Messenger, KEEP modal open and change its content
+    if (platform === "Messenger") {
+
+        const modalContent = modal.querySelector(".send-modal-content");
+
+        modalContent.innerHTML = `
+            <div class="final-message">
+
+                <div class="success-icon">✓</div>
+
+                <h2>You're Almost Done!</h2>
+
+                <p>
+                    Make sure you send the screenshot of your quotation summary
+                    to us on Messenger so we can review your request.
+                </p>
+
+                <a href="index.html" id="backToShoppingFinal">
+                    ← Back to Shopping
+                </a>
+
+            </div>
+        `;
+
+        document
+            .getElementById("backToShoppingFinal")
+            .addEventListener("click", () => {
+                localStorage.removeItem("quoteRequest");
+            });
+
+    } else {
+
+        // Viber can continue closing normally
+        modal.classList.remove("active");
+
+    }
 
 };
 
@@ -300,3 +334,5 @@ viberBtn.addEventListener("click", () => {
     );
 
 });
+
+

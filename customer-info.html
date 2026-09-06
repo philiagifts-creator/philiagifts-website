@@ -172,22 +172,22 @@
         </p>
 
         <p class="messenger-instruction">
-            <strong>Screenshot</strong> this and send it to us on Messenger.
+            Need faster assistance? You can also reach us on Messenger.
         </p>
 
         <div class="modal-buttons">
 
             <a
-    href="https://m.me/102160075444175"
-    id="modalOpen"
-    class="primary-btn"
-    target="_blank"
-    rel="noopener noreferrer">
+                href="https://m.me/102160075444175"
+                id="modalOpen"
+                class="primary-btn"
+                target="_blank"
+                rel="noopener noreferrer">
 
-    <i class="fa-brands fa-facebook-messenger"></i>
-    Open Messenger
+                <i class="fa-brands fa-facebook-messenger"></i>
+                Open Messenger
 
-</a>
+            </a>
 
         </div>
 
@@ -711,7 +711,97 @@ document
 
 });
 
+// ========================================
+// AFTER OPEN MESSENGER
+// ========================================
 
+document
+.getElementById("messengerOpenBtn")
+.addEventListener("click", () => {
+
+    setTimeout(() => {
+
+        const modalContent =
+            document.querySelector(
+                "#messengerModal .send-modal-content"
+            );
+
+        modalContent.innerHTML = `
+            <div class="final-message">
+
+                <div class="success-icon">✓</div>
+
+                <h2>All Set!</h2>
+
+                <p>
+                    Make sure you send the screenshot of your quotation summary
+                    to us on Messenger so we can review your request.
+                </p>
+
+                <a href="index.html" id="backToShoppingFinal">
+                    ← Back to Shopping
+                </a>
+
+            </div>
+        `;
+
+        document
+        .getElementById("backToShoppingFinal")
+        .addEventListener("click", () => {
+
+            localStorage.removeItem("quoteRequest");
+
+        });
+
+    }, 300);
+
+});
+
+
+// ========================================
+// AFTER OPEN MESSENGER - SUBMIT MODAL
+// ========================================
+
+document
+.getElementById("modalOpen")
+.addEventListener("click", () => {
+
+    setTimeout(() => {
+
+        const modalContent =
+            document.querySelector(
+                "#sendModal .send-modal-content"
+            );
+
+        modalContent.innerHTML = `
+            <div class="final-message">
+
+                <div class="success-icon">✓</div>
+
+                <h2>All Set!</h2>
+
+                <p>
+                    We'll review your details and get back to you shortly.
+                </p>
+
+                <a href="index.html" id="backToShoppingSubmit">
+                    ← Back to Shopping
+                </a>
+
+            </div>
+        `;
+
+        document
+        .getElementById("backToShoppingSubmit")
+        .addEventListener("click", () => {
+
+            localStorage.removeItem("quoteRequest");
+
+        });
+
+    }, 300);
+
+});
 
 </script>
 

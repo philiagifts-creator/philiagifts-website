@@ -2135,3 +2135,315 @@ label[for="notes"]{
         font-size: 13px;
     }
 }
+
+/* =========================================
+   FINAL MESSAGE AFTER OPENING MESSENGER
+========================================= */
+
+.final-message {
+    padding: 35px 10px 25px;
+    text-align: center;
+}
+
+.final-message .success-icon {
+    margin: 0 auto 25px;
+}
+
+.final-message h2 {
+    margin: 0 0 14px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.15;
+
+    color: #392E28;
+}
+
+.final-message p {
+    max-width: 390px;
+
+    margin: 0 auto 30px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+
+    color: #766A62;
+}
+
+#backToShoppingFinal {
+    width: 100%;
+    min-height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    padding: 12px 20px;
+
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+    border-radius: 5px;
+
+    color: #FFFDFC;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    transition: background .2s ease;
+}
+
+#backToShoppingFinal:hover {
+    background: #44342C;
+}
+
+/* =====================================================
+   SUBMIT QUOTATION REQUEST MODAL — PREMIUM
+===================================================== */
+
+#sendModal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    background: rgba(45, 37, 32, .58);
+    backdrop-filter: blur(3px);
+}
+
+#sendModal.active {
+    display: flex;
+}
+
+
+/* MODAL CARD */
+
+#sendModal .send-modal-content {
+    width: 100%;
+    max-width: 500px;
+
+    padding: 42px 38px 36px;
+    box-sizing: border-box;
+
+    background: #FFFDFC;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 0 24px 65px rgba(57, 46, 40, .20);
+}
+
+
+/* CHECK ICON */
+
+#sendModal .success-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 22px;
+
+    background: #5A463B;
+    border-radius: 50%;
+
+    color: #FFFDFC;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+
+/* TITLE */
+
+#sendModal .send-modal-content h2 {
+    margin: 0 0 12px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.15;
+
+    color: #392E28;
+}
+
+
+/* DESCRIPTION */
+
+#sendModal .send-modal-content > p {
+    max-width: 390px;
+
+    margin: 0 auto 25px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.7;
+
+    color: #766A62;
+}
+
+
+/* MESSENGER NOTE */
+
+#sendModal .messenger-instruction {
+    margin: 28px auto 18px !important;
+
+    font-family: "Poppins", sans-serif !important;
+    font-size: 13px !important;
+    font-weight: 400 !important;
+    line-height: 1.6 !important;
+
+    color: #66574E !important;
+}
+
+#sendModal .messenger-instruction strong {
+    color: #392E28;
+    font-weight: 600;
+}
+
+
+/* BUTTON AREA */
+
+#sendModal .modal-buttons {
+    width: 100%;
+    margin: 0;
+
+    display: block;
+}
+
+
+/* OPEN MESSENGER */
+
+#sendModal #modalOpen {
+    width: 100%;
+    min-height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    box-sizing: border-box;
+
+    padding: 12px 20px;
+
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+    border-radius: 5px;
+
+    color: #FFFDFC;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    box-shadow: none;
+
+    transition:
+        background .2s ease,
+        transform .2s ease;
+}
+
+#sendModal #modalOpen:hover {
+    background: #44342C;
+    transform: translateY(-1px);
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 520px) {
+
+    #sendModal {
+        padding: 14px;
+    }
+
+    #sendModal .send-modal-content {
+        max-width: 390px;
+        padding: 32px 21px 26px;
+    }
+
+    #sendModal .success-icon {
+        width: 55px;
+        height: 55px;
+
+        margin-bottom: 18px;
+
+        font-size: 25px;
+    }
+
+    #sendModal .send-modal-content h2 {
+        font-size: 28px;
+    }
+
+    #sendModal .send-modal-content > p {
+        font-size: 12px;
+        line-height: 1.65;
+    }
+
+    #sendModal .messenger-instruction {
+        margin-top: 24px !important;
+        font-size: 12px !important;
+    }
+
+}
+
+/* =========================================
+   BACK TO SHOPPING - SUBMIT MODAL
+========================================= */
+
+#backToShoppingSubmit {
+    width: 100%;
+    min-height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    padding: 12px 20px;
+
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+    border-radius: 5px;
+
+    color: #FFFDFC;
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    transition:
+        background .2s ease,
+        transform .2s ease;
+}
+
+#backToShoppingSubmit:hover {
+    background: #44342C;
+    transform: translateY(-1px);
+}
