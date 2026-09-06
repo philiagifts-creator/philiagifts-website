@@ -148,15 +148,11 @@ if(productSearch.value.trim() === ""){
 
 });
 
-const bestBtn = document.getElementById("bestBtn");
-
 const sponsorsBtn = document.getElementById("sponsorsBtn");
 
 const guestsBtn = document.getElementById("guestsBtn");
 
 const buttons = [
-
-    bestBtn,
 
     sponsorsBtn,
 
@@ -177,43 +173,43 @@ function setActiveButton(button){
 }
 
 
-function scrollToSection(id,button){
+function scrollToSection(id, button) {
 
-    const section=document.getElementById(id);
+    const section = document.getElementById(id);
 
-    if(!section) return;
+    if (!section) {
+        console.error("Section not found:", id);
+        return;
+    }
 
+    // If search is active, clear it first
+    productSearch.value = "";
+
+    // Restore all products/sections
+    displayProducts(weddingProducts);
+
+    // Set active button
     setActiveButton(button);
 
-    const y=
+    // Wait for products to render before scrolling
+    requestAnimationFrame(() => {
 
-        section.getBoundingClientRect().top+
+        const headerOffset = 110;
 
-        window.pageYOffset-
+        const sectionPosition =
+            section.getBoundingClientRect().top +
+            window.scrollY;
 
-        120;
-
-    window.scrollTo({
-
-        top:y,
-
-        behavior:"smooth"
+        window.scrollTo({
+            top: sectionPosition - headerOffset,
+            behavior: "smooth"
+        });
 
     });
 
 }
 
-bestBtn.addEventListener("click",()=>{
 
-    scrollToSection(
-
-        "best-sellers",
-
-        bestBtn
-
-    );
-
-});
 
 sponsorsBtn.addEventListener("click",()=>{
 
@@ -240,14 +236,6 @@ guestsBtn.addEventListener("click",()=>{
 });
 
 const sections=[
-
-    {
-
-        id:"best-sellers",
-
-        button:bestBtn
-
-    },
 
     {
 
@@ -299,4 +287,3 @@ window.addEventListener("scroll",()=>{
 
 });
 
-setActiveButton(bestBtn);

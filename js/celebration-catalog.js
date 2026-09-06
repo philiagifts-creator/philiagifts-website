@@ -148,15 +148,11 @@ if(productSearch.value.trim() === ""){
 
 });
 
-const bestBtn = document.getElementById("bestBtn");
-
 const sponsorsBtn = document.getElementById("sponsorsBtn");
 
 const guestsBtn = document.getElementById("guestsBtn");
 
 const buttons = [
-
-    bestBtn,
 
     sponsorsBtn,
 
@@ -203,18 +199,6 @@ function scrollToSection(id,button){
 
 }
 
-bestBtn.addEventListener("click",()=>{
-
-    scrollToSection(
-
-        "best-sellers",
-
-        bestBtn
-
-    );
-
-});
-
 sponsorsBtn.addEventListener("click",()=>{
 
     scrollToSection(
@@ -240,14 +224,6 @@ guestsBtn.addEventListener("click",()=>{
 });
 
 const sections=[
-
-    {
-
-        id:"best-sellers",
-
-        button:bestBtn
-
-    },
 
     {
 
@@ -298,5 +274,3 @@ window.addEventListener("scroll",()=>{
     });
 
 });
-
-setActiveButton(bestBtn);
