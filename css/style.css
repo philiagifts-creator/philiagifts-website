@@ -3665,7 +3665,7 @@ REQUEST A QUOTE
 
 #addonOptions{
 
-    margin-top:15px;
+    margin-top:5px;
 
 }
 
@@ -8528,6 +8528,7 @@ WELCOME
     width: 150px;
     margin-bottom: 10px;
     margin-left: 70px;
+    margin-right:50px
 }
 }
 
@@ -13098,8 +13099,8 @@ header {
 
     .product-category {
         margin-bottom: 10px;
-
-        font-size: 10px;
+        margin-top: 10px;
+        font-size: 12px;
     }
 
     .product-content > h1 {
@@ -13147,9 +13148,9 @@ header {
 
     .thumbnail-gallery {
         margin-top: 9px;
-
+        margin-bottom: 20px;
         grid-template-columns: repeat(4, 1fr);
-    }
+    }   
 
     .product-content > h1 {
         font-size: 32px;
