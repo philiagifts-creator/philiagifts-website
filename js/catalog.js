@@ -8,8 +8,6 @@ const noResults = document.getElementById("noResults");
 
 function displayProducts(productList = weddingProducts){
 
-    bestSellersGrid.innerHTML = "";
-
     sponsorsGrid.innerHTML = "";
 
     guestsGrid.innerHTML = "";
