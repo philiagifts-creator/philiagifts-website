@@ -798,7 +798,7 @@ form{
     display:flex;
     flex-direction:column;
     gap:12px;
-    margin-top: 20px;
+    margin-top: 40px;
     align-items:center;
 
 }
@@ -1029,4 +1029,1109 @@ label[for="notes"]{
 }
 #messengerOpenBtn {
     text-decoration: none;
+}
+
+/* =====================================================
+   PHILIA GIFTS — CUSTOMER INFORMATION
+   PREMIUM OVERRIDE
+   EXISTING BACKGROUND KEPT
+===================================================== */
+
+
+/* =========================
+   PAGE
+========================= */
+
+.customer-page {
+    position: relative;
+
+    min-height: 100vh;
+
+    padding: 55px 20px 75px;
+
+    box-sizing: border-box;
+}
+
+/* KEEP YOUR EXISTING BACKGROUND */
+.customer-page > .section-bg {
+    display: block !important;
+}
+
+
+/* =========================
+   MAIN FORM CARD
+========================= */
+
+.customer-container {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 920px;
+
+    margin: 0 auto;
+
+    padding: 38px 55px 42px;
+
+    box-sizing: border-box;
+
+    background: rgba(255, 253, 252, 0.96);
+
+    border: 1px solid #E4DAD0;
+    border-radius: 12px;
+
+    box-shadow: 0 18px 45px rgba(57,46,40,.08);
+}
+
+
+/* =====================================================
+   PROGRESS INDICATOR
+===================================================== */
+
+.progress-wrapper {
+    max-width: 390px;
+
+    margin: 0 auto 45px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.progress-step {
+    min-width: 115px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    text-align: center;
+}
+
+.step-circle {
+    width: 43px;
+    height: 43px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    border: 2px solid #8A6755;
+    border-radius: 50%;
+
+    background: #FFFDFC;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    color: #8A6755;
+}
+
+.progress-step.completed .step-circle {
+    background: #5A463B;
+    border-color: #5A463B;
+
+    color: #FFFDFC;
+}
+
+.progress-step.active .step-circle {
+    border-color: #5A463B;
+
+    color: #5A463B;
+}
+
+.progress-step span {
+    margin-top: 8px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+
+    color: #766A62;
+}
+
+.progress-step.active span {
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+.progress-line {
+    width: 100px;
+    height: 1px;
+
+    margin-top: 21px;
+
+    background: #DCCFC2;
+}
+
+
+/* =====================================================
+   PAGE HEADING
+===================================================== */
+
+.page-header {
+    margin-bottom: 35px;
+
+    text-align: center;
+}
+
+.page-header h1 {
+    margin: 0 0 9px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 39px;
+    font-weight: 600;
+    line-height: 1.1;
+
+    color: #392E28;
+}
+
+.page-header p {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.65;
+
+    color: #766A62;
+}
+
+
+/* =====================================================
+   FORM
+===================================================== */
+
+#customerForm {
+    width: 100%;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    gap: 18px;
+
+    margin-bottom: 17px;
+}
+
+.form-group {
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+
+    margin-bottom: 7px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+
+    color: #392E28;
+}
+
+.form-group label span {
+    color: #8A6755;
+}
+
+
+/* =========================
+   INPUTS
+========================= */
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    height: 46px;
+
+    box-sizing: border-box;
+
+    padding: 0 14px;
+
+    background: #FCFAF7;
+
+    border: 1px solid #DED4C9;
+    border-radius: 5px;
+
+    outline: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+
+    color: #392E28;
+
+    transition:
+        border-color .2s ease,
+        background .2s ease,
+        box-shadow .2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    background: #FFFDFC;
+
+    border-color: #8A6755;
+
+    box-shadow: 0 0 0 3px rgba(138,103,85,.08);
+}
+
+
+/* =====================================================
+   SUBMIT MESSAGE
+===================================================== */
+
+.send-text {
+
+    text-align: center;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+
+/* =====================================================
+   BUTTON AREA
+===================================================== */
+
+.button-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 15px;
+}
+
+.send-buttons {
+    display: flex;
+
+    gap: 10px;
+}
+
+
+/* ALL BUTTONS */
+
+.button-row button {
+    min-height: 46px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 7px;
+
+    padding: 11px 21px;
+
+    border-radius: 5px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background .2s ease,
+        border-color .2s ease,
+        color .2s ease,
+        transform .2s ease;
+}
+
+
+/* SECONDARY */
+
+.button-row .secondary-btn {
+    background: #FFFDFC;
+
+    border: 1px solid #8A6755;
+
+    color: #5A463B;
+}
+
+.button-row .secondary-btn:hover {
+    background: #F7F1E9;
+
+    border-color: #5A463B;
+
+    transform: translateY(-1px);
+}
+
+
+/* PRIMARY */
+
+.button-row .primary-btn {
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+
+    color: #FFFDFC;
+}
+
+.button-row .primary-btn:hover {
+    background: #44342C;
+
+    border-color: #44342C;
+
+    transform: translateY(-1px);
+}
+
+
+/* MESSENGER */
+#messengerBtn {
+    min-width: 190px;
+}
+
+/* SUBMIT */
+#submitQuoteBtn {
+    min-width: 220px;
+}
+
+
+/* =====================================================
+   TABLET / MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .customer-page {
+        padding: 30px 14px 50px;
+    }
+
+    .customer-container {
+        max-width: 600px;
+
+        padding: 30px 24px 32px;
+
+        border-radius: 10px;
+    }
+
+
+    /* PROGRESS */
+
+    .progress-wrapper {
+        margin-bottom: 35px;
+    }
+
+    .progress-step {
+        min-width: 100px;
+    }
+
+    .progress-line {
+        width: 65px;
+    }
+
+
+    /* HEADER */
+
+    .page-header {
+        margin-bottom: 30px;
+    }
+
+    .page-header h1 {
+        font-size: 34px;
+    }
+
+
+    /* FORM */
+
+    .form-row {
+        grid-template-columns: 1fr;
+
+        gap: 5px;
+
+        margin-bottom: 15px;
+    }
+
+
+    /* BUTTONS */
+
+    .button-row {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        gap: 9px;
+    }
+
+    .send-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 9px;
+    }
+
+    #backBtn,
+    #messengerBtn,
+    #submitQuoteBtn {
+        width: 100%;
+        min-width: 0;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+    .customer-page {
+        padding: 20px 10px 40px;
+    }
+
+    .customer-container {
+        padding: 25px 17px 22px;
+    }
+
+    .progress-wrapper {
+        max-width: 290px;
+    }
+
+    .progress-step {
+        min-width: 85px;
+    }
+
+    .progress-line {
+        width: 45px;
+    }
+
+    .step-circle {
+        width: 39px;
+        height: 39px;
+    }
+
+    .progress-step span {
+        font-size: 10px;
+    }
+
+    .page-header h1 {
+        font-size: 30px;
+    }
+
+    .form-group input,
+    .form-group select {
+        height: 44px;
+    }
+
+    .send-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .send-text {
+        margin-top: 20px;
+
+        font-size: 16px;
+    }
+
+    .form-group select {
+    padding-right: 50px;
+}
+
+.form-group select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+
+    background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24' fill='none' stroke='%235A463B' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+
+    background-repeat: no-repeat;
+    background-position: right 18px center;
+    background-size: 14px;
+
+    padding-right: 45px;
+}
+}
+
+/* =====================================================
+   QUOTATION SUCCESS MODAL — PREMIUM
+===================================================== */
+
+#successModal {
+    background: rgba(45, 37, 32, .58);
+    backdrop-filter: blur(3px);
+}
+
+#successModal .modal-content {
+    width: calc(100% - 32px);
+    max-width: 500px;
+
+    box-sizing: border-box;
+    padding: 38px 38px 34px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 0 24px 65px rgba(57,46,40,.20);
+}
+
+
+/* CHECK ICON */
+
+#successModal .success-icon {
+    width: 62px;
+    height: 62px;
+
+    margin: 0 auto 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #5A463B;
+    border-radius: 50%;
+
+    color: #FFFDFC;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+
+/* TITLE */
+
+#successModal .modal-content > h2 {
+    margin: 0 0 10px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 1.15;
+
+    color: #392E28;
+}
+
+
+/* DESCRIPTION */
+
+#successModal .modal-content > p {
+    max-width: 400px;
+
+    margin: 0 auto 27px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.65;
+
+    color: #766A62;
+}
+
+
+/* =====================================================
+   QUOTATION SUMMARY
+===================================================== */
+
+#successModal .quote-summary {
+    margin: 0 0 25px;
+    padding: 24px;
+
+    background: #F7F1E9;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 9px;
+
+    text-align: left;
+}
+
+#successModal .quote-summary h3,
+#successModal .quote-summary h2 {
+    margin: 0 0 20px;
+
+    text-align: center;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 23px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+
+/* PRODUCT ROWS */
+
+#successModal .quote-summary-item {
+    padding: 0 0 15px;
+    margin-bottom: 15px;
+
+    border-bottom: 1px solid #DCCFC2;
+}
+
+#successModal .quote-summary-item:last-of-type {
+    margin-bottom: 0;
+}
+
+
+/* PRODUCT TEXT */
+
+#successModal .quote-summary strong,
+#successModal .quote-summary b {
+    color: #392E28;
+}
+
+#successModal .quote-summary p,
+#successModal .quote-summary span {
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    line-height: 1.6;
+
+    color: #66574E;
+}
+
+
+/* =====================================================
+   TOTAL
+===================================================== */
+
+#successModal .summary-total,
+#successModal .quote-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 16px;
+    padding-top: 17px;
+
+    border-top: 1px solid #CDBEAF;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+
+/* =====================================================
+   SCREENSHOT MESSAGE
+===================================================== */
+
+#successModal .screenshot-text,
+#successModal .modal-note {
+    margin: 21px 0 18px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.6;
+
+    color: #766A62;
+}
+
+
+/* =====================================================
+   MESSENGER BUTTON
+===================================================== */
+
+#successModal #openMessengerBtn,
+#successModal .primary-btn {
+    width: 100%;
+    min-height: 48px;
+
+    padding: 12px 20px;
+
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+    border-radius: 5px;
+
+    color: #FFFDFC;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    box-shadow: none;
+
+    transition:
+        background .2s ease,
+        transform .2s ease;
+}
+
+#successModal #openMessengerBtn:hover,
+#successModal .primary-btn:hover {
+    background: #44342C;
+    transform: translateY(-1px);
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 520px) {
+
+    #successModal .modal-content {
+        max-width: 390px;
+        padding: 30px 20px 24px;
+    }
+
+    #successModal .success-icon {
+        width: 56px;
+        height: 56px;
+
+        margin-bottom: 17px;
+
+        font-size: 26px;
+    }
+
+    #successModal .modal-content > h2 {
+        font-size: 27px;
+    }
+
+    #successModal .quote-summary {
+        padding: 20px 17px;
+    }
+}
+
+/* =====================================================
+   PHILIA GIFTS — MESSENGER QUOTATION MODAL
+===================================================== */
+
+#messengerModal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+    box-sizing: border-box;
+
+    background: rgba(45, 37, 32, .58);
+    backdrop-filter: blur(3px);
+}
+
+#messengerModal.active {
+    display: flex;
+}
+
+
+/* =========================
+   MODAL BOX
+========================= */
+
+#messengerModal .send-modal-content {
+    width: 100%;
+    max-width: 500px;
+    max-height: 90vh;
+
+    overflow-y: auto;
+    box-sizing: border-box;
+
+    padding: 36px 36px 32px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 0 24px 65px rgba(57, 46, 40, .20);
+}
+
+
+/* =========================
+   SUCCESS ICON
+========================= */
+
+#messengerModal .success-icon {
+    width: 62px;
+    height: 62px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 20px;
+
+    background: #5A463B;
+
+    border-radius: 50%;
+
+    color: #FFFDFC;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 29px;
+    font-weight: 400;
+}
+
+
+/* =========================
+   TITLE
+========================= */
+
+#messengerModal .send-modal-content > h2 {
+    margin: 0 0 10px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 1.15;
+
+    color: #392E28;
+}
+
+
+/* DESCRIPTION */
+
+#messengerModal .send-modal-content > p:not(.messenger-instruction) {
+    max-width: 390px;
+
+    margin: 0 auto 25px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.65;
+
+    color: #766A62;
+}
+
+
+/* =====================================================
+   QUOTATION SUMMARY
+===================================================== */
+
+#messengerModal .messenger-summary {
+    margin: 0 0 22px;
+    padding: 22px;
+
+    background: #F7F1E9;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 8px;
+
+    text-align: left;
+}
+
+#messengerModal .messenger-summary h3 {
+    margin: 0 0 18px;
+
+    text-align: center;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 23px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+
+/* =====================================================
+   INDIVIDUAL PRODUCTS
+===================================================== */
+
+#messengerModal .messenger-product {
+    position: relative;
+
+    padding: 0 90px 15px 0;
+    margin-bottom: 15px;
+
+    border-bottom: 1px solid #DCCFC2;
+}
+
+
+/* PRODUCT NAME */
+
+#messengerModal .messenger-product-name {
+    margin-bottom: 3px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+
+/* QUANTITY */
+
+#messengerModal .messenger-product-qty {
+    margin-bottom: 2px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+
+    color: #66574E;
+}
+
+
+/* ADD-ONS */
+
+#messengerModal .messenger-addon {
+    margin-top: 2px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    line-height: 1.5;
+
+    color: #766A62;
+}
+
+
+/* PRODUCT PRICE — FAR RIGHT */
+
+#messengerModal .messenger-product-total {
+    position: absolute;
+
+    top: 0;
+    right: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+    color: #5A463B;
+}
+
+
+/* =====================================================
+   ESTIMATED TOTAL
+===================================================== */
+
+#messengerModal .messenger-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 20px;
+
+    margin-top: 4px;
+    padding-top: 16px;
+
+    border-top: 1px solid #CDBEAF;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+#messengerModal .messenger-total strong {
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #5A463B;
+}
+
+
+/* =====================================================
+   SCREENSHOT MESSAGE
+===================================================== */
+
+#messengerModal .messenger-instruction {
+    margin: 20px 0 17px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: #766A62;
+}
+
+#messengerModal .messenger-instruction strong {
+    color: #392E28;
+}
+
+
+/* =====================================================
+   OPEN MESSENGER BUTTON
+===================================================== */
+
+#messengerModal .modal-buttons {
+    width: 100%;
+}
+
+#messengerModal #messengerOpenBtn {
+    width: 100%;
+    min-height: 48px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    box-sizing: border-box;
+
+    padding: 12px 20px;
+
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    color: #FFFDFC;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    box-shadow: none;
+
+    transition:
+        background .2s ease,
+        transform .2s ease;
+}
+
+#messengerModal #messengerOpenBtn:hover {
+    background: #44342C;
+    transform: translateY(-1px);
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 520px) {
+
+    #messengerModal {
+        padding: 14px;
+    }
+
+    #messengerModal .send-modal-content {
+        max-width: 390px;
+        padding: 28px 19px 22px;
+    }
+
+    #messengerModal .success-icon {
+        width: 54px;
+        height: 54px;
+
+        margin-bottom: 16px;
+
+        font-size: 25px;
+    }
+
+    #messengerModal .send-modal-content > h2 {
+        font-size: 27px;
+    }
+
+    #messengerModal .messenger-summary {
+        padding: 18px 16px;
+    }
+
+    #messengerModal .messenger-product {
+        padding-right: 70px;
+    }
+
+    #messengerModal .messenger-product-total {
+        font-size: 13px;
+    }
 }

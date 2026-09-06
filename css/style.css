@@ -2056,7 +2056,7 @@ grid-template-columns:1fr;
 
 .section-tag{
     font-size:18px;
-    margin-top: 60px;
+    margin-top: 30px;
 
 }
 .section-title h2{
@@ -2618,7 +2618,7 @@ font-family: comorant garamond;
 
 .product-categories{
 
-    padding:20px 0;
+    padding:80px 0;
 
     
 
@@ -3561,9 +3561,8 @@ REQUEST A QUOTE
     color:#666;
 
     line-height:1.3;
-    font-size:14px;
-
-    margin-bottom:20px;
+    font-size:13px;
+    margin-bottom: 0;
 
 }
 
@@ -3583,9 +3582,7 @@ REQUEST A QUOTE
 
 }
 
-.option-group{
-    text-align:center;
-}
+
 
 .option-group label{
 
@@ -4480,13 +4477,13 @@ REQUEST A QUOTE
 
     background:#F5F5F5;
 
-    padding:8px 16px;
+    padding:0 16px;
 
     border-radius:50px;
 
     font-weight:600;
 
-    margin-top:8px;
+    margin-top:0;
 
 }
 
@@ -4540,7 +4537,7 @@ REQUEST A QUOTE
 
     font-size:20px;
 
-    color:#C79A45;
+    color:#5A463B;
 
 }
 
@@ -4548,9 +4545,9 @@ REQUEST A QUOTE
 
     display:flex;
 
-    gap:18px;
+    gap: 30px;
 
-    margin-top:20px;
+    margin-top:15px;
 
 }
 
@@ -4566,7 +4563,7 @@ REQUEST A QUOTE
 
     font-weight:600;
 
-    font-size:.95rem;
+    font-size:14px;
 
     color:#555;
 
@@ -6206,9 +6203,7 @@ to{
 
 /* CONTACT PAGE */
 
-.contact-page{
-    padding:80px 0;
-}
+
 
 /* ==========================
    CONTACT PAGE
@@ -7333,7 +7328,7 @@ BUILD YOUR OWN GIFT SET
     font-size:12px;
 
     letter-spacing:2px;
-    margin-top: 30px;
+    margin-top: 20px;
 
     
 
@@ -8996,7 +8991,7 @@ WELCOME
 
     font-weight:700;
 
-    color:#C79A45;
+    color:#5A463B;
 
     font-family:"Poppins", sans-serif;
 
@@ -9403,10 +9398,10 @@ WELCOME
 }
 
 .contact-card{
-    width:90%;
+    width:100%;
     padding:20px 24px;
     border-radius:28px;
-    margin: 20px;
+    margin: 0;
     align-items: center;
 }
 
@@ -10779,6 +10774,7 @@ header {
     .collection-grid {
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
+        
     }
 
     .collection-card img {
@@ -10803,5 +10799,3223 @@ header {
     }
 
 }
+
+@media (max-width: 768px) {
+
+    /* Corporate Giveaways */
+    .category-link:nth-child(2) {
+        width: 108%;
+        justify-self: center;
+    }
 }
+
+
+/* =====================================================
+   PHILIA GIFTS — OUR STORY PREMIUM OVERRIDE
+   FAQ + FOOTER EXCLUDED
+===================================================== */
+
+
+/* =====================================================
+   WELCOME SECTION
+===================================================== */
+
+.welcome-section {
+    position: relative;
+    overflow: hidden;
+
+    padding: 80px 8%;
+
+    background: #F7F1E9 !important;
+    background-image: none !important;
+
+    border-radius: 0;
+    box-shadow: none;
 }
+
+.welcome-section .section-bg {
+    display: none !important;
+}
+
+.welcome-section::before {
+    display: none !important;
+}
+
+.welcome-container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+    gap: 70px;
+    align-items: center;
+}
+
+.welcome-image img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+
+    display: block;
+    margin: 0;
+
+    border-radius: 14px;
+
+    box-shadow: 0 16px 40px rgba(57, 46, 40, 0.08);
+}
+
+.welcome-content {
+    text-align: left;
+}
+
+.welcome-content .section-tag {
+    display: inline-block;
+
+    margin: 0 0 14px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #8A6755;
+}
+
+.welcome-content h2 {
+    margin: 0 0 24px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.08;
+
+    color: #392E28;
+}
+
+.welcome-content p {
+    max-width: 620px;
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    color: #66574E;
+}
+
+
+/* =====================================================
+   OUR JOURNEY
+===================================================== */
+
+.journey-section {
+    width: 100%;
+    max-width: none;
+
+    padding: 10px;
+    padding-bottom: 25px;
+    background: #FCFAF7 !important;
+    background-image: none !important;
+
+    box-shadow: none;
+}
+
+.journey-section .section-bg {
+    display: none !important;
+}
+
+.journey-section::before {
+    display: none !important;
+}
+
+.journey-section .section-title {
+    max-width: 760px;
+    margin: 0 auto 55px;
+
+    text-align: center;
+}
+
+.journey-section .section-tag {
+    display: inline-block;
+    margin-bottom: 12px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #8A6755;
+}
+
+.journey-section .section-title h2 {
+    margin: 0 0 14px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.1;
+
+    color: #392E28;
+}
+
+.journey-section .section-title p {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+
+    color: #766A62;
+}
+
+.timeline {
+    position: relative;
+
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.timeline::before {
+    content: "";
+
+    position: absolute;
+
+    left: 95px;
+    top: 0;
+    bottom: 0;
+
+    width: 2px;
+
+    background: #B9A48E;
+}
+
+.timeline-item {
+    position: relative;
+
+    display: flex;
+    gap: 45px;
+
+    margin-bottom: 24px;
+}
+
+.timeline-item:last-child {
+    margin-bottom: 0;
+}
+
+.timeline-year {
+    min-width: 80px;
+
+    text-align: center;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #5A463B;
+}
+
+.timeline-content {
+    flex: 1;
+
+    padding: 26px 30px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 8px;
+
+    box-shadow: none;
+}
+
+.timeline-content h3 {
+    margin: 0 0 10px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 27px;
+    font-weight: 600;
+
+    color: #4A3930;
+}
+
+.timeline-content p {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: #66574E;
+}
+
+
+/* =====================================================
+   GLOBAL REACH
+===================================================== */
+
+.global-section {
+    width: 100%;
+    max-width: none;
+
+    padding: 35px 8%;
+
+    background: #EFE5D8 !important;
+    background-image: none !important;
+
+    box-shadow: none;
+}
+
+.global-section .section-bg {
+    display: none !important;
+}
+
+.global-section::before {
+    display: none !important;
+}
+
+.global-section .section-title {
+    max-width: 800px;
+    margin: 0 auto 35px;
+
+    text-align: center;
+}
+
+.global-section .section-tag {
+    display: inline-block;
+    margin-bottom: 12px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #8A6755;
+}
+
+.global-section .section-title h2 {
+    margin: 0 0 14px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+.global-section .section-title p {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+
+    color: #66574E;
+}
+
+.country-list {
+    max-width: 1000px;
+    margin: 35px auto 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    gap: 12px;
+}
+
+.country-list span {
+    padding: 11px 18px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #D9CCBF;
+    border-radius: 4px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+
+    color: #4A3930;
+
+    transition: all .25s ease;
+}
+
+.country-list span:hover {
+    background: #5A463B;
+    color: #FFFDFC;
+
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   MISSION / VISION / VALUES
+===================================================== */
+
+.mvv-section {
+    position: relative;
+
+    padding: 40px 8%;
+
+    background: #FCFAF7 !important;
+
+    box-shadow: none;
+}
+
+.mvv-section .section-bg {
+    display: none !important;
+}
+
+.mvv-section::before {
+    display: none !important;
+}
+
+.mvv-section .section-title {
+    max-width: 800px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.mvv-section .section-tag {
+    display: inline-block;
+    margin-bottom: 12px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #8A6755;
+}
+
+.mvv-section .section-title h2 {
+    margin: 0 0 14px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+.mvv-section .section-title p {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+
+    color: #766A62;
+}
+
+.mvv-grid {
+    max-width: 1100px;
+    margin: 50px auto 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 25px;
+    align-items: stretch;
+}
+
+.mvv-left {
+    display: flex;
+    flex-direction: column;
+
+    gap: 25px;
+}
+
+.mvv-card {
+    background: #FFFDFC;
+
+    padding: 20px;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 8px;
+
+    box-shadow: none;
+
+    text-align: center;
+}
+
+.mvv-left .mvv-card {
+    padding: 25px;
+}
+
+.mvv-card h3 {
+    margin: 0 0 18px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    font-weight: 600;
+
+    color: var(--philia-brown);
+}
+
+.mvv-card p {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+
+    color: #66574E;
+}
+
+.value-list {
+    margin-top: 10px;
+
+    text-align: left;
+}
+
+.value-item {
+    padding: 8px 0;
+
+    border-bottom: 1px solid #E7DED5;
+}
+
+.value-item:last-child {
+    border-bottom: none;
+}
+
+.value-item strong {
+    display: block;
+    margin-bottom: 4px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    font-weight: 600;
+
+    color: #4A3930;
+}
+
+.value-item p {
+    margin: 0;
+
+    font-size: 13px;
+    line-height: 1.4;
+
+    color: #66574E;
+}
+
+
+/* =====================================================
+   FOUNDERS
+===================================================== */
+
+.founders {
+    position: relative;
+
+    padding: 80px 8%;
+
+    background: #F7F1E9 !important;
+
+    box-shadow: none;
+}
+
+.founders .section-bg {
+    display: none !important;
+}
+
+.founders::before {
+    display: none !important;
+}
+
+.founders-container {
+    max-width: 1100px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: 0.85fr 1.15fr;
+
+    gap: 70px;
+    align-items: center;
+}
+
+.founders-image img {
+    width: 100%;
+    height: auto;
+
+    display: block;
+    margin: 0;
+
+    border-radius: 14px;
+
+    box-shadow: 0 16px 40px rgba(57, 46, 40, 0.08);
+}
+
+.founders-content .section-title {
+    margin: 0 0 25px;
+    text-align: left;
+}
+
+.founders-content .section-tag {
+    display: inline-block;
+    margin-bottom: 12px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #8A6755;
+}
+
+.founders-content .section-title h2 {
+    margin: 0;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 42px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+.founders-content p {
+    margin: 0 0 18px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+
+    color: #66574E;
+}
+
+
+/* =====================================================
+   OUR PROMISE
+===================================================== */
+
+.promise {
+    position: relative;
+
+    padding: 50px 8%;
+
+    background: #E5D7C7 !important;
+
+    text-align: center;
+}
+
+.promise .section-bg {
+    display: none !important;
+}
+
+.promise::before {
+    display: none !important;
+}
+
+.promise .section-tag {
+    display: inline-block;
+    margin-bottom: 12px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #8A6755;
+}
+
+.promise h2 {
+    max-width: 800px;
+    margin: 0 auto 22px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.15;
+
+    color: #392E28;
+}
+
+.promise p {
+    max-width: 760px;
+    margin: 0 auto 32px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+
+    color: #66574E;
+}
+
+.promise .primary-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 14px 27px;
+
+    background: #5A463B !important;
+    color: #FFFDFC !important;
+
+    border: 1px solid #5A463B;
+    border-radius: 4px;
+
+    box-shadow: none;
+
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    transition: all .25s ease;
+}
+
+.promise .primary-btn:hover {
+    background: #44342C !important;
+    border-color: #44342C;
+
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   MOBILE — OUR STORY ONLY
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .welcome-section,
+    .journey-section,
+    .global-section,
+    .mvv-section,
+    .founders,
+    .promise {
+        padding: 55px 22px;
+    }
+
+    .welcome-container,
+    .founders-container {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .welcome-image img,
+    .founders-image img {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+
+    .welcome-content {
+        text-align: center;
+    }
+
+    .welcome-content h2 {
+        font-size: 38px;
+    }
+
+    .welcome-content p {
+        max-width: 620px;
+        margin: 0 auto;
+    }
+
+    .journey-section .section-title h2,
+    .global-section .section-title h2,
+    .mvv-section .section-title h2,
+    .founders-content .section-title h2,
+    .promise h2 {
+        font-size: 25px;
+    }
+
+    .timeline::before {
+        left: 62px;
+    }
+
+    .timeline-item {
+        gap: 24px;
+    }
+
+    .timeline-year {
+        min-width: 55px;
+        font-size: 16px;
+    }
+
+    .timeline-content {
+        padding: 22px 20px;
+    }
+
+    .timeline-content h3 {
+        font-size: 24px;
+    }
+
+    .mvv-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .country-list {
+        gap: 8px;
+    }
+
+    .country-list span {
+        padding: 9px 13px;
+        font-size: 12px;
+    }
+
+    .founders-content .section-title {
+        text-align: center;
+    }
+
+    .founders-content p {
+        text-align: left;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+    .welcome-section,
+    .journey-section,
+    .global-section,
+    .mvv-section,
+    .founders,
+    .promise {
+        padding: 15px 18px;
+    }
+
+    .welcome-section{
+        padding: 35px 18px;
+    }
+
+    .welcome-content h2 {
+        font-size: 25px;
+    }
+
+    .timeline::before {
+        left: 48px;
+    }
+
+    .timeline-item {
+        gap: 16px;
+    }
+
+    .timeline-year {
+        min-width: 40px;
+        font-size: 14px;
+        font-family: Poppins, sans-serif;
+    }
+
+    .timeline-content {
+        padding: 18px 16px;
+    }
+
+    .timeline-content h3 {
+        font-size: 22px;
+    }
+
+    .timeline-content p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .country-list span {
+        padding: 8px 11px;
+        font-size: 11px;
+    }
+
+}
+
+/* =====================================================
+   PHILIA GIFTS — CONTACT PAGE PREMIUM OVERRIDE
+   FAQ + FOOTER EXCLUDED
+===================================================== */
+
+
+/* =====================================================
+   CONTACT PAGE BACKGROUND
+===================================================== */
+
+.contact-page {
+    position: relative;
+    overflow: hidden;
+
+    background: #F7F1E9 !important;
+    background-image: none !important;
+}
+
+.contact-page > .section-bg {
+    display: none !important;
+}
+
+
+/* =====================================================
+   CONTACT HERO
+===================================================== */
+
+.contact-hero {
+    padding: 85px 8% 45px;
+
+    background: #F7F1E9;
+}
+
+.contact-hero .container {
+    max-width: 850px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+
+.contact-hero h1 {
+    margin: 0 0 18px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.05;
+
+    color: #392E28;
+}
+
+.contact-hero p {
+    max-width: 720px;
+    margin: 0 auto;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+
+    color: #66574E;
+}
+
+
+/* =====================================================
+   CONTACT CONTENT
+===================================================== */
+
+.contact-content {
+    padding: 35px 8% 50px;
+
+    background: #FCFAF7;
+}
+
+.contact-content .container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: 0.9fr 1.1fr;
+
+    gap: 28px;
+    align-items: stretch;
+}
+
+
+/* =====================================================
+   CONTACT CARDS
+===================================================== */
+
+.contact-card {
+    height: 100%;
+
+    padding: 38px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 10px;
+
+    box-shadow: 0 12px 30px rgba(57, 46, 40, 0.05);
+}
+
+.contact-card h2 {
+    margin: 0 0 28px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 30px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+
+/* =====================================================
+   LEFT CONTACT INFORMATION
+===================================================== */
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+
+    gap: 16px;
+
+    margin-bottom: 24px;
+}
+
+.contact-icon {
+    width: 42px;
+    height: 42px;
+
+    flex-shrink: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #F2E8DD;
+
+    border: 1px solid #E2D5C8;
+    border-radius: 50%;
+
+    color: #5A463B;
+
+    font-size: 15px;
+}
+
+.contact-item h4 {
+    margin: 1px 0 5px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+.contact-item p {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: #66574E;
+}
+
+.contact-card hr {
+    margin: 30px 0;
+
+    border: 0;
+    border-top: 1px solid #E7DED5;
+}
+
+.contact-card h3 {
+    margin: 0 0 8px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 26px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+.social-text {
+    margin: 0 0 20px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #766A62;
+}
+
+
+/* =====================================================
+   SOCIAL BUTTONS
+===================================================== */
+
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 10px;
+}
+
+.social-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 9px;
+
+    padding: 12px 14px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #DCCFC2;
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+
+    color: #4A3930;
+
+    transition: all .25s ease;
+}
+
+.social-btn:hover {
+    background: #5A463B;
+
+    border-color: #5A463B;
+
+    color: #FFFDFC;
+
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   RIGHT FORM
+===================================================== */
+
+.contact-intro {
+    margin: -10px 0 25px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+
+    color: #766A62;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+
+    gap: 15px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    width: 100%;
+
+    padding: 14px 16px;
+
+    background: #FCFAF7;
+
+    border: 1px solid #DED4C9;
+    border-radius: 5px;
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+
+    color: #392E28;
+
+    transition:
+        border-color .2s ease,
+        box-shadow .2s ease,
+        background .2s ease;
+}
+
+#contactForm textarea {
+    min-height: 190px;
+
+    resize: vertical;
+}
+
+#contactForm input::placeholder,
+#contactForm textarea::placeholder {
+    color: #A3948A;
+}
+
+#contactForm input:focus,
+#contactForm textarea:focus {
+    background: #FFFDFC;
+
+    border-color: #8A6755;
+
+    box-shadow: 0 0 0 3px rgba(138, 103, 85, 0.08);
+}
+
+
+/* =====================================================
+   SEND BUTTON
+===================================================== */
+
+#contactForm .btn {
+    align-self: flex-start;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 5px;
+
+    padding: 14px 27px;
+
+    background: #5A463B !important;
+    color: #FFFDFC !important;
+
+    border: 1px solid #5A463B !important;
+    border-radius: 4px;
+
+    box-shadow: none !important;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition:
+        background .25s ease,
+        border-color .25s ease,
+        transform .25s ease;
+}
+
+#contactForm .btn:hover {
+    background: #44342C !important;
+    border-color: #44342C !important;
+
+    transform: translateY(-2px);
+}
+
+
+/* =====================================================
+   TABLET / MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .contact-hero {
+        padding: 55px 22px 35px;
+    }
+
+    .contact-hero h1 {
+        font-size: 42px;
+    }
+
+    .contact-hero p {
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .contact-content {
+        padding: 25px 22px 65px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+
+        gap: 20px;
+    }
+
+    .contact-card {
+        padding: 28px 24px;
+    }
+
+    .contact-card h2 {
+        font-size: 29px;
+    }
+
+    .social-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+   
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+    .contact-hero {
+        padding: 65px 18px 30px;
+    }
+
+    .contact-hero h1 {
+        font-size: 36px;
+    }
+
+    .contact-content {
+        padding: 20px 18px 55px;
+    }
+
+    .contact-card {
+        padding: 24px 20px;
+
+        border-radius: 8px;
+    }
+
+    .contact-card h2 {
+        margin-bottom: 24px;
+
+        font-size: 27px;
+    }
+
+    .contact-item {
+        gap: 13px;
+
+        margin-bottom: 21px;
+    }
+
+    .contact-icon {
+        width: 38px;
+        height: 38px;
+
+        font-size: 14px;
+    }
+
+    .social-grid {
+        grid-template-columns: 1fr 1fr;
+
+        gap: 8px;
+    }
+
+    .social-btn {
+        padding: 11px 8px;
+
+        font-size: 12px;
+    }
+
+     .button.btn {
+        margin-left: 0;
+    }
+
+    #contactForm input,
+    #contactForm textarea {
+        font-size: 13px;
+    }
+}
+
+/* =====================================================
+   SEARCH + FILTER AREA
+===================================================== */
+
+.catalog-controls {
+    max-width: 1200px;
+
+    margin: 0 auto 35px;
+    padding: 42px 24px;
+
+    background: rgba(255, 253, 252, 0.92);
+
+    border: 1px solid rgba(222, 212, 201, 0.95);
+    border-radius: 10px;
+
+    box-shadow: 0 10px 28px rgba(57, 46, 40, 0.06);
+
+    backdrop-filter: blur(8px);
+}
+
+
+/* SEARCH */
+
+.catalog-search {
+    width: 100%;
+    max-width: 620px;
+
+    margin: 0 auto 18px;
+}
+
+.catalog-search input {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 14px 17px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #D9CEC3;
+    border-radius: 5px;
+
+    outline: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+
+    color: #392E28;
+
+    transition:
+        border-color .2s ease,
+        box-shadow .2s ease;
+}
+
+.catalog-search input::placeholder {
+    color: #A09288;
+}
+
+.catalog-search input:focus {
+    border-color: #8A6755;
+
+    box-shadow: 0 0 0 3px rgba(138, 103, 85, 0.08);
+}
+
+
+/* FILTERS */
+
+.catalog-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.filter-btn {
+    padding: 11px 18px;
+
+    background: transparent;
+
+    border: 1px solid #CDBFB2;
+    border-radius: 4px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+
+    color: #5A463B;
+
+    cursor: pointer;
+
+    transition:
+        background .2s ease,
+        color .2s ease,
+        border-color .2s ease,
+        transform .2s ease;
+}
+
+.filter-btn:hover {
+    background: #F2E8DD;
+
+    border-color: #BDAA98;
+
+    transform: translateY(-1px);
+}
+
+
+/* Use whichever active class your JS currently adds */
+
+.filter-btn.active,
+.filter-btn.selected {
+    background: #5A463B !important;
+
+    border-color: #5A463B !important;
+
+    color: #FFFDFC !important;
+}
+
+/* =====================================================
+   TOP LABEL
+===================================================== */
+
+.product-categories > .section-title {
+    margin: 0 auto 18px;
+
+    text-align: center;
+}
+
+.product-categories > .section-title .section-tag {
+    display: inline-block;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+
+    color: #6A5042;
+}
+
+/* =====================================================
+   MAIN CATALOG WIDTH
+===================================================== */
+
+.product-categories {
+    width: 88%;
+    max-width: 1320px;
+
+    margin: 0 auto;
+}
+
+/* =====================================================
+   MAIN CATALOG WIDTH
+===================================================== */
+
+.product-categories {
+    width: 88%;
+    max-width: 1320px;
+
+    margin: 0 auto;
+}
+
+/* =====================================================
+   PRODUCT GRID
+===================================================== */
+
+.product-grid {
+    display: grid;
+
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+    gap: 20px;
+}
+
+
+/* =====================================================
+   PRODUCT CARDS
+   These selectors are intentionally broad so they work
+   with your dynamically generated product cards.
+===================================================== */
+
+.product-card {
+    overflow: hidden;
+
+    background: rgba(255, 253, 252, 0.96);
+
+    border: 1px solid #E1D6CB;
+    border-radius: 8px;
+
+    box-shadow: none;
+
+    transition:
+        transform .25s ease,
+        box-shadow .25s ease,
+        border-color .25s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-4px);
+
+    border-color: #D0C0B1;
+
+    box-shadow: 0 12px 28px rgba(57, 46, 40, 0.08);
+}
+
+
+/* PRODUCT IMAGES */
+
+.product-card img,
+.product-image img {
+    width: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* PRODUCT BODY */
+
+.product-card .product-info,
+.product-card .product-details,
+.product-info {
+    padding: 17px 16px 18px;
+}
+
+/* =====================================================
+   CARD BUTTONS
+===================================================== */
+
+.product-card .btn,
+.product-card button,
+.product-card .add-to-cart,
+.product-card .add-to-quote {
+    background: #5A463B !important;
+
+    border: 1px solid #5A463B !important;
+    border-radius: 4px;
+
+    color: #FFFDFC !important;
+
+    box-shadow: none !important;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+
+    transition:
+        background .2s ease,
+        border-color .2s ease,
+        transform .2s ease;
+}
+
+.product-card .btn:hover,
+.product-card button:hover,
+.product-card .add-to-cart:hover,
+.product-card .add-to-quote:hover {
+    background: #44342C !important;
+
+    border-color: #44342C !important;
+
+    transform: translateY(-1px);
+}
+
+/* =====================================================
+   NO RESULTS
+===================================================== */
+
+.no-results {
+    max-width: 600px;
+
+    margin: 50px auto;
+
+    padding: 35px;
+
+    background: rgba(255, 253, 252, 0.94);
+
+    border: 1px solid #E1D6CB;
+    border-radius: 8px;
+
+    text-align: center;
+}
+
+.no-results h3 {
+    margin: 0 0 8px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 28px;
+
+    color: #392E28;
+}
+
+.no-results p {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+
+    color: #766A62;
+}
+
+
+/* =====================================================
+   CUSTOM ORDER BANNER
+===================================================== */
+
+.custom-order-banner {
+    max-width: 1050px;
+
+    margin: 80px auto 15px;
+
+    padding: 0;
+
+    background: transparent;
+
+    border: none;
+    box-shadow: none;
+}
+
+.custom-order-content {
+    padding: 48px 55px;
+
+    background: rgba(247, 241, 233, 0.96);
+
+    border: 1px solid #DCCFC2;
+    border-radius: 10px;
+
+    box-shadow: 0 12px 30px rgba(57, 46, 40, 0.06);
+
+    text-align: center;
+
+    backdrop-filter: blur(6px);
+}
+
+.custom-label {
+    display: inline-block;
+
+    margin-bottom: 10px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    color: #8A6755;
+}
+
+.custom-order-content h2 {
+    margin: 0 0 14px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 38px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+.custom-order-content > p {
+    max-width: 720px;
+
+    margin: 0 auto 28px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+
+    color: #66574E;
+}
+
+.custom-features {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+}
+
+.custom-features .feature {
+    padding: 10px 15px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #D9CCBF;
+    border-radius: 4px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+
+    color: #5A463B;
+}
+
+.wed-section-tag {
+    margin-top: 70px;
+}
+
+.main-product-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.product-gallery {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.product-thumbnails,
+.thumbnail-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.product-thumbnails img,
+.thumbnail-gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.product-thumbnails img.active,
+.thumbnail-gallery img.active,
+.thumbnail.active {
+    border: 2px solid #8A6755;
+}
+
+.gallery-arrow,
+.product-gallery .prev,
+.product-gallery .next {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+    background: rgba(255, 253, 252, 0.94);
+    border: 1px solid #E4DAD0;
+    box-shadow: 0 4px 14px rgba(57,46,40,.06);
+}
+.main-product-image {
+    border-radius: 12px;
+    border: 1px solid #E4DAD0;
+    overflow: hidden;
+}
+
+/* =====================================================
+   PHILIA GIFTS — PRODUCT PAGE PREMIUM OVERRIDE
+   BACKGROUND KEPT
+   FAQ + FOOTER EXCLUDED
+===================================================== */
+
+
+/* =========================
+   PRODUCT SECTION
+========================= */
+
+.product-details {
+    position: relative;
+    padding: 55px 6% 85px;
+    overflow: hidden;
+}
+
+.product-details > .section-bg {
+    display: block !important;
+}
+
+
+/* =========================
+   MAIN 2-COLUMN LAYOUT
+========================= */
+
+.product-container {
+    position: relative;
+    z-index: 2;
+
+    width: 100%;
+    max-width: 1180px;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: minmax(0, 600px) minmax(380px, 1fr);
+    gap: 65px;
+
+    align-items: start;
+}
+
+
+/* =====================================================
+   PRODUCT GALLERY
+===================================================== */
+
+.product-gallery {
+    position: relative;
+
+    width: 100%;
+    max-width: 600px;
+
+    margin: 0;
+}
+
+
+/* MAIN IMAGE */
+
+.main-product-image {
+    display: block;
+
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+
+    margin: 0;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 12px;
+
+    object-fit: cover;
+
+    box-shadow: 0 10px 28px rgba(57,46,40,.05);
+}
+
+
+/* =====================================================
+   GALLERY ARROWS
+===================================================== */
+
+.gallery-arrow {
+    position: absolute;
+    top: 275px;
+    z-index: 5;
+
+    width: 44px;
+    height: 44px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+
+    background: rgba(255,253,252,.94);
+
+    border: 1px solid #E4DAD0;
+    border-radius: 50%;
+
+    color: #392E28;
+
+    font-size: 19px;
+
+    box-shadow: 0 5px 16px rgba(57,46,40,.07);
+
+    cursor: pointer;
+
+    transition:
+        background .2s ease,
+        transform .2s ease;
+}
+
+.gallery-arrow:hover {
+    background: #FFFDFC;
+    transform: scale(1.05);
+}
+
+.gallery-arrow.left {
+    left: -22px;
+}
+
+.gallery-arrow.right {
+    right: -22px;
+}
+
+
+/* =====================================================
+   THUMBNAILS
+===================================================== */
+
+.thumbnail-gallery {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    gap: 9px;
+
+    margin-top: 14px;
+}
+
+.thumbnail-gallery img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    display: block;
+
+    object-fit: cover;
+
+    border: 1px solid transparent;
+    border-radius: 7px;
+
+    opacity: .86;
+
+    cursor: pointer;
+
+    transition:
+        opacity .2s ease,
+        border-color .2s ease,
+        transform .2s ease;
+}
+
+.thumbnail-gallery img:hover {
+    opacity: 1;
+    transform: translateY(-1px);
+}
+
+.thumbnail-gallery img.active {
+    opacity: 1;
+
+    border: 2px solid #8A6755;
+}
+
+
+/* =====================================================
+   PRODUCT INFORMATION
+===================================================== */
+
+.product-content {
+    width: 100%;
+
+    padding-top: 3px;
+}
+
+.product-category {
+    display: block;
+    margin-bottom: 14px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    letter-spacing: 2.6px;
+    text-transform: uppercase;
+
+    color: #8A6755;
+}
+
+.product-content > h1 {
+    margin: 0 0 16px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.05;
+
+    color: #392E28;
+}
+
+.product-price {
+    margin: 0 0 23px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+
+    color: #8A6755;
+}
+
+.product-description {
+    max-width: 520px;
+
+    margin: 0 0 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+
+    color: #66574E;
+}
+
+
+/* =====================================================
+   INCLUDED
+===================================================== */
+
+.product-content > .option-group {
+    margin-bottom: 35px;
+}
+
+.product-content > .option-group label {
+    display: block;
+
+    margin-bottom: 12px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+
+    color: #392E28;
+}
+
+#includedList {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#includedList li {
+    margin-bottom: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+
+    color: #66574E;
+}
+
+
+/* =====================================================
+   REQUEST A QUOTE CARD
+===================================================== */
+
+.quote-request {
+    width: 100%;
+    max-width: 500px;
+
+    box-sizing: border-box;
+
+    margin-top: 35px;
+
+    padding: 34px 32px;
+
+    background: rgba(255,253,252,.96);
+
+    border: 1px solid #E4DAD0;
+    border-radius: 12px;
+
+    box-shadow: 0 10px 28px rgba(57,46,40,.06);
+}
+
+.quote-request > h3 {
+    margin: 0 0 9px;
+
+    text-align: center;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 27px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+.quote-intro {
+    max-width: 410px;
+
+    margin: 0 auto 24px;
+
+    text-align: center;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    line-height: 1.65;
+
+    color: #766A62;
+}
+
+
+/* =====================================================
+   QUOTE OPTIONS
+===================================================== */
+
+.quote-request .option-group {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.quote-request .option-group label {
+    display: block;
+    margin-bottom: 11px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #392E28;
+}
+
+
+/* QUANTITY */
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+
+    width: fit-content;
+
+    overflow: hidden;
+
+    border: 1px solid #DCCFC2;
+    border-radius: 5px;
+
+    background: #FCFAF7;
+}
+
+.qty-btn {
+    width: 42px;
+    height: 42px;
+
+    border: none;
+
+    background: transparent;
+
+    color: #5A463B;
+
+    font-size: 18px;
+
+    cursor: pointer;
+}
+
+.qty-btn:hover {
+    background: #F2E8DD;
+}
+
+#quantity {
+    width: 60px;
+    height: 42px;
+
+    padding: 0;
+
+    border: 0;
+    border-left: 1px solid #E4DAD0;
+    border-right: 1px solid #E4DAD0;
+
+    outline: none;
+
+    background: #FFFDFC;
+
+    text-align: center;
+
+    font-family: "Poppins", sans-serif;
+
+    color: #392E28;
+}
+
+
+/* =====================================================
+   QUOTATION SUMMARY
+===================================================== */
+
+.quote-summary {
+    margin-top: 27px;
+
+    padding-top: 23px;
+
+    border-top: 1px solid #E4DAD0;
+}
+
+.quote-summary h4 {
+    margin: 0 0 16px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 21px;
+
+    color: #392E28;
+}
+
+.review-total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-top: 18px;
+    padding-top: 18px;
+
+    border-top: 1px solid #E4DAD0;
+}
+
+.review-total h2 {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+
+    color: #392E28;
+}
+
+.review-total .grand-total {
+    font-size: 20px;
+    font-weight: 600;
+
+    color: #8A6755;
+}
+
+
+/* =====================================================
+   ADD TO QUOTE BUTTON
+===================================================== */
+
+.quote-request .primary-btn {
+    width: 100%;
+
+    margin-top: 22px;
+    padding: 14px 20px;
+
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+    border-radius: 4px;
+
+    color: #FFFDFC;
+
+    box-shadow: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    letter-spacing: .5px;
+
+    cursor: pointer;
+
+    transition:
+        background .2s ease,
+        transform .2s ease;
+}
+
+.quote-request .primary-btn:hover {
+    background: #44342C;
+
+    transform: translateY(-1px);
+}
+
+
+/* =====================================================
+   TABLET
+===================================================== */
+
+@media (max-width: 1050px) {
+
+    .product-container {
+        grid-template-columns: minmax(0, 1fr) minmax(340px, .9fr);
+
+        gap: 40px;
+    }
+
+    .product-content > h1 {
+        font-size: 38px;
+    }
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .product-details {
+        padding: 35px 18px 60px;
+    }
+
+    .product-container {
+        display: block;
+
+        max-width: 600px;
+    }
+
+    .product-gallery {
+        max-width: 100%;
+
+        margin: 0 auto 38px;
+    }
+
+    .main-product-image {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    /* arrows stay inside image */
+
+    .gallery-arrow {
+        top: 45%;
+
+        width: 38px;
+        height: 38px;
+
+        font-size: 16px;
+    }
+
+    .gallery-arrow.left {
+        left: 10px;
+    }
+
+    .gallery-arrow.right {
+        right: 10px;
+    }
+
+
+    /* thumbnails */
+
+    .thumbnail-gallery {
+        grid-template-columns: repeat(4, 1fr);
+
+        gap: 7px;
+    }
+
+
+    /* product information */
+
+    .product-content {
+        padding-top: 0;
+    }
+
+    .product-category {
+        margin-bottom: 10px;
+
+        font-size: 10px;
+    }
+
+    .product-content > h1 {
+        margin-bottom: 12px;
+
+        font-size: 36px;
+    }
+
+    .product-price {
+        margin-bottom: 18px;
+
+        font-size: 23px;
+    }
+
+    .product-description {
+        font-size: 13px;
+    }
+
+
+    /* quote */
+
+    .quote-request {
+        max-width: 100%;
+
+        margin-top: 30px;
+
+        padding: 28px 22px;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+    .product-details {
+        padding: 25px 14px 50px;
+    }
+
+    .main-product-image {
+        border-radius: 9px;
+    }
+
+    .thumbnail-gallery {
+        margin-top: 9px;
+
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .product-content > h1 {
+        font-size: 32px;
+    }
+
+    .quote-request {
+        padding: 25px 18px;
+
+        border-radius: 9px;
+    }
+
+    .quote-request > h3 {
+        font-size: 25px;
+    }
+}
+
+/* PRODUCT GALLERY */
+.product-gallery {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* MAIN PRODUCT IMAGE */
+.main-product-image {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 0 auto;
+
+    object-fit: cover;
+    border: 1px solid #E4DAD0;
+    border-radius: 12px;
+
+    box-shadow: 0 10px 28px rgba(57,46,40,.05);
+}
+
+/* =====================================================
+   SUCCESS MODAL — PREMIUM PHILIA STYLE
+===================================================== */
+
+.modal {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+
+    padding: 20px;
+
+    background: rgba(45, 37, 32, 0.55);
+    backdrop-filter: blur(3px);
+}
+
+/* Keep this if your JS uses .show */
+.modal.show {
+    display: flex;
+}
+
+
+/* MODAL BOX */
+
+.modal-content {
+    width: 100%;
+    max-width: 480px;
+
+    box-sizing: border-box;
+
+    padding: 42px 38px 38px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 0 22px 60px rgba(57,46,40,.18);
+}
+
+
+/* SUCCESS ICON */
+
+.success-icon {
+    width: 70px;
+    height: 70px;
+
+    margin: 0 auto 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #5A463B;
+
+    border-radius: 50%;
+
+    color: #FFFDFC;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 37px;
+    font-weight: 400;
+}
+
+
+/* TITLE */
+
+.modal-content h2 {
+    margin: 0 0 10px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 1.15;
+
+    color: #392E28;
+}
+
+
+/* DESCRIPTION */
+
+.modal-content > p {
+    margin: 0 auto 30px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.6;
+
+    color: #766A62;
+}
+
+
+/* BUTTON AREA */
+
+.modal-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 12px;
+}
+
+
+/* BOTH BUTTONS */
+
+.modal-buttons button {
+    min-height: 48px;
+
+    padding: 12px 16px;
+
+    border-radius: 5px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background .2s ease,
+        color .2s ease,
+        border-color .2s ease,
+        transform .2s ease;
+}
+
+
+/* CONTINUE SHOPPING */
+
+.modal-buttons .secondary-btn {
+    background: #FFFDFC;
+
+    border: 1px solid #8A6755;
+
+    color: #5A463B;
+}
+
+.modal-buttons .secondary-btn:hover {
+    background: #F7F1E9;
+
+    border-color: #5A463B;
+
+    transform: translateY(-1px);
+}
+
+
+/* REVIEW QUOTE */
+
+.modal-buttons .primary-btn {
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+
+    color: #FFFDFC;
+}
+
+.modal-buttons .primary-btn:hover {
+    background: #44342C;
+
+    border-color: #44342C;
+
+    transform: translateY(-1px);
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 520px) {
+
+    .modal {
+        padding: 16px;
+    }
+
+    .modal-content {
+        max-width: 390px;
+
+        padding: 34px 22px 25px;
+
+        border-radius: 10px;
+    }
+
+    .success-icon {
+        width: 60px;
+        height: 60px;
+
+        margin-bottom: 21px;
+
+        font-size: 31px;
+    }
+
+    .modal-content h2 {
+        font-size: 27px;
+    }
+
+    .modal-content > p {
+        margin-bottom: 24px;
+
+        font-size: 12px;
+    }
+
+    .modal-buttons {
+        grid-template-columns: 1fr;
+        gap: 9px;
+    }
+
+    .modal-buttons button {
+        width: 100%;
+    }
+}
+
+/* =====================================================
+   PHILIA GIFTS — QUOTE REQUEST PAGE
+   PREMIUM OVERRIDE
+   KEEP EXISTING BACKGROUND
+===================================================== */
+
+
+/* =========================
+   PAGE
+========================= */
+
+.quote-page {
+    position: relative;
+    padding: 65px 6% 90px;
+}
+
+.quote-container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+/* =========================
+   PAGE HEADING
+========================= */
+
+.quote-container > h1 {
+    margin: 0 0 7px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.1;
+
+    color: #392E28;
+}
+
+.quote-container > p {
+    margin: 0 0 30px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+
+    color: #66574E;
+}
+
+
+/* =====================================================
+   QUOTE ITEMS
+===================================================== */
+
+#quoteItems {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+
+/* PRODUCT CARD */
+
+.quote-item {
+    position: relative;
+
+    display: grid;
+    grid-template-columns: 110px minmax(0, 1fr) auto;
+    gap: 18px;
+
+    align-items: start;
+
+    padding: 18px;
+
+    background: rgba(255, 253, 252, 0.96);
+
+    border: 1px solid #E4DAD0;
+    border-radius: 10px;
+
+    box-shadow: 0 7px 20px rgba(57,46,40,.04);
+}
+
+
+/* PRODUCT IMAGE */
+
+.quote-item img {
+    width: 110px;
+    height: 110px;
+
+    display: block;
+
+    object-fit: cover;
+
+    border-radius: 7px;
+}
+
+
+/* PRODUCT NAME */
+
+.quote-item h3 {
+    margin: 0 0 0;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 22px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+
+/* PRODUCT TEXT */
+
+.quote-item p,
+.quote-item span {
+    font-family: "Poppins", sans-serif;
+
+    color: #66574E;
+}
+
+
+/* PRICE */
+
+.quote-item .price,
+.quote-item-price {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #5A463B !important;
+}
+
+
+/* =====================================================
+   QUANTITY BADGE
+===================================================== */
+
+.quote-item .quantity,
+.quote-item .qty,
+.quote-quantity {
+    display: inline-flex;
+    align-items: center;
+
+    padding: 6px 10px;
+
+    background: #F7F1E9;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 5px;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    color: #5A463B;
+}
+
+
+/* =====================================================
+   EDIT + REMOVE
+===================================================== */
+
+.quote-item button,
+.quote-item .edit-btn,
+.quote-item .remove-btn {
+    font-family: "Poppins", sans-serif;
+}
+
+.edit-btn,
+.remove-btn {
+    background: transparent !important;
+    border: none !important;
+
+    padding: 0;
+
+    font-size: 15px;
+    font-weight: 500;
+
+    color: #66574E !important;
+
+    cursor: pointer;
+}
+
+.edit-btn:hover {
+    color: #5A463B !important;
+}
+
+.remove-btn:hover {
+    color: #8A4F45 !important;
+}
+
+
+/* =====================================================
+   ESTIMATED TOTAL
+===================================================== */
+
+.quote-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-top: 35px;
+    padding: 23px 0 0;
+
+    border-top: 1px solid #DCCFC2;
+}
+
+.quote-footer h2 {
+    margin: 0;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+#cartTotal {
+    font-size: 23px;
+
+    color: #5A463B;
+}
+
+
+/* =====================================================
+   BOTTOM ACTION BUTTONS
+===================================================== */
+
+.quote-buttons {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+
+    margin-top: 32px;
+}
+
+.quote-buttons .secondary-btn,
+.quote-buttons .primary-btn {
+    min-height: 46px;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    box-sizing: border-box;
+
+    padding: 12px 22px;
+
+    border-radius: 5px;
+
+    text-decoration: none;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition:
+        background .2s ease,
+        border-color .2s ease,
+        color .2s ease,
+        transform .2s ease;
+}
+
+
+/* SECONDARY */
+
+.quote-buttons .secondary-btn {
+    background: rgba(255,253,252,.85);
+
+    border: 1px solid #8A6755;
+
+    color: #5A463B;
+}
+
+.quote-buttons .secondary-btn:hover {
+    background: #F7F1E9;
+
+    border-color: #5A463B;
+
+    transform: translateY(-1px);
+}
+
+
+/* MAIN CTA */
+
+.quote-buttons .primary-btn {
+    min-width: 230px;
+
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+
+    color: #FFFDFC;
+}
+
+.quote-buttons .primary-btn:hover {
+    background: #44342C;
+
+    border-color: #44342C;
+
+    transform: translateY(-1px);
+}
+
+
+/* =====================================================
+   CLEAR QUOTE MODAL
+===================================================== */
+
+#clearModal {
+    background: rgba(45,37,32,.55);
+
+    backdrop-filter: blur(3px);
+}
+
+#clearModal .modal-content {
+    width: 100%;
+    max-width: 430px;
+
+    box-sizing: border-box;
+
+    padding: 38px 34px 32px;
+
+    background: #FFFDFC;
+
+    border: 1px solid #E4DAD0;
+    border-radius: 12px;
+
+    text-align: center;
+
+    box-shadow: 0 22px 60px rgba(57,46,40,.18);
+}
+
+
+/* Trash icon */
+
+#clearModal .success-icon {
+    width: 64px;
+    height: 64px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 0 auto 21px;
+
+    background: #F2E8DD;
+
+    border-radius: 50%;
+
+    font-size: 25px;
+}
+
+
+/* Modal heading */
+
+#clearModal h2 {
+    margin: 0 0 8px;
+
+    font-family: "Cormorant Garamond", serif;
+    font-size: 29px;
+    font-weight: 600;
+
+    color: #392E28;
+}
+
+#clearModal p {
+    margin: 0 0 25px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+
+    color: #766A62;
+}
+
+
+/* Modal buttons */
+
+#clearModal .modal-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    gap: 10px;
+}
+
+#clearModal .modal-buttons button {
+    min-height: 46px;
+
+    border-radius: 5px;
+
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+
+/* Cancel */
+
+#cancelClearBtn {
+    background: #FFFDFC;
+
+    border: 1px solid #8A6755;
+
+    color: #5A463B;
+}
+
+
+/* Clear */
+
+#confirmClearBtn {
+    background: #5A463B;
+
+    border: 1px solid #5A463B;
+
+    color: #FFFDFC;
+}
+
+
+/* =====================================================
+   MOBILE
+===================================================== */
+
+@media (max-width: 768px) {
+
+    .quote-page {
+        padding: 45px 20px 65px;
+    }
+
+    .quote-container > h1 {
+        font-size: 36px;
+    }
+
+    .quote-container > p {
+        margin-bottom: 25px;
+
+        font-size: 13px;
+    }
+
+
+    /* PRODUCT CARD */
+
+    .quote-item {
+        grid-template-columns: 90px 1fr;
+
+        gap: 14px;
+
+        padding: 14px;
+    }
+
+    .quote-item img {
+        width: 90px;
+        height: 90px;
+    }
+
+    .quote-item h3 {
+        font-size: 20px;
+    }
+
+
+    /* TOTAL */
+
+    .quote-footer {
+        margin-top: 28px;
+    }
+
+    .quote-footer h2 {
+        font-size: 16px;
+    }
+
+    #cartTotal {
+        font-size: 20px;
+    }
+
+
+    /* BUTTONS */
+
+    .quote-buttons {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        gap: 8px;
+    }
+
+    .quote-buttons .primary-btn {
+        grid-column: 1 / -1;
+
+        width: 100%;
+    }
+
+    .quote-buttons .secondary-btn {
+        width: 100%;
+    }
+}
+
+
+/* =====================================================
+   SMALL MOBILE
+===================================================== */
+
+@media (max-width: 480px) {
+
+    .quote-page {
+        padding: 35px 14px 55px;
+    }
+
+    .quote-container > h1 {
+        font-size: 32px;
+    }
+
+    .quote-item {
+        grid-template-columns: 78px 1fr;
+
+        gap: 12px;
+        margin: 5px 0;
+        border-radius: 8px;
+    }
+
+    .quote-item img {
+        width: 78px;
+        height: 78px;
+    }
+
+    .quote-buttons {
+        grid-template-columns: 1fr;
+    }
+
+    .quote-buttons .primary-btn {
+        grid-column: auto;
+    }
+
+    #clearModal .modal-content {
+        padding: 32px 20px 24px;
+    }
+}
+
+/* =====================================================
+   QUOTE PAGE — FINAL SPACING REFINEMENT
+===================================================== */
+
+/* PRODUCT CARD — MORE COMPACT */
+.quote-item {
+    min-height: 0 !important;
+    padding: 16px 18px !important;
+
+    grid-template-columns: 105px minmax(0, 1fr) auto;
+    gap: 18px;
+
+    align-items: start;
+}
+
+/* PRODUCT IMAGE */
+.quote-item img {
+    width: 105px;
+    height: 105px;
+
+    object-fit: cover;
+    border-radius: 7px;
+}
+
+/* PRODUCT NAME */
+.quote-item h3 {
+    margin-top: 1px;
+    margin-bottom: 9px;
+
+    font-size: 22px;
+}
+
+/* REDUCE EMPTY SPACE INSIDE ITEM */
+.quote-item-content,
+.quote-item-details {
+    min-height: 0 !important;
+}
+
+
+/* ESTIMATED TOTAL — BRING IT CLOSER */
+.quote-footer {
+    margin-top: 24px !important;
+    padding-top: 22px !important;
+}
+
+
+/* BUTTONS CLOSER TO TOTAL */
+.quote-buttons {
+    margin-top: 25px !important;
+}
+
+
+/* SLIGHTLY SMALLER PAGE TOP/BOTTOM SPACE */
+.quote-page {
+    padding-top: 52px;
+    padding-bottom: 75px;
+}
+
