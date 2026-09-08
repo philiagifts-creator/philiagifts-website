@@ -4353,7 +4353,7 @@ REQUEST A QUOTE
 
     padding:20px;
 
-    margin:25px 0;
+    margin:5px 0;
 
     border:1px solid #e8e8e8;
 
@@ -8931,7 +8931,7 @@ WELCOME
 
     align-items:flex-start;
 
-    gap:10px;
+    gap:2px;
 
 }
 
@@ -9000,9 +9000,9 @@ WELCOME
 
     border-top:1px solid #e8e3db;
 
-    padding-top:14px;
+    padding-top:0;
 
-    padding-bottom:12px;
+    padding-bottom:0;
 
     margin-top:12px;
 
@@ -9034,7 +9034,7 @@ WELCOME
 
     display:block;
 
-    font-size:18px;
+    font-size:14px;
 
     font-weight:700;
 
@@ -13507,7 +13507,7 @@ header {
 #quoteItems {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 8px;
 }
 
 
@@ -13667,7 +13667,7 @@ header {
 
 #cartTotal {
     font-size: 23px;
-
+    padding-right: 30px;
     color: #5A463B;
 }
 
@@ -13985,6 +13985,12 @@ header {
     #clearModal .modal-content {
         padding: 32px 20px 24px;
     }
+
+    .quote-item h3 {
+    margin-top: 1px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
 }
 
 /* =====================================================
@@ -13994,7 +14000,7 @@ header {
 /* PRODUCT CARD — MORE COMPACT */
 .quote-item {
     min-height: 0 !important;
-    padding: 16px 18px !important;
+    padding: 10px 18px !important;
 
     grid-template-columns: 105px minmax(0, 1fr) auto;
     gap: 18px;
@@ -14113,6 +14119,13 @@ header {
         max-width: 100% !important;
 
         margin: 10px auto 0 !important;
+    }
+
+    .quote-item h3 {
+    margin-top: 1px;
+    margin-bottom: 5px;
+
+    font-size: 16px;
     }
 
     .catalog-filters .filter-btn {
