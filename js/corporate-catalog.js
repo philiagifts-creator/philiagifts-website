@@ -61,17 +61,49 @@ if (catalogSearchInput) {
             .toLowerCase()
             .trim();
 
-        const filtered = currentProducts.filter(product =>
+        // Show all products again when search is empty
+        if (keyword === "") {
 
-            product.name.toLowerCase().includes(keyword) ||
+            currentProducts = [...corporateProducts];
 
-            product.keywords.some(keywordItem =>
-                keywordItem.toLowerCase().includes(keyword)
-            )
+            displayProducts(currentProducts);
 
-        );
+            return;
+        }
 
-        displayProducts(filtered);
+        const filteredProducts = corporateProducts.filter(product => {
+
+            const searchText = [
+
+                product.name || "",
+
+                product.description || "",
+
+                product.category || "",
+
+                ...(Array.isArray(product.section)
+                    ? product.section
+                    : [product.section || ""]),
+
+                ...(product.keywords || []),
+
+                ...(product.inclusions || []),
+
+                ...(product.colors || []),
+
+                ...(product.tags || [])
+
+            ]
+            .join(" ")
+            .toLowerCase();
+
+            return searchText.includes(keyword);
+
+        });
+
+        currentProducts = filteredProducts;
+
+        displayProducts(filteredProducts);
 
     });
 

@@ -108,7 +108,7 @@ productSearch.addEventListener("input", () => {
 
     const keyword = productSearch.value.toLowerCase().trim();
 
-    const filteredProducts = weddingProducts.filter(product => {
+    const filteredProducts = celebrationProducts.filter(product => {
 
         const searchText = [
 
