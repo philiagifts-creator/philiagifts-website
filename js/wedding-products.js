@@ -5843,6 +5843,36 @@ inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
+{
+id:103,
+category:"wedding",
+section:"guest",
+page:"product.html?id=103",
+keywords:["cashmere shawl","shawl giveaway","personalized shawl","customized shawl","shawl souvenir","wedding shawl","wedding giveaway","wedding souvenir","guest giveaway","principal sponsor gift","Philia Gifts"],
+name:"Cashmere Shawl",
+price:195,
+minimumOrder:10,
+bestseller:false,
+images:["images/products/wedding/shawl/1.webp","images/products/wedding/shawl/2.webp","images/products/wedding/shawl/3.webp","images/products/wedding/shawl/4.webp","images/products/wedding/shawl/5.webp","images/products/wedding/shawl/6.webp","images/products/wedding/shawl/7.webp"],
+description:"A soft and elegant cashmere shawl available in a variety of colors, a practical and thoughtful wedding giveaway for guests and special recipients.",
+inclusions:["Customized Sleeve"],
+addons:[{name:"Name on Shawl",price:50},{name:"Box with Ribbon and Tag",price:80}]
+},
 
+{
+id:104,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=104",
+keywords:["cheese board set","wooden cheese board","cheese board gift set","personalized cheese board","engraved cheese board","wooden serving board","wedding gift","wedding souvenir","premium gift set","Philia Gifts"],
+name:"Cheese Board Set",
+price:980,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/wedding/cheeseboard/1.webp","images/products/wedding/cheeseboard/2.webp","images/products/wedding/cheeseboard/3.webp","images/products/wedding/cheeseboard/4.webp","images/products/wedding/cheeseboard/5.webp","images/products/wedding/cheeseboard/6.webp","images/products/wedding/cheeseboard/7.webp","images/products/wedding/cheeseboard/8.webp","images/products/wedding/cheeseboard/9.webp","images/products/wedding/cheeseboard/10.webp"],
+description:"An elegant laser-engraved wooden cheese board set with serving utensils, designed for entertaining, weddings, and thoughtful gifting.",
+inclusions:["Hard Box with Name","Customized Gift Tag","Ribbon"],
+addons:[]
+},
 
 ].sort((a, b) => b.price - a.price);

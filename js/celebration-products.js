@@ -2899,4 +2899,20 @@ inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
+{
+id:2056,
+category:"celebration",
+section:"guest",
+page:"product.html?id=2056",
+keywords:["cashmere shawl","shawl giveaway","personalized shawl","customized shawl","shawl souvenir","guest giveaway","event souvenir","celebration giveaway","Philia Gifts"],
+name:"Cashmere Shawl",
+price:195,
+minimumOrder:10,
+bestseller:false,
+images:["images/products/celebration/shawl/1.webp","images/products/celebration/shawl/2.webp","images/products/celebration/shawl/3.webp","images/products/celebration/shawl/4.webp","images/products/celebration/shawl/5.webp","images/products/celebration/shawl/6.webp","images/products/celebration/shawl/7.webp"],
+description:"A soft and elegant cashmere shawl available in a variety of colors, a practical and thoughtful giveaway for guests and special occasions.",
+inclusions:["Customized Sleeve"],
+addons:[{name:"Name on Shawl",price:50},{name:"Box with Ribbon and Tag",price:80}]
+},
+
 ].sort((a, b) => b.price - a.price);

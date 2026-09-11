@@ -3041,4 +3041,36 @@ inclusions:["Customized Tote Bag"],
 addons:[]
 },
 
+{
+id:1067,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1067",
+keywords:["cheese board set","wooden cheese board","cheese board gift set","personalized cheese board","engraved cheese board","wooden serving board","corporate gift","corporate giveaway","business gift","premium gift set","Philia Gifts"],
+name:"Cheese Board Set",
+price:980,  
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/cheeseboard/1.webp","images/products/corporate/cheeseboard/2.webp","images/products/corporate/cheeseboard/3.webp","images/products/corporate/cheeseboard/4.webp","images/products/corporate/cheeseboard/5.webp","images/products/corporate/cheeseboard/6.webp","images/products/corporate/cheeseboard/7.webp","images/products/corporate/cheeseboard/8.webp","images/products/corporate/cheeseboard/9.webp","images/products/corporate/cheeseboard/10.webp"],
+description:"An elegant laser-engraved wooden cheese board set with serving utensils, designed for corporate gifting, client appreciation, and special occasions.",
+inclusions:["Hard Box with Name","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:1068,
+category:"corporate",
+section:"guest",
+page:"product.html?id=1068",
+keywords:["cashmere shawl","shawl giveaway","personalized shawl","customized shawl","shawl souvenir","corporate shawl","corporate giveaway","corporate gift","employee gift","client gift","Philia Gifts"],
+name:"Cashmere Shawl",
+price:195,
+minimumOrder:10,
+bestseller:false,
+images:["images/products/corporate/shawl/1.webp","images/products/corporate/shawl/2.webp","images/products/corporate/shawl/3.webp","images/products/corporate/shawl/4.webp","images/products/corporate/shawl/5.webp","images/products/corporate/shawl/6.webp","images/products/corporate/shawl/7.webp"],
+description:"A soft and elegant cashmere shawl available in a variety of colors, a practical and thoughtful corporate giveaway for employees, clients, and special recipients.",
+inclusions:["Customized Sleeve"],
+addons:[{name:"Name on Shawl",price:50},{name:"Box with Ribbon and Tag",price:80}]
+},
+
 ].sort((a, b) => b.price - a.price);
