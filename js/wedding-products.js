@@ -2300,7 +2300,7 @@ addons: [
 
     name: "Zola Clutch",
 
-    price: 690,
+    price: 720,
 
     minimumOrder: 0,
 
