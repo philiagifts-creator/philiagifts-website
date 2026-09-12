@@ -122,7 +122,7 @@ productSearch.addEventListener("input", () => {
 
             ...(product.colors || []),  
 
-            ...(product.tags || [])
+            ...(product.keywords || [])
 
         ]
         .join(" ")

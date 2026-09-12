@@ -699,6 +699,68 @@ Guimba, Nueva Ecija, Philippines
 
 </footer>
 
+<!-- PAGE SCROLL NAVIGATION -->
+<div class="page-scroll-nav">
+  <button class="scroll-nav-btn" id="scrollToTop" aria-label="Go to top">
+    ↑
+  </button>
+
+  <div class="scroll-progress-track">
+    <div class="scroll-progress-thumb" id="scrollProgressThumb"></div>
+  </div>
+
+  <button class="scroll-nav-btn" id="scrollToBottom" aria-label="Go to bottom">
+    ↓
+  </button>
+</div>
+
+
+<!-- SCROLL NAVIGATION SCRIPT -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const topButton = document.getElementById("scrollToTop");
+  const bottomButton = document.getElementById("scrollToBottom");
+  const progressThumb = document.getElementById("scrollProgressThumb");
+
+  topButton.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  });
+
+  bottomButton.addEventListener("click", function () {
+    window.scrollTo({
+      top: document.documentElement.scrollHeight,
+      behavior: "smooth"
+    });
+  });
+
+  function updateScrollProgress() {
+    const scrollTop =
+      window.pageYOffset ||
+      document.documentElement.scrollTop;
+
+    const scrollHeight =
+      document.documentElement.scrollHeight -
+      window.innerHeight;
+
+    const progress =
+      scrollHeight > 0
+        ? (scrollTop / scrollHeight) * 100
+        : 0;
+
+    progressThumb.style.height = progress + "%";
+  }
+
+  window.addEventListener("scroll", updateScrollProgress);
+  window.addEventListener("resize", updateScrollProgress);
+
+  updateScrollProgress();
+});
+</script>
+
 <script src="js/wedding-products.js"></script>
 <script src="js/corporate-products.js"></script>
 <script src="js/celebration-products.js"></script>
@@ -707,5 +769,7 @@ Guimba, Nueva Ecija, Philippines
 
 <script src="js/catalog.js"></script>
 <script src="js/script.js"></script>
+
+
 
 </body>

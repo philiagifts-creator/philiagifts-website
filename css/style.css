@@ -12450,7 +12450,7 @@ header {
 }
 
 .custom-order-content {
-    padding: 48px 55px;
+    padding: 25px 25px;
 
     background: rgba(247, 241, 233, 0.96);
 
@@ -12483,7 +12483,7 @@ header {
     margin: 0 0 14px;
 
     font-family: "Cormorant Garamond", serif;
-    font-size: 38px;
+    font-size: 25px;
     font-weight: 600;
 
     color: #392E28;
@@ -12495,8 +12495,8 @@ header {
     margin: 0 auto 28px;
 
     font-family: "Poppins", sans-serif;
-    font-size: 14px;
-    line-height: 1.7;
+    font-size: 13px;
+    line-height: 1.4;
 
     color: #66574E;
 }
@@ -14159,4 +14159,160 @@ header {
         letter-spacing: 1px;
 
 }
+}
+
+/* ===== PHILIA GIFTS SCROLLBAR ===== */
+
+/* Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #9b8b79 #f3eee7;
+}
+
+/* Chrome, Safari, Edge */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3eee7;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #9b8b79;
+  border-radius: 10px;
+  border: 2px solid #f3eee7;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #766656;
+}
+
+/* ===== FLOATING PAGE SCROLL NAVIGATION ===== */
+
+.page-scroll-nav {
+  position: fixed;
+  right: 14px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+/* UP & DOWN BUTTONS */
+.scroll-nav-btn {
+  width: 34px;
+  height: 34px;
+
+  border: 1px solid rgba(90, 72, 55, 0.18);
+  border-radius: 50%;
+
+  background: rgba(250, 247, 242, 0.95);
+  color: #6f5d4c;
+
+  font-size: 18px;
+  line-height: 1;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  box-shadow: 0 3px 12px rgba(60, 45, 30, 0.10);
+
+  transition:
+    transform 0.2s ease,
+    background 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.scroll-nav-btn:hover {
+  background: #eee5da;
+  transform: scale(1.08);
+  box-shadow: 0 4px 15px rgba(60, 45, 30, 0.16);
+}
+
+/* VERTICAL PROGRESS TRACK */
+.scroll-progress-track {
+  position: relative;
+
+  width: 5px;
+  height: 110px;
+
+  background: rgba(111, 93, 76, 0.15);
+  border-radius: 20px;
+
+  overflow: hidden;
+}
+
+/* MOVING PROGRESS INDICATOR */
+.scroll-progress-thumb {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  height: 0%;
+
+  background: #8c7662;
+  border-radius: 20px;
+
+  transition: height 0.1s linear;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .page-scroll-nav {
+    right: 8px;
+  }
+
+  .scroll-nav-btn {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .scroll-progress-track {
+    height: 80px;
+    width: 4px;
+  }
+}
+
+/* ==================================================
+   PRODUCT PAGE — QUANTITY SELECTOR
+   Perfectly centered on all screen sizes
+================================================== */
+
+.quantity-selector {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    width: fit-content !important;
+
+    /* True horizontal centering */
+    margin-left: auto !important;
+    margin-right: auto !important;
+
+    /* Remove old positioning/padding */
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+    box-sizing: border-box !important;
+}
+
+/* Keep quantity input centered */
+.quantity-selector #quantity {
+    text-align: center !important;
+    margin: 0 !important;
+}
+
+/* Don't let buttons inherit weird margins */
+.quantity-selector .qty-btn {
+    margin: 0 !important;
 }
