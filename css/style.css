@@ -8058,7 +8058,7 @@ line-height:1.0;
 
     justify-content:left;
 
-    gap:12px;
+    gap:5px;
 
     width:100%;
 
@@ -14423,6 +14423,211 @@ html {
     .footer-bottom p {
         margin-left: auto !important;
         margin-right: auto !important;
+        text-align: center !important;
+    }
+}
+
+/* ==================================================
+   FOOTER — MOBILE + TABLET CENTER FIX
+   Applies automatically up to 1100px
+================================================== */
+
+@media (max-width: 1100px) {
+
+    /* Whole footer */
+    .footer {
+        width: 100% !important;
+    }
+
+    .footer .container {
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    /* Main footer content */
+    .footer-top {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        width: 100% !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        gap: 0 !important;
+    }
+
+
+    /* =========================================
+       BRAND
+    ========================================= */
+
+    .footer-brand {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        width: 100% !important;
+        max-width: 600px !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        text-align: center !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .footer-logo {
+        display: block !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+
+    .footer-brand-title,
+    .footer-description {
+        width: 100% !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        text-align: center !important;
+    }
+
+
+    /* =========================================
+       CONTACT DETAILS
+    ========================================= */
+
+    .footer-contact {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+
+        width: fit-content !important;
+        max-width: 100% !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .footer-contact p {
+        display: flex !important;
+        align-items: center !important;
+
+        width: 100% !important;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        text-align: left !important;
+    }
+
+
+    .footer-contact p i {
+        flex: 0 0 30px !important;
+
+        width: 30px !important;
+
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+
+        text-align: center !important;
+    }
+
+
+    /* =========================================
+       QUICK LINKS / COLLECTION / FOLLOW
+    ========================================= */
+
+    .footer-links {
+        width: 100% !important;
+        max-width: 600px !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+
+    .footer-links h4 {
+        width: 100% !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        text-align: center !important;
+    }
+
+
+    .footer-links a {
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        text-align: center !important;
+    }
+
+
+    /* =========================================
+       COPYRIGHT
+    ========================================= */
+
+    .footer-bottom {
+        width: 100% !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        text-align: center !important;
+    }
+
+
+    .footer-bottom p {
+        width: 100% !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
         text-align: center !important;
     }
 }
