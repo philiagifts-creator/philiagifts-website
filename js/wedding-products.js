@@ -354,7 +354,7 @@ addons: [
 
     price: 1700,
 
-    minimumOrder: 10,
+    minimumOrder: 5,
 
     bestseller: false,
 
@@ -1746,6 +1746,13 @@ addons: [
         "images/products/wedding/leatherduo/5.webp",
         "images/products/wedding/leatherduo/6.webp",
         "images/products/wedding/leatherduo/7.webp",
+        "images/products/wedding/leatherduo/8.webp",
+        "images/products/wedding/leatherduo/9.webp",
+        "images/products/wedding/leatherduo/10.webp",
+        "images/products/wedding/leatherduo/11.webp",
+        "images/products/wedding/leatherduo/12.webp",
+        "images/products/wedding/leatherduo/13.webp",
+        "images/products/wedding/leatherduo/14.webp",
         ],
 
         description: "Designed for elegance and everyday use, this leather belt and personalized wallet combines style, comfort, and premium presentation in one memorable gift.",
@@ -1896,7 +1903,7 @@ addons: [
 
     price: 780,
 
-    minimumOrder: 10,
+    minimumOrder: 5,
 
     images: [
         "images/products/wedding/boholamp/1.webp",
@@ -2755,7 +2762,7 @@ addons: [
 
     name: "Wine O'Clock",
 
-    price: 620,
+    price: 680,
     minimumOrder: 0,
 
     bestseller: true,
@@ -2902,7 +2909,7 @@ addons: [
 
     name: "Drape & Dazzle A",
     bestseller: true,
-    price: 600,
+    price: 650,
     minimumOrder: 0,
 
 
@@ -2920,6 +2927,8 @@ addons: [
         "images/products/wedding/drape&dazzleA/12.webp",
         "images/products/wedding/drape&dazzleA/13.webp",
         "images/products/wedding/drape&dazzleA/14.webp",
+        "images/products/wedding/drape&dazzleA/15.webp",
+        "images/products/wedding/drape&dazzleA/16.webp",
     ],
 
     description: "An elegant shawl and jewelry box gift set for bridesmaids, ninangs, mothers, sisters, and friends, thoughtfully personalized for weddings and life's most meaningful celebrations.",
@@ -3369,7 +3378,11 @@ addons: [
         "images/products/wedding/coffeeset/3.webp",
         "images/products/wedding/coffeeset/4.webp",
         "images/products/wedding/coffeeset/5.webp",
-        "images/products/wedding/coffeeset/6.webp"
+        "images/products/wedding/coffeeset/6.webp",
+        "images/products/wedding/coffeeset/7.webp",
+        "images/products/wedding/coffeeset/8.webp",
+        "images/products/wedding/coffeeset/9.webp",
+        
     ],
 
     description: "A premium coffee gift set featuring a coffee press and coffee pack, thoughtfully prepared for family, friends, and coffee lovers.",
@@ -4006,6 +4019,7 @@ addons: [
         "images/products/wedding/drape&dazzleB/8.webp",
         "images/products/wedding/drape&dazzleB/9.webp",
         "images/products/wedding/drape&dazzleB/10.webp",
+        "images/products/wedding/drape&dazzleB/11.webp",
     ],
 
     description: "A personalized jewelry organizer and cashmere shawl set, thoughtfully packaged in a gift box with ribbon and tag. Available in other colors.",
@@ -4514,7 +4528,7 @@ page: "product.html?id=47",
 
 name: "The Everyday Kit A",
 
-price: 320,
+price: 340,
 
 minimumOrder: 0,
 
@@ -5805,7 +5819,7 @@ name:"Glamour & Go Bundle",
 price:1600,
 minimumOrder: 0,
 bestseller:false,
-images:["images/products/wedding/glamourandgo/1.webp","images/products/wedding/glamourandgo/2.webp","images/products/wedding/glamourandgo/3.webp"],
+images:["images/products/wedding/glamourandgo/1.webp","images/products/wedding/glamourandgo/2.webp","images/products/wedding/glamourandgo/3.webp","images/products/wedding/glamourandgo/4.webp","images/products/wedding/glamourandgo/5.webp","images/products/wedding/glamourandgo/6.webp","images/products/wedding/glamourandgo/7.webp","images/products/wedding/glamourandgo/8.webp"],
 description:"A stylish gift set featuring a clutch bag, insulated coffee cup, and passport holder, beautifully presented in a hard box for weddings, celebrations, and special occasions.",
 inclusions:["Hard Box","Customized Tag","Ribbon"],
 addons:[]

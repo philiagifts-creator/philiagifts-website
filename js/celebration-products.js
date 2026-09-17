@@ -328,7 +328,7 @@ page: "product.html?id=2045",
 
 name: "Zola Clutch",
 
-price: 690,
+price: 720,
 
 minimumOrder: 0,
 
@@ -669,7 +669,7 @@ page: "product.html?id=2030",
 
 name: "Wine O'Clock",
 
-price: 620,
+price: 680,
 
 minimumOrder: 0,
 
@@ -960,7 +960,9 @@ images: [
     "images/products/celebration/coffeeset/2.webp",
     "images/products/celebration/coffeeset/3.webp",
     "images/products/celebration/coffeeset/4.webp",
-    "images/products/celebration/coffeeset/5.webp"
+    "images/products/celebration/coffeeset/5.webp",
+    "images/products/celebration/coffeeset/6.webp",
+    "images/products/celebration/coffeeset/7.webp",
 ],
 
 description: "A personalized coffee set featuring a coffee press and coffee pack, thoughtfully packaged in a gift box. A practical and enjoyable choice for coffee lovers, making it a thoughtful gift for celebrations, special occasions, and meaningful gatherings.",
@@ -1095,6 +1097,7 @@ addons: [
         "images/products/celebration/drape&dazzleB/8.webp",
         "images/products/celebration/drape&dazzleB/9.webp",
         "images/products/celebration/drape&dazzleB/10.webp",
+        "images/products/celebration/drape&dazzleB/11.webp",
     ],
 
     description: "A personalized jewelry organizer and cashmere shawl set, thoughtfully packaged in a gift box with ribbon and tag. Available in other colors.",
@@ -1530,7 +1533,7 @@ addons: [
 
     price: 350,
 
-    minimumOrder: 10,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -1643,7 +1646,7 @@ addons: [
 
     bestseller: false,
 
-    minimumOrder: 10,
+    minimumOrder: 0,
 
     name: "Shot Duo",
 
@@ -2827,7 +2830,7 @@ addons: [
     keywords: ["portable vanity mirror","rechargeable mirror","touch screen mirror","personalized mirror","celebration gift","event giveaway","customized gift","debut souvenir","wedding souvenir","birthday giveaway","Philia Gifts"],
     name: "Portable Vanity Mirror",
     price: 450,
-    minimumOrder: 10,
+    minimumOrder: 0,
     bestseller: false,
     images: ["images/products/celebration/vanitymirror/1.webp","images/products/celebration/vanitymirror/2.webp","images/products/celebration/vanitymirror/3.webp","images/products/celebration/vanitymirror/4.webp","images/products/celebration/vanitymirror/5.webp","images/products/celebration/vanitymirror/6.webp"],
     description: "A personalized rechargeable portable vanity mirror with touch-screen lighting, perfect as a stylish and practical souvenir for weddings, birthdays, debuts, and other special celebrations.",
@@ -2913,6 +2916,70 @@ images:["images/products/celebration/shawl/1.webp","images/products/celebration/
 description:"A soft and elegant cashmere shawl available in a variety of colors, a practical and thoughtful giveaway for guests and special occasions.",
 inclusions:["Customized Sleeve"],
 addons:[{name:"Name on Shawl",price:50},{name:"Box with Ribbon and Tag",price:80}]
+},
+
+{
+id:2057,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2057",
+keywords:["cheese board set","wooden cheese board","cheese board gift set","personalized cheese board","engraved cheese board","wooden serving board","celebration gift","premium gift set","Philia Gifts"],
+name:"Cheese Board Set",
+price:980,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/cheeseboard/1.webp","images/products/celebration/cheeseboard/2.webp","images/products/celebration/cheeseboard/3.webp","images/products/celebration/cheeseboard/4.webp","images/products/celebration/cheeseboard/5.webp","images/products/celebration/cheeseboard/6.webp","images/products/celebration/cheeseboard/7.webp","images/products/celebration/cheeseboard/8.webp","images/products/celebration/cheeseboard/9.webp","images/products/celebration/cheeseboard/10.webp"],
+description:"An elegant laser-engraved wooden cheese board set with serving utensils, designed for entertaining, celebrations, and thoughtful gifting.",
+inclusions:["Hard Box with Name","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:2058,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2058",
+keywords:["drape and dazzle a","shawl gift set","jewelry box gift set","shawl and jewelry box","personalized shawl","personalized jewelry box","birthday gift set","christening gift set","celebration gift","premium gift set","Philia Gifts"],
+name:"Drape & Dazzle A",
+price:650,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/Drape&dazzleA/1.webp","images/products/celebration/Drape&dazzleA/2.webp","images/products/celebration/Drape&dazzleA/3.webp","images/products/celebration/Drape&dazzleA/4.webp"],
+description:"An elegant gift set featuring a soft shawl paired with a jewelry box, thoughtfully curated for birthdays, celebrations, and special occasions.",
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Upgrade to Hard Box",price:150},{name:"Dried Flower Bouquet",price:100}]
+},
+
+{
+id:2059,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2059",
+keywords:["the everyday kit a","everyday kit","leather wallet gift set","wooden comb gift set","personalized wallet","personalized wooden comb","celebration gift set","birthday gift","guest gift","premium gift set","Philia Gifts"],
+name:"The Everyday Kit A",
+price:340,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/everydaykit/1.webp","images/products/celebration/everydaykit/2.webp","images/products/celebration/everydaykit/3.webp","images/products/celebration/everydaykit/4.webp"],
+description:"A practical gift set featuring a personalized leather wallet and wooden comb, making it a useful and thoughtful keepsake for celebrations and special occasions.",
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Name on the Box",price:30},{name:"Upgrade to Hard Box with Name",price:150}]
+},
+
+{
+id:2060,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2060",
+keywords:["classic leather duo","leather duo","leather belt gift set","leather wallet gift set","personalized wallet","leather belt","wallet and belt set","celebration gift set","birthday gift","premium gift set","Philia Gifts"],
+name:"Classic Leather Duo",
+price:850,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/leatherduo/1.webp","images/products/celebration/leatherduo/2.webp","images/products/celebration/leatherduo/3.webp","images/products/celebration/leatherduo/4.webp","images/products/celebration/leatherduo/5.webp"],
+description:"Designed for elegance and everyday use, this leather belt and personalized wallet combines style, comfort, and premium presentation in one memorable gift.",
+inclusions:["Personalized Hard Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Dried Flower Bouquet",price:100}]
 },
 
 ].sort((a, b) => b.price - a.price);
