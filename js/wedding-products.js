@@ -183,12 +183,6 @@ const weddingProducts = [
         "images/products/wedding/GNS/8.webp",
         "images/products/wedding/GNS/9.webp",
         "images/products/wedding/GNS/10.webp",
-        "images/products/wedding/GNS/11.webp",
-        "images/products/wedding/GNS/12.webp",
-        "images/products/wedding/GNS/13.webp",
-        "images/products/wedding/GNS/14.webp",
-        "images/products/wedding/GNS/15.webp",
-        "images/products/wedding/GNS/16.webp",
 
 
 
