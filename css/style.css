@@ -14631,3 +14631,110 @@ html {
         text-align: center !important;
     }
 }
+
+/* ==================================================
+   QUOTE PAGE — BUTTONS
+   Centered on all screens below 1300px
+================================================== */
+
+@media (max-width: 1300px) {
+
+    .quote-buttons {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+
+        width: 100% !important;
+        max-width: 600px !important;
+
+        /* True horizontal centering */
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+        box-sizing: border-box !important;
+    }
+
+    .quote-buttons .primary-btn,
+    .quote-buttons .secondary-btn {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        width: 100% !important;
+        max-width: 100% !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        box-sizing: border-box !important;
+        text-align: center !important;
+    }
+}
+
+/* ==================================================
+   SECTION TITLES — MOBILE & TABLET CENTER
+   (Our Story, FAQ, etc.)
+================================================== */
+
+@media (max-width: 1300px) {
+
+    .section-title {
+        width: 100% !important;
+        max-width: 620px !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+
+        text-align: center !important;
+        box-sizing: border-box !important;
+    }
+
+    .section-title h2,
+    .section-title p,
+    .section-title .section-tag {
+        text-align: center !important;
+
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+
+    .section-title p {
+        max-width: 520px !important;
+    }
+}
+
+/* ==================================================
+   CONTACT PAGE — SEND MESSAGE BUTTON
+   Perfectly centered below 1300px
+================================================== */
+
+@media (max-width: 1300px) {
+
+    #contactForm .btn {
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+
+        width: 100% !important;
+        max-width: 600px !important;
+
+        /* Override align-self: flex-start */
+        align-self: center !important;
+
+        /* True horizontal centering */
+        margin-left: auto !important;
+        margin-right: auto !important;
+
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+
+        text-align: center !important;
+        box-sizing: border-box !important;
+    }
+}
