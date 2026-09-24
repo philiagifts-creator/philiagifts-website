@@ -3364,7 +3364,7 @@ addons: [
     price: 520,
     minimumOrder: 0,
 
-    bestseller: false,
+    bestseller: true,
 
     images: [
         "images/products/wedding/coffeeset/1.webp",
@@ -3372,10 +3372,6 @@ addons: [
         "images/products/wedding/coffeeset/3.webp",
         "images/products/wedding/coffeeset/4.webp",
         "images/products/wedding/coffeeset/5.webp",
-        "images/products/wedding/coffeeset/6.webp",
-        "images/products/wedding/coffeeset/7.webp",
-        "images/products/wedding/coffeeset/8.webp",
-        "images/products/wedding/coffeeset/9.webp",
         
     ],
 
@@ -5880,6 +5876,22 @@ bestseller:false,
 images:["images/products/wedding/cheeseboard/1.webp","images/products/wedding/cheeseboard/2.webp","images/products/wedding/cheeseboard/3.webp","images/products/wedding/cheeseboard/4.webp","images/products/wedding/cheeseboard/5.webp","images/products/wedding/cheeseboard/6.webp","images/products/wedding/cheeseboard/7.webp","images/products/wedding/cheeseboard/8.webp","images/products/wedding/cheeseboard/9.webp","images/products/wedding/cheeseboard/10.webp"],
 description:"An elegant laser-engraved wooden cheese board set with serving utensils, designed for entertaining, weddings, and thoughtful gifting.",
 inclusions:["Hard Box with Name","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:105,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=105",
+keywords:["crafted pour set","coffee gift set","coffee press set","coffee pack","coffee press","honey with dipper","nordic mug","wedding gift set","wedding gift","principal sponsor gift","premium wedding gift","Philia Gifts"],
+name:"Crafted Pour Set",
+price:1480,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/wedding/craftedpourset/1.webp","images/products/wedding/craftedpourset/2.webp","images/products/wedding/craftedpourset/3.webp","images/products/wedding/craftedpourset/4.webp","images/products/wedding/craftedpourset/5.webp","images/products/wedding/craftedpourset/6.webp","images/products/wedding/craftedpourset/7.webp","images/products/wedding/craftedpourset/8.webp"],
+description:"A premium coffee gift set featuring a coffee pack, coffee press, honey with dipper, and Nordic mug, thoughtfully curated for weddings and special recipients.",
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
