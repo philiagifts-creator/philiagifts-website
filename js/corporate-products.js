@@ -2936,7 +2936,7 @@ addons:[]
     price: 1650,
     minimumOrder: 0,
     bestseller: false,
-    images: ["images/products/corporate/thesterlingset/1.webp","images/products/corporate/thesterlingset/2.webp","images/products/corporate/thesterlingset/3.webp","images/products/corporate/thesterlingset/4.webp"],
+    images: ["images/products/corporate/thesterlingset/1.webp","images/products/corporate/thesterlingset/2.webp","images/products/corporate/thesterlingset/3.webp","images/products/corporate/thesterlingset/4.webp","images/products/corporate/thesterlingset/5.webp"],
     description: "A premium corporate gift set featuring a coffee cup with thermal display, bamboo pen with 2pcs gel ink refill, and vegan leather case and pouch, ideal for employees, clients, and corporate events.",
     inclusions: ["Hard Box","Customized Tag","Ribbon"],
     addons: []

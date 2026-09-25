@@ -3372,6 +3372,8 @@ addons: [
         "images/products/wedding/coffeeset/3.webp",
         "images/products/wedding/coffeeset/4.webp",
         "images/products/wedding/coffeeset/5.webp",
+        "images/products/wedding/coffeeset/6.webp",
+        "images/products/wedding/coffeeset/7.webp",
         
     ],
 
@@ -5892,6 +5894,22 @@ bestseller:false,
 images:["images/products/wedding/craftedpourset/1.webp","images/products/wedding/craftedpourset/2.webp","images/products/wedding/craftedpourset/3.webp","images/products/wedding/craftedpourset/4.webp","images/products/wedding/craftedpourset/5.webp","images/products/wedding/craftedpourset/6.webp","images/products/wedding/craftedpourset/7.webp","images/products/wedding/craftedpourset/8.webp"],
 description:"A premium coffee gift set featuring a coffee pack, coffee press, honey with dipper, and Nordic mug, thoughtfully curated for weddings and special recipients.",
 inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:106,
+category:"wedding",
+section:"guest",
+page:"product.html?id=106",
+name:"Glass Cup",
+price:185,
+minimumOrder:15,
+bestseller:false,
+images:["images/products/wedding/glasscup/1.webp","images/products/wedding/glasscup/2.webp","images/products/wedding/glasscup/3.webp","images/products/wedding/glasscup/4.webp","images/products/wedding/glasscup/5.webp","images/products/wedding/glasscup/6.webp","images/products/wedding/glasscup/7.webp","images/products/wedding/glasscup/8.webp","images/products/wedding/glasscup/9.webp","images/products/wedding/glasscup/10.webp","images/products/wedding/glasscup/11.webp","images/products/wedding/glasscup/12.webp"],
+description:"A reusable glass cup with a protective sleeve and lid, designed for enjoying coffee, tea, and other beverages. A practical and stylish wedding giveaway guests can use every day.",
+keywords:["glass cup","personalized glass cup","customized glass cup","glass coffee cup","glass cup with sleeve","glass cup with lid","wedding glass cup","wedding giveaway","wedding souvenir","guest giveaway","personalized wedding giveaway","Philia Gifts"],
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
