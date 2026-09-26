@@ -4285,7 +4285,10 @@ addons: [
         "images/products/wedding/marblemug/1.webp",
         "images/products/wedding/marblemug/2.webp",
         "images/products/wedding/marblemug/3.webp",
-        "images/products/wedding/marblemug/4.webp"
+        "images/products/wedding/marblemug/4.webp",
+        "images/products/wedding/marblemug/5.webp",
+        "images/products/wedding/marblemug/6.webp",
+        "images/products/wedding/marblemug/7.webp",
     ],
 
     description: "A personalized marble mug with a gift box, available in pink and gray. A charming and practical choice for celebrations and special occasions, making a thoughtful gift that guests can enjoy and use every day.",

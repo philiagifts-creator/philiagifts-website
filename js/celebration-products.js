@@ -1368,6 +1368,8 @@ images: [
     "images/products/celebration/marblemug/6.webp",
     "images/products/celebration/marblemug/7.webp",
     "images/products/celebration/marblemug/8.webp",
+    "images/products/celebration/marblemug/9.webp",
+    "images/products/celebration/marblemug/10.webp",
 ],
 
 description: "A personalized marble mug with a gift box, available in color pink and gray. A charming and practical choice for celebrations and special occasions, making a thoughtful gift that guests can enjoy and use every day.",

@@ -436,7 +436,7 @@ const corporateProducts = [
 
     name: "Wooden Eco Set",
 
-    price: 1349,
+    price: 1350,
 
     minimumOrder: 0,
 
@@ -3031,8 +3031,8 @@ category:"corporate",
 section:"guest",
 page:"product.html?id=1066",
 keywords:["tote bag","corporate tote bag","customized tote bag","corporate giveaway","employee gift","client gift","business gift","Philia Gifts"],
-name:"Tote Bag",
-price:90,
+name:"Canvas Tote Bag",
+price:95,
 minimumOrder:50,
 bestseller:false,
 images:["images/products/corporate/tote/1.webp","images/products/corporate/tote/2.webp","images/products/corporate/tote/3.webp","images/products/corporate/tote/4.webp","images/products/corporate/tote/5.webp"],
@@ -3118,6 +3118,54 @@ bestseller:false,
 images:["images/products/corporate/drifitshirt/1.webp","images/products/corporate/drifitshirt/2.webp","images/products/corporate/drifitshirt/3.webp"],
 description:"A lightweight and comfortable drifit shirt customized with print, ideal for company uniforms, corporate events, teams, and organizations.",
 inclusions:["Customized Print"],
+addons:[]
+},
+
+{
+id:1072,
+category:"corporate",
+section:["gift-set"],
+page:"product.html?id=1072",
+name:"Medical Gift Set",
+price:1350,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/medicalkit/1.webp","images/products/corporate/medicalkit/2.webp","images/products/corporate/medicalkit/3.webp","images/products/corporate/medicalkit/4.webp","images/products/corporate/medicalkit/5.webp","images/products/corporate/medicalkit/6.webp"],
+description:"A practical corporate wellness set combining everyday essentials with a comprehensive first aid kit, collapsible tumbler, power bank, and charging cable set for workplace, travel, and emergency preparedness.",
+keywords:["medical gift set","first aid kit","corporate medical kit","emergency kit","first aid gift set","corporate wellness gift","employee wellness kit","power bank","collapsible tumbler","charging cable set","emergency preparedness","corporate giveaways","employee gifts","company giveaways","medical giveaways","Philia Gifts"],
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:1073,
+category:"corporate",
+section:["guest"],
+page:"product.html?id=1073",
+name:"Cable Adapter Box",
+price:120,
+minimumOrder:50,
+bestseller:false,
+images:["images/products/corporate/cableadapterbox/1.webp","images/products/corporate/cableadapterbox/2.webp","images/products/corporate/cableadapterbox/3.webp","images/products/corporate/cableadapterbox/4.webp","images/products/corporate/cableadapterbox/5.webp","images/products/corporate/cableadapterbox/6.webp","images/products/corporate/cableadapterbox/7.webp"],
+description:"A compact 60W fast-charging cable set with multiple connectors and a built-in phone holder, customized with your logo for practical corporate giveaways.",
+keywords:["cable adapter box","charging cable set","60w fast charging","fast charging cable","multi charging cable","multi-functional cable","phone holder","cable organizer","tech giveaway","corporate giveaway","corporate gift","company giveaway","employee gift","client gift","custom logo","Philia Gifts"],
+inclusions:["Charging Cable Set","Customized with logo"],
+addons:[]
+},
+
+{
+id:1074,
+category:"corporate",
+section:["gift-set"],
+page:"product.html?id=1074",
+name:"Brew & Breeze",
+price:1150,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/brewbreeze/1.webp","images/products/corporate/brewbreeze/2.webp","images/products/corporate/brewbreeze/3.webp","images/products/corporate/brewbreeze/4.webp","images/products/corporate/brewbreeze/5.webp","images/products/corporate/brewbreeze/6.webp"],
+description:"A premium corporate gift set featuring an insulated coffee cup and LED handheld fan, combining everyday convenience with sleek customized presentation.",
+keywords:["brew and breeze","brew breeze","corporate gift set","coffee cup gift set","insulated coffee cup","coffee tumbler","led handheld fan","handheld fan","portable fan","corporate giveaways","company giveaways","employee gift","client gift","customized corporate gift","premium corporate gift","Philia Gifts"],
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
