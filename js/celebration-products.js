@@ -2968,4 +2968,115 @@ inclusions:["Personalized Hard Box","Customized Gift Tag","Ribbon"],
 addons:[{name:"Dried Flower Bouquet",price:100}]
 },
 
+{
+id:2061,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2061",
+name:"Watch Organizer",
+price:720,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/watchorg/1.webp","images/products/celebration/watchorg/2.webp","images/products/celebration/watchorg/3.webp","images/products/celebration/watchorg/4.webp","images/products/celebration/watchorg/5.webp","images/products/celebration/watchorg/6.webp","images/products/celebration/watchorg/7.webp","images/products/celebration/watchorg/8.webp","images/products/celebration/watchorg/9.webp"],
+description:"A personalized wooden watch organizer with an elegant display, offering a refined and practical keepsake for birthdays, anniversaries, and other special celebrations.",
+keywords:["watch organizer","wooden watch organizer","personalized watch organizer","customized watch organizer","watch box","wooden watch box","personalized watch box","gift for him","celebration gift","birthday gift","anniversary gift","keepsake gift","Philia Gifts"],
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Name on the Box",price:30},{name:"Hard Box with Name",price:150}]
+},
+
+{
+id:2062,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2062",
+name:"Crafted Pour Set",
+price:1480,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/craftedpourset/1.webp","images/products/celebration/craftedpourset/2.webp","images/products/celebration/craftedpourset/3.webp","images/products/celebration/craftedpourset/4.webp","images/products/celebration/craftedpourset/5.webp","images/products/celebration/craftedpourset/6.webp","images/products/celebration/craftedpourset/7.webp","images/products/celebration/craftedpourset/8.webp"],
+description:"A premium coffee gift set featuring a coffee pack, coffee press, honey with dipper, and Nordic mug, thoughtfully curated for birthdays, anniversaries, and other special celebrations.",
+keywords:["crafted pour set","coffee gift set","coffee press set","coffee pack","coffee press","honey with dipper","nordic mug","premium coffee gift","coffee lover gift","celebration gift","birthday gift","anniversary gift","premium gift set","Philia Gifts"],
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:2063,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2063",
+name:"Grand Fleur Tea Set",
+price:1350,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/teaset2/1.webp","images/products/celebration/teaset2/2.webp","images/products/celebration/teaset2/3.webp","images/products/celebration/teaset2/4.webp","images/products/celebration/teaset2/5.webp","images/products/celebration/teaset2/6.webp","images/products/celebration/teaset2/7.webp","images/products/celebration/teaset2/8.webp","images/products/celebration/teaset2/9.webp","images/products/celebration/teaset2/10.webp","images/products/celebration/teaset2/11.webp"],
+description:"An elegant 6-piece porcelain cup and 6-piece saucer tea set, beautifully presented in a personalized magnetic gift box for birthdays, anniversaries, and cherished celebrations.",
+keywords:["grand fleur tea set","tea set","porcelain tea set","cup and saucer set","6 piece cup set","6 piece saucer set","elegant tea set","premium tea set","tea gift set","celebration gift","birthday gift","anniversary gift","gift for her","Philia Gifts"],
+inclusions:["Personalized Magnetic Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Dried Flower Bouquet",price:100}]
+},
+
+{
+id:2064,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2064",
+name:"Heritage Bloom Tea Set",
+price:1350,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/teaset1/1.webp","images/products/celebration/teaset1/2.webp","images/products/celebration/teaset1/3.webp","images/products/celebration/teaset1/4.webp","images/products/celebration/teaset1/5.webp","images/products/celebration/teaset1/6.webp","images/products/celebration/teaset1/7.webp"],
+description:"An elegant porcelain tea set featuring a teapot and 4 matching teacups, beautifully presented in a personalized magnetic hard box for birthdays, anniversaries, and cherished celebrations.",
+keywords:["heritage bloom tea set","tea set","porcelain tea set","teapot set","teapot and cups","4 teacup set","elegant tea set","premium tea set","tea gift set","celebration gift","birthday gift","anniversary gift","gift for her","Philia Gifts"],
+inclusions:["Personalized Magnetic Hard Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Dried Flower Bouquet",price:100}]
+},
+
+{
+id:2065,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2065",
+name:"Pretty Prep Set",
+price:950,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/prettyprep/1.webp","images/products/celebration/prettyprep/2.webp","images/products/celebration/prettyprep/3.webp","images/products/celebration/prettyprep/4.webp","images/products/celebration/prettyprep/5.webp","images/products/celebration/prettyprep/6.webp","images/products/celebration/prettyprep/7.webp","images/products/celebration/prettyprep/8.webp","images/products/celebration/prettyprep/9.webp"],
+description:"A thoughtfully curated gift set featuring a personalized jewelry organizer, vanity mirror, and alcohol spray, combining practicality and elegance for birthdays and special celebrations.",
+keywords:["pretty prep set","jewelry organizer","personalized jewelry organizer","vanity mirror","alcohol spray","ladies gift set","gift for her","women gift set","personalized gift set","celebration gift","birthday gift","anniversary gift","Philia Gifts"],
+inclusions:["Personalized Jewelry Organizer","Vanity Mirror","Alcohol Spray","Gift Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Name on the Box",price:30},{name:"Upgrade to Hard Box with Name",price:150}]
+},
+
+{
+id:2066,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2066",
+name:"Timeless Pour Set",
+price:840,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/timelesspourset/1.webp","images/products/celebration/timelesspourset/2.webp","images/products/celebration/timelesspourset/3.webp","images/products/celebration/timelesspourset/4.webp","images/products/celebration/timelesspourset/5.webp"],
+description:"A timeless wine flask gift set paired with a 200ml bottle of Johnnie Walker Red Label, thoughtfully presented as an elegant keepsake for birthdays and special celebrations.",
+keywords:["timeless pour set","wine flask set","flask gift set","stainless flask","johnnie walker red label","whiskey gift set","liquor gift set","gift for him","mens gift set","personalized flask","celebration gift","birthday gift","anniversary gift","Philia Gifts"],
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Name on the Box",price:30},{name:"Dried Flower Bouquet",price:100},{name:"Upgrade to Hard Box",price:180}]
+},
+
+{
+id:2067,
+category:"celebration",
+section:["gift-set"],
+page:"product.html?id=2067",
+name:"Chess Gift Set",
+price:880,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/chessgiftset/1.webp","images/products/celebration/chessgiftset/2.webp","images/products/celebration/chessgiftset/3.webp","images/products/celebration/chessgiftset/4.webp","images/products/celebration/chessgiftset/5.webp","images/products/celebration/chessgiftset/6.webp","images/products/celebration/chessgiftset/7.webp","images/products/celebration/chessgiftset/8.webp","images/products/celebration/chessgiftset/9.webp","images/products/celebration/chessgiftset/10.webp","images/products/celebration/chessgiftset/11.webp","images/products/celebration/chessgiftset/12.webp","images/products/celebration/chessgiftset/13.webp"],
+description:"An elegant personalized chess gift set featuring a chess board, chess pieces, wine accessories, and a premium wooden case, perfect as a sophisticated keepsake for special celebrations.",
+keywords:["chess gift set","chess set","personalized chess set","wooden chess set","chess board","wine accessory set","wine stopper","wine ring","wine pourer","wine corkscrew","personalized gift","gift for him","mens gift","celebration gift","birthday gift","anniversary gift","Philia Gifts"],
+inclusions:["Hard Box with Name","Customized Gift Tag","Ribbon"],
+addons:[]
+},
 ].sort((a, b) => b.price - a.price);
