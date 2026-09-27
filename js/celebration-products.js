@@ -3081,4 +3081,33 @@ keywords:["chess gift set","chess set","personalized chess set","wooden chess se
 inclusions:["Hard Box with Name","Customized Gift Tag","Ribbon"],
 addons:[]
 },
+
+{
+  id: 2068,
+  category: "celebration",
+  section: ["gift-set"],
+  page:"product.html?id=2068",
+  name: "Glow & Grace Set",
+  price: 680,
+  minimumOrder: 0,
+  bestseller: false,
+  images: [
+  "images/products/celebration/glow&grace/1.webp",
+  "images/products/celebration/glow&grace/2.webp",
+  "images/products/celebration/glow&grace/3.webp",
+  "images/products/celebration/glow&grace/4.webp",
+  "images/products/celebration/glow&grace/5.webp",
+  "images/products/celebration/glow&grace/6.webp",
+  "images/products/celebration/glow&grace/7.webp",
+  "images/products/celebration/glow&grace/8.webp"
+  ],
+  description: "A practical and elegant gift set featuring a portable vanity mirror and wooden paddle brush, thoughtfully curated for bridesmaids, sponsors, birthdays, and special celebrations.",
+  keywords: ["glow and grace set","vanity mirror","portable mirror","led mirror","paddle brush","wooden brush","beauty gift set","bridesmaid gift","sponsor gift","birthday gift","celebration gift","gift set"],
+  inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+  addons: [
+    { name: "Name on the Box", price: 30 },
+    { name: "Hard Box with Name", price: 200 }
+  ]
+},
+
 ].sort((a, b) => b.price - a.price);
