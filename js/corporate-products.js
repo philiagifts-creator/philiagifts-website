@@ -3169,4 +3169,20 @@ inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
+{
+id:1075,
+category:"corporate",
+section:["gift-set"],
+page:"product.html?id=1075",
+name:"Maison Gold Set",
+price:1750,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/maisongold/1.webp","images/products/corporate/maisongold/2.webp","images/products/corporate/maisongold/3.webp","images/products/corporate/maisongold/4.webp","images/products/corporate/maisongold/5.webp","images/products/corporate/maisongold/6.webp","images/products/corporate/maisongold/7.webp"],
+description:"An elegant corporate gift set featuring a tumbler, notebook, and pen, thoughtfully presented for clients, employees, and special corporate occasions.",
+keywords:["maison gold set","corporate gift set","tumbler gift set","notebook gift set","pen gift set","corporate giveaway","employee gift","client gift","premium corporate gift","customized corporate gift","Philia Gifts"],
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
 ].sort((a, b) => b.price - a.price);
