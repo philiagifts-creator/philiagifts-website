@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Philia Gifts quotation and checkout summary.">
+<title>Quotation & Checkout | Philia Gifts</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+:root {
+  --q-white: #fffdfb;
+  --q-warm-white: #fcfaf7;
+  --q-beige: #f3ebdd;
+  --q-champagne: #dcc59e;
+  --q-brown: #352d29;
+  --q-muted: #786f67;
+  --q-border: #e5dbce;
+}
+.quotation-page { background: var(--q-warm-white); min-height: 100vh; padding: 56px 20px 80px; color: var(--q-brown); }
+.quotation-wrap { max-width: 1180px; margin: 0 auto; }
+.quotation-header { margin-bottom: 28px; }
+.quotation-kicker { display:inline-block; padding: 10px 22px; border-radius: 999px; background:var(--q-champagne); color:#765e48; font:600 11px/1.3 Poppins, sans-serif; letter-spacing:2.5px; text-transform:uppercase; }
+.quotation-header h1 { margin:18px 0 8px; font:600 clamp(36px,5vw,58px)/1.05 "Cormorant Garamond", Georgia, serif; color:var(--q-brown); }
+.quotation-header p { margin:0; color:var(--q-muted); line-height:1.7; }
+.quotation-layout { display:grid; grid-template-columns:minmax(0,1.55fr) minmax(300px,.8fr); gap:24px; align-items:start; }
+.q-panel { background:var(--q-white); border:1px solid var(--q-border); border-radius:18px; padding:26px; box-shadow:0 8px 28px rgba(70,50,30,.045); }
+.q-panel h2 { margin:0 0 20px; font:600 29px/1.15 "Cormorant Garamond",Georgia,serif; }
+.q-muted { color:var(--q-muted); font-size:13px; line-height:1.65; }
+.q-item { display:grid; grid-template-columns:88px minmax(0,1fr) auto; gap:16px; align-items:start; padding:18px 0; border-bottom:1px solid #eee7df; }
+.q-item:first-child { padding-top:0; }
+.q-item:last-child { border-bottom:0; }
+.q-item img { width:88px; height:88px; object-fit:cover; border-radius:10px; background:var(--q-beige); }
+.q-item h3 { margin:0 0 7px; font:600 20px/1.2 "Cormorant Garamond",Georgia,serif; }
+.q-item .q-item-meta { color:var(--q-muted); font-size:13px; line-height:1.6; }
+.q-item-price { font-weight:700; white-space:nowrap; }
+.q-empty { padding:25px 0; text-align:center; color:var(--q-muted); }
+.q-empty a { color:#765e48; font-weight:600; }
+.q-totals { border-top:1px solid var(--q-border); padding-top:17px; margin-top:8px; }
+.q-total-row { display:flex; justify-content:space-between; gap:16px; margin:10px 0; color:var(--q-muted); font-size:14px; }
+.q-total-row.grand { color:var(--q-brown); font-size:21px; font-weight:700; padding-top:10px; border-top:1px dashed var(--q-border); }
+.q-form-grid { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+.q-field { display:flex; flex-direction:column; gap:7px; }
+.q-field.full { grid-column:1/-1; }
+.q-field label { font-size:12px; font-weight:600; color:#65574c; }
+.q-field input,.q-field select,.q-field textarea { width:100%; box-sizing:border-box; border:1px solid #ded3c6; border-radius:9px; background:#fff; padding:12px 13px; color:var(--q-brown); font:14px Poppins,Arial,sans-serif; }
+.q-field textarea { min-height:80px; resize:vertical; }
+.q-payment-options { display:grid; gap:10px; }
+.q-payment-option { display:flex; gap:10px; align-items:flex-start; padding:13px; border:1px solid var(--q-border); border-radius:10px; background:#fff; cursor:pointer; }
+.q-payment-option input { margin-top:4px; accent-color:#80684f; }
+.q-payment-option strong { display:block; font-size:14px; }
+.q-payment-option small { display:block; margin-top:3px; color:var(--q-muted); line-height:1.5; }
+.q-notice { margin-top:15px; padding:13px 14px; background:#f7f0e5; border-radius:10px; color:#6c5947; font-size:12px; line-height:1.6; }
+.q-actions { display:grid; gap:10px; margin-top:20px; }
+.q-btn { display:flex; width:100%; justify-content:center; align-items:center; gap:8px; box-sizing:border-box; border:1px solid transparent; border-radius:999px; padding:14px 18px; font:600 13px Poppins,Arial,sans-serif; cursor:pointer; text-decoration:none; transition:.2s ease; }
+.q-btn-primary { background:#6e5947; color:#fff; }
+.q-btn-primary:hover { background:#4e3e31; }
+.q-btn-secondary { background:#fff; border-color:#d9cbbb; color:#6e5947; }
+.q-btn-secondary:hover { background:var(--q-beige); }
+.q-small-note { margin-top:13px; color:#887b70; font-size:11px; line-height:1.6; }
+.q-status { display:none; margin:14px 0 0; padding:12px; border-radius:8px; background:#f1eee5; color:#5b4b3c; font-size:13px; line-height:1.5; }
+.q-status.show { display:block; }
+.q-doc-meta { display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap; margin:0 0 20px; color:var(--q-muted); font-size:12px; }
+.q-doc-brand { font:700 22px "Cormorant Garamond",Georgia,serif; letter-spacing:.3px; }
+.q-admin-note { margin:0 0 18px; color:var(--q-muted); font-size:12px; }
+@media(max-width:850px) { .quotation-layout { grid-template-columns:1fr; } }
+@media(max-width:560px) {
+ .quotation-page { padding:34px 12px 56px; }
+ .q-panel { padding:18px; border-radius:14px; }
+ .q-form-grid { grid-template-columns:1fr; }
+ .q-field.full { grid-column:auto; }
+ .q-item { grid-template-columns:68px minmax(0,1fr); gap:12px; }
+ .q-item img { width:68px; height:68px; }
+ .q-item-price { grid-column:2; }
+ .quotation-header h1 { font-size:40px; }
+}
+@media print {
+ @page { size:A4; margin:14mm; }
+ body { background:#fff !important; }
+ .quotation-page { padding:0; background:#fff !important; }
+ .quotation-header { margin-bottom:18px; }
+ .quotation-layout { display:block; }
+ .q-panel { box-shadow:none; border:1px solid #ddd; padding:16px; margin-bottom:14px; break-inside:avoid; }
+ .q-actions,.q-admin-note,.q-notice,.q-small-note,.no-print { display:none !important; }
+ .q-item { break-inside:avoid; }
+ .quotation-header h1 { font-size:34px; }
+}
+</style>
+</head>
+<body>
+<main class="quotation-page">
+  <div class="quotation-wrap">
+    <header class="quotation-header">
+      <span class="quotation-kicker">Philia Gifts · Order Desk</span>
+      <h1>Quotation &amp; Checkout</h1>
+      <p>Review your selected gifts, enter customer details, and prepare your quotation or order request.</p>
+    </header>
+
+    <div class="quotation-layout">
+      <section class="q-panel" aria-labelledby="orderHeading">
+        <div class="q-doc-meta">
+          <div>
+            <div class="q-doc-brand">PHILIA GIFTS</div>
+            <div>Souvenirs that celebrate every story</div>
+          </div>
+          <div><strong>Quotation No.</strong> <span id="quoteNumber">—</span><br><strong>Date:</strong> <span id="quoteDate">—</span></div>
+        </div>
+        <h2 id="orderHeading">Order Summary</h2>
+        <div id="quoteItems"><div class="q-empty">Loading your selected products…</div></div>
+        <div class="q-totals">
+          <div class="q-total-row"><span>Subtotal</span><strong id="subtotal">₱0.00</strong></div>
+          <div class="q-total-row"><span>Shipping</span><strong id="shippingAmount">To be confirmed</strong></div>
+          <div class="q-total-row grand"><span>Estimated total</span><strong id="grandTotal">₱0.00</strong></div>
+        </div>
+        <p class="q-small-note">Final pricing, customization details, shipping fees, and production schedule may require confirmation by Philia Gifts before payment.</p>
+      </section>
+
+      <div>
+        <section class="q-panel">
+          <h2>Customer Details</h2>
+          <p class="q-admin-note">Customers can complete this form themselves. Admin can also enter the customer's details when preparing a quotation on their behalf.</p>
+          <form id="customerForm">
+            <div class="q-form-grid">
+              <div class="q-field"><label for="fullName">Full name *</label><input id="fullName" name="fullName" autocomplete="name" required></div>
+              <div class="q-field"><label for="phone">Mobile number *</label><input id="phone" name="phone" type="tel" autocomplete="tel" required></div>
+              <div class="q-field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email"></div>
+              <div class="q-field"><label for="company">Company / organization</label><input id="company" name="company" autocomplete="organization"></div>
+              <div class="q-field"><label for="eventType">Event type</label><select id="eventType" name="eventType"><option value="">Select event</option><option>Wedding</option><option>Birthday</option><option>Christening</option><option>Corporate Event</option><option>School Event</option><option>Anniversary</option><option>Other</option></select></div>
+              <div class="q-field"><label for="eventDate">Event date</label><input id="eventDate" name="eventDate" type="date"></div>
+              <div class="q-field"><label for="deliveryDate">Preferred delivery date</label><input id="deliveryDate" name="deliveryDate" type="date"></div>
+              <div class="q-field full"><label for="address">Delivery address</label><textarea id="address" name="address" autocomplete="street-address" placeholder="House/building, street, barangay, city, province, ZIP code"></textarea></div>
+              <div class="q-field full"><label for="notes">Customization / additional notes</label><textarea id="notes" name="notes" placeholder="Personalization details, color preferences, or special requests"></textarea></div>
+            </div>
+            <div class="q-status" id="formStatus" role="status"></div>
+          </form>
+        </section>
+
+        <section class="q-panel" style="margin-top:20px">
+          <h2>Next Step</h2>
+          <div class="q-payment-options">
+            <label class="q-payment-option">
+              <input type="radio" name="nextStep" value="quotation" checked>
+              <span><strong>Request / prepare quotation</strong><small>Save the details and open Messenger to discuss and confirm the final quote.</small></span>
+            </label>
+            <label class="q-payment-option">
+              <input type="radio" name="nextStep" value="payment">
+              <span><strong>Proceed with order</strong><small>Prepare an order request. Payment is arranged after Philia Gifts confirms the final amount and payment instructions.</small></span>
+            </label>
+          </div>
+          <div class="q-notice">Online card/GCash payment is not connected on this page. Do not treat an order as paid until payment has been verified. A payment gateway or secure payment link must be configured before automatic online payment can be accepted.</div>
+          <div class="q-actions no-print">
+            <button type="button" class="q-btn q-btn-primary" id="continueBtn">Save Details &amp; Continue</button>
+            <button type="button" class="q-btn q-btn-secondary" id="printBtn">Print / Save Quotation as PDF</button>
+            <button type="button" class="q-btn q-btn-secondary" id="copyBtn">Copy Order Summary</button>
+            <a class="q-btn q-btn-secondary" href="wedding.html">Continue Shopping</a>
+          </div>
+          <p class="q-small-note">For admin use: open this page on the same browser where the customer's cart is stored, or use the customer's exported order summary. Local storage is browser-specific and is not shared across devices.</p>
+        </section>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script>
+(function () {
+  "use strict";
+
+  const STORAGE_KEY = "quoteRequest";
+  const CUSTOMER_KEY = "customerInformation";
+  const QUOTE_ID_KEY = "philiaQuotationNumber";
+  const quoteItemsEl = document.getElementById("quoteItems");
+  const money = value => "₱" + Number(value || 0).toLocaleString("en-PH", {minimumFractionDigits: 2, maximumFractionDigits: 2});
+  const safe = value => String(value ?? "").replace(/[&<>"']/g, char => ({
+    "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;", "'":"&#39;"
+  }[char]));
+  let items = readJSON(STORAGE_KEY, []);
+  let subtotalValue = 0;
+
+  function readJSON(key, fallback) {
+    try {
+      const value = JSON.parse(localStorage.getItem(key));
+      return value == null ? fallback : value;
+    } catch (error) {
+      return fallback;
+    }
+  }
+
+  function createQuoteNumber() {
+    let id = localStorage.getItem(QUOTE_ID_KEY);
+    if (!id) {
+      const now = new Date();
+      const date = now.getFullYear().toString() +
+        String(now.getMonth() + 1).padStart(2, "0") +
+        String(now.getDate()).padStart(2, "0");
+      id = "PG-" + date + "-" + Math.random().toString(36).slice(2, 6).toUpperCase();
+      localStorage.setItem(QUOTE_ID_KEY, id);
+    }
+    return id;
+  }
+
+  function renderItems() {
+    if (!Array.isArray(items) || !items.length) {
+      quoteItemsEl.innerHTML = '<div class="q-empty">Your order list is empty.<br><a href="wedding.html">Browse gifts</a> and add products before returning here.</div>';
+      document.getElementById("subtotal").textContent = money(0);
+      document.getElementById("grandTotal").textContent = money(0);
+      document.getElementById("continueBtn").disabled = true;
+      document.getElementById("continueBtn").style.opacity = ".55";
+      return;
+    }
+
+    subtotalValue = 0;
+    quoteItemsEl.innerHTML = items.map(item => {
+      const quantity = Number(item.quantity || 1);
+      const total = Number(item.total ?? item.price * quantity ?? 0);
+      subtotalValue += Number.isFinite(total) ? total : 0;
+      const addons = Array.isArray(item.selectedAddons) ? item.selectedAddons : [];
+      const addonText = addons.length
+        ? '<div class="q-item-meta">Add-ons: ' + addons.map(a => safe(a.name) + (a.price ? ' (+' + money(a.price) + ')' : '')).join(", ") + '</div>'
+        : "";
+      return '<article class="q-item">' +
+        (item.image ? '<img src="' + safe(item.image) + '" alt="' + safe(item.name || "Product") + '">' : '<div class="q-item-image"></div>') +
+        '<div><h3>' + safe(item.name || "Selected product") + '</h3>' +
+        '<div class="q-item-meta">Quantity: ' + safe(quantity) + '</div>' + addonText + '</div>' +
+        '<div class="q-item-price">' + money(total) + '</div></article>';
+    }).join("");
+
+    document.getElementById("subtotal").textContent = money(subtotalValue);
+    document.getElementById("grandTotal").textContent = money(subtotalValue);
+  }
+
+  function loadCustomer() {
+    const customer = readJSON(CUSTOMER_KEY, {});
+    const aliases = {
+      fullName: customer.fullName || customer.customerName || "",
+      phone: customer.phone || customer.customerPhone || "",
+      email: customer.email || customer.customerEmail || "",
+      company: customer.company || customer.customerCompany || "",
+      eventType: customer.eventType || "",
+      eventDate: customer.eventDate || "",
+      deliveryDate: customer.deliveryDate || "",
+      address: customer.address || customer.deliveryAddress || "",
+      notes: customer.notes || customer.customerNotes || ""
+    };
+    Object.entries(aliases).forEach(([id, value]) => {
+      const field = document.getElementById(id);
+      if (field) field.value = value;
+    });
+  }
+
+  function getCustomer() {
+    return {
+      fullName: document.getElementById("fullName").value.trim(),
+      phone: document.getElementById("phone").value.trim(),
+      email: document.getElementById("email").value.trim(),
+      company: document.getElementById("company").value.trim(),
+      eventType: document.getElementById("eventType").value,
+      eventDate: document.getElementById("eventDate").value,
+      deliveryDate: document.getElementById("deliveryDate").value,
+      address: document.getElementById("address").value.trim(),
+      notes: document.getElementById("notes").value.trim()
+    };
+  }
+
+  function saveCustomer() {
+    const customer = getCustomer();
+    localStorage.setItem(CUSTOMER_KEY, JSON.stringify(customer));
+    return customer;
+  }
+
+  function buildSummary() {
+    const customer = getCustomer();
+    const selectedStep = document.querySelector('input[name="nextStep"]:checked')?.value || "quotation";
+    const lines = [
+      "PHILIA GIFTS",
+      selectedStep === "payment" ? "ORDER REQUEST" : "QUOTATION REQUEST",
+      "Quotation No.: " + createQuoteNumber(),
+      "Date: " + new Date().toLocaleDateString("en-PH"),
+      "",
+      "CUSTOMER DETAILS",
+      "Name: " + (customer.fullName || "N/A"),
+      "Mobile: " + (customer.phone || "N/A"),
+      "Email: " + (customer.email || "N/A"),
+      "Company: " + (customer.company || "N/A"),
+      "Event: " + (customer.eventType || "N/A"),
+      "Event date: " + (customer.eventDate || "N/A"),
+      "Preferred delivery: " + (customer.deliveryDate || "N/A"),
+      "Address: " + (customer.address || "N/A"),
+      "Notes: " + (customer.notes || "None"),
+      "",
+      "ITEMS"
+    ];
+    items.forEach((item, index) => {
+      lines.push((index + 1) + ". " + (item.name || "Product"));
+      lines.push("   Quantity: " + Number(item.quantity || 1));
+      (Array.isArray(item.selectedAddons) ? item.selectedAddons : []).forEach(addon => {
+        lines.push("   Add-on: " + addon.name + (addon.price ? " (+" + money(addon.price) + ")" : ""));
+      });
+      lines.push("   Amount: " + money(item.total ?? (Number(item.price || 0) * Number(item.quantity || 1))));
+    });
+    lines.push("", "ESTIMATED TOTAL: " + money(subtotalValue), "", "Shipping and final customization costs are subject to confirmation.", "Thank you for choosing Philia Gifts.");
+    return lines.join("\n");
+  }
+
+  function showStatus(message) {
+    const status = document.getElementById("formStatus");
+    status.textContent = message;
+    status.classList.add("show");
+  }
+
+  document.getElementById("continueBtn").addEventListener("click", async () => {
+    const form = document.getElementById("customerForm");
+    if (!items.length) {
+      showStatus("Your order list is empty. Add products before continuing.");
+      return;
+    }
+    if (!form.reportValidity()) return;
+    saveCustomer();
+    const summary = buildSummary();
+    try {
+      await navigator.clipboard.writeText(summary);
+      showStatus("Details saved. Your order summary has been copied. Messenger will open so you can send the request to Philia Gifts.");
+    } catch (error) {
+      showStatus("Details saved. Copy the summary using the Copy Order Summary button, then send it to Philia Gifts.");
+    }
+    window.open("https://m.me/102160075444175", "_blank", "noopener");
+  });
+
+  document.getElementById("printBtn").addEventListener("click", () => {
+    if (!items.length) {
+      showStatus("Add products to your order before printing a quotation.");
+      return;
+    }
+    saveCustomer();
+    window.print();
+  });
+
+  document.getElementById("copyBtn").addEventListener("click", async () => {
+    if (!items.length) {
+      showStatus("Your order list is empty.");
+      return;
+    }
+    saveCustomer();
+    try {
+      await navigator.clipboard.writeText(buildSummary());
+      showStatus("Order summary copied. You can paste it into Messenger, email, or your admin records.");
+    } catch (error) {
+      showStatus("Your browser blocked clipboard access. Use Print / Save Quotation as PDF instead.");
+    }
+  });
+
+  document.getElementById("quoteNumber").textContent = createQuoteNumber();
+  document.getElementById("quoteDate").textContent = new Date().toLocaleDateString("en-PH", {year:"numeric", month:"short", day:"numeric"});
+  loadCustomer();
+  renderItems();
+})();
+</script>
+</body>
+</html>

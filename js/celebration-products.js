@@ -1147,13 +1147,16 @@ addons: [
 
     name: "Beer Buddy Set",
 
-    price: 420,
+    price: 450,
 
     images: [
         "images/products/celebration/beerbuddy/1.webp",
         "images/products/celebration/beerbuddy/2.webp",
         "images/products/celebration/beerbuddy/3.webp",
-        "images/products/celebration/beerbuddy/4.webp"
+        "images/products/celebration/beerbuddy/4.webp",
+        "images/products/celebration/beerbuddy/5.webp",
+        "images/products/celebration/beerbuddy/6.webp",
+        "images/products/celebration/beerbuddy/7.webp",
     ],
 
     description: "A personalized gift set featuring a classic beer mug and engraved wooden bottle opener, elegantly packed in a gift box with a customized gift tag and ribbon. A practical keepsake for birthdays, christenings, and special celebrations.",
@@ -3108,6 +3111,38 @@ addons:[]
     { name: "Name on the Box", price: 30 },
     { name: "Hard Box with Name", price: 200 }
   ]
+},
+
+{
+id:2069,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2069",
+keywords:["marble mug with coffee drip","marble mug gift set","coffee drip gift set","personalized marble mug","celebration gift","birthday gift set","coffee gift","Philia Gifts"],
+name:"Marble Mug with Coffee Drip Set",
+price:980,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/marblecoffee/1.webp","images/products/celebration/marblecoffee/2.webp","images/products/celebration/marblecoffee/3.webp","images/products/celebration/marblecoffee/4.webp","images/products/celebration/marblecoffee/5.webp","images/products/celebration/marblecoffee/6.webp","images/products/celebration/marblecoffee/7.webp","images/products/celebration/marblecoffee/8.webp"],
+description:"A coffee gift set featuring a marble mug paired with a box of coffee drip packs, ideal for celebrations and thoughtful appreciation gifts.",
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:2070,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2070",
+keywords:["traveler's trio","travel gift set","personalized tumbler","leather pouch","mini umbrella","travel giveaway","celebration gift","premium gift set","Philia Gifts"],
+name:"Traveler's Trio",
+price:1300,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/travelertrio/1.webp","images/products/celebration/travelertrio/2.webp","images/products/celebration/travelertrio/3.webp","images/products/celebration/travelertrio/4.webp","images/products/celebration/travelertrio/5.webp","images/products/celebration/travelertrio/6.webp"],
+description:"A sophisticated travel-inspired gift set featuring a personalized tumbler, leather pouch, and mini umbrella with UV protection, ideal for celebrations and thoughtful gifting.",
+inclusions:["Hard Box with Name","Customized Gift Tag","Ribbon"],
+addons:[]
 },
 
 ].sort((a, b) => b.price - a.price);

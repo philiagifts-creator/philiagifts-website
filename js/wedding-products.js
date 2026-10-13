@@ -4075,7 +4075,7 @@ addons: [
 
     name: "Beer Buddy Set",
 
-    price: 420,
+    price: 450,
     minimumOrder: 0,
 
     images: [
@@ -4791,6 +4791,9 @@ addons: [
         "images/products/wedding/frostedmug/3.webp",
         "images/products/wedding/frostedmug/4.webp",
         "images/products/wedding/frostedmug/5.webp",
+         "images/products/wedding/frostedmug/6.webp",
+          "images/products/wedding/frostedmug/7.webp",
+           "images/products/wedding/frostedmug/8.webp",
     ],
 
     description: "A stylish personalized frosted mug with a soft matte finish, beautifully customized with names or event details. Thoughtfully presented in a gift box with ribbon and tag, it makes a practical and memorable wedding souvenir that guests can enjoy for their favorite drinks.",
@@ -5909,10 +5912,42 @@ name:"Glass Cup",
 price:185,
 minimumOrder:15,
 bestseller:false,
-images:["images/products/wedding/glasscup/1.webp","images/products/wedding/glasscup/2.webp","images/products/wedding/glasscup/3.webp","images/products/wedding/glasscup/4.webp","images/products/wedding/glasscup/5.webp","images/products/wedding/glasscup/6.webp","images/products/wedding/glasscup/7.webp","images/products/wedding/glasscup/8.webp","images/products/wedding/glasscup/9.webp","images/products/wedding/glasscup/10.webp","images/products/wedding/glasscup/11.webp","images/products/wedding/glasscup/12.webp"],
+images:["images/products/wedding/glasscup/1.webp","images/products/wedding/glasscup/2.webp","images/products/wedding/glasscup/3.webp","images/products/wedding/glasscup/4.webp","images/products/wedding/glasscup/5.webp","images/products/wedding/glasscup/6.webp","images/products/wedding/glasscup/7.webp","images/products/wedding/glasscup/8.webp","images/products/wedding/glasscup/9.webp","images/products/wedding/glasscup/10.webp","images/products/wedding/glasscup/11.webp","images/products/wedding/glasscup/12.webp","images/products/wedding/glasscup/13.webp"],
 description:"A reusable glass cup with a protective sleeve and lid, designed for enjoying coffee, tea, and other beverages. A practical and stylish wedding giveaway guests can use every day.",
 keywords:["glass cup","personalized glass cup","customized glass cup","glass coffee cup","glass cup with sleeve","glass cup with lid","wedding glass cup","wedding giveaway","wedding souvenir","guest giveaway","personalized wedding giveaway","Philia Gifts"],
 inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:107,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=107",
+keywords:["marble mug with coffee drip","marble mug gift set","coffee drip gift set","wedding coffee gift","wedding giveaway","wedding souvenir","personalized mug","coffee gift set","Philia Gifts"],
+name:"Marble Mug with Coffee Drip Set",
+price:980,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/wedding/marblecoffee/1.webp","images/products/wedding/marblecoffee/2.webp","images/products/wedding/marblecoffee/3.webp","images/products/wedding/marblecoffee/4.webp","images/products/wedding/marblecoffee/5.webp"],
+description:"A coffee gift set featuring a marble mug paired with a box of coffee drip packs, ideal for wedding giveaways and thoughtful gifts for sponsors and guests.",
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:108,
+category:"wedding",
+section:"guest",
+page:"product.html?id=108",
+keywords:["scented soy candle","soy candle souvenir","personalized candle","wedding candle giveaway","wedding souvenir","candle giveaway","wedding guest gift","Philia Gifts"],
+name:"Scented Soy Candle",
+price:200,
+minimumOrder:20,
+bestseller:false,
+images:["images/products/wedding/scentedcandle/1.webp","images/products/wedding/scentedcandle/2.webp","images/products/wedding/scentedcandle/3.webp","images/products/wedding/scentedcandle/4.webp","images/products/wedding/scentedcandle/5.webp","images/products/wedding/scentedcandle/6.webp","images/products/wedding/scentedcandle/7.webp",],
+description:"A personalized scented soy candle in a gift box, perfect for wedding giveaways and meaningful occasions. Its warm and relaxing appeal makes it a thoughtful keepsake for guests.",
+inclusions:["Hard Box with Custom Print","Ribbon"],
 addons:[]
 },
 

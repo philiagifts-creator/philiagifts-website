@@ -834,9 +834,9 @@ const corporateProducts = [
 
     name: "Two-Tone Tote Bag",
 
-    price: 290,
+    price: 320,
 
-    minimumOrder: 25,
+    minimumOrder: 30,
 
     bestseller: false,
 
@@ -846,14 +846,16 @@ const corporateProducts = [
         "images/products/corporate/Totebag/3.webp"
     ],
 
-    description: "A durable two-tone canvas tote bag customized with your logo, designed for everyday use while keeping your brand visible. An eco-friendly corporate giveaway that combines style, functionality, and lasting value. (Size: 33 x 29 cm)",
+    description: "A durable two-tone canvas tote bag customized with your logo, designed for everyday use while keeping your brand visible. An eco-friendly corporate giveaway that combines style, functionality, and lasting value. (Size: 15 x 11 x 3 inches , 1000gsm)",
 
     inclusions: [
         "Customized with your logo",
         "Individual Plastic"
     ],
 
+    addons: [
     
+    ]
 },
 
 {
@@ -1274,7 +1276,7 @@ const corporateProducts = [
 
     name: "Customized Coffee Mug",
 
-    price: 140,
+    price: 150,
 
     minimumOrder: 50,
 
@@ -1285,7 +1287,9 @@ const corporateProducts = [
         "images/products/corporate/mug/4.webp",
         "images/products/corporate/mug/5.webp",
         "images/products/corporate/mug/6.webp",
-        "images/products/corporate/mug/7.webp"
+        "images/products/corporate/mug/7.webp",
+        "images/products/corporate/mug/8.webp",
+        "images/products/corporate/mug/9.webp",
     ],
 
     description: "A classic ceramic coffee mug customized with your logo, beautifully presented in a window box. A practical and versatile corporate gift for employees, clients, business partners, and special events.",
@@ -1306,10 +1310,15 @@ const corporateProducts = [
 
     inclusions: [
         "Customized with Logo",
-        "Window Box"
+        "Window Box with custom sticker",
+        "Ribbon",
     ],
 
     addons: [
+        {
+            name: "2 sides print",
+            price: 30
+        },
     ]
 },
 
@@ -3000,10 +3009,10 @@ section:"gift-set",
 page:"product.html?id=1064",
 keywords:["beer buddy set","beer mug gift set","bottle opener","corporate gift set","corporate giveaway","employee gift","client gift","business gift","personalized corporate gift","Philia Gifts"],
 name:"Beer Buddy Set",
-price:420,
+price:450,
 minimumOrder:0,
 bestseller:false,
-images:["images/products/corporate/beerbuddy/1.webp","images/products/corporate/beerbuddy/2.webp","images/products/corporate/beerbuddy/3.webp","images/products/corporate/beerbuddy/4.webp"],
+images:["images/products/corporate/beerbuddy/1.webp","images/products/corporate/beerbuddy/2.webp","images/products/corporate/beerbuddy/3.webp","images/products/corporate/beerbuddy/4.webp","images/products/corporate/beerbuddy/5.webp",],
 description:"A personalized corporate gift set featuring a beer mug and bottle opener, ideal for employees, clients, and corporate events.",
 inclusions:["Gift Box","Customized Tag","Ribbon"],
 addons:["Upgrade to Hard Box with Logo - ₱150"]
@@ -3032,10 +3041,10 @@ section:"guest",
 page:"product.html?id=1066",
 keywords:["tote bag","corporate tote bag","customized tote bag","corporate giveaway","employee gift","client gift","business gift","Philia Gifts"],
 name:"Canvas Tote Bag",
-price:95,
+price:110,
 minimumOrder:50,
 bestseller:false,
-images:["images/products/corporate/tote/1.webp","images/products/corporate/tote/2.webp","images/products/corporate/tote/3.webp","images/products/corporate/tote/4.webp","images/products/corporate/tote/5.webp"],
+images:["images/products/corporate/tote/1.webp","images/products/corporate/tote/2.webp","images/products/corporate/tote/3.webp","images/products/corporate/tote/4.webp","images/products/corporate/tote/5.webp","images/products/corporate/tote/6.webp","images/products/corporate/tote/7.webp",],
 description:"A practical customized tote bag, measuring 14 x 16 inches, ideal for corporate giveaways, events, and everyday use.",
 inclusions:["Customized Tote Bag"],
 addons:[]
@@ -3142,7 +3151,7 @@ id:1073,
 category:"corporate",
 section:["guest"],
 page:"product.html?id=1073",
-name:"Cable Adapter Box",
+name:"Cable Adapter Set",
 price:120,
 minimumOrder:50,
 bestseller:false,
@@ -3182,6 +3191,38 @@ images:["images/products/corporate/maisongold/1.webp","images/products/corporate
 description:"An elegant corporate gift set featuring a tumbler, notebook, and pen, thoughtfully presented for clients, employees, and special corporate occasions.",
 keywords:["maison gold set","corporate gift set","tumbler gift set","notebook gift set","pen gift set","corporate giveaway","employee gift","client gift","premium corporate gift","customized corporate gift","Philia Gifts"],
 inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:1076,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1076",
+keywords:["marble mug with coffee drip","marble mug","coffee drip gift set","coffee gift set","corporate coffee gift","corporate giveaway","employee gift","client gift","customized corporate gift","Philia Gifts"],
+name:"Marble Mug with Coffee Drip Set",
+price: 980,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/marblecoffee/1.webp","images/products/corporate/marblecoffee/2.webp","images/products/corporate/marblecoffee/3.webp","images/products/corporate/marblecoffee/4.webp","images/products/corporate/marblecoffee/5.webp"],
+description:"A coffee gift set featuring a marble mug paired with a box coffee drip packs, ideal for corporate gifting and thoughtful appreciation gifts.",
+inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+addons:[]
+},
+
+{
+id:1077,
+category:"corporate",
+section:"guest",
+page:"product.html?id=1077",
+keywords:["automatic umbrella","customized umbrella","printed umbrella","corporate umbrella","corporate giveaway","branded umbrella","promotional gift","Philia Gifts"],
+name:"Automatic Umbrella",
+price:280,
+minimumOrder:50,
+bestseller:false,
+images:["images/products/corporate/umbrella/1.webp","images/products/corporate/umbrella/2.webp","images/products/corporate/umbrella/3.webp","images/products/corporate/umbrella/4.webp","images/products/corporate/umbrella/5.webp","images/products/corporate/umbrella/6.webp","images/products/corporate/umbrella/7.webp"],
+description:"An automatic umbrella with custom printing, ideal for corporate giveaways, promotional events, and branded gifts.",
+inclusions:[],
 addons:[]
 },
 
