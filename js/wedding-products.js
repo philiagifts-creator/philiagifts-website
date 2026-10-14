@@ -5951,4 +5951,20 @@ inclusions:["Hard Box with Custom Print","Ribbon"],
 addons:[]
 },
 
+{
+id:109,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=109",
+keywords:["leather pouch large","large leather pouch","personalized leather pouch","leather stamped name","wedding giveaway","wedding souvenir","principal sponsor gift","Philia Gifts"],
+name:"Leather Pouch - Large",
+price:320,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/wedding/leatherorganizer/1.webp","images/products/wedding/leatherorganizer/2.webp","images/products/wedding/leatherorganizer/3.webp","images/products/wedding/leatherorganizer/4.webp"],
+description:"A large leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for wedding giveaways and thoughtful gifts.",
+inclusions:[],
+addons:[{name:"Regular Box",price:80},{name:"Hard Box",price:150}]
+},
+
 ].sort((a, b) => b.price - a.price);

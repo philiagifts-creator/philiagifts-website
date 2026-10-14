@@ -3226,4 +3226,20 @@ inclusions:[],
 addons:[]
 },
 
+{
+id:1078,
+category:"corporate",
+section:"guest",
+page:"product.html?id=1078",
+keywords:["leather pouch large","large leather pouch","personalized leather pouch","leather stamped name","corporate giveaway","corporate gift","Philia Gifts"],
+name:"Leather Pouch - Large",
+price:320,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/leatherorganizer/1.webp","images/products/corporate/leatherorganizer/2.webp","images/products/corporate/leatherorganizer/3.webp","images/products/corporate/leatherorganizer/4.webp"],
+description:"A large leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for corporate giveaways and everyday organization.",
+inclusions:[],
+addons:[{name:"Regular Box",price:80},{name:"Hard Box",price:150}]
+},
+
 ].sort((a, b) => b.price - a.price);

@@ -3145,4 +3145,20 @@ inclusions:["Hard Box with Name","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
+{
+id:2071,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2071",
+keywords:["leather pouch large","large leather pouch","personalized leather pouch","leather stamped name","celebration giveaway","birthday souvenir","personalized gift","Philia Gifts"],
+name:"Leather Pouch - Large",
+price:320,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/leatherorganizer/1.webp","images/products/celebration/leatherorganizer/2.webp","images/products/celebration/leatherorganizer/3.webp","images/products/celebration/leatherorganizer/4.webp"],
+description:"A large leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for celebrations and thoughtful gifts.",
+inclusions:[],
+addons:[{name:"Regular Box",price:80},{name:"Hard Box",price:150}]
+},
+
 ].sort((a, b) => b.price - a.price);
