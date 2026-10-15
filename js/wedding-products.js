@@ -4672,7 +4672,7 @@ page: "product.html?id=81",
 
 name: "Rotating Mirror",
 
-price: 290,
+price: 310,
 
 minimumOrder: 0,
 
@@ -4686,6 +4686,8 @@ images: [
     "images/products/wedding/rotatingmirror/5.webp",
     "images/products/wedding/rotatingmirror/6.webp",
     "images/products/wedding/rotatingmirror/7.webp",
+    "images/products/wedding/rotatingmirror/8.webp",
+    "images/products/wedding/rotatingmirror/9.webp",
 ],
 
 description: "A personalized rotating mirror with a wooden stand, designed as a practical and elegant wedding souvenir for your guests. Its adjustable rotating design makes it perfect for everyday use, while the personalized detail adds a meaningful touch to your celebration.",
@@ -4716,7 +4718,7 @@ addons: [
         price: 30
     },
     {
-        name: "Hard Box with Name",
+        name: "Upgrade to Hard Box with Name",
         price: 150
     }
 ]
@@ -4778,7 +4780,7 @@ addons: [
             price: 30
         },
         {
-            name: "Hard Box with Name",
+            name: "Upgrade to Hard Box with Name",
             price: 120
         },
     ]

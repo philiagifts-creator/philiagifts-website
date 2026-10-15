@@ -1707,7 +1707,8 @@ addons: [
         "images/products/celebration/rotatingmirror/1.webp",
         "images/products/celebration/rotatingmirror/2.webp",
         "images/products/celebration/rotatingmirror/3.webp",
-        "images/products/celebration/rotatingmirror/4.webp"
+        "images/products/celebration/rotatingmirror/4.webp",
+        "images/products/celebration/rotatingmirror/5.webp",
     ],
 
     description: "A stylish rotating mirror with a wooden stand, perfect as a thoughtful and practical gift for any celebration.",
