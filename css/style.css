@@ -15281,3 +15281,11 @@ body {
         box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
     }
 }
+
+
+/* Temporary scrolling performance test */
+@media (max-width: 1300px) {
+    .page-scroll-nav {
+        display: none !important;
+    }
+}
