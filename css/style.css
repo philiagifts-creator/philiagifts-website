@@ -15221,3 +15221,53 @@ html {
         letter-spacing: 1.5px;
     }
 }
+
+
+/* iPhone scrolling improvements */
+html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+/* Avoid expensive visual effects while scrolling on phones */
+@media (max-width: 768px) {
+
+    /* Reduce animation work */
+    .scroll-reveal,
+    .reveal,
+    [data-aos] {
+        transition-duration: 0.2s;
+    }
+
+    /* Avoid large blur effects on mobile */
+    .mobile-blur,
+    .blur-background {
+        -webkit-backdrop-filter: none;
+        backdrop-filter: none;
+    }
+
+    /* Keep images from causing horizontal overflow */
+    img {
+        max-width: 100%;
+    }
+}
+
+/* Respect users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
