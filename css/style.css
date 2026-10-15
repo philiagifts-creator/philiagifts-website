@@ -14251,19 +14251,18 @@ html {
 }
 
 /* MOVING PROGRESS INDICATOR */
+
 .scroll-progress-thumb {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  width: 100%;
-  height: 0%;
-
-  background: #8c7662;
-  border-radius: 20px;
-
-  transition: height 0.1s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: none;
 }
+
 
 /* MOBILE */
 @media (max-width: 768px) {
@@ -15019,7 +15018,7 @@ html {
    MOBILE: BRANDS & MEDIA FEATURE SECTIONS
 ======================================== */
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
 
     /* BRANDS SECTION */
     .brands-section {
@@ -15068,7 +15067,7 @@ html {
         max-width: 480px;
         margin: 0 auto 18px;
         padding: 0;
-        font-size: clamp(30px, 8vw, 40px);
+        font-size: 25px;
         line-height: 1.15;
         text-align: center;
         overflow-wrap: normal;
@@ -15080,8 +15079,8 @@ html {
         max-width: 440px;
         margin: 0 auto;
         padding: 0;
-        font-size: 16px;
-        line-height: 1.6;
+        font-size: 13px;
+        line-height: 1.4;
         text-align: center;
     }
 
@@ -15145,7 +15144,7 @@ html {
         max-width: 440px;
         margin: 0 auto 16px;
         padding: 0;
-        font-size: clamp(30px, 8vw, 40px);
+        font-size: 25px;
         line-height: 1.15;
         text-align: center;
     }
@@ -15155,8 +15154,8 @@ html {
         max-width: 440px;
         margin: 0 auto;
         padding: 0;
-        font-size: 16px;
-        line-height: 1.6;
+        font-size: 13px;
+        line-height: 1.4;
         text-align: center;
     }
 
