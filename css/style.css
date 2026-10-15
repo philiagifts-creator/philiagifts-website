@@ -15289,3 +15289,12 @@ body {
         display: none !important;
     }
 }
+
+/* Temporary iPhone scrolling diagnostic */
+@media (max-width: 1300px) {
+    header {
+        -webkit-backdrop-filter: none !important;
+        backdrop-filter: none !important;
+        background: #fff !important;
+    }
+}
