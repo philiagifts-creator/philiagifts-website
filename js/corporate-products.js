@@ -1152,7 +1152,7 @@ const corporateProducts = [
     ],
 
     inclusions: [
-        "Hard Box",
+        "Hard Box Packaging",
         "Customized Gift Tag",
         "Ribbon"
     ],
@@ -1209,7 +1209,7 @@ const corporateProducts = [
     ],
 
     inclusions: [
-        "Hard Box",
+        "Hard Box Packaging",
         "Ribbon and Tag"
     ],
 
@@ -2680,7 +2680,7 @@ const corporateProducts = [
     ],
     description: "A practical corporate gift set featuring a customized planner and tumbler, ideal for employees, clients, and corporate events.",
     inclusions: [
-        "Hard Box",
+        "Hard Box Packaging",
         "Customized Tag",
         "Ribbon"
     ],
@@ -2720,7 +2720,7 @@ const corporateProducts = [
     ],
     description: "A premium appreciation gift set featuring a journal notebook, insulated tumbler, and wooden desk clock, presented in elegant hard box packaging.",
     inclusions: [
-        "Hard Box",
+        "Hard Box Packaging",
         "Customized Tag",
         "Ribbon"
     ],
@@ -2760,7 +2760,7 @@ const corporateProducts = [
     ],
     description: "A premium corporate gift set featuring a sheepskin notebook, insulated coffee cup with temperature display, and sign pen set.",
     inclusions: [
-        "Hard Box",
+        "Hard Box Packaging",
         "Customized Tag",
         "Ribbon"
     ],
@@ -2838,7 +2838,7 @@ const corporateProducts = [
     ],
     description: "A premium corporate gift set featuring a leather pouch, insulated coffee cup with temperature display, and sign pen set.",
     inclusions: [
-        "Hard Box",
+        "Hard Box Packaging",
         "Customized Tag",
         "Ribbon"
     ],
@@ -2876,7 +2876,7 @@ minimumOrder:10,
 bestseller:false,
 images:["images/products/corporate/officeonthego/1.webp","images/products/corporate/officeonthego/2.webp","images/products/corporate/officeonthego/3.webp","images/products/corporate/officeonthego/4.webp"],
 description:"A practical corporate gift set featuring a customized mini umbrella and sign pen set, ideal for employees, clients, events, and business giveaways.",
-inclusions:["Hard Box","Customized Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Tag","Ribbon"],
 addons:[]
 },
 
@@ -2915,7 +2915,7 @@ addons:[]
         "images/products/corporate/corporateeco/7.webp"
     ],
     description: "A premium corporate gift set featuring a coffee cup with thermal display, bamboo pen, two ink refills, and a vegan leather case.",
-    inclusions: ["Hard Box","Customized Tag","Ribbon"],
+    inclusions: ["Hard Box Packaging","Customized Tag","Ribbon"],
     addons: [
     ]
 },
@@ -2947,7 +2947,7 @@ addons:[]
     bestseller: false,
     images: ["images/products/corporate/thesterlingset/1.webp","images/products/corporate/thesterlingset/2.webp","images/products/corporate/thesterlingset/3.webp","images/products/corporate/thesterlingset/4.webp","images/products/corporate/thesterlingset/5.webp"],
     description: "A premium corporate gift set featuring a coffee cup with thermal display, bamboo pen with 2pcs gel ink refill, and vegan leather case and pouch, ideal for employees, clients, and corporate events.",
-    inclusions: ["Hard Box","Customized Tag","Ribbon"],
+    inclusions: ["Hard Box Packaging","Customized Tag","Ribbon"],
     addons: []
 },
 
@@ -2998,7 +2998,7 @@ minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/corpoclassic/1.webp","images/products/corporate/corpoclassic/2.webp","images/products/corporate/corpoclassic/3.webp"],
 description:"A premium corporate gift set featuring a leather pouch, insulated coffee cup with temperature display, and sign pen set, ideal for employees, clients, and corporate events.",
-inclusions:["Hard Box","Customized Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Tag","Ribbon"],
 addons:[]
 },
 
@@ -3030,7 +3030,7 @@ minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/timelesskit/1.webp","images/products/corporate/timelesskit/2.webp","images/products/corporate/timelesskit/3.webp","images/products/corporate/timelesskit/4.webp"],
 description:"A premium corporate gift set featuring a watch organizer and leather pouch, ideal for employees, clients, and corporate events.",
-inclusions:["Hard Box","Customized Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Tag","Ribbon"],
 addons:[]
 },
 
@@ -3094,7 +3094,7 @@ minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/craftedpourset/1.webp","images/products/corporate/craftedpourset/2.webp","images/products/corporate/craftedpourset/3.webp","images/products/corporate/craftedpourset/4.webp","images/products/corporate/craftedpourset/5.webp","images/products/corporate/craftedpourset/6.webp","images/products/corporate/craftedpourset/7.webp","images/products/corporate/craftedpourset/8.webp"],
 description:"A premium coffee gift set featuring a coffee pack, coffee press, honey with dipper, and Nordic mug, ideal for clients, employees, and corporate gifting.",
-inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
@@ -3142,7 +3142,7 @@ bestseller:false,
 images:["images/products/corporate/medicalkit/1.webp","images/products/corporate/medicalkit/2.webp","images/products/corporate/medicalkit/3.webp","images/products/corporate/medicalkit/4.webp","images/products/corporate/medicalkit/5.webp","images/products/corporate/medicalkit/6.webp"],
 description:"A practical corporate wellness set combining everyday essentials with a comprehensive first aid kit, collapsible tumbler, power bank, and charging cable set for workplace, travel, and emergency preparedness.",
 keywords:["medical gift set","first aid kit","corporate medical kit","emergency kit","first aid gift set","corporate wellness gift","employee wellness kit","power bank","collapsible tumbler","charging cable set","emergency preparedness","corporate giveaways","employee gifts","company giveaways","medical giveaways","Philia Gifts"],
-inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
@@ -3174,7 +3174,7 @@ bestseller:false,
 images:["images/products/corporate/brewbreeze/1.webp","images/products/corporate/brewbreeze/2.webp","images/products/corporate/brewbreeze/3.webp","images/products/corporate/brewbreeze/4.webp","images/products/corporate/brewbreeze/5.webp","images/products/corporate/brewbreeze/6.webp"],
 description:"A premium corporate gift set featuring an insulated coffee cup and LED handheld fan, combining everyday convenience with sleek customized presentation.",
 keywords:["brew and breeze","brew breeze","corporate gift set","coffee cup gift set","insulated coffee cup","coffee tumbler","led handheld fan","handheld fan","portable fan","corporate giveaways","company giveaways","employee gift","client gift","customized corporate gift","premium corporate gift","Philia Gifts"],
-inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
@@ -3190,7 +3190,7 @@ bestseller:false,
 images:["images/products/corporate/maisongold/1.webp","images/products/corporate/maisongold/2.webp","images/products/corporate/maisongold/3.webp","images/products/corporate/maisongold/4.webp","images/products/corporate/maisongold/5.webp","images/products/corporate/maisongold/6.webp","images/products/corporate/maisongold/7.webp"],
 description:"An elegant corporate gift set featuring a tumbler, notebook, and pen, thoughtfully presented for clients, employees, and special corporate occasions.",
 keywords:["maison gold set","corporate gift set","tumbler gift set","notebook gift set","pen gift set","corporate giveaway","employee gift","client gift","premium corporate gift","customized corporate gift","Philia Gifts"],
-inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
@@ -3206,7 +3206,7 @@ minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/marblecoffee/1.webp","images/products/corporate/marblecoffee/2.webp","images/products/corporate/marblecoffee/3.webp","images/products/corporate/marblecoffee/4.webp","images/products/corporate/marblecoffee/5.webp"],
 description:"A coffee gift set featuring a marble mug paired with a box coffee drip packs, ideal for corporate gifting and thoughtful appreciation gifts.",
-inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
@@ -3252,7 +3252,7 @@ name:"Gentleman's Heritage Set",
 price:920,
 minimumOrder:0,
 bestseller:false,
-images:["images/products/corporate/gentlemansheritageset/1.webp","images/products/corporate/gentlemansheritageset/2.webp"],
+images:["images/products/corporate/gentlemansheritageset/1.jpg","images/products/corporate/gentlemansheritageset/2.jpg"],
 description:"A sophisticated gift set featuring a personalized wine flask, shot glass, 50ml mini Black Label, and wooden bottle opener keychain, ideal for corporate gifting and executive appreciation.",
 inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
 addons:[{name:"Upgrade to Hard Box",price:150},{name:"Dried Flower Bouquet",price:100}]

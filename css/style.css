@@ -14952,10 +14952,12 @@ html {
     }
 
     .media-feature-heading h2 {
-        margin-bottom: 18px;
-        font-size: clamp(34px, 7vw, 44px);
-        line-height: 1.12;
-    }
+      margin: 0 0 14px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.15;
+    color: #392E28;
 
     .media-feature-heading p {
         font-size: 14px;
@@ -14971,6 +14973,23 @@ html {
         margin-top: 14px;
         font-size: 11px;
     }
+
+    .brands-heading h2 {
+    margin: 0 0 14px;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.15;
+    color: #392E28;
+}
+
+.brands-heading p {
+       margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #766A62;
+}
 }
 
 /* SMALL MOBILE */
@@ -14992,5 +15011,213 @@ html {
 
     .media-feature-heading p {
         font-size: 13px;
+    }
+}
+
+
+/* ========================================
+   MOBILE: BRANDS & MEDIA FEATURE SECTIONS
+======================================== */
+
+@media (max-width: 768px) {
+
+    /* BRANDS SECTION */
+    .brands-section {
+        padding: 55px 18px 45px;
+        overflow: hidden;
+    }
+
+    .brands-container {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .brands-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto 28px;
+    }
+
+    /* TRUSTED BY TAG */
+    .brands-heading .section-tag {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative;
+        margin: 0 auto 24px;
+        padding: 12px 30px;
+        border-radius: 50px;
+        background: #dfc397;
+        color: #8c6c57;
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        line-height: 1.2;
+        white-space: nowrap;
+        z-index: 1;
+    }
+
+    .brands-heading h2 {
+        width: 100%;
+        max-width: 480px;
+        margin: 0 auto 18px;
+        padding: 0;
+        font-size: clamp(30px, 8vw, 40px);
+        line-height: 1.15;
+        text-align: center;
+        overflow-wrap: normal;
+        word-break: normal;
+    }
+
+    .brands-heading p {
+        width: 100%;
+        max-width: 440px;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    /* BRANDS IMAGE */
+    .brands-image-wrapper {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .brands-image-wrapper img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+
+    /* MEDIA FEATURE SECTION */
+    .media-feature-section {
+        width: 100%;
+        padding: 50px 18px 45px;
+        overflow: hidden;
+    }
+
+    .media-feature-heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto 26px;
+        text-align: center;
+    }
+
+    /* SPECIAL MILESTONE TAG */
+    .media-feature-heading .section-tag {
+        display: inline-flex !important;
+        align-items: center;
+        justify-content: center;
+        visibility: visible !important;
+        opacity: 1 !important;
+        position: relative;
+        margin: 0 auto 22px;
+        padding: 12px 24px;
+        border-radius: 50px;
+        background: #dfc397;
+        color: #8c6c57;
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        line-height: 1.2;
+        white-space: nowrap;
+        z-index: 1;
+    }
+
+    .media-feature-heading h2 {
+        width: 100%;
+        max-width: 440px;
+        margin: 0 auto 16px;
+        padding: 0;
+        font-size: clamp(30px, 8vw, 40px);
+        line-height: 1.15;
+        text-align: center;
+    }
+
+    .media-feature-heading p {
+        width: 100%;
+        max-width: 440px;
+        margin: 0 auto;
+        padding: 0;
+        font-size: 16px;
+        line-height: 1.6;
+        text-align: center;
+    }
+
+    /* FEATURE IMAGE */
+    .media-feature-image {
+        width: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 10px;
+    }
+
+    .media-feature-image img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .media-feature-caption {
+        margin: 14px auto 0;
+        padding: 0 5px;
+        font-size: 13px;
+        line-height: 1.5;
+        text-align: center;
+    }
+}
+
+
+/* EXTRA SMALL PHONES */
+@media (max-width: 380px) {
+
+    .brands-section,
+    .media-feature-section {
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .brands-heading h2,
+    .media-feature-heading h2 {
+        font-size: 25px;
+    }
+
+    .brands-heading p,
+    .media-feature-heading p {
+            margin: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #66574E;
+    }
+
+    .brands-heading .section-tag {
+        padding: 11px 25px;
+        font-size: 11px;
+    }
+
+    .media-feature-heading .section-tag {
+        padding: 11px 18px;
+        font-size: 10px;
+        letter-spacing: 1.5px;
     }
 }
