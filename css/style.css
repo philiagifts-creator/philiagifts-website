@@ -15298,3 +15298,25 @@ body {
         background: #fff !important;
     }
 }
+
+
+/* SITE-WIDE SCROLLING PERFORMANCE TEST */
+@media (max-width: 1300px) {
+    *,
+    *::before,
+    *::after {
+        animation-duration: 0s !important;
+        transition-duration: 0s !important;
+        scroll-behavior: auto !important;
+    }
+
+    header,
+    .navbar,
+    .mobile-menu,
+    .page-scroll-nav,
+    .scroll-progress-track,
+    .scroll-progress-thumb {
+        -webkit-backdrop-filter: none !important;
+        backdrop-filter: none !important;
+    }
+}
