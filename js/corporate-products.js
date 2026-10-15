@@ -3242,4 +3242,20 @@ inclusions:[],
 addons:[{name:"Regular Box",price:80},{name:"Hard Box",price:150}]
 },
 
+{
+id:1079,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1079",
+keywords:["gentleman's heritage set","personalized wine flask","shot glass gift set","mini Black Label","wooden bottle opener","corporate gift set","executive gift","client gift","Philia Gifts"],
+name:"Gentleman's Heritage Set",
+price:920,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/gentlemansheritageset/1.webp","images/products/corporate/gentlemansheritageset/2.webp"],
+description:"A sophisticated gift set featuring a personalized wine flask, shot glass, 50ml mini Black Label, and wooden bottle opener keychain, ideal for corporate gifting and executive appreciation.",
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Upgrade to Hard Box",price:150},{name:"Dried Flower Bouquet",price:100}]
+},
+
 ].sort((a, b) => b.price - a.price);

@@ -490,7 +490,7 @@ keywords: [
 ],
 
 inclusions: [
-    "Hard Box",
+    "Hard Box Packaging",
     "Customized Gift Tag",
     "Ribbon",
 ],
@@ -1424,7 +1424,7 @@ addons: [
     description: "Wrap your loved ones in comfort with a beautifully curated gift set featuring a personalized soft cashmere shawl and leather pouch, elegantly presented in a premium hard box. A timeless choice for ninangs, mothers, bridesmaids, and treasured friends.",
 
     inclusions: [
-        "Hard Box",
+        "Hard Box Packaging",
         "Customized Gift Tag",
         "Ribbon"
     ],
@@ -1621,7 +1621,14 @@ addons: [
 
     images: [
         "images/products/wedding/gents/1.webp",
-        "images/products/wedding/gents/2.webp"
+        "images/products/wedding/gents/2.webp",
+        "images/products/wedding/gents/3.webp",
+        "images/products/wedding/gents/4.webp",
+        "images/products/wedding/gents/5.webp",
+        "images/products/wedding/gents/6.webp",
+        "images/products/wedding/gents/7.webp",
+        "images/products/wedding/gents/8.webp",
+        "images/products/wedding/gents/9.webp",
     ],
 
     description: "Featuring a personalized wine flask, shot glass, mini Black Label (50ml), and wooden bottle opener keychain, this sophisticated gift set is thoughtfully curated to thank groomsmen, ninongs, and sponsors with a practical keepsake they'll appreciate and use for years to come.",
@@ -1634,7 +1641,7 @@ addons: [
 
     addons: [
         {
-            name: "Personalized Hard Box",
+            name: "Upgrade to Hard Box",
             price: 150
         },
         {
@@ -1871,7 +1878,7 @@ addons: [
     description: "Create a thoughtful moment of comfort with this elegant wellness gift set featuring a soft towel, room & linen spray, and car diffuser, beautifully presented in a premium hard box. A perfect keepsake for ninangs, mothers, bridesmaids, and cherished friends.",
 
     inclusions: [
-        "Hard Box",
+        "Hard Box Packaging",
         "Customized Gift Tag",
         "Ribbon"
     ],
@@ -1989,7 +1996,7 @@ addons: [
     description: "Inspired by the elegance of the lotus flower, this personalized lamp made from capiz shell creates a warm and relaxing glow that beautifully complements any home. A thoughtful keepsake for sponsors and loved ones to cherish long after your special day.",
 
     inclusions: [
-        "Hard Box",
+        "Hard Box Packaging",
         "Customized Gift Tag",
         "Ribbon"
     ],
@@ -2107,7 +2114,7 @@ addons: [
             price: 30
         },
         {
-            name: "Hard Box with Name",
+            name: "Upgrade to Hard Box with Name",
             price: 150
         },
     ]
@@ -2718,7 +2725,7 @@ addons: [
             price: 30
         },
         {
-            name: "Hard Box with Name",
+            name: "Upgrade to Hard Box with Name",
             price: 200
         },
     ]
@@ -3188,7 +3195,7 @@ addons: [
 
     addons: [
         {
-            name: "Personalized Hard Box",
+            name: "Upgrade to Hard Box",
             price: 200
         },
         {
@@ -3262,7 +3269,7 @@ addons: [
 
     addons: [
         {
-            name: "Personalized Hard Box",
+            name: "Upgrade to Hard Box",
             price: 150
         },
         {
@@ -3970,7 +3977,7 @@ addons: [
     addons: [
         {
            name: "Upgrade to Hard Box",
-            price: 120
+            price: 150
         },
         {
             name: "Essential Oil",
@@ -4178,12 +4185,21 @@ addons: [
     category: "wedding",
     section: "gift-set",
     name: "Nordic Mug A",
-    price: 350,
+    price: 370,
     minimumOrder: 0,
     images: [
         "images/products/wedding/nordicmugA/1.webp",
         "images/products/wedding/nordicmugA/2.webp",
-        "images/products/wedding/nordicmugA/3.webp"
+        "images/products/wedding/nordicmugA/3.webp",
+        "images/products/wedding/nordicmugA/4.webp",
+        "images/products/wedding/nordicmugA/5.webp",
+        "images/products/wedding/nordicmugA/6.webp",
+        "images/products/wedding/nordicmugA/7.webp",
+        "images/products/wedding/nordicmugA/8.webp",
+        "images/products/wedding/nordicmugA/9.webp",
+        "images/products/wedding/nordicmugA/10.webp",
+        "images/products/wedding/nordicmugA/11.webp",
+        "images/products/wedding/nordicmugA/12.webp",
     ],
     description: "A personalized Nordic mug with a natural wooden lid and matching wooden spoon, thoughtfully packaged as an elegant wedding gift or keepsake.",
     inclusions: [
@@ -4258,7 +4274,7 @@ addons: [
             price: 30
         },
         {
-            name: "Hard Box with Name",
+            name: "Upgrade to Hard Box",
             price: 150
         },
     ]
@@ -4506,7 +4522,7 @@ addons: [
 
     addons: [
         {
-            name: "Hard Box",
+            name: "Upgrade to Hard Box",
             price: 100
         }
     ]
@@ -5787,7 +5803,7 @@ minimumOrder:10,
 bestseller:false,
 images:["images/products/wedding/cozyandchic/1.webp","images/products/wedding/cozyandchic/2.webp","images/products/wedding/cozyandchic/3.webp","images/products/wedding/cozyandchic/4.webp","images/products/wedding/cozyandchic/5.webp","images/products/wedding/cozyandchic/6.webp"],
 description:"A cozy and chic personalized gift set featuring a Nordic mug with spoon and lid, paddle hair brush, and scrunchy, beautifully presented in a hard box for weddings and special celebrations.",
-inclusions:["Hard Box","Customized Name","Ribbon and Tag"],
+inclusions:["Hard Box Packaging","Customized Name","Ribbon and Tag"],
 addons:[]
 },
 
@@ -5819,7 +5835,7 @@ minimumOrder: 0,
 bestseller:false,
 images:["images/products/wedding/glamourandgo/1.webp","images/products/wedding/glamourandgo/2.webp","images/products/wedding/glamourandgo/3.webp","images/products/wedding/glamourandgo/4.webp","images/products/wedding/glamourandgo/5.webp","images/products/wedding/glamourandgo/6.webp","images/products/wedding/glamourandgo/7.webp","images/products/wedding/glamourandgo/8.webp"],
 description:"A stylish gift set featuring a clutch bag, insulated coffee cup, and passport holder, beautifully presented in a hard box for weddings, celebrations, and special occasions.",
-inclusions:["Hard Box","Customized Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Tag","Ribbon"],
 addons:[]
 },
 
@@ -5835,7 +5851,7 @@ minimumOrder: 0,
 bestseller:false,
 images:["images/products/wedding/woodendelights/1.webp","images/products/wedding/woodendelights/2.webp","images/products/wedding/woodendelights/3.webp","images/products/wedding/woodendelights/4.webp","images/products/wedding/woodendelights/5.webp"],
 description:"A premium wooden gift set featuring a wooden tea cup, 2pcs small bowls or saucers, a heart-shaped bowl, and a square-shaped bowl, ideal for weddings and special occasions.",
-inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
@@ -5851,7 +5867,7 @@ minimumOrder: 0,
 bestseller:false,
 images:["images/products/wedding/crystaltoast/1.webp","images/products/wedding/crystaltoast/2.webp","images/products/wedding/crystaltoast/3.webp","images/products/wedding/crystaltoast/4.webp"],
 description:"A premium wedding gift set featuring 2pcs crystal wine glasses and a 200ml Mini Yellow Tail Rose Wine, ideal for weddings and special occasions.",
-inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
@@ -5899,7 +5915,7 @@ minimumOrder:0,
 bestseller:false,
 images:["images/products/wedding/craftedpourset/1.webp","images/products/wedding/craftedpourset/2.webp","images/products/wedding/craftedpourset/3.webp","images/products/wedding/craftedpourset/4.webp","images/products/wedding/craftedpourset/5.webp","images/products/wedding/craftedpourset/6.webp","images/products/wedding/craftedpourset/7.webp","images/products/wedding/craftedpourset/8.webp"],
 description:"A premium coffee gift set featuring a coffee pack, coffee press, honey with dipper, and Nordic mug, thoughtfully curated for weddings and special recipients.",
-inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 
@@ -5931,7 +5947,7 @@ minimumOrder:0,
 bestseller:false,
 images:["images/products/wedding/marblecoffee/1.webp","images/products/wedding/marblecoffee/2.webp","images/products/wedding/marblecoffee/3.webp","images/products/wedding/marblecoffee/4.webp","images/products/wedding/marblecoffee/5.webp"],
 description:"A coffee gift set featuring a marble mug paired with a box of coffee drip packs, ideal for wedding giveaways and thoughtful gifts for sponsors and guests.",
-inclusions:["Hard Box","Customized Gift Tag","Ribbon"],
+inclusions:["Hard Box Packaging","Customized Gift Tag","Ribbon"],
 addons:[]
 },
 

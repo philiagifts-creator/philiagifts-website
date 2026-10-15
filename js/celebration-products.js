@@ -992,7 +992,7 @@ addons: [
         price: 30
     },
     {
-        name: "Hard Box with Name",
+        name: "Upgrade to Hard Box",
         price: 150
     }
 ]
@@ -1303,7 +1303,7 @@ addons: [
 
     name: "Nordic Mug B",
 
-    price: 350,
+    price: 370,
     minimumOrder: 0,
 
     bestseller: true,
@@ -1335,7 +1335,7 @@ addons: [
 
     addons: [
         {
-            name: "Personalized Hard Box",
+            name: "Upgrade to Hard Box",
             price: 100
         },
         {
@@ -1456,9 +1456,8 @@ addons: [
         "images/products/celebration/clock/7.webp",
         "images/products/celebration/clock/8.webp",
         "images/products/celebration/clock/9.webp",
-        "images/products/celebration/clock/10.webp",
+        "images/products/celebration/clock/10.webp", 
         "images/products/celebration/clock/11.webp",
-        "images/products/celebration/clock/12.webp",
 
 
         ],
@@ -1472,15 +1471,19 @@ addons: [
 
     addons: [
         {
-            name: "Plastic Packaging with Ribbon and Tag",
+            name: "Plastic Packaging",
             price: 20
         },
         {
-            name: "Box Packaging with Ribbon and Tag",
+            name: "Corrugated Box Packaging",
             price: 50
         },
         {
-            name: "Abaca Bag Packaging with Ribbon and Tag",
+            name: "Window Box Packaging",
+            price: 50
+        },
+        {
+            name: "Abaca Bag Packaging",
             price: 60
         }
     ]
@@ -1558,8 +1561,8 @@ addons: [
 
     addons: [
         {
-            name: "Hard Box",
-            price: 150
+            name: "Upgrade to Hard Box",
+            price: 100
         },
         {
             name: "Picture/Image",
@@ -2986,7 +2989,7 @@ images:["images/products/celebration/watchorg/1.webp","images/products/celebrati
 description:"A personalized wooden watch organizer with an elegant display, offering a refined and practical keepsake for birthdays, anniversaries, and other special celebrations.",
 keywords:["watch organizer","wooden watch organizer","personalized watch organizer","customized watch organizer","watch box","wooden watch box","personalized watch box","gift for him","celebration gift","birthday gift","anniversary gift","keepsake gift","Philia Gifts"],
 inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
-addons:[{name:"Name on the Box",price:30},{name:"Hard Box with Name",price:150}]
+addons:[{name:"Name on the Box",price:30},{name:"Upgrade to Hard Box",price:150}]
 },
 
 {
@@ -3109,7 +3112,7 @@ addons:[]
   inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
   addons: [
     { name: "Name on the Box", price: 30 },
-    { name: "Hard Box with Name", price: 200 }
+    { name: "Upgrade to Hard Box", price: 150 }
   ]
 },
 
@@ -3159,6 +3162,22 @@ images:["images/products/celebration/leatherorganizer/1.webp","images/products/c
 description:"A large leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for celebrations and thoughtful gifts.",
 inclusions:[],
 addons:[{name:"Regular Box",price:80},{name:"Hard Box",price:150}]
+},
+
+{
+id:2072,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2072",
+keywords:["gentleman's heritage set","personalized wine flask","shot glass gift set","mini Black Label","wooden bottle opener","celebration gift","men's gift set","Philia Gifts"],
+name:"Gentleman's Heritage Set",
+price:920,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/gentlemansheritageset/1.webp","images/products/celebration/gentlemansheritageset/2.webp"],
+description:"A sophisticated gift set featuring a personalized wine flask, shot glass, 50ml mini Black Label, and wooden bottle opener keychain, ideal for celebrations and thoughtful gifts.",
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Upgrade to Hard Box",price:150},{name:"Dried Flower Bouquet",price:100}]
 },
 
 ].sort((a, b) => b.price - a.price);
