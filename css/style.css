@@ -15271,3 +15271,14 @@ body {
         transition-duration: 0.01ms !important;
     }
 }
+
+
+/* iPhone scrolling performance test */
+@media (max-width: 768px) {
+    header {
+        -webkit-backdrop-filter: none !important;
+        backdrop-filter: none !important;
+        background: #fff !important;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+    }
+}
