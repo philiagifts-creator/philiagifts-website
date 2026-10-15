@@ -15320,3 +15320,12 @@ body {
         backdrop-filter: none !important;
     }
 }
+
+/* Mobile rendering fix: disable fixed backgrounds */
+@media (max-width: 1300px) {
+    *,
+    *::before,
+    *::after {
+        background-attachment: scroll !important;
+    }
+}
