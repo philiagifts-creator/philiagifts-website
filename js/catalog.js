@@ -253,35 +253,23 @@ const sections=[
 
 ];
 
-window.addEventListener("scroll",()=>{
 
-    const scrollPosition=
+const sectionObserver = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
 
-        window.scrollY+180;
-
-    sections.forEach(section=>{
-
-        const el=document.getElementById(section.id);
-
-        if(!el) return;
-
-        if(
-
-            scrollPosition>=el.offsetTop &&
-
-            scrollPosition<
-
-            el.offsetTop+
-
-            el.offsetHeight
-
-        ){
-
-            setActiveButton(section.button);
-
+        if (entry.target.id === "gift-sets") {
+            setActiveButton(sponsorsBtn);
+        } else if (entry.target.id === "guest-giveaways") {
+            setActiveButton(guestsBtn);
         }
-
     });
-
+}, {
+    rootMargin: "-180px 0px -60% 0px",
+    threshold: 0
 });
+
+document.querySelectorAll("#gift-sets, #guest-giveaways")
+    .forEach((section) => sectionObserver.observe(section));
+
 

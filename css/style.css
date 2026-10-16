@@ -28,11 +28,14 @@ img{
     height:auto;
 }
 
-html,
-body{
-    overflow-x: hidden;
+html {
+    overflow-x: clip;
     overflow-y: auto;
-    -webkit-overflow-scrolling: touch;
+}
+
+body {
+    overflow-x: clip;
+    overflow-y: visible;
 }
 /* ==========================
    NAVIGATION
@@ -4256,6 +4259,15 @@ REQUEST A QUOTE
 
 }
 
+
+/* Mobile scrolling performance fix */
+@media screen and (max-width: 1300px) {
+    .quote-page {
+        background-attachment: scroll !important;
+    }
+}
+
+
 .checkout-progress{
 
     position:fixed;
@@ -6616,7 +6628,7 @@ to{
 
 .footer-bottom p{
     color:rgba(255,255,255,.7);
-    font-size:14px;
+    font-size:12px;
     margin:0;
 }
 
@@ -6696,7 +6708,7 @@ to{
     position:absolute;
     left:0;
     top:10px;
-    height:260px;
+    height:auto;
     width:1px;
     background:rgba(183, 156, 156, 0.12);
 }
@@ -6759,8 +6771,9 @@ header{
 }
 
 body{
-
+    margin:0;
     padding-top:50px;
+    
 
 }
 
@@ -14161,127 +14174,6 @@ header {
 }
 }
 
-/* ===== PHILIA GIFTS SCROLLBAR ===== */
-
-/* Firefox */
-html {
-  scrollbar-width: thin;
-  scrollbar-color: #9b8b79 #f3eee7;
-}
-
-/* Chrome, Safari, Edge */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f3eee7;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #9b8b79;
-  border-radius: 10px;
-  border: 2px solid #f3eee7;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #766656;
-}
-
-/* ===== FLOATING PAGE SCROLL NAVIGATION ===== */
-
-.page-scroll-nav {
-  position: fixed;
-  right: 14px;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 9999;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-}
-
-/* UP & DOWN BUTTONS */
-.scroll-nav-btn {
-  width: 34px;
-  height: 34px;
-
-  border: 1px solid rgba(90, 72, 55, 0.18);
-  border-radius: 50%;
-
-  background: rgba(250, 247, 242, 0.95);
-  color: #6f5d4c;
-
-  font-size: 18px;
-  line-height: 1;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  cursor: pointer;
-
-  box-shadow: 0 3px 12px rgba(60, 45, 30, 0.10);
-
-  transition:
-    transform 0.2s ease,
-    background 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.scroll-nav-btn:hover {
-  background: #eee5da;
-  transform: scale(1.08);
-  box-shadow: 0 4px 15px rgba(60, 45, 30, 0.16);
-}
-
-/* VERTICAL PROGRESS TRACK */
-.scroll-progress-track {
-  position: relative;
-
-  width: 5px;
-  height: 110px;
-
-  background: rgba(111, 93, 76, 0.15);
-  border-radius: 20px;
-
-  overflow: hidden;
-}
-
-/* MOVING PROGRESS INDICATOR */
-
-.scroll-progress-thumb {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: scaleY(0);
-    transform-origin: top;
-    transition: none;
-}
-
-
-/* MOBILE */
-@media (max-width: 768px) {
-  .page-scroll-nav {
-    right: 8px;
-  }
-
-  .scroll-nav-btn {
-    width: 30px;
-    height: 30px;
-    font-size: 16px;
-  }
-
-  .scroll-progress-track {
-    height: 80px;
-    width: 4px;
-  }
-}
-
 /* ==================================================
    PRODUCT PAGE — QUANTITY SELECTOR
    Perfectly centered on all screen sizes
@@ -15271,61 +15163,44 @@ body {
     }
 }
 
-
-/* iPhone scrolling performance test */
-@media (max-width: 768px) {
-    header {
-        -webkit-backdrop-filter: none !important;
-        backdrop-filter: none !important;
-        background: #fff !important;
-        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
-    }
-}
-
-
-/* Temporary scrolling performance test */
+/* MOBILE: prevent extra scroll space after the footer */
 @media (max-width: 1300px) {
-    .page-scroll-nav {
+    html {
+        height: auto !important;
+        min-height: 0 !important;
+        overflow-y: auto !important;
+    }
+
+    body {
+        height: auto !important;
+        max-height: none !important;
+        min-height: 0 !important;
+        margin-bottom: 0 !important;
+        padding-bottom: 0 !important;
+        overflow-y: visible !important;
+    }
+
+    body::after,
+    html::after {
+        content: none !important;
         display: none !important;
     }
 }
 
-/* Temporary iPhone scrolling diagnostic */
-@media (max-width: 1300px) {
-    header {
-        -webkit-backdrop-filter: none !important;
-        backdrop-filter: none !important;
-        background: #fff !important;
-    }
-}
 
-
-/* SITE-WIDE SCROLLING PERFORMANCE TEST */
+/* FIX: Hide mobile menu until hamburger is clicked */
 @media (max-width: 1300px) {
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0s !important;
-        transition-duration: 0s !important;
-        scroll-behavior: auto !important;
+    #mobileMenu {
+        display: none !important;
     }
 
-    header,
-    .navbar,
-    .mobile-menu,
-    .page-scroll-nav,
-    .scroll-progress-track,
-    .scroll-progress-thumb {
-        -webkit-backdrop-filter: none !important;
-        backdrop-filter: none !important;
-    }
-}
-
-/* Mobile rendering fix: disable fixed backgrounds */
-@media (max-width: 1300px) {
-    *,
-    *::before,
-    *::after {
-        background-attachment: scroll !important;
+    #mobileMenu.active {
+        display: flex !important;
+        position: fixed !important;
+        inset: 0 !important;
+        width: 100% !important;
+        height: 100vh !important;
+        z-index: 99999 !important;
+        overflow-y: auto !important;
     }
 }
