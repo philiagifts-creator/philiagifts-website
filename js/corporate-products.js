@@ -843,7 +843,11 @@ const corporateProducts = [
     images: [
         "images/products/corporate/Totebag/1.webp",
         "images/products/corporate/Totebag/2.webp",
-        "images/products/corporate/Totebag/3.webp"
+        "images/products/corporate/Totebag/3.webp",
+        "images/products/corporate/Totebag/4.webp",
+        "images/products/corporate/Totebag/5.webp",
+        "images/products/corporate/Totebag/6.webp",
+        "images/products/corporate/Totebag/7.webp",
     ],
 
     description: "A durable two-tone canvas tote bag customized with your logo, designed for everyday use while keeping your brand visible. An eco-friendly corporate giveaway that combines style, functionality, and lasting value. (Size: 15 x 11 x 3 inches , 1000gsm)",
@@ -2251,7 +2255,11 @@ const corporateProducts = [
         "images/products/corporate/tumblerstraw/1.webp",
         "images/products/corporate/tumblerstraw/2.webp",
         "images/products/corporate/tumblerstraw/3.webp",
-        "images/products/corporate/tumblerstraw/4.webp"
+        "images/products/corporate/tumblerstraw/4.webp",
+        "images/products/corporate/tumblerstraw/5.webp",
+        "images/products/corporate/tumblerstraw/6.webp",
+        "images/products/corporate/tumblerstraw/7.webp",
+        "images/products/corporate/tumblerstraw/8.webp",
     ],
     description: "A 600 ml insulated tumbler with straw, customized with your company logo. A practical and stylish choice for corporate giveaways, employee gifts, client tokens, and promotional events.",
     keywords: [
