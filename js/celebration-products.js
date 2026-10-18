@@ -1480,7 +1480,7 @@ addons: [
         },
         {
             name: "Window Box Packaging",
-            price: 50
+            price: 60
         },
         {
             name: "Abaca Bag Packaging",
