@@ -4091,8 +4091,6 @@ REQUEST A QUOTE
 
     cursor:pointer;
 
-    transition:.25s;
-
 }
 .thumbnail-image:hover{
 
@@ -4130,7 +4128,6 @@ REQUEST A QUOTE
     border-radius:12px;
     cursor:pointer;
     border:2px solid transparent;
-    transition:.25s;
 
 }
 
