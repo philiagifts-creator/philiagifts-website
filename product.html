@@ -211,55 +211,58 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
 
 </header>
 
+
 <section class="product-details">
-<img src="images/about/products-bg.webp" class="section-bg" decoding="async">
+    <img
+        src="images/about/products-bg.webp"
+        class="section-bg"
+        decoding="async"
+        alt=""
+    >
+
     <div class="product-container">
 
-        <!-- LEFT -->
-
+        <!-- LEFT: PRODUCT GALLERY -->
         <div class="product-gallery">
 
-    <button
-        id="prevImage"
-        class="gallery-arrow left"
-    >
+            <button
+                id="prevImage"
+                class="gallery-arrow left"
+                type="button"
+                aria-label="Previous product image"
+            >
+                &lt;
+            </button>
 
-        <
+            <img
+                id="mainImage"
+                class="main-product-image"
+                src=""
+                alt=""
+                decoding="async"
+            >
 
-    </button>
+            <button
+                id="nextImage"
+                class="gallery-arrow right"
+                type="button"
+                aria-label="Next product image"
+            >
+                &gt;
+            </button>
 
-    <img
-        id="mainImage"
-        class="main-product-image"
-        src=""
-        alt=""
-        decoding="async"
-    >
+            <div
+                id="thumbnailGallery"
+                class="thumbnail-gallery"
+            ></div>
 
-    <button
-        id="nextImage"
-        class="gallery-arrow right"
-    >
+        </div>
 
-        >
-
-    </button>
-
-    <div
-        id="thumbnailGallery"
-        class="thumbnail-gallery"
-    ></div>
-
-</div>
-
-        <!-- RIGHT -->
-
+        <!-- RIGHT: PRODUCT INFORMATION -->
         <div class="product-content">
 
             <span class="product-category">
-
                 Product Details
-
             </span>
 
             <h1 id="productName"></h1>
@@ -275,123 +278,144 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
             ></p>
 
             <div class="option-group">
+                <label>What's Included?</label>
+                <ul id="includedList"></ul>
+            </div>
 
-                    <label>
+        </div>
 
-                        What's Included?
 
-                    </label>
+<!-- PRODUCT IMAGE LIGHTBOX -->
+<div
+    id="productLightbox"
+    class="product-lightbox"
+    aria-hidden="true"
+>
+    <button
+        type="button"
+        class="lightbox-close"
+        id="lightboxClose"
+        aria-label="Close image viewer"
+    >
+        &times;
+    </button>
 
-                    <ul id="includedList"></ul>
+    <button
+        type="button"
+        class="lightbox-arrow lightbox-prev"
+        id="lightboxPrev"
+        aria-label="Previous image"
+    >
+        &#10094;
+    </button>
 
-                </div>
+    <img
+        id="lightboxImage"
+        class="lightbox-image"
+        src=""
+        alt=""
+    >
 
-            <!-- REQUEST QUOTE -->
+    <button
+        type="button"
+        class="lightbox-arrow lightbox-next"
+        id="lightboxNext"
+        aria-label="Next image"
+    >
+        &#10095;
+    </button>
 
-            <div class="quote-request">
-
-                <h3>
-
-                    Request a Quote
-
-                </h3>
-
-                <p class="quote-intro">
-
-                    Estimate your order by selecting your preferred quantity and customization options.
-
-                </p>
-
-                <p id="minimumOrder"></p>
-
-                <!-- Quantity -->
-
-                <div class="option-group">
-
-                    <label>
-
-                        Quantity
-
-                    </label>
-
-                    <div class="quantity-selector">
-
-                        <button
-                            id="minusQty"
-                            class="qty-btn"
-                        >
-                            −
-                        </button>
-
-                        <input
-                            id="quantity"
-                            type="number"
-                            min="1"
-                            value="1"
-                        >
-
-                        <button
-                            id="plusQty"
-                            class="qty-btn"
-                        >
-                            +
-                        </button>
-
-                    </div>
-
-                </div>
-
-                <!-- Included -->
-
-                
-
-                <!-- Add-ons -->
-
-                <div class="option-group">
-
-                    <label>
-
-                        Optional Add-ons
-
-                    </label>
-
-                    <div id="addonOptions">
-
-                    </div>
-
-                </div>
-
-                <!-- Total -->
-
-                <div class="quote-summary">
-
-    <h4>
-
-        Quotation Summary
-
-    </h4>
-
-    <div id="quoteBreakdown">
-
+    <div
+        id="lightboxCounter"
+        class="lightbox-counter"
+        aria-live="polite"
+    >
+        1 / 1
     </div>
-
-<div class="review-total">
-
-    <h2>Total</h2>
-
-    <h2 id="quoteTotal" class="grand-total">
-        ₱0
-    </h2>
-
 </div>
+
+
+        <!-- FULL-WIDTH: REQUEST A QUOTE -->
+        <div class="quote-request">
+
+            <h3>Request a Quote</h3>
+
+            <p class="quote-intro">
+                Estimate your order by selecting your preferred
+                quantity and customization options.
+            </p>
+
+            <p id="minimumOrder"></p>
+
+            <!-- Quantity -->
+            <div class="option-group">
+
+                <label>Quantity</label>
+
+                <div class="quantity-selector">
+
+                    <button
+                        id="minusQty"
+                        class="qty-btn"
+                        type="button"
+                    >
+                        −
+                    </button>
+
+                    <input
+                        id="quantity"
+                        type="number"
+                        min="1"
+                        value="1"
+                    >
+
+                    <button
+                        id="plusQty"
+                        class="qty-btn"
+                        type="button"
+                    >
+                        +
+                    </button>
+
+                </div>
+
+            </div>
+
+            <!-- Optional Add-ons -->
+            <div class="option-group">
+
+                <label>Optional Add-ons</label>
+
+                <div id="addonOptions"></div>
+
+            </div>
+
+            <!-- Quotation Summary -->
+            <div class="quote-summary">
+
+                <h4>Quotation Summary</h4>
+
+                <div id="quoteBreakdown"></div>
+
+                <div class="review-total">
+
+                    <h2>Total</h2>
+
+                    <h2
+                        id="quoteTotal"
+                        class="grand-total"
+                    >
+                        ₱0
+                    </h2>
+
+                </div>
 
                 <button
                     class="primary-btn"
                     id="addQuoteBtn"
+                    type="button"
                 >
-
                     Add to Cart
-
                 </button>
 
             </div>
@@ -401,6 +425,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     </div>
 
 </section>
+
 
 <div id="successModal" class="modal">
 
