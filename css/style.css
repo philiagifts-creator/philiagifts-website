@@ -4121,69 +4121,7 @@ REQUEST A QUOTE
 
     position:relative;
 
-}
 
-.gallery-arrow{
-
-    position:absolute;
-
-    top:50%;
-
-    transform:translateY(-50%);
-
-    width:46px;
-
-    height:46px;
-
-    border:none;
-
-    border-radius:50%;
-
-    background:rgba(255,255,255,.92);
-
-    color:#3E302B;
-
-    cursor:pointer;
-
-    opacity:0;
-
-    pointer-events:none;
-
-    transition:.25s;
-
-    z-index:5;
-
-    box-shadow:0 6px 18px rgba(0,0,0,.15);
-
-}
-
-.product-gallery:hover .gallery-arrow{
-
-    opacity:1;
-
-    pointer-events:auto;
-
-}
-
-.gallery-arrow.left{
-
-    left:18px;
-
-}
-
-.gallery-arrow.right{
-
-    right:18px;
-
-}
-
-.gallery-arrow:hover{
-
-    background:#C79A4B;
-
-    color:white;
-
-}
 .thumbnail-image{
 
     width:90px;
@@ -16098,4 +16036,10 @@ body.lightbox-open {
     visibility: visible !important;
     pointer-events: auto !important;
 }
+}
+
+/* HIDE PRODUCT GALLERY ARROWS */
+.gallery-arrow,
+.product-gallery:hover .gallery-arrow {
+    display: none !important;
 }
