@@ -253,18 +253,28 @@ mainImage.addEventListener("keydown", event => {
     }
 });
 
-/* Open the selected thumbnail immediately */
+/* Open selected thumbnail — mobile and desktop */
+let lastThumbnailTap = 0;
+
 thumbnailGallery.addEventListener("click", event => {
     const thumbnail = event.target.closest(".thumbnail-image");
-
     if (!thumbnail) return;
 
-    event.preventDefault();
+    // Ignore the synthetic click after a mobile touch
+    if (Date.now() - lastThumbnailTap < 500) return;
 
-    const index = Number(thumbnail.dataset.index);
-
-    openLightbox(index);
+    openLightbox(Number(thumbnail.dataset.index));
 });
+
+thumbnailGallery.addEventListener("touchend", event => {
+    const thumbnail = event.target.closest(".thumbnail-image");
+    if (!thumbnail) return;
+
+    lastThumbnailTap = Date.now();
+
+    event.preventDefault();
+    openLightbox(Number(thumbnail.dataset.index));
+}, { passive: false });
 
 /* Viewer controls */
 lightboxClose.addEventListener("click", closeLightbox);
