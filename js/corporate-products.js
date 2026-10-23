@@ -3273,4 +3273,52 @@ inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
 addons:[{name:"Upgrade to Hard Box",price:150},{name:"Dried Flower Bouquet",price:100}]
 },
 
+{
+id:1080,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1080",
+keywords:["cozy morning set","manual coffee grinder","kalinga coffee beans","coffee mug gift set","honey with dipper","coffee gift set","corporate gift","coffee lover gift","Philia Gifts"],
+name:"The Cozy Morning Set",
+price:1850,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/cozymorning/1.webp","images/products/corporate/cozymorning/2.webp","images/products/corporate/cozymorning/3.webp","images/products/corporate/cozymorning/4.webp"],
+description:"A thoughtful coffee gift set featuring a manual coffee grinder, 60g of Kalinga coffee beans, a coffee mug, and 120ml of honey with a dipper, perfect for coffee lovers and corporate gifting.",
+inclusions:["Hard Box","Ribbon","Customized Gift Tag"],
+addons:[]
+},
+
+{
+id:1081,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1081",
+keywords:["ceramic coffee mug","personalized coffee mug","custom name mug","coffee mug giveaway","corporate mug","corporate giveaway","employee gift","client gift","Philia Gifts"],
+name:"Ceramic Coffee Mug",
+price:340,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/coffeemug/1.webp","images/products/corporate/coffeemug/2.webp","images/products/corporate/coffeemug/3.webp","images/products/corporate/coffeemug/4.webp","images/products/corporate/coffeemug/5.webp"],
+description:"A ceramic coffee mug personalized with a name, a practical corporate giveaway for employees, clients, and business events.",
+inclusions:["Gift Box","Ribbon","Customized Gift Tag"],
+addons:[{name:"Upgrade to Hard Box with Name",price:120}]
+},
+
+{
+id:1082,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1082",
+keywords:["soft elegance set","leather pouch","stamped leather pouch","soft smooth shawl","corporate gift set","corporate giveaway","personalized gift","shawl and pouch set","employee gift","client gift","Philia Gifts"],
+name:"The Soft Elegance Set",
+price:620,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/softelegance/1.webp","images/products/corporate/softelegance/2.webp","images/products/corporate/softelegance/3.webp","images/products/corporate/softelegance/4.webp","images/products/corporate/softelegance/5.webp","images/products/corporate/softelegance/6.webp","images/products/corporate/softelegance/7.webp","images/products/corporate/softelegance/8.webp","images/products/corporate/softelegance/9.webp"],
+description:"An elegant gift set featuring a leather pouch stamped with a name of up to 8 letters and a soft, smooth shawl, ideal for corporate gifting and employee or client appreciation.",
+inclusions:["Regular Box","Ribbon","Customized Gift Tag"],
+addons:[{name:"Name on the Box",price:30},{name:"Upgrade to Hard Box with Name",price:150}]
+},
+
 ].sort((a, b) => b.price - a.price);

@@ -2942,7 +2942,11 @@ addons: [
 
     addons: [
         {
-            name: "Upgrade to Hard Box",
+            name: "Name of the Box",
+            price: 30
+        },
+        {
+            name: "Upgrade to Hard Box with Name",
             price: 150
         },
         {
@@ -3102,8 +3106,6 @@ addons: [
           "images/products/wedding/WALLCLOCK/7.webp",
            "images/products/wedding/WALLCLOCK/8.webp",
             "images/products/wedding/WALLCLOCK/9.webp",
-             "images/products/wedding/WALLCLOCK/10.webp",
-              "images/products/wedding/WALLCLOCK/11.webp",
 
         ],
 
@@ -5983,6 +5985,54 @@ images:["images/products/wedding/leatherorganizer/1.webp","images/products/weddi
 description:"A large leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for wedding giveaways and thoughtful gifts.",
 inclusions:[],
 addons:[{name:"Regular Box",price:80},{name:"Hard Box",price:150}]
+},
+
+{
+id:110,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=110",
+keywords:["cozy morning set","manual coffee grinder","kalinga coffee beans","coffee mug gift set","honey with dipper","coffee gift set","wedding gift","wedding giveaway","coffee lover gift","Philia Gifts"],
+name:"The Cozy Morning Set",
+price:1850,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/wedding/cozymorning/1.webp","images/products/wedding/cozymorning/2.webp","images/products/wedding/cozymorning/3.webp","images/products/wedding/cozymorning/4.webp"],
+description:"A thoughtful coffee gift set featuring a manual coffee grinder, 60g of Kalinga coffee beans, a coffee mug, and 120ml of honey with a dipper, perfect for weddings and thoughtful gifts.",
+inclusions:["Hard Box with Name","Ribbon","Customized Gift Tag"],
+addons:[]
+},
+
+{
+id:111,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=111",
+keywords:["soft elegance set","leather pouch","stamped leather pouch","soft smooth shawl","wedding gift set","wedding giveaway","bridesmaid gift","principal sponsor gift","Philia Gifts"],
+name:"The Soft Elegance Set",
+price:620,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/wedding/softelegance/1.webp","images/products/wedding/softelegance/2.webp","images/products/wedding/softelegance/3.webp","images/products/wedding/softelegance/4.webp","images/products/wedding/softelegance/5.webp","images/products/wedding/softelegance/6.webp","images/products/wedding/softelegance/7.webp","images/products/wedding/softelegance/8.webp","images/products/wedding/softelegance/9.webp"],
+description:"An elegant gift set featuring a leather pouch stamped with a name of up to 8 letters and a soft, smooth shawl, perfect for wedding gifts and special recipients.",
+inclusions:["Regular Box","Ribbon","Customized Gift Tag"],
+addons:[{name:"Name on the Box",price:30},{name:"Upgrade to Hard Box with Name",price:150}]
+},
+
+{
+id:112,
+category:"wedding",
+section:"gift-set",
+page:"product.html?id=112",
+keywords:["ceramic coffee mug","personalized coffee mug","custom name mug","coffee mug giveaway","wedding mug","wedding souvenir","wedding giveaway","Philia Gifts"],
+name:"Ceramic Coffee Mug",
+price:340,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/wedding/coffeemug/1.webp","images/products/wedding/coffeemug/2.webp","images/products/wedding/coffeemug/3.webp","images/products/wedding/coffeemug/4.webp","images/products/wedding/coffeemug/5.webp"],
+description:"A ceramic coffee mug personalized with a name, a practical and thoughtful wedding giveaway for guests and special recipients.",
+inclusions:["Gift Box","Ribbon","Customized Gift Tag"],
+addons:[{name:"Upgrade to Hard Box with Name",price:120}]
 },
 
 ].sort((a, b) => b.price - a.price);

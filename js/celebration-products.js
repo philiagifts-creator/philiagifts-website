@@ -3188,4 +3188,52 @@ inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
 addons:[{name:"Upgrade to Hard Box",price:150},{name:"Dried Flower Bouquet",price:100}]
 },
 
+{
+id:2073,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2073",
+keywords:["cozy morning set","manual coffee grinder","kalinga coffee beans","coffee mug gift set","honey with dipper","coffee gift set","celebration gift","coffee lover gift","Philia Gifts"],
+name:"The Cozy Morning Set",
+price:1850,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/cozymorning/1.webp","images/products/celebration/cozymorning/2.webp","images/products/celebration/cozymorning/3.webp","images/products/celebration/cozymorning/4.webp"],
+description:"A thoughtful coffee gift set featuring a manual coffee grinder, 60g of Kalinga coffee beans, a coffee mug, and 120ml of honey with a dipper, perfect for celebrations and coffee lovers.",
+inclusions:["Hard Box with Name","Ribbon","Customized Gift Tag"],
+addons:[]
+},
+
+{
+id:2074,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2074",
+keywords:["soft elegance set","leather pouch","stamped leather pouch","soft smooth shawl","celebration gift set","celebration giveaway","personalized gift","shawl and pouch set","Philia Gifts"],
+name:"The Soft Elegance Set",
+price:620,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/softelegance/1.webp","images/products/celebration/softelegance/2.webp","images/products/celebration/softelegance/3.webp","images/products/celebration/softelegance/4.webp","images/products/celebration/softelegance/5.webp","images/products/celebration/softelegance/6.webp","images/products/celebration/softelegance/7.webp","images/products/celebration/softelegance/8.webp","images/products/celebration/softelegance/9.webp"],
+description:"An elegant gift set featuring a leather pouch stamped with a name of up to 8 letters and a soft, smooth shawl, perfect for celebrations and special occasions.",
+inclusions:["Regular Box","Ribbon","Customized Gift Tag"],
+addons:[{name:"Name on the Box",price:30},{name:"Upgrade to Hard Box with Name",price:150}]
+},
+
+{
+id:2075,
+category:"celebration",
+section:"gift-set",
+page:"product.html?id=2075",
+keywords:["ceramic coffee mug","personalized coffee mug","custom name mug","coffee mug giveaway","celebration mug","celebration souvenir","celebration giveaway","Philia Gifts"],
+name:"Ceramic Coffee Mug",
+price:340,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/celebration/coffeemug/1.webp","images/products/celebration/coffeemug/2.webp","images/products/celebration/coffeemug/3.webp","images/products/celebration/coffeemug/4.webp","images/products/celebration/coffeemug/5.webp"],
+description:"A ceramic coffee mug personalized with a name, a practical and thoughtful giveaway for celebrations and special occasions.",
+inclusions:["Gift Box","Ribbon","Customized Gift Tag"],
+addons:[{name:"Upgrade to Hard Box with Name",price:120}]
+},
+
 ].sort((a, b) => b.price - a.price);
