@@ -4863,11 +4863,11 @@ id: 52,
 
 category: "wedding",
 
-section: ["gift-set"],
+section: "invitations",
 
 page: "product.html?id=52",
 
-name: "Wedding Invitation",
+name: "Printed Wedding Invitation",
 
 price: 200,
 
@@ -6033,6 +6033,22 @@ images:["images/products/wedding/coffeemug/1.webp","images/products/wedding/coff
 description:"A ceramic coffee mug personalized with a name, a practical and thoughtful wedding giveaway for guests and special recipients.",
 inclusions:["Gift Box","Ribbon","Customized Gift Tag"],
 addons:[{name:"Upgrade to Hard Box with Name",price:120}]
+},
+
+{
+id:113,
+category:"wedding",
+section:"invitations",
+page:"product.html?id=113",
+keywords:["wedding website invitation","digital wedding invitation","wedding website","online wedding invitation","wedding RSVP website","RSVP dashboard","custom wedding website","Philia Gifts"],
+name:"Wedding Website Invitation",
+price:1800,
+minimumOrder:1,
+bestseller:false,
+images:["images/products/wedding/weddingwebsite/1.webp","images/products/wedding/weddingwebsite/2.webp","images/products/wedding/weddingwebsite/3.webp","images/products/wedding/weddingwebsite/4.webp","images/products/wedding/weddingwebsite/5.webp"],
+description:"A personalized wedding website invitation featuring a digital invitation experience and RSVP management dashboard, making it easy for couples to share event details with guests and manage responses online.",
+inclusions:["Personalized Premium Invitation","Music",],
+addons:[{name:"Monogram",price:500},{name:"Animated Monogram for LED",price:500}]
 },
 
 ].sort((a, b) => b.price - a.price);

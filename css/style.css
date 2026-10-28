@@ -12215,11 +12215,25 @@ header {
 
 .filter-btn.active,
 .filter-btn.selected {
-    background: #5A463B !important;
+       padding: 11px 18px;
+    background: transparent;
+    border: 1px solid #CDBFB2;
+    border-radius: 4px;
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #5A463B;
+    cursor: pointer;
+    transition: background .2s ease, color .2s ease, border-color .2s ease, transform .2s ease;
+}
 
-    border-color: #5A463B !important;
+.filter-btn.active,
+.filter-btn.selected:hover {
+    background: #F2E8DD;
 
-    color: #FFFDFC !important;
+    border-color: #BDAA98;
+
+    transform: translateY(-1px);
 }
 
 /* =====================================================

@@ -5,18 +5,19 @@ const sponsorsSection = document.getElementById("gift-sets");
 const guestsSection = document.getElementById("guest-giveaways");
 
 const noResults = document.getElementById("noResults");
+const invitationsGrid = document.getElementById("invitationsGrid");
+const invitationsSection = document.getElementById("invitations");
 
 function displayProducts(productList = weddingProducts){
 
-    sponsorsGrid.innerHTML = "";
-
-    guestsGrid.innerHTML = "";
+sponsorsGrid.innerHTML = "";
+guestsGrid.innerHTML = "";
+invitationsGrid.innerHTML = "";
     noResults.style.display = "none";
-    let hasBest = false;
-
+let hasBest = false;
 let hasSponsors = false;
-
 let hasGuests = false;
+let hasInvitations = false;
 
 
    productList.forEach(product =>{
@@ -84,6 +85,14 @@ let hasGuests = false;
 
 }
 
+if (
+    typeof product.section === "string" &&
+    product.section.includes("invitation")
+) {
+    hasInvitations = true;
+    invitationsGrid.innerHTML += card;
+}
+
     });
 
 bestSection.style.display = hasBest ? "block" : "none";
@@ -91,6 +100,7 @@ bestSection.style.display = hasBest ? "block" : "none";
 sponsorsSection.style.display = hasSponsors ? "block" : "none";
 
 guestsSection.style.display = hasGuests ? "block" : "none";
+invitationsSection.style.display = hasInvitations ? "block" : "none";
 
 if(!hasBest && !hasSponsors && !hasGuests){
 
@@ -150,24 +160,18 @@ const sponsorsBtn = document.getElementById("sponsorsBtn");
 
 const guestsBtn = document.getElementById("guestsBtn");
 
+const invitationsBtn = document.getElementById("invitationsBtn");
+
 const buttons = [
-
     sponsorsBtn,
-
-    guestsBtn
-
+    guestsBtn,
+    invitationsBtn
 ];
 
-function setActiveButton(button){
-
-    buttons.forEach(btn=>{
-
+function setActiveButton(button) {
+    buttons.forEach(btn => {
         btn.classList.remove("active");
-
     });
-
-    button.classList.add("active");
-
 }
 
 
@@ -233,24 +237,14 @@ guestsBtn.addEventListener("click",()=>{
 
 });
 
-const sections=[
+invitationsBtn.addEventListener("click", () => {
+    scrollToSection("invitations", invitationsBtn);
+});
 
-    {
-
-        id:"gift-sets",
-
-        button:sponsorsBtn
-
-    },
-
-    {
-
-        id:"guest-giveaways",
-
-        button:guestsBtn
-
-    }
-
+const sections = [
+    { id: "gift-sets", button: sponsorsBtn },
+    { id: "guest-giveaways", button: guestsBtn },
+    { id: "invitations", button: invitationsBtn }
 ];
 
 
@@ -262,14 +256,17 @@ const sectionObserver = new IntersectionObserver((entries) => {
             setActiveButton(sponsorsBtn);
         } else if (entry.target.id === "guest-giveaways") {
             setActiveButton(guestsBtn);
-        }
+        } else if (entry.target.id === "invitations") {
+    setActiveButton(invitationsBtn);
+}
     });
 }, {
     rootMargin: "-180px 0px -60% 0px",
     threshold: 0
 });
 
-document.querySelectorAll("#gift-sets, #guest-giveaways")
-    .forEach((section) => sectionObserver.observe(section));
+document.querySelectorAll(
+    "#gift-sets, #guest-giveaways, #invitations"
+).forEach(section => sectionObserver.observe(section));
 
 
