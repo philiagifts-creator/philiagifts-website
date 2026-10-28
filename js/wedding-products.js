@@ -6047,7 +6047,7 @@ minimumOrder:1,
 bestseller:false,
 images:["images/products/wedding/weddingwebsite/1.webp","images/products/wedding/weddingwebsite/2.webp","images/products/wedding/weddingwebsite/3.webp","images/products/wedding/weddingwebsite/4.webp","images/products/wedding/weddingwebsite/5.webp"],
 description:"A personalized wedding website invitation featuring a digital invitation experience and RSVP management dashboard, making it easy for couples to share event details with guests and manage responses online.",
-inclusions:["Personalized Premium Invitation","Music",],
+inclusions:["Premium Website Design","RSVP Dashboard","Music","Event Countdown","FAQs","Complete Event Details"],
 addons:[{name:"Monogram",price:500},{name:"Animated Monogram for LED",price:500}]
 },
 
