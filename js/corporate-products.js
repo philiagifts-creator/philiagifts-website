@@ -2260,6 +2260,8 @@ const corporateProducts = [
         "images/products/corporate/tumblerstraw/6.webp",
         "images/products/corporate/tumblerstraw/7.webp",
         "images/products/corporate/tumblerstraw/8.webp",
+        "images/products/corporate/tumblerstraw/9.webp",
+        "images/products/corporate/tumblerstraw/10.webp",
     ],
     description: "A 600 ml insulated tumbler with straw, customized with your company logo. A practical and stylish choice for corporate giveaways, employee gifts, client tokens, and promotional events.",
     keywords: [
@@ -2368,14 +2370,18 @@ const corporateProducts = [
     page: "product.html?id=1043",
     name: "The Ashton Set",
     minimumOrder: 0,
-    price: 980,
+    price: 1050,
     images: [
         "images/products/corporate/theashtonset/1.webp",
         "images/products/corporate/theashtonset/2.webp",
         "images/products/corporate/theashtonset/3.webp",
         "images/products/corporate/theashtonset/4.webp",
         "images/products/corporate/theashtonset/5.webp",
-        "images/products/corporate/theashtonset/6.webp"
+        "images/products/corporate/theashtonset/6.webp",
+        "images/products/corporate/theashtonset/7.webp",
+        "images/products/corporate/theashtonset/8.webp",
+        "images/products/corporate/theashtonset/9.webp",
+        "images/products/corporate/theashtonset/10.webp",
     ],
     description: "A thoughtfully curated corporate gift set featuring an insulated tumbler with straw, leather pen case, leather pouch, and two pieces of drip coffee. A practical and elegant choice for employee gifts, client appreciation, and corporate giveaways.",
     keywords: [
@@ -3049,7 +3055,7 @@ section:"guest",
 page:"product.html?id=1066",
 keywords:["tote bag","corporate tote bag","customized tote bag","corporate giveaway","employee gift","client gift","business gift","Philia Gifts"],
 name:"Canvas Tote Bag",
-price:110,
+price:130,
 minimumOrder:50,
 bestseller:false,
 images:["images/products/corporate/tote/1.webp","images/products/corporate/tote/2.webp","images/products/corporate/tote/3.webp","images/products/corporate/tote/4.webp","images/products/corporate/tote/5.webp","images/products/corporate/tote/6.webp","images/products/corporate/tote/7.webp",],
@@ -3241,13 +3247,13 @@ section:"guest",
 page:"product.html?id=1078",
 keywords:["leather pouch large","large leather pouch","personalized leather pouch","leather stamped name","corporate giveaway","corporate gift","Philia Gifts"],
 name:"Leather Pouch - Large",
-price:320,
+price:250,
 minimumOrder:0,
 bestseller:false,
-images:["images/products/corporate/leatherorganizer/1.webp","images/products/corporate/leatherorganizer/2.webp","images/products/corporate/leatherorganizer/3.webp","images/products/corporate/leatherorganizer/4.webp"],
+images:["images/products/corporate/leatherorganizer/1.webp","images/products/corporate/leatherorganizer/2.webp","images/products/corporate/leatherorganizer/3.webp","images/products/corporate/leatherorganizer/4.webp","images/products/corporate/leatherorganizer/5.webp","images/products/corporate/leatherorganizer/6.webp","images/products/corporate/leatherorganizer/7.webp",],
 description:"A large leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for corporate giveaways and everyday organization.",
 inclusions:[],
-addons:[{name:"Regular Box",price:80},{name:"Hard Box",price:150}]
+addons:[{name:"Regular Box",price:100},{name:"Hard Box",price:170}]
 },
 
 {
@@ -3319,6 +3325,22 @@ images:["images/products/corporate/softelegance/1.webp","images/products/corpora
 description:"An elegant gift set featuring a leather pouch stamped with a name of up to 8 letters and a soft, smooth shawl, ideal for corporate gifting and employee or client appreciation.",
 inclusions:["Regular Box","Ribbon","Customized Gift Tag"],
 addons:[{name:"Name on the Box",price:30},{name:"Upgrade to Hard Box with Name",price:150}]
+},
+
+{
+id:1083,
+category:"corporate",
+section:"gift-set",
+page:"product.html?id=1083",
+keywords:["coffee set","coffee press","french press coffee maker","coffee pack","coffee gift set","corporate coffee gift","corporate giveaway","employee gift","client gift","Philia Gifts"],
+name:"Coffee Set",
+price:520,
+minimumOrder:0,
+bestseller:false,
+images:["images/products/corporate/coffeeset/1.webp","images/products/corporate/coffeeset/2.webp","images/products/corporate/coffeeset/3.webp","images/products/corporate/coffeeset/4.webp","images/products/corporate/coffeeset/5.webp","images/products/corporate/coffeeset/6.webp","images/products/corporate/coffeeset/7.webp"],
+description:"A premium coffee gift set featuring a coffee press and coffee pack, thoughtfully prepared for employees, clients, and coffee lovers.",
+inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
+addons:[{name:"Upgrade to Hard Box",price:150},{name:"Dried Flower Bouquet",price:100}]
 },
 
 ].sort((a, b) => b.price - a.price);
