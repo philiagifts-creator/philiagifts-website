@@ -38,7 +38,7 @@ const corporateProducts = [
 
     name: "Aroma Haven Collection",
 
-    price: 1420,
+    price: 1380,
 
     minimumOrder: 0,
 
@@ -174,7 +174,7 @@ const corporateProducts = [
 
     name: "Premium Leather Gift Set",
 
-    price: 1499,
+    price: 1380,
 
     minimumOrder: 0,
 
@@ -240,7 +240,7 @@ const corporateProducts = [
 
     name: "Creative Workspace Collection",
 
-    price: 1250,
+    price: 1350,
 
     minimumOrder: 0,
 
@@ -306,7 +306,7 @@ const corporateProducts = [
 
     name: "Mobile Office Set",
 
-    price: 1199,
+    price: 1250,
 
     minimumOrder: 0,
 
@@ -370,7 +370,7 @@ const corporateProducts = [
 
     name: "Smart Workspace Set",
 
-    price: 1990,
+    price: 2050,
 
     minimumOrder: 0,
 
@@ -436,7 +436,7 @@ const corporateProducts = [
 
     name: "Wooden Eco Set",
 
-    price: 1350,
+    price: 1450,
 
     minimumOrder: 0,
 
@@ -501,7 +501,7 @@ const corporateProducts = [
 
     name: "Signature Meeting Collection",
 
-    price: 1699,
+    price: 1780,
 
     minimumOrder: 0,
 
@@ -568,7 +568,7 @@ const corporateProducts = [
 
     name: "Professional Carry Kit",
 
-    price: 1150,
+    price: 1280,
 
     minimumOrder: 0,
 
@@ -637,7 +637,7 @@ const corporateProducts = [
 
     price: 700,
 
-    minimumOrder: 15,
+    minimumOrder: 10,
 
     bestseller: false,
 
@@ -700,7 +700,7 @@ const corporateProducts = [
 
     price: 350,
 
-    minimumOrder: 15,
+    minimumOrder: 10,
 
     bestseller: false,
 
@@ -834,9 +834,9 @@ const corporateProducts = [
 
     name: "Two-Tone Tote Bag",
 
-    price: 320,
+    price: 340,
 
-    minimumOrder: 30,
+    minimumOrder: 20,
 
     bestseller: false,
 
@@ -896,9 +896,9 @@ const corporateProducts = [
 
     name: "Bamboo Desk Calendar",
 
-    price: 550,
+    price: 590,
 
-    minimumOrder: 20,
+    minimumOrder: 10,
 
     bestseller: false,
 
@@ -1062,7 +1062,7 @@ const corporateProducts = [
 
     name: "Watch Organizer",
 
-    price: 720,
+    price: 780,
 
     images: [
         "images/products/corporate/watchorg/1.webp",
@@ -1122,7 +1122,7 @@ const corporateProducts = [
 
     name: "Productivity Pack",
 
-    price: 1499,
+    price: 1480,
 
     minimumOrder: 0,
 
@@ -1232,9 +1232,9 @@ const corporateProducts = [
 
     name: "Luxury Metal Pen Set",
 
-    price: 320,
+    price: 380,
 
-    minimumOrder: 50,
+    minimumOrder: 20,
 
     images: [
         "images/products/corporate/luxurymetalpen/1.webp",
@@ -1280,7 +1280,7 @@ const corporateProducts = [
 
     name: "Customized Coffee Mug",
 
-    price: 150,
+    price: 160,
 
     minimumOrder: 50,
 
@@ -1339,7 +1339,7 @@ const corporateProducts = [
 
     price: 380,
 
-    minimumOrder: 25,
+    minimumOrder: 0,
 
     bestseller: true,
 
@@ -1407,7 +1407,7 @@ const corporateProducts = [
 
     price: 360,
 
-    minimumOrder: 25,
+    minimumOrder: 0,
 
     bestseller: false,
 
@@ -1523,7 +1523,7 @@ const corporateProducts = [
 
     name: "Professional Prep Kit",
 
-    price: 980,
+    price: 1100,
 
     minimumOrder: 0,
 
@@ -1574,7 +1574,7 @@ const corporateProducts = [
 
     name: "Lotus Lamp",
 
-    price: 750,
+    price: 790,
 
     minimumOrder: 0,
 
@@ -1685,7 +1685,7 @@ const corporateProducts = [
 
     name: "Essential Oasis Set",
 
-    price: 980,
+    price: 1100,
 
     minimumOrder: 0,
 
@@ -1742,7 +1742,7 @@ const corporateProducts = [
 
     price: 1350,
 
-    minimumOrder:10,
+    minimumOrder:0,
 
     bestseller: true,
 
@@ -1899,9 +1899,9 @@ const corporateProducts = [
     category: "corporate",
     section: ["guest"],
     page: "product.html?id=1032",
-    name: "Leather Pouch",
-    price: 180,
-    minimumOrder: 15,
+    name: "Mini Leather Pouch",
+    price: 170,
+    minimumOrder: 20,
     images: [
         "images/products/corporate/leatherpouch/1.webp",
         "images/products/corporate/leatherpouch/2.webp",
@@ -1918,7 +1918,6 @@ const corporateProducts = [
     ],
     inclusions: [
         "Customized Sleeve",
-        "Leather Stamping up to 7 letters",
     ],
     addons: [
         {
@@ -1934,8 +1933,8 @@ const corporateProducts = [
     section: ["guest"],
     page: "product.html?id=1033",
     name: "Luggage/Bag Tag",
-    price: 170,
-    minimumOrder: 15,
+    price: 160,
+    minimumOrder: 10,
     images: [
         "images/products/corporate/luggagetag/1.webp",
         "images/products/corporate/luggagetag/2.webp",
@@ -1967,8 +1966,8 @@ const corporateProducts = [
     section: ["guest"],
     page: "product.html?id=1034",
     name: "Leather Mousepad",
-    price: 120,
-    minimumOrder: 15,
+    price: 130,
+    minimumOrder: 10,
     images: [
         "images/products/corporate/mousepad/1.webp",
         "images/products/corporate/mousepad/2.webp",
@@ -1999,7 +1998,7 @@ const corporateProducts = [
     section: ["gift-set"],
     page: "product.html?id=1035",
     name: "Drip Coffee Set",
-    price: 580,
+    price: 620,
     minimumOrder: 15,
     images: [
         "images/products/corporate/coffeedripset/1.webp",
@@ -2042,7 +2041,7 @@ const corporateProducts = [
     page: "product.html?id=1036",
     name: "Notebook Planner",
     price: 290,
-    minimumOrder: 15,
+    minimumOrder: 20,
     images: [
         "images/products/corporate/planner/1.webp",
         "images/products/corporate/planner/2.webp",
@@ -2075,7 +2074,7 @@ const corporateProducts = [
     section: ["gift-set"],
     page: "product.html?id=1037",
     name: "Cozy Care Kit",
-    price: 590,
+    price: 650,
     minimumOrder: 15,
     images: [
         "images/products/corporate/cozycare/1.webp",
@@ -2291,7 +2290,7 @@ const corporateProducts = [
     section: ["gift-set"],
     page: "product.html?id=1041",
     name: "The Whitmore Set",
-    price: 1450,
+    price: 1480,
     minimumOrder: 0,
     images: [
         "images/products/corporate/thepremiercoll/1.webp",
@@ -2415,7 +2414,7 @@ const corporateProducts = [
     page: "product.html?id=1044",
     name: "The Grant Set",
     minimumOrder: 0,
-    price: 1200,
+    price: 1250,
     images: [
         "images/products/corporate/thegrantset/1.webp",
         "images/products/corporate/thegrantset/2.webp",
@@ -2455,7 +2454,7 @@ const corporateProducts = [
     page: "product.html?id=1045",
     name: "The Hudson Set",
     minimumOrder: 0,
-    price: 990,
+    price: 1150,
     images: [
         "images/products/corporate/thehudsonset/1.webp",
         "images/products/corporate/thehudsonset/2.webp",
@@ -2492,7 +2491,7 @@ const corporateProducts = [
     section: ["gift-set"],
     page: "product.html?id=1046",
     name: "The Bennett Set",
-    price: 1600,
+    price: 1700,
     images: [
         "images/products/corporate/thebennettset/1.webp",
         "images/products/corporate/thebennettset/2.webp",
@@ -2570,7 +2569,7 @@ const corporateProducts = [
     section: ["gift-set"],
     page: "product.html?id=1048",
     name: "The Griffin Set",
-    price: 1490,
+    price: 1495,
     images: [
         "images/products/corporate/thegriffinset/1.webp",
         "images/products/corporate/thegriffinset/2.webp",
@@ -2610,7 +2609,7 @@ const corporateProducts = [
     section: "gift-set",
     name: "The Caldwell Set",
     page: "product.html?id=1050",
-    price: 980,
+    price: 1100,
     images: [
         "images/products/corporate/thecaldwellset/1.webp",
         "images/products/corporate/thecaldwellset/2.webp",
@@ -2640,7 +2639,7 @@ const corporateProducts = [
     section: "gift-set",
     name: "The Sullivan Set",
     page: "product.html?id=1049",
-    price: 1490,
+    price: 1495,
     images: [
         "images/products/corporate/thesullivanset/1.webp",
         "images/products/corporate/thesullivanset/2.webp",
@@ -2885,8 +2884,8 @@ section:"gift-set",
 page:"product.html?id=1057",
 keywords:["office on-the-go set","mini umbrella set","corporate gift set","customized umbrella","sign pen set","corporate giveaway","employee gift","client gift","business gift","Philia Gifts"],
 name:"Office On-The-Go Set",
-price:850,
-minimumOrder:10,
+price:980,
+minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/officeonthego/1.webp","images/products/corporate/officeonthego/2.webp","images/products/corporate/officeonthego/3.webp","images/products/corporate/officeonthego/4.webp"],
 description:"A practical corporate gift set featuring a customized mini umbrella and sign pen set, ideal for employees, clients, events, and business giveaways.",
@@ -3103,7 +3102,7 @@ section:"gift-set",
 page:"product.html?id=1069",
 keywords:["crafted pour set","coffee gift set","coffee press set","coffee pack","coffee press","honey with dipper","nordic mug","corporate coffee gift","corporate gift set","employee gift","client gift","premium corporate gift","Philia Gifts"],
 name:"Crafted Pour Set",
-price:1480,
+price:1500,
 minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/craftedpourset/1.webp","images/products/corporate/craftedpourset/2.webp","images/products/corporate/craftedpourset/3.webp","images/products/corporate/craftedpourset/4.webp","images/products/corporate/craftedpourset/5.webp","images/products/corporate/craftedpourset/6.webp","images/products/corporate/craftedpourset/7.webp","images/products/corporate/craftedpourset/8.webp"],
@@ -3119,7 +3118,7 @@ section:"guest",
 page:"product.html?id=1070",
 keywords:["polo drifit shirt","dri fit polo shirt","corporate polo shirt","customized polo shirt","printed polo shirt","company uniform","corporate apparel","employee uniform","corporate giveaway","company shirt","Philia Gifts"],
 name:"Polo Drifit Shirt",
-price:290,
+price:350,
 minimumOrder:30,
 bestseller:false,
 images:["images/products/corporate/polodrifit/1.webp","images/products/corporate/polodrifit/2.webp","images/products/corporate/polodrifit/3.webp","images/products/corporate/polodrifit/4.webp"],
@@ -3135,7 +3134,7 @@ section:"guest",
 page:"product.html?id=1071",
 keywords:["drifit shirt","dri fit shirt","customized drifit shirt","printed drifit shirt","corporate shirt","company shirt","team shirt","corporate apparel","employee uniform","event shirt","Philia Gifts"],
 name:"Drifit Shirt",
-price:190,
+price:250,
 minimumOrder:30,
 bestseller:false,
 images:["images/products/corporate/drifitshirt/1.webp","images/products/corporate/drifitshirt/2.webp","images/products/corporate/drifitshirt/3.webp"],
@@ -3166,7 +3165,7 @@ category:"corporate",
 section:["guest"],
 page:"product.html?id=1073",
 name:"Cable Adapter Set",
-price:120,
+price:130,
 minimumOrder:50,
 bestseller:false,
 images:["images/products/corporate/cableadapterbox/1.webp","images/products/corporate/cableadapterbox/2.webp","images/products/corporate/cableadapterbox/3.webp","images/products/corporate/cableadapterbox/4.webp","images/products/corporate/cableadapterbox/5.webp","images/products/corporate/cableadapterbox/6.webp","images/products/corporate/cableadapterbox/7.webp"],
@@ -3182,7 +3181,7 @@ category:"corporate",
 section:["gift-set"],
 page:"product.html?id=1074",
 name:"Brew & Breeze",
-price:1150,
+price:1200,
 minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/brewbreeze/1.webp","images/products/corporate/brewbreeze/2.webp","images/products/corporate/brewbreeze/3.webp","images/products/corporate/brewbreeze/4.webp","images/products/corporate/brewbreeze/5.webp","images/products/corporate/brewbreeze/6.webp"],
@@ -3198,7 +3197,7 @@ category:"corporate",
 section:["gift-set"],
 page:"product.html?id=1075",
 name:"Maison Gold Set",
-price:1750,
+price:1800,
 minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/maisongold/1.webp","images/products/corporate/maisongold/2.webp","images/products/corporate/maisongold/3.webp","images/products/corporate/maisongold/4.webp","images/products/corporate/maisongold/5.webp","images/products/corporate/maisongold/6.webp","images/products/corporate/maisongold/7.webp"],
@@ -3215,7 +3214,7 @@ section:"gift-set",
 page:"product.html?id=1076",
 keywords:["marble mug with coffee drip","marble mug","coffee drip gift set","coffee gift set","corporate coffee gift","corporate giveaway","employee gift","client gift","customized corporate gift","Philia Gifts"],
 name:"Marble Mug with Coffee Drip Set",
-price: 980,
+price: 990,
 minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/marblecoffee/1.webp","images/products/corporate/marblecoffee/2.webp","images/products/corporate/marblecoffee/3.webp","images/products/corporate/marblecoffee/4.webp","images/products/corporate/marblecoffee/5.webp"],
@@ -3231,7 +3230,7 @@ section:"guest",
 page:"product.html?id=1077",
 keywords:["automatic umbrella","customized umbrella","printed umbrella","corporate umbrella","corporate giveaway","branded umbrella","promotional gift","Philia Gifts"],
 name:"Automatic Umbrella",
-price:280,
+price:290,
 minimumOrder:50,
 bestseller:false,
 images:["images/products/corporate/umbrella/1.webp","images/products/corporate/umbrella/2.webp","images/products/corporate/umbrella/3.webp","images/products/corporate/umbrella/4.webp","images/products/corporate/umbrella/5.webp","images/products/corporate/umbrella/6.webp","images/products/corporate/umbrella/7.webp"],
@@ -3246,12 +3245,12 @@ category:"corporate",
 section:"guest",
 page:"product.html?id=1078",
 keywords:["leather pouch large","large leather pouch","personalized leather pouch","leather stamped name","corporate giveaway","corporate gift","Philia Gifts"],
-name:"Leather Pouch - Large",
+name:"Leather Pouch - Medium",
 price:250,
 minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/leatherorganizer/1.webp","images/products/corporate/leatherorganizer/2.webp","images/products/corporate/leatherorganizer/3.webp","images/products/corporate/leatherorganizer/4.webp","images/products/corporate/leatherorganizer/5.webp","images/products/corporate/leatherorganizer/6.webp","images/products/corporate/leatherorganizer/7.webp",],
-description:"A large leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for corporate giveaways and everyday organization.",
+description:"A leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for corporate giveaways and everyday organization.",
 inclusions:[],
 addons:[{name:"Regular Box",price:100},{name:"Hard Box",price:170}]
 },
@@ -3263,7 +3262,7 @@ section:"gift-set",
 page:"product.html?id=1079",
 keywords:["gentleman's heritage set","personalized wine flask","shot glass gift set","mini Black Label","wooden bottle opener","corporate gift set","executive gift","client gift","Philia Gifts"],
 name:"Gentleman's Heritage Set",
-price:920,
+price:950,
 minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/gents/1.webp","images/products/corporate/gents/2.webp","images/products/corporate/gents/3.webp",
@@ -3286,7 +3285,7 @@ section:"gift-set",
 page:"product.html?id=1080",
 keywords:["cozy morning set","manual coffee grinder","kalinga coffee beans","coffee mug gift set","honey with dipper","coffee gift set","corporate gift","coffee lover gift","Philia Gifts"],
 name:"The Cozy Morning Set",
-price:1850,
+price:1900,
 minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/cozymorning/1.webp","images/products/corporate/cozymorning/2.webp","images/products/corporate/cozymorning/3.webp","images/products/corporate/cozymorning/4.webp"],
@@ -3302,7 +3301,7 @@ section:"gift-set",
 page:"product.html?id=1081",
 keywords:["ceramic coffee mug","personalized coffee mug","custom name mug","coffee mug giveaway","corporate mug","corporate giveaway","employee gift","client gift","Philia Gifts"],
 name:"Ceramic Coffee Mug",
-price:340,
+price:360,
 minimumOrder:0,
 bestseller:false,
 images:["images/products/corporate/coffeemug/1.webp","images/products/corporate/coffeemug/2.webp","images/products/corporate/coffeemug/3.webp","images/products/corporate/coffeemug/4.webp","images/products/corporate/coffeemug/5.webp"],
@@ -3335,12 +3334,12 @@ page:"product.html?id=1083",
 keywords:["coffee set","coffee press","french press coffee maker","coffee pack","coffee gift set","corporate coffee gift","corporate giveaway","employee gift","client gift","Philia Gifts"],
 name:"Coffee Set",
 price:520,
-minimumOrder:0,
+minimumOrder:10,
 bestseller:false,
 images:["images/products/corporate/coffeeset/1.webp","images/products/corporate/coffeeset/2.webp","images/products/corporate/coffeeset/3.webp","images/products/corporate/coffeeset/4.webp","images/products/corporate/coffeeset/5.webp","images/products/corporate/coffeeset/6.webp","images/products/corporate/coffeeset/7.webp"],
 description:"A premium coffee gift set featuring a coffee press and coffee pack, thoughtfully prepared for employees, clients, and coffee lovers.",
 inclusions:["Gift Box","Customized Gift Tag","Ribbon"],
-addons:[{name:"Upgrade to Hard Box",price:150},{name:"Dried Flower Bouquet",price:100}]
+addons:[{name:"Upgrade to Hard Box",price:150},{name:"Logo on the Box",price:50}]
 },
 
 ].sort((a, b) => b.price - a.price);
