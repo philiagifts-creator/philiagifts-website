@@ -5977,14 +5977,14 @@ category:"wedding",
 section:"gift-set",
 page:"product.html?id=109",
 keywords:["leather pouch large","large leather pouch","personalized leather pouch","leather stamped name","wedding giveaway","wedding souvenir","principal sponsor gift","Philia Gifts"],
-name:"Leather Pouch - Large",
-price:320,
-minimumOrder:0,
-bestseller:false,
-images:["images/products/wedding/leatherorganizer/1.webp","images/products/wedding/leatherorganizer/2.webp","images/products/wedding/leatherorganizer/3.webp","images/products/wedding/leatherorganizer/4.webp"],
-description:"A large leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for wedding giveaways and thoughtful gifts.",
-inclusions:[],
-addons:[{name:"Regular Box",price:80},{name:"Hard Box",price:150}]
+name:"Leather Pouch",
+price:250,
+minimumOrder:10,
+bestseller:true,
+images:["images/products/wedding/leatherorganizer/1.webp","images/products/wedding/leatherorganizer/2.webp","images/products/wedding/leatherorganizer/3.webp","images/products/wedding/leatherorganizer/4.webp","images/products/wedding/leatherorganizer/5.webp","images/products/wedding/leatherorganizer/6.webp","images/products/wedding/leatherorganizer/7.webp"],
+description:"A leather pouch personalized with a stamped name, with a maximum of 8 letters including spaces, ideal for wedding giveaways and thoughtful gifts.",
+inclusions:["Leather Stamping up to 8 letters"],
+addons:[{name:"Regular Box",price:100},{name:"Hard Box",price:170}]
 },
 
 {
